@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>x.com on Al Sutton&#39;s Blog</title>
+    <link>/tags/x.com/</link>
+    <description>Recent content in x.com on Al Sutton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 09 Mar 2010 06:38:14 +0000</lastBuildDate><atom:link href="/tags/x.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>And guess what.... yes, we didn&#39;t make the cut.</title>
+      <link>/post/and-guess-what-yes-we-didnt-make-the-cut/</link>
+      <pubDate>Tue, 09 Mar 2010 06:38:14 +0000</pubDate>
+      
+      <guid>/post/and-guess-what-yes-we-didnt-make-the-cut/</guid>
+      <description>After all of the problems with seen with the PayPal X Developer Challenge we&amp;rsquo;re hardly surprised that PortaPayments didn&amp;rsquo;t make it through to the next round.
+We have, however, asked for details of the per-entry voting count so that we can see if there were any anomalies in the voting patterns (e.g. 1 or 2 entries with &amp;gt; 50% of the votes), and hopefully I will be able to post these details along with details of any of the final 10 which we identified as not complying with the rules in the near future.</description>
+    </item>
+    
+  </channel>
+</rss>

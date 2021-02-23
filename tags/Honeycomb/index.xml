@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Honeycomb on Al Sutton&#39;s Blog</title>
+    <link>/tags/Honeycomb/</link>
+    <description>Recent content in Honeycomb on Al Sutton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 27 Jan 2011 09:06:00 +0000</lastBuildDate><atom:link href="/tags/Honeycomb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Android Honeycomb Emulator</title>
+      <link>/post/the-android-honeycomb-preview-emulator/</link>
+      <pubDate>Thu, 27 Jan 2011 09:06:00 +0000</pubDate>
+      
+      <guid>/post/the-android-honeycomb-preview-emulator/</guid>
+      <description>Some people have noticed some niggles with the Android Honeycomb Previewemulator, so I&amp;rsquo;ve put together a few tips which may help improve your experience.
+I&amp;rsquo;ll do my best to keep this updated with tips and post hints on my twitter account as I get them.
+Things you can do something about
+Emulated memory size
+By default the Honeycomb AVD is created to emulate 256MB of RAM, my advice is to increase this significantly.</description>
+    </item>
+    
+  </channel>
+</rss>

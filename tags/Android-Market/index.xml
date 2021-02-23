@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android Market on Al Sutton&#39;s Blog</title>
+    <link>/tags/Android-Market/</link>
+    <description>Recent content in Android Market on Al Sutton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 07 May 2010 07:58:45 +0000</lastBuildDate><atom:link href="/tags/Android-Market/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google, Android, and Private APIs.</title>
+      <link>/post/google-android-apps-and-private-apis/</link>
+      <pubDate>Fri, 07 May 2010 07:58:45 +0000</pubDate>
+      
+      <guid>/post/google-android-apps-and-private-apis/</guid>
+      <description>[Declaration of interest: My company runs AndAppStore, an alternative to Googles Android Market]
+Theres been a fair amount of talk around Googles use of &amp;ldquo;Private APIs&amp;rdquo; in their Android applications since the Andy Rubin interview which appeared in the NY Times Bits blog, and I&amp;rsquo;d like to point out what appears to be a glaring mistake in one of the replies Andy gave.
+During the interview he said;
+I don&amp;rsquo;t know whether he said this because he doesn&amp;rsquo;t know about what&amp;rsquo;s in some of Googles Android applications, or whether he was towing a party line about Androids&#39; open source nature, but that statement simply isn&amp;rsquo;t true.</description>
+    </item>
+    
+    <item>
+      <title>Google Market for Android Paid Apps launch = Fail</title>
+      <link>/post/google-market-for-android-paid-apps-launch-fail/</link>
+      <pubDate>Sun, 22 Feb 2009 17:48:44 +0000</pubDate>
+      
+      <guid>/post/google-market-for-android-paid-apps-launch-fail/</guid>
+      <description>Android developers have been waiting for the ability to list pay-for applications in Googles Market, but now most of them wish it had never arrived because the experience it&amp;rsquo;s giving users may just turn them off Android forever.
+The first joy is the &amp;ldquo;copy protection&amp;rdquo; offered by Google. Developers can turn this on for their apps but doing so can stop a the application running at all regardless of if it&amp;rsquo;s been copied.</description>
+    </item>
+    
+    <item>
+      <title>Will the Android Market T&amp;Cs kill off &#34;fun&#34; apps?</title>
+      <link>/post/will-the-android-market-tcs-kill-off-fun-apps/</link>
+      <pubDate>Fri, 13 Feb 2009 16:09:23 +0000</pubDate>
+      
+      <guid>/post/will-the-android-market-tcs-kill-off-fun-apps/</guid>
+      <description>Over recent weeks there has been a lot of speculation over when Android users will be able to buy applications from Googles Market, but some of the terms and conditions in the Developer Distribution Agreement could scare many developers away before they deploy their first application.
+The first thing that came to light is that purchasers will have 24 hours in which they can get a refund apparently with no questions asked.</description>
+    </item>
+    
+  </channel>
+</rss>

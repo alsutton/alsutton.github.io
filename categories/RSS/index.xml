@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RSS on Al Sutton&#39;s Blog</title>
+    <link>/categories/RSS/</link>
+    <description>Recent content in RSS on Al Sutton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 31 Mar 2018 16:45:54 +0000</lastBuildDate><atom:link href="/categories/RSS/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Limiting the audience for RSS posts</title>
+      <link>/post/limiting-the-audience-for-rss-posts/</link>
+      <pubDate>Sat, 31 Mar 2018 16:45:54 +0000</pubDate>
+      
+      <guid>/post/limiting-the-audience-for-rss-posts/</guid>
+      <description>The problem with RSS and feeds I like RSS as a concept, but, where I&amp;rsquo;ve seen it used, it&amp;rsquo;s always felt like it&amp;rsquo;s missing one thing; the ability to dynamically limit the audience of some posts. This isn&amp;rsquo;t an inherent problem in RSS, but more how it&amp;rsquo;s been used as an all-or-nothing syndication method.
+While there are many workarounds (e.g. having separate private feeds, each of which require authentication to access), I haven&amp;rsquo;t found a solution which would seem to work well with a reasonable number of dynamically changing groups.</description>
+    </item>
+    
+  </channel>
+</rss>

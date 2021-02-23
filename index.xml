@@ -1,0 +1,1579 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Al Sutton&#39;s Blog</title>
+    <link>/</link>
+    <description>Recent content on Al Sutton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 19 Feb 2019 16:45:54 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ideas for a healthier engineering environment</title>
+      <link>/post/healthy-engineering/</link>
+      <pubDate>Tue, 19 Feb 2019 16:45:54 +0000</pubDate>
+      
+      <guid>/post/healthy-engineering/</guid>
+      <description>Ideas for a healthier engineering environment We&amp;rsquo;ve all had good and bad work experiences, but how many of us are learning from them? Having recently left Deliveroo I decided to put together some things I thought were good engineering guidelines based on the experiences I&amp;rsquo;ve had at several companies so I could try to find a future workplace which was in-line with my ideal way of working.
+ Don&amp;rsquo;t assume you have complete knowledge No-one is part of every conversation in a company, and very few, if any, engineers remember every fact from every conversation they have, so assuming you know all of the reasons behind someones actions is always going to lead to mistakes.</description>
+    </item>
+    
+    <item>
+      <title>Limiting the audience for RSS posts</title>
+      <link>/post/limiting-the-audience-for-rss-posts/</link>
+      <pubDate>Sat, 31 Mar 2018 16:45:54 +0000</pubDate>
+      
+      <guid>/post/limiting-the-audience-for-rss-posts/</guid>
+      <description>The problem with RSS and feeds I like RSS as a concept, but, where I&amp;rsquo;ve seen it used, it&amp;rsquo;s always felt like it&amp;rsquo;s missing one thing; the ability to dynamically limit the audience of some posts. This isn&amp;rsquo;t an inherent problem in RSS, but more how it&amp;rsquo;s been used as an all-or-nothing syndication method.
+While there are many workarounds (e.g. having separate private feeds, each of which require authentication to access), I haven&amp;rsquo;t found a solution which would seem to work well with a reasonable number of dynamically changing groups.</description>
+    </item>
+    
+    <item>
+      <title>London Commuting; Already badly broken and doesn&#39;t seem to be getting any better</title>
+      <link>/post/london-commuting-already-badly-broken-and-doesnt-seem-to-be-getting-any-better/</link>
+      <pubDate>Mon, 13 Nov 2017 08:49:14 +0000</pubDate>
+      
+      <guid>/post/london-commuting-already-badly-broken-and-doesnt-seem-to-be-getting-any-better/</guid>
+      <description>My first experience of Commuting into London was nearly two decades ago. It wasn&amp;rsquo;t something I&amp;rsquo;ve ever particularly enjoyed (unlike some who find it&amp;rsquo;s a great reading opportunity), but it generally did the job of getting me from where I&amp;rsquo;d chosen to live to where I&amp;rsquo;d chosen to work. After about 5 years I left that behind and setup a company and, over the next 9-ish years I was free from it.</description>
+    </item>
+    
+    <item>
+      <title>Feedback - Take it, but also rate it.</title>
+      <link>/post/feedback-take-it-but-also-rate-it/</link>
+      <pubDate>Fri, 15 Sep 2017 09:17:28 +0000</pubDate>
+      
+      <guid>/post/feedback-take-it-but-also-rate-it/</guid>
+      <description>Something I&amp;rsquo;ve seen over the (several) years I&amp;rsquo;ve been working in tech is a lack of understanding that feedback has differing levels of value. Sometimes this goes to the extremes of feedback that&amp;rsquo;s ignored because it&amp;rsquo;s come from a person or group which has consistently provided low value feedback, or groups which don&amp;rsquo;t get a lot of feedback because people think it won&amp;rsquo;t be acted on. Both of these are very bad places to be in.</description>
+    </item>
+    
+    <item>
+      <title>Peercache - locally shared caches of build dependencies</title>
+      <link>/post/peercache-locally-shared-caches-of-build-dependencies/</link>
+      <pubDate>Mon, 11 Sep 2017 08:46:31 +0000</pubDate>
+      
+      <guid>/post/peercache-locally-shared-caches-of-build-dependencies/</guid>
+      <description>The idea
+Currently most build systems have two sources for build dependencies; A remotely hosted source (e.g. maven central, internal build cache on a server), or a local on-disk cache, but many development groups have another potential source which doesn&amp;rsquo;t seem to be being used at the moment; other developers on the same LAN, which is why I started thinking about implementing a peer-to-peer caching system and I&amp;rsquo;m putting the idea out there for discussion.</description>
+    </item>
+    
+    <item>
+      <title>Open Sourcing the Enterprise Password Safe</title>
+      <link>/post/open-sourcing-the-enterprise-password-safe/</link>
+      <pubDate>Sat, 02 Sep 2017 12:05:04 +0000</pubDate>
+      
+      <guid>/post/open-sourcing-the-enterprise-password-safe/</guid>
+      <description>Some of those who know me may have heard me talk about an Enterprise Password Safe product which I built and worked on from the mid-2000&amp;rsquo;s up until shortly before joining Facebook. Now I&amp;rsquo;ve left Facebook and I&amp;rsquo;ve been looking over my old repos and realised that it&amp;rsquo;s a project that could benefit from being open-sourced and so I&amp;rsquo;ve done so via a company I&amp;rsquo;ve recently acquired an interest in.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Zero Bitcoin &#34;Wallet&#34;</title>
+      <link>/post/hello-world/</link>
+      <pubDate>Sun, 21 May 2017 18:50:27 +0000</pubDate>
+      
+      <guid>/post/hello-world/</guid>
+      <description>A few weeks ago I tweeted to see if anyone had put a Raspberry Pi Zero W and a PaPiRus eInk display together to make a Bitcoin Wallet. Unfortunately there were no responses, so I thought I&amp;rsquo;d see what I could do&amp;hellip;. fortunately the answer was quite a lot&amp;hellip;
+
+First off the warning; This setup isn&amp;rsquo;t security hardened. If you&amp;rsquo;re going to use this on an open WiFi network, or other people are going to get hold of your device, you should look at hardening the installation of Raspbian and modifying my apps to encrypt the private key for your bitcoin address.</description>
+    </item>
+    
+    <item>
+      <title>Importing Devices</title>
+      <link>/post/importing-devices/</link>
+      <pubDate>Wed, 14 Aug 2013 08:41:18 +0000</pubDate>
+      
+      <guid>/post/importing-devices/</guid>
+      <description>I&amp;rsquo;ve often wondered if people who recommend importing devices which are only available in specific countries realise it&amp;rsquo;s a self-defeating practice.
+Companies monitor sales through channels, they don&amp;rsquo;t know where the end customers are. So if, for example, there&amp;rsquo;s a product only available in US, and you buy it from a US-based supplier, the company producing that product sees it as a US sale rather than one for the country you&amp;rsquo;re in.</description>
+    </item>
+    
+    <item>
+      <title>Oh Hai</title>
+      <link>/post/oh-hai/</link>
+      <pubDate>Tue, 06 Aug 2013 12:10:06 +0000</pubDate>
+      
+      <guid>/post/oh-hai/</guid>
+      <description>Time to play :)</description>
+    </item>
+    
+    <item>
+      <title>Google Play Edition Devices</title>
+      <link>/post/google-play-edition-devices/</link>
+      <pubDate>Sat, 03 Aug 2013 08:04:20 +0000</pubDate>
+      
+      <guid>/post/google-play-edition-devices/</guid>
+      <description>So in the last couple of months Google have released the Google Play Edition HTC One, the PE Samsung S4, Nexus 7 (2013 edition), ChromeCast, and the MotoX all only in the US, adding to +Google Glass&amp;rsquo;s continued US-only availability. If you go beyond hardware there&amp;rsquo;s things like Voice, All Access Music, and I&amp;rsquo;m sure a number of other products which, if you&amp;rsquo;re not in the US, you&amp;rsquo;re not likely to be able to use.</description>
+    </item>
+    
+    <item>
+      <title>Leaving OUYA</title>
+      <link>/post/leaving-ouya/</link>
+      <pubDate>Sun, 23 Jun 2013 08:43:50 +0000</pubDate>
+      
+      <guid>/post/leaving-ouya/</guid>
+      <description>Nearly 8 months ago I met with a few software engineers working from some rented desks in San Francisco. They were the +OUYA engineering team. We talked, they took me through their interview process. I also had a meeting with Julie Uhrman, after which I went from being a believer that it could happen to a believer that it would happen and there was a place on the team for me and I could help make it happen.</description>
+    </item>
+    
+    <item>
+      <title>Droidcon London 2013</title>
+      <link>/post/droidcon-london-2013/</link>
+      <pubDate>Thu, 20 Jun 2013 12:15:33 +0000</pubDate>
+      
+      <guid>/post/droidcon-london-2013/</guid>
+      <description>I got a call from +Skills Matter asking me if I&amp;rsquo;d be interested in going to +droidcon London 2013&amp;hellip;. well, it&amp;rsquo;s already certain I&amp;rsquo;ll be there, and here&amp;rsquo;s why;
+There are going to be several tracks at #DroidconUK13 , and each track has a track-master, a person who has volunteered to co-ordinate the track, sort out who talks in which slots, and make sure their track is appealing to developers.</description>
+    </item>
+    
+    <item>
+      <title>Developing for different platforms</title>
+      <link>/post/developing-for-different-platforms/</link>
+      <pubDate>Sun, 19 May 2013 09:26:27 +0000</pubDate>
+      
+      <guid>/post/developing-for-different-platforms/</guid>
+      <description>So if I understand this TechCrunch article correctly; +Overdose Caffeine stopped developing for the +OUYA because they don&amp;rsquo;t want to implement a control system which works well with an OUYA controller (and the article reads very much like they may have received an incentive to highlight another product)
+To me this article highlights one part of the value of the OUYA store; It stops users getting apps from developers who don&amp;rsquo;t understand the UX needs of a console.</description>
+    </item>
+    
+    <item>
+      <title>Google Glass Hardware</title>
+      <link>/post/google-glass-hardware/</link>
+      <pubDate>Tue, 30 Apr 2013 09:32:41 +0000</pubDate>
+      
+      <guid>/post/google-glass-hardware/</guid>
+      <description>Maybe I&amp;rsquo;ve been looking in all the wrong places, but it seems no-one has raised an issue with the current iteration of +Project Glass hardware; The uncertainty over the future of its&#39; CPU.
+All the reports I&amp;rsquo;ve seen say that the current hardware is running an OMAP 4430 and TI announced last year they were winding down their smartphone and tablet orientated OMAP chips, which is the segment where the 4430 lives (see http://goo.</description>
+    </item>
+    
+    <item>
+      <title>Facebook Developer Relations</title>
+      <link>/post/facebook-developer-relations/</link>
+      <pubDate>Tue, 12 Mar 2013 08:32:42 +0000</pubDate>
+      
+      <guid>/post/facebook-developer-relations/</guid>
+      <description>I know this is going to be unpopular, but I think Facebook have got their Developer Relations working pretty well.
+Rather than expect developers to pay to fly and stay near them, they&amp;rsquo;re setting up conferences around the world. That way you know you&amp;rsquo;re going to get locally relevant content and not pay a few thousand bucks to be told you can&amp;rsquo;t get access to some of the key technologies because you live in the wrong place.</description>
+    </item>
+    
+    <item>
+      <title>I/O 13 or Droidcon</title>
+      <link>/post/io-13-or-droidcon/</link>
+      <pubDate>Thu, 07 Mar 2013 09:22:07 +0000</pubDate>
+      
+      <guid>/post/io-13-or-droidcon/</guid>
+      <description>So it&amp;rsquo;s been confirmed; #io13 will be yet another free-for-all with the freebie grabbers :(
+This means I&amp;rsquo;m now definitely going to give it a skip it in favour of +Droidcon Berlin and +droidcon London later in the year. Whilst I&amp;rsquo;ve had some good conversations at #io events I&amp;rsquo;ve also had a number of ones which left me thinking &amp;ldquo;OK, this person isn&amp;rsquo;t really into coding and technology&amp;rdquo;, whereas at the Droidcons I&amp;rsquo;ve been to the only time I&amp;rsquo;ve thought that was talking to some of the people who have stands and are clearly identifiable as sales people (usually wearing a company T-shirt or something similar).</description>
+    </item>
+    
+    <item>
+      <title>I/O Freebies</title>
+      <link>/post/io-freebies/</link>
+      <pubDate>Fri, 22 Feb 2013 08:35:20 +0000</pubDate>
+      
+      <guid>/post/io-freebies/</guid>
+      <description>So now people are expecting a Chromebook Pixel and an X-Phone as giveaways at #io13 . If it&amp;rsquo;s open ticket sales again this year I can see the developer attendee count going down and the freebie hunter count going up.
+At #io12 I met a guy who guy who said he was getting two of everything because he bought a ticket for himself and one for his son. His son was at college studying English, had no interest in the freebies, but took up the offer of a free trip to San Francisco in return for turning up to pick-up the goodies at the times his Dad told him to.</description>
+    </item>
+    
+    <item>
+      <title>Google Ordering Process Fails</title>
+      <link>/post/google-ordering-process-fails/</link>
+      <pubDate>Fri, 07 Dec 2012 08:36:36 +0000</pubDate>
+      
+      <guid>/post/google-ordering-process-fails/</guid>
+      <description>Looks like +Google have done it again; Completely f&amp;rsquo;ed up when writing a simple order management system.
+I&amp;rsquo;m seeing numerous reports from people who ordered #Nexus4 &amp;rsquo;s after me and were told it would arrive in &amp;ldquo;4-5 weeks&amp;rdquo; that they&amp;rsquo;ve received their &amp;lsquo;phones, which my order (made about 3 minutes after the 4th of Dec restock, with a &amp;ldquo;1-2 week&amp;rdquo; estimate) is still sitting in &amp;ldquo;Pending&amp;rdquo;.
+Every #IO ticket ordering session for the past couple of years has been a disaster, the initial #Nexus4 seemed to be a road crash, and this time, although you could order, the order execution process seems to be completely screwed, and in traditional Google style, all you have is an email address to get an answer from and, if they deem you worthy, you might actually get a reply.</description>
+    </item>
+    
+    <item>
+      <title>The reason you need a &#34;Close Account&#34; button in your web app for users</title>
+      <link>/post/the-reason-you-need-a-close-account-button-in-your-web-app-for-users/</link>
+      <pubDate>Tue, 04 Dec 2012 12:17:21 +0000</pubDate>
+      
+      <guid>/post/the-reason-you-need-a-close-account-button-in-your-web-app-for-users/</guid>
+      <description>&amp;ldquo;Close Account&amp;rdquo; buttons are unpopular mainly for marketing reasons; They give users an easy way to leave your site, and so your user count goes down and your site looks less popular, but, in many countries, not allowing users to close their account can get you into deep water with privicy issues as well as severely damaging your user count credibility ( no-one trusts user counts at a Hotel California - http://en.</description>
+    </item>
+    
+    <item>
+      <title>Charging the Nexus 10</title>
+      <link>/post/charging-the-nexus-10/</link>
+      <pubDate>Thu, 15 Nov 2012 08:06:02 +0000</pubDate>
+      
+      <guid>/post/charging-the-nexus-10/</guid>
+      <description>It charges from a Micro-USB connector which is, for Samsung, a huge step in the right direction.
+The feel of the device reminds me very much of a Xoom. The rubber back is a good touch (I can&amp;rsquo;t count how many samsung tablets I&amp;rsquo;ve had slip around in my hands).
+In terms of setup, it still disappoints me that +Android doesn&amp;rsquo;t show the MAC address when you set up WiFi for the first time.</description>
+    </item>
+    
+    <item>
+      <title>Focusing on my role at OUYA</title>
+      <link>/post/focusing-on-my-role-at-ouya/</link>
+      <pubDate>Sun, 28 Oct 2012 12:11:59 +0000</pubDate>
+      
+      <guid>/post/focusing-on-my-role-at-ouya/</guid>
+      <description>Closing down my other projects. My role at +OUYA is going to be full time so there&amp;rsquo;ll be little to no time to do anything else.</description>
+    </item>
+    
+    <item>
+      <title>Updates to Android Devices</title>
+      <link>/post/updates-to-android-devices/</link>
+      <pubDate>Tue, 09 Oct 2012 09:14:28 +0000</pubDate>
+      
+      <guid>/post/updates-to-android-devices/</guid>
+      <description>At #io12 +Hugo Barra announced the new Android Platform Development Kit. The PDK was described as helping hardware developers port Jelly Bean to their devices and was said to be available &amp;ldquo;two to three months before the platform release date&amp;rdquo;, and that selected hardware partners had been given access to the JB PDK a few weeks before #io12 (around the 30min mark in the video below).
+Personally I felt it was this years attempt to reassure users their devices would get updates after last years attempt (The 18 month update guarantee) failed so miserably.</description>
+    </item>
+    
+    <item>
+      <title>Android Tablets</title>
+      <link>/post/android-tablets/</link>
+      <pubDate>Fri, 07 Sep 2012 08:34:07 +0000</pubDate>
+      
+      <guid>/post/android-tablets/</guid>
+      <description>One phrase from last nights +Amazon.com Kindle launch makes me think they&amp;rsquo;re going to take over the #Android tablet space and have big consumer support;
+&amp;ldquo;&amp;hellip;people don&amp;rsquo;t want gadgets anymore. They want services that improve over time. They want services that improve every day, every week, and every month.&amp;rdquo;
+This has been true for a long time. Consumers buy devices from washing machines to TVs because they want it to do something, not because it has the lastest bit of technology from the manufacturer.</description>
+    </item>
+    
+    <item>
+      <title>Crowd Funding</title>
+      <link>/post/crowd-funding/</link>
+      <pubDate>Fri, 31 Aug 2012 09:23:39 +0000</pubDate>
+      
+      <guid>/post/crowd-funding/</guid>
+      <description>This is the P&amp;amp;L; for Diaspora, a project which raised two hundred thousand dollars on Kickstarter (http://goo.gl/Yf3Pi) and has now decided to turn it over &amp;ldquo;to the community&amp;rdquo; (http://goo.gl/yH9W9) (read; all the money has gone, they&amp;rsquo;ve not managed to create any revenue streams, and they&amp;rsquo;re not putting any money in to keep it going).
+Looking over the figures a couple of things jump out at me;
+  The only income is the Kickstarter money.</description>
+    </item>
+    
+    <item>
+      <title>ICS SMS Rate Limit</title>
+      <link>/post/ics-sms-rate-limit/</link>
+      <pubDate>Fri, 24 Aug 2012 09:28:06 +0000</pubDate>
+      
+      <guid>/post/ics-sms-rate-limit/</guid>
+      <description>One of the changes in #IceCreamSandwich was the introduction of a lower SMS usage monitor rate which restricts how many SMSes can be sent by any application in a given time.
+My guess would be that the aim is to prevent malicious apps sending huge amounts of SMSes to premium rate numbers, but unfortunately some users seem to be hitting the limit with the default SMS messaging app (https://groups.google.com/d/msg/android-discuss/bsDO0jQVdTI/Ns7oaTCcIa8J), and it&amp;rsquo;s possible developers may see users complaining about this if their apps rely on SMS usage and are heavily used, so I thought it&amp;rsquo;s worth letting people what the limits are in case people ask them.</description>
+    </item>
+    
+    <item>
+      <title>The Galaxy S3 has Multi-Window management code on it</title>
+      <link>/post/the-galaxy-s3-has-multi-window-management-code-on-it/</link>
+      <pubDate>Fri, 17 Aug 2012 12:04:17 +0000</pubDate>
+      
+      <guid>/post/the-galaxy-s3-has-multi-window-management-code-on-it/</guid>
+      <description>TL;DR: Implementing it in your apps is more hassle than it&amp;rsquo;s worth.
+To answer the most common question; Yes, the two apps on one screen functionality of the Galaxy Note 10.1 is limited to a few apps. All of them ship with the device.
+The code to support multi-window mode is baked into the core Android framework on the device (so much so that the classes are in the framework library odex), which means that it could be submitted to the #AOSP to become part of Androids core functionality.</description>
+    </item>
+    
+    <item>
+      <title>Adobe Flash</title>
+      <link>/post/adobe-flash/</link>
+      <pubDate>Fri, 17 Aug 2012 08:46:15 +0000</pubDate>
+      
+      <guid>/post/adobe-flash/</guid>
+      <description>After a comment on a previous post from +George Medve on Flash I though it best to share my take on it. I&amp;rsquo;m doing this as a post because it&amp;rsquo;s probably of interest to some people who wouldn&amp;rsquo;t read the comments on the other post;
+In terms of Flashes security, I think this article says it all. 2 days ago Adobe were patching a bug which could crash machines and/or allow remote users to take control.</description>
+    </item>
+    
+    <item>
+      <title>OUYA doesn&#39;t need to be pure Android</title>
+      <link>/post/ouya-doesnt-need-to-be-pure-android/</link>
+      <pubDate>Mon, 16 Jul 2012 20:44:26 +0000</pubDate>
+      
+      <guid>/post/ouya-doesnt-need-to-be-pure-android/</guid>
+      <description>The #Ouya Kickstarter has nearly crossed the US$5million mark.
+I&amp;rsquo;ve read all the negative press, a lot of which was written before this weekends Android XBMC posts by +Kieran Gutteridge and +Jason Parker.
+If you bear in mind that Apple apparently sold more than 2.7 million Apple TVs&#39; in the first half of this year (http://goo.gl/K9ldI), a US$99 XBMC capable device which has the ability to run apps and games as well seems to me to have a good chance of being a success.</description>
+    </item>
+    
+    <item>
+      <title>Building Android JellyBean on OS X</title>
+      <link>/post/building-android-jellybean-on-os-x/</link>
+      <pubDate>Wed, 11 Jul 2012 12:25:50 +0000</pubDate>
+      
+      <guid>/post/building-android-jellybean-on-os-x/</guid>
+      <description>Building AOSP JB on OS X 10.7 with XCode 4 takes just a little tweak to your build. Instead of running just make you need to run;
+make CC=&amp;ldquo;gcc&amp;rdquo; CXX=&amp;ldquo;g++&amp;rdquo;
+Which will allow the build to complete.</description>
+    </item>
+    
+    <item>
+      <title>Experimenting with the Nexus Q</title>
+      <link>/post/experimenting-with-the-nexus-q/</link>
+      <pubDate>Fri, 06 Jul 2012 12:14:29 +0000</pubDate>
+      
+      <guid>/post/experimenting-with-the-nexus-q/</guid>
+      <description>It&amp;rsquo;s always fun when you can pull the birds on a new device :)
+Hopefully my posts messing around with the NexusQ have shown you that it is just an #Android device and that most apps would work on it with little to no effort as long as they don&amp;rsquo;t require things like a camera or multi-touch input. If the Q were combined with a simple control system (e.g. an app on the phone which worked as a touchpad for the Q) you&amp;rsquo;d have yourself, in my opinion, one of the best Android living room experiences currently available.</description>
+    </item>
+    
+    <item>
+      <title>Accessing the Settings on a Nexus Q</title>
+      <link>/post/accessing-the-settings-on-a-nexus-q/</link>
+      <pubDate>Tue, 03 Jul 2012 12:13:32 +0000</pubDate>
+      
+      <guid>/post/accessing-the-settings-on-a-nexus-q/</guid>
+      <description>If you enable USB debug mode on the Q, then use adb shell you can start the settings app using the command;
+am start -a android.intent.action.MAIN -n com.android.settings/.Settings
+Once you have done this you can &amp;ldquo;configure&amp;rdquo; it using;
+input keyevent xxxx
+where xxxx is one of the key events from http://developer.android.com/reference/android/view/KeyEvent.html (e.g. input keyevent 20 is the same as pressing down on the dpad).
+It&amp;rsquo;s a bit time consuming, but it should be enough to get the Q working with a mouse ;)</description>
+    </item>
+    
+    <item>
+      <title>Nexus Q ideas</title>
+      <link>/post/nexus-q-ideas/</link>
+      <pubDate>Thu, 28 Jun 2012 09:19:41 +0000</pubDate>
+      
+      <guid>/post/nexus-q-ideas/</guid>
+      <description>After chatting with +Billy Rutledge yesterday I&amp;rsquo;ve got a few ideas spinning for how people could use the #NexusQ so I thought I&amp;rsquo;d put them out there as they seem to revolve around one theme; The Q as a hub device.
+Multiplayer gaming could use it as the server/co-ordinator for multiple devices running on the same WiFi network so that no-ones individual device needs to be nominated as the primary device (and take the processing hit), and any peer-to-peer co-ordination alogrithms could be offloaded onto the Q creating a star topology instead of a mesh, which tends to be more efficient.</description>
+    </item>
+    
+    <item>
+      <title>Android on Google Glass</title>
+      <link>/post/android-on-google-glass/</link>
+      <pubDate>Thu, 28 Jun 2012 08:42:34 +0000</pubDate>
+      
+      <guid>/post/android-on-google-glass/</guid>
+      <description>Did I mentioned I was told yesterday that Googlers already have some +Android apps running on +Project Glass?
+I had an OMG moment when I was told that, then I remembered +Sergey Brin&amp;rsquo;s &amp;ldquo;US-only&amp;rdquo; statement, and once again I felt like a mug spending over US$2500 in flights, hotel costs, and the ticket, and, over the course of IO, spending over 21 hours on a plane for a round trip and spending a week away from my office.</description>
+    </item>
+    
+    <item>
+      <title>Android Launchers</title>
+      <link>/post/android-launchers/</link>
+      <pubDate>Tue, 19 Jun 2012 08:37:57 +0000</pubDate>
+      
+      <guid>/post/android-launchers/</guid>
+      <description>Sometimes you have to put your money where your mouth is&amp;hellip;.
+Not so long ago I mentioned that writing a home screen / launcher app which changed with the environment around you wasn&amp;rsquo;t something I thought would be too hard and certainly wasn&amp;rsquo;t something I thought would take tens of thousands of dollars to write.
+I had some spare time, so to back this up I&amp;rsquo;ve put together a quick and dirty prototype for +Android 4.</description>
+    </item>
+    
+    <item>
+      <title>Android ICS Roll-out</title>
+      <link>/post/android-ics-roll-out/</link>
+      <pubDate>Fri, 18 May 2012 08:45:08 +0000</pubDate>
+      
+      <guid>/post/android-ics-roll-out/</guid>
+      <description>t&amp;rsquo;s now over 6 months (OK, 6 months and 1 day) since the #GalaxyNexus was launched in the UK.
+Even if the Android release cycle was stretched out to one release every 12 months that means we&amp;rsquo;re half way through a release cycle and currently the installed base is around 5% of devices.
+5%, or 1 in 20 devices, is a small percentage of the market. To put this in context developers could extend the appeal of their apps to more end users by translating English apps into Korean than by adding ICS features.</description>
+    </item>
+    
+    <item>
+      <title>Buying Nexus Devices through the Play Store</title>
+      <link>/post/buying-nexus-devices-through-the-play-store/</link>
+      <pubDate>Wed, 16 May 2012 08:29:04 +0000</pubDate>
+      
+      <guid>/post/buying-nexus-devices-through-the-play-store/</guid>
+      <description>Seems to be the day for rumours about Google selling the next range of Nexus devices through the +Google Play store.
+Given that currently you can only buy the Galaxy Nexus in the US via the Play Store I personally don&amp;rsquo;t see this is a good route to take. I know a lot of non-US developers were pretty pi**ed off when they found out that only the US Xoom was a Google Experience device, and the non-US Xoom has suffered severe OS update lag since.</description>
+    </item>
+    
+    <item>
+      <title>HTC One V</title>
+      <link>/post/htc-one-v/</link>
+      <pubDate>Fri, 04 May 2012 12:07:48 +0000</pubDate>
+      
+      <guid>/post/htc-one-v/</guid>
+      <description>I really wanted to like the +HTC One V. It had all the makings of the &amp;lsquo;phone I&amp;rsquo;ve been waiting for; A sub 4&amp;quot; screen with Ice Cream Sandwich, and then I played with it.
+Sense combined with physical buttons made me feel like I wasn&amp;rsquo;t gaining anything over Gingerbread. The UI felt a little clunky. And the chin&amp;hellip; I&amp;rsquo;ve never been a fan of HTCs chin-&amp;lsquo;phones, and I&amp;rsquo;m still not.</description>
+    </item>
+    
+    <item>
+      <title>Tracking down AOSP Build Bugs</title>
+      <link>/post/tracking-down-aosp-build-bugs/</link>
+      <pubDate>Wed, 04 Apr 2012 12:18:54 +0000</pubDate>
+      
+      <guid>/post/tracking-down-aosp-build-bugs/</guid>
+      <description>I&amp;rsquo;ve been asked how I tracked down an AOSP build issue on OS X (http://goo.gl/J9mOL), so I thought it might be worth putting the process up here so others can get an idea of whats involved;
+ I picked the first error which was stopping the build. With a build problem there may be many error messages, but by focusing on them one at a time in the order they occur you can find that fixing an early build fail also fixes several later ones and so you don&amp;rsquo;t end up wasting time fixing things which are symptoms of a problem rather than the cause.</description>
+    </item>
+    
+    <item>
+      <title>Current state of building the AOSP on OS X</title>
+      <link>/post/current-state-of-building-the-aosp-on-os-x/</link>
+      <pubDate>Wed, 04 Apr 2012 09:29:13 +0000</pubDate>
+      
+      <guid>/post/current-state-of-building-the-aosp-on-os-x/</guid>
+      <description>I&amp;rsquo;ve been asked how I tracked down an AOSP build issue on OS X (http://goo.gl/J9mOL), so I thought it might be worth putting the process up here so others can get an idea of whats involved;
+ I picked the first error which was stopping the build. With a build problem there may be many error messages, but if you focus on them one at a time in order you often find that fixes to early build problems also fix later ones and so you don&amp;rsquo;t end up wasting time fixing things which are only symptoms of a problem.</description>
+    </item>
+    
+    <item>
+      <title>&#34;Mobile&#34; Computing</title>
+      <link>/post/mobile-computing/</link>
+      <pubDate>Tue, 07 Feb 2012 09:20:51 +0000</pubDate>
+      
+      <guid>/post/mobile-computing/</guid>
+      <description>After spending 3 weeks not having a house (due to legal delays during the purchase) I should be reunited with all my tech this weekend in the new house, so I thought it might be worth reflecting on some of the changes made to accommodate life on the road.
+My normal tech set-up included a hefty Mac Pro (8 cores, 32GB of RAM), a Subversion server, multiple Time Capsules (one per machine I have), so it&amp;rsquo;s just not practical to take all of that on the road.</description>
+    </item>
+    
+    <item>
+      <title>AppsLib distributing without permission</title>
+      <link>/post/appslib-distributing-without-permission/</link>
+      <pubDate>Wed, 01 Feb 2012 12:24:24 +0000</pubDate>
+      
+      <guid>/post/appslib-distributing-without-permission/</guid>
+      <description>Today I found out that the AppsLib Android application directory is distributing one of my companies apps against our wishes.
+They&amp;rsquo;ve provided no method for removing the app, no method for closing the account they&amp;rsquo;ve created under our name, and I suspect that we&amp;rsquo;re not the only company they&amp;rsquo;ve done this to. The email address for the account is our support email address, but we&amp;rsquo;ve never received an account confirmation email or any indication it was being used in this way.</description>
+    </item>
+    
+    <item>
+      <title>Compiling Ice Cream Sandwich on Mac OS X Lion with Xcode 4</title>
+      <link>/post/compiling-ice-cream-sandwich-on-mac-os-x-lion-with-xcode-4/</link>
+      <pubDate>Wed, 21 Dec 2011 12:59:01 +0000</pubDate>
+      
+      <guid>/post/compiling-ice-cream-sandwich-on-mac-os-x-lion-with-xcode-4/</guid>
+      <description>After making yesterdays post on how to build the Android Open Source Project master branch using Mac OS X 10.7 and Xcode 4 I&amp;rsquo;ve tracked down what&amp;rsquo;s necessary to get the Ice Cream Sandwich branch of AOSP compiling on the same platform.
+This process has been tested against the android-4.0.3_r1 branch, so if you&amp;rsquo;re using another branch you may encounter some issues not mentioned here.
+  Follow steps 1 to 4 from the instructions from yesterdays post, but check out the relevant ICS branch instead of master (Don&amp;rsquo;t forget to apply the patches from that post to the checked out ICS files).</description>
+    </item>
+    
+    <item>
+      <title>Compiling Android master on Mac OS X Lion with Xcode 4</title>
+      <link>/post/compiling-android-master-on-mac-os-x-lion-with-xcode-4/</link>
+      <pubDate>Tue, 20 Dec 2011 14:22:03 +0000</pubDate>
+      
+      <guid>/post/compiling-android-master-on-mac-os-x-lion-with-xcode-4/</guid>
+      <description>[Update: The patches have been merged into the AOSP master branch, so as of the 22nd of December AOSP master should compile on OS X 10.7 with Xcode 4 straight from checkout]
+My company has worked on some Android firmware projects in the past, but, due to the closed source nature of Honeycomb, that work pretty much dried up. Recently though Google released Android 4.0 to the masses and we&amp;rsquo;ve had a few enquiries about firmware work again, so I thought I&amp;rsquo;d see what the current state of building Android was for our default machine configuration.</description>
+    </item>
+    
+    <item>
+      <title>Ice Cream Sandwich Ideas</title>
+      <link>/post/ice-cream-sandwich-ideas/</link>
+      <pubDate>Sun, 18 Dec 2011 12:06:51 +0000</pubDate>
+      
+      <guid>/post/ice-cream-sandwich-ideas/</guid>
+      <description>If been playing with the Xbox360 and its voice control using the Kinect and it&amp;rsquo;s sparked an idea in my head which I thought I&amp;rsquo;d post here for comments; What would people think if there was a setting in Android which took you straight into a voice control screen from an unlock?
+This would allow users to do things like unlock their device with facial recognition then speak to their phone to get it to do things like dialling home, sending texts, emailing, etc.</description>
+    </item>
+    
+    <item>
+      <title>Android 4.0.3 - Why .3 is important</title>
+      <link>/post/android-4-0-3-why-3-is-important/</link>
+      <pubDate>Sat, 17 Dec 2011 12:40:56 +0000</pubDate>
+      
+      <guid>/post/android-4-0-3-why-3-is-important/</guid>
+      <description>Yesterday Jean-Baptiste Queru announced that Android 4.0.3 had been open sourced via the Android Open Source Project, which is bigger news than you might think.
+Versions before 4.0.3 were focused on the Galaxy Nexus and its hardware. 4.0.3 is a multi-device release which supports the Nexus S, Xoom, and should be used as the basis for other ports.
+So if you see an Ice Cream Sandwich / Android 4.0 device you should look at the specific version it&amp;rsquo;s running, if it&amp;rsquo;s not a Galaxy Nexus and it&amp;rsquo;s running something before 4.</description>
+    </item>
+    
+    <item>
+      <title>Galaxy Nexus -v- iPhone -v- Lumia 800</title>
+      <link>/post/galaxy-nexus-v-iphone-v-lumia-800/</link>
+      <pubDate>Fri, 09 Dec 2011 12:29:55 +0000</pubDate>
+      
+      <guid>/post/galaxy-nexus-v-iphone-v-lumia-800/</guid>
+      <description>Over the course of a week I compared the Lumia 800, iPhone, and Galaxy Nexus. The following are my opinions of each which I hope will be useful to other people thinking about buying a new smartphone;
+Size
+I&amp;rsquo;m going to say straight off that the Galaxy Nexus is too big to become my daily &amp;lsquo;phone. I thought it would be when the specs started floating around, and, having had it a while now and travelled a bit with it, I still think it&amp;rsquo;s true.</description>
+    </item>
+    
+    <item>
+      <title>iPhone testing wrap-up</title>
+      <link>/post/iphone-testing-wrap-up/</link>
+      <pubDate>Fri, 09 Dec 2011 09:15:52 +0000</pubDate>
+      
+      <guid>/post/iphone-testing-wrap-up/</guid>
+      <description>As you&amp;rsquo;ve probably guessed, I&amp;rsquo;m impressed with the iPhone. Given the tests I&amp;rsquo;ve been doing over the last week I can see why it is an aspirational device. Apps have a consistent feel and are wide ranging, the device is easily portable, it has a pretty decent camera, and it just comes together in a pretty simple to use package.
+I&amp;rsquo;m also pleasantly surprised by Lumia. It falls short in terms of the variety of apps available, but Windows Phone 7 is only a year or so away from it&amp;rsquo;s public launch, so that&amp;rsquo;s to be expected.</description>
+    </item>
+    
+    <item>
+      <title>I/O 2012</title>
+      <link>/post/io-2012/</link>
+      <pubDate>Tue, 29 Nov 2011 09:17:25 +0000</pubDate>
+      
+      <guid>/post/io-2012/</guid>
+      <description>I&amp;rsquo;d be interested to hear peoples thoughts on going to IO next year. Last year was the first year I went and, although it was a fantastic experience, I&amp;rsquo;m in two minds about going this year.
+Basically my thinking is;
+Sessions; Useful but streamed so I could see them anyway
+People; Largely thought provoking, but I could meet most of them at more local events.
+Giveaways; They have monetary value, but aren&amp;rsquo;t enough of a reason for me to go (I hardly use the giveaways from IO2011).</description>
+    </item>
+    
+    <item>
+      <title>A message for Android OEMs</title>
+      <link>/post/a-message-for-android-oems/</link>
+      <pubDate>Tue, 15 Nov 2011 08:39:53 +0000</pubDate>
+      
+      <guid>/post/a-message-for-android-oems/</guid>
+      <description>I know some of the people who follow me work for companies who make/brand/sell Android devices, so I&amp;rsquo;m going to put this out there and hope it&amp;rsquo;s useful to them.
+There are a number of developers (me included) who see the Nexus One as the pinnacle of current Android devices. It&amp;rsquo;s size, solid construction, and reliability made it a device we could carry knowing that it&amp;rsquo;d work when we need it.</description>
+    </item>
+    
+    <item>
+      <title>Some tips about the ICS emulator</title>
+      <link>/post/some-tips-about-the-ics-emulator/</link>
+      <pubDate>Wed, 02 Nov 2011 08:00:42 +0000</pubDate>
+      
+      <guid>/post/some-tips-about-the-ics-emulator/</guid>
+      <description>Some tips about the ICS emulator;
+  Don&amp;rsquo;t expect it to run well on any machine with less than 3GB of RAM. It can be done, but don&amp;rsquo;t rely on it :).
+  There is a list of know issues in the emulator at http://tools.android.com/knownissues (from @ediTLJ on twitter)
+  Increase the default RAM for your AVDs to 1024MB (yup, 1GB)
+  If the emulator has crashed try deleting the AVD you used.</description>
+    </item>
+    
+    <item>
+      <title>Why I used &#34;block&#34; on Google&#43; today for the first time...</title>
+      <link>/post/why-i-used-block-on-google-today-for-the-first-time/</link>
+      <pubDate>Sun, 16 Oct 2011 08:12:06 +0000</pubDate>
+      
+      <guid>/post/why-i-used-block-on-google-today-for-the-first-time/</guid>
+      <description>We all know social networking is only as useful as the people you socialise with. We all know that every now and again you&amp;rsquo;ll come across someone either on the Internet or in real life whose behaviour makes you want to steer clear of them. Fortunately most social network owners also know this and so they provide facilities to stop those people becoming a serious problem to you.
+And today I had the first situation where I felt it made sense to use that feature on Google+.</description>
+    </item>
+    
+    <item>
+      <title>Nokia/Microsoft WinPhone7 Developer Event</title>
+      <link>/post/nokiamicrosoft-winphone7-developer-event/</link>
+      <pubDate>Tue, 11 Oct 2011 05:38:51 +0000</pubDate>
+      
+      <guid>/post/nokiamicrosoft-winphone7-developer-event/</guid>
+      <description>Yesterday I went to the Microsoft/Nokia Windows Phone 7 development event so I could get a feel for the platform from a developer perspective, and I came away a lot less positive about WinPhone 7.
+There were two speakers who presented the 4 or 5 sessions, neither was from Microsoft or Nokia, and both made glaring mistakes, one to the extent they had to start a session by apologising for what they&amp;rsquo;d said in a previous session because it was wrong (it was about how WinPhone7 manages application instances to service requests to start the same application from different live tiles, so it wasn&amp;rsquo;t exactly an obscure feature).</description>
+    </item>
+    
+    <item>
+      <title>Android Ice Cream Sandwich</title>
+      <link>/post/android-ice-cream-sandwich/</link>
+      <pubDate>Mon, 10 Oct 2011 08:30:51 +0000</pubDate>
+      
+      <guid>/post/android-ice-cream-sandwich/</guid>
+      <description>Given the announcement due tomorrow I think we&amp;rsquo;re going to be looking at consumers being able to get their hands on an Ice Cream Sandwich device before developers have had a good chance to play with an SDK, which, just like the last time this happened, is pretty disappointing.
+There isn&amp;rsquo;t really anyone who wins from this because it creates a situation where consumers get their new shiny &amp;lsquo;phone only to find out that all the latest features are only supported by a few apps which are either preloaded (in the case of the G-apps), or they come across in Market by chance and are from a select few privileged developers.</description>
+    </item>
+    
+    <item>
+      <title>Android Developer Lab Summary</title>
+      <link>/post/android-developer-lab-summary/</link>
+      <pubDate>Mon, 03 Oct 2011 09:30:53 +0000</pubDate>
+      
+      <guid>/post/android-developer-lab-summary/</guid>
+      <description>Great Android Developer Lab in London, Good to talk to +Richard Hyndman +Nick Butcher and +Sparky Rhode . Main tips from the day;
+  Fragments are the future. If you&amp;rsquo;re writing new code use Fragments. If you don&amp;rsquo;t you&amp;rsquo;re doing it wrong.
+  Avoid showAsAction=&amp;ldquo;always&amp;rdquo;, Ice Cream Sandwich &amp;lsquo;phones can have small screens and so could be limited on space for options.
+  Most of the best apps come from teams with Developers and Designers on them.</description>
+    </item>
+    
+    <item>
+      <title>Why I&#39;m interested in the Amazons Tablet</title>
+      <link>/post/opinion-why-im-interested-in-the-fire/</link>
+      <pubDate>Wed, 28 Sep 2011 17:39:45 +0000</pubDate>
+      
+      <guid>/post/opinion-why-im-interested-in-the-fire/</guid>
+      <description>I&amp;rsquo;m interested in seeing how well the Fire sells because to me it seems a good test of which consumers value more; Content or technology.
+The device itself is technically not stunning; It seems to be roughly equivalent to last years Galaxy Tab 7 with 8GB of storage and missing a few features (e.g. a camera). It&amp;rsquo;s also not running Honeycomb, so it doesn&amp;rsquo;t really have the geek-chic appeal of the more recent Android tablets.</description>
+    </item>
+    
+    <item>
+      <title>HTTP MultiPart on Android</title>
+      <link>/post/http-multipart-on-android/</link>
+      <pubDate>Tue, 20 Sep 2011 09:07:34 +0000</pubDate>
+      
+      <guid>/post/http-multipart-on-android/</guid>
+      <description>After seeing a twitter post asking about HTTP MultiPart on Android which linked to a Google Groups thread which recommended a solution which required the inclusion of multiple libraries, I thought it might be worth sharing a method I&amp;rsquo;ve used in the past which can be used reasonably easily and doesn&amp;rsquo;t require tens of kilobytes of unused library functions to be added to your app.
+First off you&amp;rsquo;ll need the AOSP source which can be obtained from an unofficial mirror in the absence of the primary official repository at kernel.</description>
+    </item>
+    
+    <item>
+      <title>Droidcon UK approaching...</title>
+      <link>/post/droidcon-uk-approaching/</link>
+      <pubDate>Wed, 07 Sep 2011 10:56:20 +0000</pubDate>
+      
+      <guid>/post/droidcon-uk-approaching/</guid>
+      <description>It&amp;rsquo;s coming to that time of year again when one of the main Android events comes around - Droidcon UK
+Last year I spoke about taking Android beyond &amp;lsquo;phones, this year I&amp;rsquo;ll be speaking about developing apps which scale well on single and multi-core devices (from single core, to dual, to quad, and beyond), which is something that&amp;rsquo;s going to become more and more important as we see more low-end single core devices, mid/high-end dual core, and top-end quad core devices come to market.</description>
+    </item>
+    
+    <item>
+      <title>Does Google see UK developers as unimportant?</title>
+      <link>/post/does-google-see-uk-developers-as-unimportant/</link>
+      <pubDate>Thu, 01 Sep 2011 07:57:37 +0000</pubDate>
+      
+      <guid>/post/does-google-see-uk-developers-as-unimportant/</guid>
+      <description>This morning Google announced a number of new developer events around the world, and, as a result of what was announced, it would appear that the UK will not see a high profile Google developer event this year, which seems odd to me.
+If you look at London (which most would consider the UKs&#39; strongest candidate for an event) it&amp;rsquo;s the most populated city in Europe with over double the population of its&#39; nearest rival (Berlin), has one of the worlds busiest international transport hubs (Heathrow Airport, the only european airport in the top 5 for passenger throughput), is home to Googles second largest engineering center outside the US (after Zurich), and if Google did fly people in from Mountain View there would be no language barrier.</description>
+    </item>
+    
+    <item>
+      <title>Reorganising my social networks &amp; blog</title>
+      <link>/post/reorganising-my-social-networks-blog/</link>
+      <pubDate>Fri, 26 Aug 2011 09:30:39 +0000</pubDate>
+      
+      <guid>/post/reorganising-my-social-networks-blog/</guid>
+      <description>I currently use Twitter, Google+, Facebook, and this blog for interacting with other people. Each has it&amp;rsquo;s own merits and draw backs, and after thinking about how I could best use each one I&amp;rsquo;ve come up with the following plan;
+Twitter - This will be my most frequently used method of interacting with people. My posts will mostly be related to Android and Technology, but I may go off-topic.
+Reason; Twitter, due to its&#39; 140 character limit, is easy to scan.</description>
+    </item>
+    
+    <item>
+      <title>Why I recommended an iPhone.....</title>
+      <link>/post/why-i-recommended-an-iphone/</link>
+      <pubDate>Thu, 25 Aug 2011 06:30:14 +0000</pubDate>
+      
+      <guid>/post/why-i-recommended-an-iphone/</guid>
+      <description>[Imported from Google+]
+I&amp;rsquo;m disheartened to admit that I&amp;rsquo;ve just had to recommend a current iPhone user upgrades to another iPhone instead of switching to Android.
+Reasons high-level reasons were;
+  They already know iOS, so little to no learning curve.
+  They&amp;rsquo;re a power user, not a &amp;ldquo;geek&amp;rdquo;, so availability of apps &amp;amp; media is probably more important than customisation. (There is no equivalent to iTunes for obtaining Movies, TV shows, and Music in one place on Android outside the US, and many main stream apps appear as iOS first releases in the UK)</description>
+    </item>
+    
+    <item>
+      <title>Google TV in the UK</title>
+      <link>/post/google-tv-in-the-uk/</link>
+      <pubDate>Tue, 16 Aug 2011 06:24:21 +0000</pubDate>
+      
+      <guid>/post/google-tv-in-the-uk/</guid>
+      <description>[Imported from Google+]
+One plug change and 15mins to setup/update, and I have a Logitech Revue Google TV working in the UK;
+Now all it needs is the TV schedules for the UK and a silencer for the fan&amp;hellip;
+[Update 1 - Answers to some questions asked]
+  TV Schedules are not available so search doesn&amp;rsquo;t work through them
+  Some apps are region locked and so won&amp;rsquo;t work (e.</description>
+    </item>
+    
+    <item>
+      <title>Google/Motorola Deal opinion</title>
+      <link>/post/googlemotorola-deal-opinion/</link>
+      <pubDate>Mon, 15 Aug 2011 06:20:55 +0000</pubDate>
+      
+      <guid>/post/googlemotorola-deal-opinion/</guid>
+      <description>[imported from Google+]
+I&amp;rsquo;m not convinced of the benefits of the Motorola-Google deal. Patent protection will be good for Android, but it essentially creates a preferred hardware supplier for Android who is US focused. For all that&amp;rsquo;s said, Google management has to report to shareholders who will want to see Google get the most value out of Motorola, and an easy way to do that would be give Motorola an exclusivity period on all future releases of Android.</description>
+    </item>
+    
+    <item>
+      <title>Rumoured Android Ice Cream Sandwich Screenshots</title>
+      <link>/post/rumoured-android-ice-cream-sandwich-screenshots/</link>
+      <pubDate>Fri, 12 Aug 2011 06:17:49 +0000</pubDate>
+      
+      <guid>/post/rumoured-android-ice-cream-sandwich-screenshots/</guid>
+      <description>[Imported from Google+]
+I&amp;rsquo;ve seen the rumoured Ice Cream Sandwich leak, couple of things make me suspicious;
+  Kernel Version; It&amp;rsquo;s the same as the current Gingerbread AOSP build, and all of the 3 Honeycomb devices I have are based on 2.6.36 kernels, not 2.6.35, so it seems odd to me a later Android version would use an earlier kernel.
+  Baseband version; It&amp;rsquo;s the same as the current Gingerbread release.</description>
+    </item>
+    
+    <item>
+      <title>No Content Found</title>
+      <link>/post/1468/</link>
+      <pubDate>Fri, 05 Aug 2011 07:54:09 +0000</pubDate>
+      
+      <guid>/post/1468/</guid>
+      <description>Disheartened to admit that I&amp;rsquo;ve just had to recommend a current iPhone user upgrades to another iPhone instead of switching to Android.
+Reasons were;
+  They already know iOS, so little to no learning curve.
+  They&amp;rsquo;re a power user, not a &amp;ldquo;geek&amp;rdquo;, so availability of apps &amp;amp; media is probably more important than customisation. (There is no equivalent to iTunes for obtaining Movies, TV shows, and Music in one place on Android outside the US, and many main stream apps appear as iOS first releases in the UK)</description>
+    </item>
+    
+    <item>
+      <title>New market layout suggestions</title>
+      <link>/post/new-market-layout-suggestions/</link>
+      <pubDate>Wed, 13 Jul 2011 06:05:29 +0000</pubDate>
+      
+      <guid>/post/new-market-layout-suggestions/</guid>
+      <description>[Imported from Google+]
+The new Android Market client recently started to roll out and looks like this;
+I can&amp;rsquo;t help feeling the following tweaks to the new non-US Market layout might be useful;
+  Change the &amp;ldquo;Staff Choices&amp;rdquo; button to an &amp;ldquo;Apps&amp;rdquo; button
+  Put &amp;ldquo;Staff Choices&amp;rdquo; where the current &amp;ldquo;Editors Choice&amp;rdquo; is
+  Put the &amp;ldquo;Editors Choice&amp;rdquo; where they Grey featured app block is (Where the pageonce app is in the screenshot), and rename it &amp;ldquo;More Featured Apps.</description>
+    </item>
+    
+    <item>
+      <title>Time Capsules, Data Centres, and my iCloud ....</title>
+      <link>/post/time-capsules-data-centres-and-my-icloud/</link>
+      <pubDate>Mon, 06 Jun 2011 09:50:26 +0000</pubDate>
+      
+      <guid>/post/time-capsules-data-centres-and-my-icloud/</guid>
+      <description>I&amp;rsquo;ve been following the rumours around Apples&#39; data center and WWDC announcements for a while and I can see an idea that ties them together in a way which would seem to make sense. I&amp;rsquo;m going to outline it here for those who are interested because I see it as an interesting and appealing proposition to users, and a way for Apple to further boost their hardware sales.
+The first part of the puzzle is the 12 Petabytes (or more) of storage Apple are rumoured to have ordered for their new mega-datacenter.</description>
+    </item>
+    
+    <item>
+      <title>The Amazon/? Android Eco-system</title>
+      <link>/post/the-amazon-android-eco-system/</link>
+      <pubDate>Sat, 23 Apr 2011 07:59:58 +0000</pubDate>
+      
+      <guid>/post/the-amazon-android-eco-system/</guid>
+      <description>[This post builds on an exchange with Tom Riley on twitter]
+I&amp;rsquo;ve seen and heard a few reports about Samsung producing an Android tablet for Amazon, and, while I&amp;rsquo;ve been told things which would appear to make that very difficult for Samsung specifically, an Amazon backed Android tablet is something that I&amp;rsquo;ve seen as a distinct possibility for a while (which is why I suggested it in my talk at DroidCon London last year).</description>
+    </item>
+    
+    <item>
+      <title>Android &#39;Phones.... The Next Generation?</title>
+      <link>/post/android-phones-the-next-generation/</link>
+      <pubDate>Tue, 19 Apr 2011 14:29:48 +0000</pubDate>
+      
+      <guid>/post/android-phones-the-next-generation/</guid>
+      <description>I rarely do hardware reviews because I know most people have their own personal tastes, and not everyone will agree with what I find appealing in a device, but every now and again something comes along which I feel is a real game changer and worth mentioning, and after a few days with my latest purchase I&amp;rsquo;m beginning to think it&amp;rsquo;s a game changer.
+I&amp;rsquo;ve had a few Android &amp;lsquo;phones and they&amp;rsquo;ve all been an evolution of the earlier devices; slightly higher clock speed, more RAM, more onboard flash, but, in my view, there&amp;rsquo;s never been anything that compares to going from a single core &amp;lsquo;phone to a dual core phone (in my case the Optimus 2X from LG).</description>
+    </item>
+    
+    <item>
+      <title>(Partial) Android Honeycomb Source Drop?</title>
+      <link>/post/android-honeycomb-source-drop/</link>
+      <pubDate>Tue, 12 Apr 2011 14:46:26 +0000</pubDate>
+      
+      <guid>/post/android-honeycomb-source-drop/</guid>
+      <description>After checking over the Android Open Source Project repository I noticed an interesting comment in the manifests project;
+which made me wonder if some of the Honeycomb source code had been dropped into the AOSP repository, and, well, it looks like it may have done.
+[Update : Jean-Baptiste Queru from Google has confirmed there is some Honeycomb goodness in the AOSP repo which comes from the AOSP repos master branch. It&amp;rsquo;s not the &amp;ldquo;full&amp;rdquo; honeycomb, but a snapshot of master that can be used for recreating a Honeycomb build to test any future incompatibilities against]</description>
+    </item>
+    
+    <item>
+      <title>Why I applied for a job at Google</title>
+      <link>/post/why-i-applied-for-a-job-at-google/</link>
+      <pubDate>Fri, 01 Apr 2011 09:37:28 +0000</pubDate>
+      
+      <guid>/post/why-i-applied-for-a-job-at-google/</guid>
+      <description>Background [You can skip this if you&amp;rsquo;re not interested in the history of Google and me]
+My first exposure to Android was at the Google developer day in London in September 2008. Dan Morrill gave an introduction to Android talk, some concerns were raised about application trust, I offered a cryptographic signing solution, he asked for my business card, and I didn&amp;rsquo;t hear much after that. I wasn&amp;rsquo;t too concerned because Android was a hot thing, and Google later hired Reto Meier as the android developer advocate in London, and given that Reto wrote one of the first truly useful Android developer guides I could see why he would be a natural choice, so I thought nothing more of it, and started hacking away at some Android projects including AndAppStore.</description>
+    </item>
+    
+    <item>
+      <title>[Opinion] Google Hiring Android Developers And The Android Ecosystem</title>
+      <link>/post/opinion-google-hiring-android-developers-and-the-android-ecosystem/</link>
+      <pubDate>Tue, 01 Feb 2011 07:51:42 +0000</pubDate>
+      
+      <guid>/post/opinion-google-hiring-android-developers-and-the-android-ecosystem/</guid>
+      <description>Yesterday the Wall Street Journal ran a story about Google planning to hire Android application developers which, to me, seems to have the potential to be the worst possible thing they could do to the Android eco-system. I&amp;rsquo;m going to outline the reasons why I hold this view but I&amp;rsquo;m always open to other, well reasoned, points of view.
+The reasons I currently have this view are as follows;
+1. It does nothing to help non-Google developers who are currently struggling to make a living from developing Android applications.</description>
+    </item>
+    
+    <item>
+      <title>The Android Honeycomb Emulator</title>
+      <link>/post/the-android-honeycomb-preview-emulator/</link>
+      <pubDate>Thu, 27 Jan 2011 09:06:00 +0000</pubDate>
+      
+      <guid>/post/the-android-honeycomb-preview-emulator/</guid>
+      <description>Some people have noticed some niggles with the Android Honeycomb Previewemulator, so I&amp;rsquo;ve put together a few tips which may help improve your experience.
+I&amp;rsquo;ll do my best to keep this updated with tips and post hints on my twitter account as I get them.
+Things you can do something about
+Emulated memory size
+By default the Honeycomb AVD is created to emulate 256MB of RAM, my advice is to increase this significantly.</description>
+    </item>
+    
+    <item>
+      <title>Amazons Apps Store</title>
+      <link>/post/926/</link>
+      <pubDate>Wed, 05 Jan 2011 11:52:53 +0000</pubDate>
+      
+      <guid>/post/926/</guid>
+      <description>(This was prompted by a question asked by Reto Meier)
+As many of you may know my company built and later sold AndAppStore over the course of two years. During that time we kept an eye on the competition and received feedback from users and developers and got a good idea of what both sides wanted. I commented on Google Market because it was the main distribution channel for developers, but I rarely commented on competitors alternative app stores because each of them has their own business plan and all of the legally operating ones seemed to be doing their best to strike a balance between what they need to survive and what users and developers want.</description>
+    </item>
+    
+    <item>
+      <title>Multi-Core Android 101</title>
+      <link>/post/multi-core-android-101/</link>
+      <pubDate>Thu, 30 Dec 2010 14:02:00 +0000</pubDate>
+      
+      <guid>/post/multi-core-android-101/</guid>
+      <description>Some of you may already be familiar with multi-core programming, so a lot of what I&amp;rsquo;m going to cover will be very familiar to you, but some Android developers may have never written for (or considered) how the multiple CPU cores available on CPUs such as Nvidias Tegra 2 chips (as rumoured to be in the Motorola Honeycomb Tablet) can improve the speed of their applications if the applications are written in a multi-core friendly manner.</description>
+    </item>
+    
+    <item>
+      <title>Android Tablet &amp; Phone UIs in one APK [HOW TO]</title>
+      <link>/post/android-tablet-phone-uis-in-one-apk-how-to/</link>
+      <pubDate>Tue, 07 Dec 2010 12:40:19 +0000</pubDate>
+      
+      <guid>/post/android-tablet-phone-uis-in-one-apk-how-to/</guid>
+      <description>(the code and application links are at the bottom of the article for those who are a bit impatient)
+At DroidCon UK this year I presented a talk on why Android developers should be thinking about tablets and I touched upon creating UIs which can adapt to the device they&amp;rsquo;re on. Anyone who attended DroidCon UK has now had plenty of time to get a head start so I&amp;rsquo;m now going to show one method of getting an Android application to adapt itself to present an appropriate UI.</description>
+    </item>
+    
+    <item>
+      <title>Android screen densities; what you see may not be what you get.</title>
+      <link>/post/android-screen-densities-what-you-see-may-not-be-what-you-get/</link>
+      <pubDate>Mon, 13 Sep 2010 18:37:38 +0000</pubDate>
+      
+      <guid>/post/android-screen-densities-what-you-see-may-not-be-what-you-get/</guid>
+      <description>Since Android 1.6 Google have beenasking developers to use specific size and density groupings for their graphical resources to ensure that their user interfaces looked good on a range of devices, but unfortunately developers are not fully supporting it and now OEMs are making their devices report the wrong densities.
+I&amp;rsquo;ve blogged before about developers not supporting the various sizes and densities fully which resulted in UIs which look odd and empty on tablets, but OEMs reporting the wrong densities seems to be a new phenomenon which means even if a developer provided graphic assets for all the screen sizes and densities Android supports they may still see the wrong assets being used and their UI looking odd on some devices through no fault of their own.</description>
+    </item>
+    
+    <item>
+      <title>Talk on Android Tablets</title>
+      <link>/post/talk-on-android-tablets/</link>
+      <pubDate>Wed, 08 Sep 2010 10:04:29 +0000</pubDate>
+      
+      <guid>/post/talk-on-android-tablets/</guid>
+      <description>At the end of October I&amp;rsquo;ll be giving a talk on Android Tablets, eReaders, and other devices at droidcon London, so if you&amp;rsquo;ve found my posts on the subject interesting (or if you want to see any of the other speakers who are going to be presenting), the you can register to attend the Droidcon UK website.</description>
+    </item>
+    
+    <item>
+      <title>Android Facebook App; now with less tablet love</title>
+      <link>/post/android-facebook-app-now-with-less-tablet-love/</link>
+      <pubDate>Wed, 04 Aug 2010 07:35:08 +0000</pubDate>
+      
+      <guid>/post/android-facebook-app-now-with-less-tablet-love/</guid>
+      <description>A short while ago I posted about how many Android applications hadn&amp;rsquo;t allowed for tablets by assuming a direct correlation between screen density and screen resolution. I used the Android Facebook application as an example, and as they&amp;rsquo;ve just released an update I thought I should follow up the previous post and look at the changes they&amp;rsquo;ve made. Unfortunately it seems they&amp;rsquo;re heading in the wrong direction.
+The biggest backwards step is the removal of landscape mode.</description>
+    </item>
+    
+    <item>
+      <title>Stepping back from public Android work</title>
+      <link>/post/stepping-back-from-public-android-work/</link>
+      <pubDate>Wed, 28 Jul 2010 10:21:28 +0000</pubDate>
+      
+      <guid>/post/stepping-back-from-public-android-work/</guid>
+      <description>Today is a sad day for me as I&amp;rsquo;ve decided to greatly reduce my involvement in the Android community, and I thought it best to explain why rather than leave the rumour mill to run its&#39; course.
+For those who don&amp;rsquo;t know my background my involvement with Android started when Dan Morrill demoed Android at the London Google Developer Day in 2008. During his session my brain started ticking and came up with a method of using cryptographic signatures to show approvals and create trust brands so users could tell who thought which apps were &amp;ldquo;safe&amp;rdquo;, I mentioned it to him, he seemed interested, and so I expanded on the idea in a blog post, and from there on I was hooked.</description>
+    </item>
+    
+    <item>
+      <title>Community created &#34;work in progress&#34; books; tread carefully</title>
+      <link>/post/community-create-books-tread-carefully/</link>
+      <pubDate>Tue, 13 Jul 2010 07:59:22 +0000</pubDate>
+      
+      <guid>/post/community-create-books-tread-carefully/</guid>
+      <description>In the last day or two lots of people have helped circulate a link to an O&amp;rsquo;Reilly effort to create a cookbook of community supplied Android examples, which is a noble effort, but there is a big drawback; and that&amp;rsquo;s the potential quality of the information.
+Any healthy community tends to be pyramid shaped when it comes to knowledge and experience. At the bottom are the people who are starting out and have little knowledge or experience of the subject matter, and at the top are the people who&amp;rsquo;ve been involved in the area for a (relatively) long time and have studied it in depth.</description>
+    </item>
+    
+    <item>
+      <title>Android, tablets, and mdpi-large</title>
+      <link>/post/android-tablets-and-mdpi-large/</link>
+      <pubDate>Sat, 03 Jul 2010 15:20:31 +0000</pubDate>
+      
+      <guid>/post/android-tablets-and-mdpi-large/</guid>
+      <description>When the Dell Streak was first launched there was an aspect of it that caught me off guard, its&#39; pixel density, and it would appear I&amp;rsquo;m not alone.
+Before the Streak developers could pretty much assume that if their app was installed via Google Market any device which reported itself as having low density display (ldpi) had a QVGA screen, any device with a medium density (mdpi) screen had a HVGA screen, and any device with a high density (hdpi) screen had a WVGA screen, and that seemed to work pretty well.</description>
+    </item>
+    
+    <item>
+      <title>Building AOSP for the Nexus One</title>
+      <link>/post/building-aosp-for-the-nexus-one/</link>
+      <pubDate>Tue, 29 Jun 2010 07:16:44 +0000</pubDate>
+      
+      <guid>/post/building-aosp-for-the-nexus-one/</guid>
+      <description>Please Note: Messing around with the firmware and OS on any device can render the device unusable. Please do not attempt to modify your firmware or OS unless you are confident you know what you are doing. I offer no guarantees and do not accept any liability for anything which may go wrong if you follow the information in this post.
+Here is my modified version of the instructions from the AOSP page for building for the HTC Dream range of &amp;lsquo;phones to cover the Nexus One Android 2.</description>
+    </item>
+    
+    <item>
+      <title>Google, Android, and Private APIs.</title>
+      <link>/post/google-android-apps-and-private-apis/</link>
+      <pubDate>Fri, 07 May 2010 07:58:45 +0000</pubDate>
+      
+      <guid>/post/google-android-apps-and-private-apis/</guid>
+      <description>[Declaration of interest: My company runs AndAppStore, an alternative to Googles Android Market]
+Theres been a fair amount of talk around Googles use of &amp;ldquo;Private APIs&amp;rdquo; in their Android applications since the Andy Rubin interview which appeared in the NY Times Bits blog, and I&amp;rsquo;d like to point out what appears to be a glaring mistake in one of the replies Andy gave.
+During the interview he said;
+I don&amp;rsquo;t know whether he said this because he doesn&amp;rsquo;t know about what&amp;rsquo;s in some of Googles Android applications, or whether he was towing a party line about Androids&#39; open source nature, but that statement simply isn&amp;rsquo;t true.</description>
+    </item>
+    
+    <item>
+      <title>PayPal X Contest Winners - Good &amp; Very Bad.</title>
+      <link>/post/paypal-x-contest-winners-good-very-bad/</link>
+      <pubDate>Thu, 25 Mar 2010 08:36:24 +0000</pubDate>
+      
+      <guid>/post/paypal-x-contest-winners-good-very-bad/</guid>
+      <description>First off the good. AppBackr. They came second, and as far as I&amp;rsquo;m aware they didn&amp;rsquo;t break any rules. I&amp;rsquo;ve personally sent them a congratulatory message and everyone who took part in making PortaPayments sees them as a honest, worthy winner. In the future I&amp;rsquo;d have no problems in working with them to help them help apps get funded with a tie-up via AndAppStore or help getting the word out to Android developers.</description>
+    </item>
+    
+    <item>
+      <title>Be positive, even if you want to be critical</title>
+      <link>/post/be-positive-even-if-you-want-to-be-critical/</link>
+      <pubDate>Tue, 16 Mar 2010 12:03:37 +0000</pubDate>
+      
+      <guid>/post/be-positive-even-if-you-want-to-be-critical/</guid>
+      <description>After certain events in recent weeks I thought it was worth putting up a post trying to encourage people to be more constructive in their criticisms.
+Take, for example, a conversation I had with a developer a few weeks ago who came from a Symbian background;
+Dev : I&amp;rsquo;m looking for a code examples for things like&amp;hellip; how to change screens using a horizontal finger gesture on the screen on Android.</description>
+    </item>
+    
+    <item>
+      <title>PayPal X; Where counting is not a requirement and compliance with requirements is optional..</title>
+      <link>/post/paypal-counting-not-a-requirement/</link>
+      <pubDate>Thu, 11 Mar 2010 07:32:32 +0000</pubDate>
+      
+      <guid>/post/paypal-counting-not-a-requirement/</guid>
+      <description>If you ran a competition and stated that;
+How many entries would you expect to find in the next round?
+Well, if you&amp;rsquo;re PayPal, that&amp;rsquo;ll be 11.
+And as for &amp;ldquo;gross abuses&amp;rdquo;, well, apparently &amp;ldquo;incentivized voting&amp;rdquo; (i.e. offering rewards for votes) isn&amp;rsquo;t a gross abuse (or certainly doesn&amp;rsquo;t appear to be enough of a gross abuse to warrant doing anything about), which I&amp;rsquo;m sure is something that any entrant into a voting process would be interested to hear.</description>
+    </item>
+    
+    <item>
+      <title>AOSP - in need of love at both ends</title>
+      <link>/post/aosp-in-need-of-love-at-both-ends/</link>
+      <pubDate>Wed, 10 Mar 2010 17:18:11 +0000</pubDate>
+      
+      <guid>/post/aosp-in-need-of-love-at-both-ends/</guid>
+      <description>After spending some time trying to build a firmware I&amp;rsquo;ve seen some things which have opened my eyes as to why the Android Open Source Project may not be seeing the kind of community contributions that would be expected of such a high profile project.
+Other people have shown an interest in knowing my thoughts so I&amp;rsquo;m going to throw out my top 3 for discussion which will hopefully help to improve things;</description>
+    </item>
+    
+    <item>
+      <title>Building firmware... not for the infirm...</title>
+      <link>/post/building-firmware-not-for-the-infirm/</link>
+      <pubDate>Tue, 09 Mar 2010 13:43:49 +0000</pubDate>
+      
+      <guid>/post/building-firmware-not-for-the-infirm/</guid>
+      <description>A project I&amp;rsquo;m working on requires the use of a custom firmware image, so I&amp;rsquo;ve been exposed to the joy that is trying to build and use the open source version of Android, and to be honest it&amp;rsquo;s left me a little battered.
+If you&amp;rsquo;re on an ADP1, and you&amp;rsquo;re just looking to build a 1.6 firmware, you&amp;rsquo;re in for a smooth ride. JBQ and his helpers did a fantastic job and created some easy to follow instructions which you can use to build a firmware image from the donut-plus-aosp branch of the central android repository.</description>
+    </item>
+    
+    <item>
+      <title>And guess what.... yes, we didn&#39;t make the cut.</title>
+      <link>/post/and-guess-what-yes-we-didnt-make-the-cut/</link>
+      <pubDate>Tue, 09 Mar 2010 06:38:14 +0000</pubDate>
+      
+      <guid>/post/and-guess-what-yes-we-didnt-make-the-cut/</guid>
+      <description>After all of the problems with seen with the PayPal X Developer Challenge we&amp;rsquo;re hardly surprised that PortaPayments didn&amp;rsquo;t make it through to the next round.
+We have, however, asked for details of the per-entry voting count so that we can see if there were any anomalies in the voting patterns (e.g. 1 or 2 entries with &amp;gt; 50% of the votes), and hopefully I will be able to post these details along with details of any of the final 10 which we identified as not complying with the rules in the near future.</description>
+    </item>
+    
+    <item>
+      <title>And on the last day...</title>
+      <link>/post/and-on-the-last-day/</link>
+      <pubDate>Fri, 05 Mar 2010 12:49:41 +0000</pubDate>
+      
+      <guid>/post/and-on-the-last-day/</guid>
+      <description>I thought that on the final day of voting it would be worth recapping the &amp;ldquo;experience&amp;rdquo; which has been our listing as a PayPal X Developers Challenge finalist. For us there are statistics which, to us, indicate that something has not been quite right with the way the contest has been run. These are;
+  PortaPayments was featured in the PayPal FOWA Presentation.
+  PortaPayments wasrecommended in one of the largest on-line Android blogs (Android Guys), and that article was re-tweeted and re-used on other sites.</description>
+    </item>
+    
+    <item>
+      <title>And the PayPal X Developers challenge gets a little murkier..</title>
+      <link>/post/and-the-paypal-x-developers-challenge-gets-a-little-murkier/</link>
+      <pubDate>Thu, 04 Mar 2010 13:46:11 +0000</pubDate>
+      
+      <guid>/post/and-the-paypal-x-developers-challenge-gets-a-little-murkier/</guid>
+      <description>[Update: Within 12 hours of making this post PayPal made the voting stats public again, briefly, and then they dissapeared once more]
+Some of you may wonder why I&amp;rsquo;ve stopped updating a previous post with the current percentage of votes PortaPayments has in the PayPal X Developers challenge. There&amp;rsquo;s a simple reason; PayPal have taken away the ability to see how many votes have been cast.
+Whether this has something to do with a sudden leap of 1,000 cast votes over 24 hours a couple of days ago, or being able to see that even though they sent out an email stating they were aware of &amp;ldquo;Incentivized voting&amp;rdquo; they hadn&amp;rsquo;t actually penalised anyone for it, or it could be related to me pointing out that, at one point, the system was showing more votes than users (despite each user only suppose to be able to cast 1 vote), or possibly even if it&amp;rsquo;s because they don&amp;rsquo;t like the fact people are making stats about voting available, is completely unknown.</description>
+    </item>
+    
+    <item>
+      <title>650&#43; Downloads, 300&#43; Active Installs, and 8 Votes of support. Time to suspend development?</title>
+      <link>/post/650-downloads-300-active-installs-and-8-votes-of-support-time-to-suspend-development/</link>
+      <pubDate>Fri, 26 Feb 2010 13:56:27 +0000</pubDate>
+      
+      <guid>/post/650-downloads-300-active-installs-and-8-votes-of-support-time-to-suspend-development/</guid>
+      <description>[This body of this post was updated on the at 08:45 GMT - 28th Feb 10 with the latest statistics]
+When we entered the PayPal X Developers Challenge we hoped for a good result (who doesn&amp;rsquo;t when they enter a competition?). After the problems we saw with the way it&amp;rsquo;s being run we decided to use the number of votes we received to determine what to do with the project in the future.</description>
+    </item>
+    
+    <item>
+      <title>A PayPal Developer Challenge Experience</title>
+      <link>/post/a-paypal-developer-challenge-experience/</link>
+      <pubDate>Tue, 23 Feb 2010 18:37:28 +0000</pubDate>
+      
+      <guid>/post/a-paypal-developer-challenge-experience/</guid>
+      <description>Update : I&amp;rsquo;ve put a list of 17 apps out of the current 54 which we believe don&amp;rsquo;t comply with the rules. You can find the list here.
+Towards the middle of December 2009 I came across details of the PayPal X Developer Challenge, which is a contest to write apps using PayPals adaptive APIs. There were two prizes, one of $50,000 cash + $50,000 in PayPal fees, the other $25,000 cash + $25,000 in fees.</description>
+    </item>
+    
+    <item>
+      <title>Why &#34;New customer only&#34; deals are bad for regular payment businesses.</title>
+      <link>/post/why-new-customer-only-deals-are-bad-for-regular-payment-businesses/</link>
+      <pubDate>Wed, 09 Sep 2009 10:14:01 +0000</pubDate>
+      
+      <guid>/post/why-new-customer-only-deals-are-bad-for-regular-payment-businesses/</guid>
+      <description>I thought the effect of &amp;ldquo;New customer only&amp;rdquo; deals on long term business were well understood, but, in the last month, I&amp;rsquo;ve seen some examples which show that some companies still haven&amp;rsquo;t grasped their long term effects.
+Its&#39; true that &amp;ldquo;new customer only&amp;rdquo; deals get people through the door (which every business needs), but for businesses that survive on regular payments (e.g. subscriptions or credit repayments), or want customers to continue to use them, it also has a crippling side effect.</description>
+    </item>
+    
+    <item>
+      <title>Experiences of In-App Mobile Advertising</title>
+      <link>/post/experiences-of-in-app-mobile-advertising/</link>
+      <pubDate>Fri, 10 Jul 2009 08:06:21 +0000</pubDate>
+      
+      <guid>/post/experiences-of-in-app-mobile-advertising/</guid>
+      <description>With my companies Funky Expenses Android applicaion we have two versions; An ad-supported version and a pay-for ad-free version so that users can choose how they help to fund development (yes, we do get requests for a free ad-free version, but unfortunately that won&amp;rsquo;t keep the company afloat). The ad-free version is available from Google Market (which currently has the largest user base by a long way) and AndAppStore, and the pay for version is only available in Google Market.</description>
+    </item>
+    
+    <item>
+      <title>Google strangles Android on Netbooks before it gets going</title>
+      <link>/post/google-stranges-android-on-netbooks-before-it-gets-going/</link>
+      <pubDate>Wed, 08 Jul 2009 06:15:06 +0000</pubDate>
+      
+      <guid>/post/google-stranges-android-on-netbooks-before-it-gets-going/</guid>
+      <description>During my morning check of Twitter I came across this tweet from Google;
+&amp;ldquo;Introducing the #Google Chrome OS http://bit.ly/N1rNZ&amp;rdquo;
+Which started to raise some concerns. It had widely been predicted that we&amp;rsquo;d see Android making it&amp;rsquo;s way onto netbooks in the near future, but with this one announcement that idea has taken a huge knock backwards.
+The reason is simple; Androids design is primarily focused on touch screen devices, Chrome OS is focused on netbooks, and netbooks rarely (if ever) have a touch screen.</description>
+    </item>
+    
+    <item>
+      <title>Is the iPhone 3GS a rip-off in the UK?</title>
+      <link>/post/is-the-iphone-3gs-a-rip-off-in-the-uk/</link>
+      <pubDate>Tue, 09 Jun 2009 08:19:52 +0000</pubDate>
+      
+      <guid>/post/is-the-iphone-3gs-a-rip-off-in-the-uk/</guid>
+      <description>(If you want to tweet this please use the tag #O2iPhoneRipOff)
+Is it me or is the new O2 iPhone pricing policy looking like a bit of a rip-off?
+First off, there is the cost of the &amp;lsquo;phone. At Apples WWDC it was announced that in the US;
+3G 8GB goes from $199 to $99. 3GS 16GB to be $199 (same as old price for 3G 8GB) 3GS 32GB to be $299 (same as old price for 3G 16GB).</description>
+    </item>
+    
+    <item>
+      <title>Marking Apps on Googles Android Market</title>
+      <link>/post/marking-on-the-googles-android-market/</link>
+      <pubDate>Mon, 23 Mar 2009 07:50:37 +0000</pubDate>
+      
+      <guid>/post/marking-on-the-googles-android-market/</guid>
+      <description>There seems to be a lot of variation on how many stars people give an application on Googles Android Market. Some give 3 stars for an app they find hard to use, others give 1 star because the developer chose not to make the applications source code available (even though this doesn&amp;rsquo;t affect the application as delivered to the user).
+I&amp;rsquo;m trying to stick to the following marking scheme and would welcome comments and feedback as to any changes people think would make sense.</description>
+    </item>
+    
+    <item>
+      <title>Google Market for Android Paid Apps launch = Fail</title>
+      <link>/post/google-market-for-android-paid-apps-launch-fail/</link>
+      <pubDate>Sun, 22 Feb 2009 17:48:44 +0000</pubDate>
+      
+      <guid>/post/google-market-for-android-paid-apps-launch-fail/</guid>
+      <description>Android developers have been waiting for the ability to list pay-for applications in Googles Market, but now most of them wish it had never arrived because the experience it&amp;rsquo;s giving users may just turn them off Android forever.
+The first joy is the &amp;ldquo;copy protection&amp;rdquo; offered by Google. Developers can turn this on for their apps but doing so can stop a the application running at all regardless of if it&amp;rsquo;s been copied.</description>
+    </item>
+    
+    <item>
+      <title>Will the Android Market T&amp;Cs kill off &#34;fun&#34; apps?</title>
+      <link>/post/will-the-android-market-tcs-kill-off-fun-apps/</link>
+      <pubDate>Fri, 13 Feb 2009 16:09:23 +0000</pubDate>
+      
+      <guid>/post/will-the-android-market-tcs-kill-off-fun-apps/</guid>
+      <description>Over recent weeks there has been a lot of speculation over when Android users will be able to buy applications from Googles Market, but some of the terms and conditions in the Developer Distribution Agreement could scare many developers away before they deploy their first application.
+The first thing that came to light is that purchasers will have 24 hours in which they can get a refund apparently with no questions asked.</description>
+    </item>
+    
+    <item>
+      <title>Will US Patent laws strange Android?</title>
+      <link>/post/will-us-patent-laws-strange-android/</link>
+      <pubDate>Sat, 31 Jan 2009 10:39:41 +0000</pubDate>
+      
+      <guid>/post/will-us-patent-laws-strange-android/</guid>
+      <description>In recent days there the issue of the US patent obtained by Apple relating to the multi-touch functionality has reared it&amp;rsquo;s head on the Android development lists, and the discussions have left me deeply concerned about whether Android will ever become a serious global player in the mobile OS market.
+The discussion started rolling when a patch to add multi-touch functionality on Android was posted on the android-platform mailing list, and ran in parallel another list directly discussing the impact the patent may have, but surprisingly ended up with a post from a Google employee saying that patents should not be discussed on any of the google hosted android lists, and this was further expanded by another Google employee saying that it was &amp;ldquo;because of legal repercussions&amp;rdquo;, and &amp;ldquo;it is simply best not to know about them&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Android licensing system</title>
+      <link>/post/android-licensing-system/</link>
+      <pubDate>Fri, 09 Jan 2009 16:52:51 +0000</pubDate>
+      
+      <guid>/post/android-licensing-system/</guid>
+      <description>Funky Android has made available a Android application licensing system via AndAppStore. It&amp;rsquo;s something that we feel has been missing from the Android space and we hope that it&amp;rsquo;ll help companies looking to focus on (and thus make money from) Android applications.
+So if you&amp;rsquo;ve been waiting for a way to commercially license your apps feel free to give it a spin and send in your feedback.
+(Declaration of interest : I am a director of Funky Android)</description>
+    </item>
+    
+    <item>
+      <title>Google finally coming good with the Android Development Programme</title>
+      <link>/post/google-finally-coming-good-with-the-android-development-programme/</link>
+      <pubDate>Sat, 06 Dec 2008 19:02:51 +0000</pubDate>
+      
+      <guid>/post/google-finally-coming-good-with-the-android-development-programme/</guid>
+      <description>It looks like the folks at Google are listening and they&amp;rsquo;ve taken a big step which will help a number of developers get at least one Android powered device to work with.
+Yesterday Dan Morill announced a new version of the SDK with a link to the android blog, what he didn&amp;rsquo;t mention is that the blog post also reveals that Google have created a programme for developers which allows they to get what is basically an unlocked T-Mobile G1.</description>
+    </item>
+    
+    <item>
+      <title>The Android Email client on the G1, possibly the worst app on an &#34;Internet&#34; phone ever.</title>
+      <link>/post/the-android-email-client-on-the-g1-possibly-the-worst-app-on-an-internet-phone-ever/</link>
+      <pubDate>Tue, 11 Nov 2008 12:22:39 +0000</pubDate>
+      
+      <guid>/post/the-android-email-client-on-the-g1-possibly-the-worst-app-on-an-internet-phone-ever/</guid>
+      <description>The G1 has been around a few weeks, it&amp;rsquo;s billed as &amp;ldquo;The phone that&amp;rsquo;s built for the internet&amp;rdquo;, but it would appear that the G1 isn&amp;rsquo;t built for email which many people consider as being one of the most useful things on the internet for over 35 years.
+The G1 has two in-built Email clients; one is for Googles&#39; GMail, the other is for accounts with whichever ISP you&amp;rsquo;re with. Personally after seeing several stories of problems with Google locking accounts (see here, here, and here for a few) I&amp;rsquo;d prefer to stay with my ISP, but that leaves me with an Email client which is being described by other G1 users as &amp;ldquo;the most pathetic attempt I&amp;rsquo;ve ever seen&amp;rdquo; and &amp;ldquo;frustrating&amp;rdquo;, views which I wholeheartedly agree with.</description>
+    </item>
+    
+    <item>
+      <title>It pays to talk...(or how I ended up buying a G1)</title>
+      <link>/post/it-pays-to-talkor-how-i-ended-up-buying-a-g1/</link>
+      <pubDate>Thu, 30 Oct 2008 13:13:04 +0000</pubDate>
+      
+      <guid>/post/it-pays-to-talkor-how-i-ended-up-buying-a-g1/</guid>
+      <description>After talking to the in-store staff at the T-Mobile store in Maidstone, Kent, UK, I am now the owner of a G1 looking at a total cost of £360 ($580) which is about the price I would expect to pay for an unlocked G1
+You may wonder why yesterday I was looking figures that were twice that amount, well, it&amp;rsquo;s a mixture of good fortune and good customer service. I explained my situation to the in-store staff and they explained they could offer me a &amp;ldquo;£20 per month for 18 months&amp;rdquo; contract or a &amp;ldquo;£30 per month for 12 months&amp;rdquo; contract (both of which have a total cost of £360), but I would have to pay more for the &amp;lsquo;phone.</description>
+    </item>
+    
+    <item>
+      <title>Why I won&#39;t be buying the Android T-Mobile G1 phone</title>
+      <link>/post/why-i-wont-be-buying-the-android-t-mobile-g1-phone/</link>
+      <pubDate>Wed, 29 Oct 2008 09:39:49 +0000</pubDate>
+      
+      <guid>/post/why-i-wont-be-buying-the-android-t-mobile-g1-phone/</guid>
+      <description>After getting interested in Android after Mike Jennings talk, weeks of coding on AndAppStore.com, reading up on APIs, watching and getting involved with discussions on the Android developers and discussion mailing lists, and following various Android community sites to see if the G1 was the start of the Android revolution, I&amp;rsquo;ve decided that, for now, I&amp;rsquo;m not going to get an Android &amp;lsquo;phone, and here are the reasons why;
+The T-Mobile Deal (phone &amp;amp; contract)</description>
+    </item>
+    
+    <item>
+      <title>First Android security flaw to be publicly reported...</title>
+      <link>/post/first-android-security-flaw-to-be-publicly-reported/</link>
+      <pubDate>Sat, 25 Oct 2008 13:07:38 +0000</pubDate>
+      
+      <guid>/post/first-android-security-flaw-to-be-publicly-reported/</guid>
+      <description>The New York times is reporting a security flaw in the G1, and to me it&amp;rsquo;s confirmation that Google left opening up the source to public far too late by doing it the day before users could go out and buy hardware with it installed.
+If the source code had been available a few months (or even weeks) ago there would have been time for the collective eyeballs of the development community to take a look for problems like the reported one (which was found after a few days) and fix them before the device reached the hands of consumers.</description>
+    </item>
+    
+    <item>
+      <title>Expect to pay when you setup your pitch in Googles Marketplace</title>
+      <link>/post/expect-to-pay-when-you-setup-your-pitch-in-googles-marketplace/</link>
+      <pubDate>Wed, 22 Oct 2008 17:33:48 +0000</pubDate>
+      
+      <guid>/post/expect-to-pay-when-you-setup-your-pitch-in-googles-marketplace/</guid>
+      <description>If you want to have your application listed in Androids Marketplace the first thing you have to do is pay them $25. That&amp;rsquo;s right, even if you&amp;rsquo;re developing a free application for their open platform to list on their &amp;ldquo;user-driven&amp;rdquo; marketplace, it&amp;rsquo;s going to cost you a $25 entry fee.
+Do you have an app you&amp;rsquo;d like to to sell?, well, if you make a sale via the Marketplace, that&amp;rsquo;ll be another 30% (yes, thirty percent) of your sales going to them.</description>
+    </item>
+    
+    <item>
+      <title>Android; The not-so-open open platform</title>
+      <link>/post/android-the-not-so-open-open-platform/</link>
+      <pubDate>Wed, 22 Oct 2008 08:16:57 +0000</pubDate>
+      
+      <guid>/post/android-the-not-so-open-open-platform/</guid>
+      <description>If you&amp;rsquo;ve taken an interest in Googles Android platform before you&amp;rsquo;ll be familiar with phrases such as &amp;ldquo;Android is the first truly open and comprehensive platform for mobile devices&amp;rdquo; from when the Android and Open Handset Alliance initiative was started, and if you&amp;rsquo;ve attended talks by some of the Evangelists you&amp;rsquo;ll have been told that you can replace any part of the &amp;lsquo;phones software, but, this morning, it would appear that you won&amp;rsquo;t be on a level playing field.</description>
+    </item>
+    
+    <item>
+      <title>Same Scam... Different Audience</title>
+      <link>/post/same-scam-different-audience/</link>
+      <pubDate>Sun, 19 Oct 2008 15:23:08 +0000</pubDate>
+      
+      <guid>/post/same-scam-different-audience/</guid>
+      <description>I&amp;rsquo;ve recently been subscribed to the development and discussion mailing lists for Googles Android platform due to working on AndAppStore.com and recently an email posting caught my eye because it reminded me of a scam that I thought had long since passed.
+The scam works like this; A person or company comes along and says &amp;ldquo;Hey, you&amp;rsquo;re really talented, I&amp;rsquo;d love to sign you up so I can offer you some great projects to work on, and, of course, and you&amp;rsquo;ll get a share of the profits&amp;rdquo;, which is indeed a good offer.</description>
+    </item>
+    
+    <item>
+      <title>Where Googles Android may have already failed</title>
+      <link>/post/where-googles-android-may-have-already-failed/</link>
+      <pubDate>Tue, 14 Oct 2008 10:07:44 +0000</pubDate>
+      
+      <guid>/post/where-googles-android-may-have-already-failed/</guid>
+      <description>(Declaration of interest; I&amp;rsquo;m involved in AndAppStore.com which allows Android Applications developers to list Android applications and users to download them)
+Imagine this; You have a product you want to make available worldwide, but you need the help of others to make it popular. You start a worldwide PR campaign, you make a mock-up available so people become familiar with your product, you run a worldwide competition for people to come up with uses for your product, and then you announce launch dates in one country for one date, another for a month later, a few more next year, and, well everyone else, you&amp;rsquo;ll have to wait and see what happens.</description>
+    </item>
+    
+    <item>
+      <title>Unboxing the PlayStation 3 PlayTV</title>
+      <link>/post/unboxing-the-playstation-3-playtv/</link>
+      <pubDate>Fri, 19 Sep 2008 10:40:25 +0000</pubDate>
+      
+      <guid>/post/unboxing-the-playstation-3-playtv/</guid>
+      <description>[For those that are interested there are some photos of unboxing the PlayTV here ]
+The PlayTV arrived today, and what can I say&amp;hellip;.. it&amp;rsquo;s nice, but it&amp;rsquo;s got quite a big design problem; it has no aerial out socket.
+Most TV devices have an aerial in and aerial out for the simple reason that it allows you to continue using your TVs functions because you can chain the new device into your aerial feed (i.</description>
+    </item>
+    
+    <item>
+      <title>Google Android and Code Signing App Shops</title>
+      <link>/post/google-android-and-code-signing-app-shops/</link>
+      <pubDate>Wed, 17 Sep 2008 07:54:47 +0000</pubDate>
+      
+      <guid>/post/google-android-and-code-signing-app-shops/</guid>
+      <description>After listening to Mike Jennings excellent intro to Android presentation at the London Dev Day I floated an idea which seemed to have some traction so I thought I&amp;rsquo;d expand it out for those that are interested.
+The Problem
+There is currently no way for a user to judge how trustworthy an Android application is. A user can say what they will allow an application to do (such as dialling out, intercepting SMSs&#39;, etc.</description>
+    </item>
+    
+    <item>
+      <title>An update on the new house</title>
+      <link>/post/an-update-on-the-new-house/</link>
+      <pubDate>Wed, 10 Sep 2008 18:47:04 +0000</pubDate>
+      
+      <guid>/post/an-update-on-the-new-house/</guid>
+      <description>For those of you wondering how things have been progressing with the Crest Nicholson house my wife and I bought a few months ago, well here&amp;rsquo;s a quick update;
+ We&amp;rsquo;ve just been asked for a 6 month snagging list, we&amp;rsquo;ve identified over 40 problems and we&amp;rsquo;re still going. The roof still needs repainting after the paintwork started flaking off before we moved in (the painting contractor did do a patching up job, but the paint started flaking again).</description>
+    </item>
+    
+    <item>
+      <title>Update on the Dell mini-notebook</title>
+      <link>/post/update-on-the-dell-mini-notebook/</link>
+      <pubDate>Thu, 04 Sep 2008 07:37:01 +0000</pubDate>
+      
+      <guid>/post/update-on-the-dell-mini-notebook/</guid>
+      <description>If you&amp;rsquo;re in the US you can now configure a Windows version or Linux version of Dells mini-notebook (named the Inspiron mini 9).
+It&amp;rsquo;s priced to fit in with their existing product line (the current highest spec costs less than the lowest spec Inspiron 1526), but currently there&amp;rsquo;s no WWAN option as yet (so no in-built cellular data connection), which is a shame because that&amp;rsquo;s one of my key reasons for being interested in it, so I&amp;rsquo;m still holding off and waiting to see how it shapes up against Dells E4200.</description>
+    </item>
+    
+    <item>
+      <title>EC2 may not be the best option for your web startup.</title>
+      <link>/post/ec2-may-not-be-the-best-option-for-your-web-startup/</link>
+      <pubDate>Wed, 03 Sep 2008 10:47:56 +0000</pubDate>
+      
+      <guid>/post/ec2-may-not-be-the-best-option-for-your-web-startup/</guid>
+      <description>I&amp;rsquo;m currently involved in a few projects which offer web based services to the many on the street, and I&amp;rsquo;m always interested in finding more efficient and cost effective methods of powering these sites, so recently I&amp;rsquo;ve been looking at Amazons EC2.
+I fully understand the advantage of EC2 for short run computing tasks where processing power may only be needed for a few days or weeks, but I was looking to see if EC2 is an effective platform for a web service which is going to be running 24x7x365, and in my opinion the answer is quite simply No.</description>
+    </item>
+    
+    <item>
+      <title>PlayTV on the PS3 finally looking like it&#39;s going to ship</title>
+      <link>/post/playtv-on-the-ps3-finally-looking-like-its-going-to-ship/</link>
+      <pubDate>Fri, 29 Aug 2008 08:37:58 +0000</pubDate>
+      
+      <guid>/post/playtv-on-the-ps3-finally-looking-like-its-going-to-ship/</guid>
+      <description>(Note : If you&amp;rsquo;re just looking for a place to pre-order PlayTV for the PS3 in the UK you can get it from Amazon UK)
+Like many people I don&amp;rsquo;t live my life around the TV I record shows to watch when I have some free time, so it was with great interest I saw Sony&amp;rsquo;s announcement over a year ago that it would ship a device which would allow the PlayStation 3 to act as a Freeview recorder, and now that it&amp;rsquo;s finally looking like it&amp;rsquo;s going to be available soon, it still looks a good proposition.</description>
+    </item>
+    
+    <item>
+      <title>Account information for 1 million people, only 35 quid on eBay</title>
+      <link>/post/account-information-for-1-million-people-only-35-quid-on-ebay/</link>
+      <pubDate>Tue, 26 Aug 2008 08:19:17 +0000</pubDate>
+      
+      <guid>/post/account-information-for-1-million-people-only-35-quid-on-ebay/</guid>
+      <description>Before you ask, no, I&amp;rsquo;m not selling the information, just picking up on a piece in the Mail on Sunday which reports that bank data (including signatures and mothers maiden names) has been discovered on a hard drive sold on eBay for 35 quid.
+There is absolutely no excuse for this kind of thing, you can get free high-quality disk erasing software that is easy to use and takes less than a day to erase a disk to a standard considered suitable for military data.</description>
+    </item>
+    
+    <item>
+      <title>The mysterious Dell mini-notebook</title>
+      <link>/post/the-mysterious-dell-mini-notebook/</link>
+      <pubDate>Sat, 23 Aug 2008 08:00:21 +0000</pubDate>
+      
+      <guid>/post/the-mysterious-dell-mini-notebook/</guid>
+      <description>Those people who have shown interest in Dells mini-notebook project thats been labelled the Dell E, (or Dell Inspiron 910, or Mini Inspiron, or a host of others) should probably be looking at the Dell Latitute E4200, because it&amp;rsquo;s remarkably close to the rumoured mini-notebook, and has a decent screen, keyboard, and up-to 16 hours of battery life.
+The big similarities between the E4200 and the rumoured 910 are;
+Weight : Around the 1kg mark for both.</description>
+    </item>
+    
+    <item>
+      <title>If you&#39;re involved in a court case at least prepare....</title>
+      <link>/post/if-youre-involved-in-a-court-case-at-least-prepare/</link>
+      <pubDate>Sat, 16 Aug 2008 08:38:29 +0000</pubDate>
+      
+      <guid>/post/if-youre-involved-in-a-court-case-at-least-prepare/</guid>
+      <description>[Note: I&amp;rsquo;m not a qualified legal professional, these are the observations of a layman and should not be considered legal advice]
+One of the reasons there has been a break in posts in my blog is that I&amp;rsquo;ve recently been involved in a court case which I&amp;rsquo;ve spent a fair amount of time preparing for. I&amp;rsquo;m not going to go into the specific details, but I was the claimant, a judge has recently ruled in my favour, and the defendant has been astoundingly naive in their belief of the law, which made me wonder how many other people need to take court cases more seriously and could benefit from the following tips;</description>
+    </item>
+    
+    <item>
+      <title>The UK needs a recession</title>
+      <link>/post/the-uk-needs-a-recession/</link>
+      <pubDate>Tue, 01 Jul 2008 10:43:21 +0000</pubDate>
+      
+      <guid>/post/the-uk-needs-a-recession/</guid>
+      <description>Saying a country needs a recession may seem like a strange idea, but the more people I talk to the more I come to the conclusion that a recession will do the UK a big favour.
+Over the past year I&amp;rsquo;ve bought a new car, new house, and had all the associated purchases surrounding both, and from my experience a vast majority of companies seem to believe that customer service is about telling the customer how the company controls things and not about listening and reacting to individual customers needs.</description>
+    </item>
+    
+    <item>
+      <title>Leveraging the work of others</title>
+      <link>/post/leveraging-the-work-of-others/</link>
+      <pubDate>Thu, 29 May 2008 15:11:16 +0000</pubDate>
+      
+      <guid>/post/leveraging-the-work-of-others/</guid>
+      <description>Recently one of the darlings of Web 2.0 called Twitter has been suffering from growing pains which many attribute to issues coping with it&amp;rsquo;s own popularity.
+The guys at Twitter have been open and up-front about their problems, and one thing has come to light, they&amp;rsquo;ve failed to make full use of one of the greatest resources available in software development; Open Source Software.
+Twitter isn&amp;rsquo;t alone, many other startups are only making use of OSS at the most basic levels by using Linux, the apache web server, PostgreSQL or MySQL, and a language with a free implementation (such as PHP or Java), without looking further to utilising technologies such as Hibernate, ActiveMQ, and YUI.</description>
+    </item>
+    
+    <item>
+      <title>Want to buck the economic downturn?, Simple; Offer good customer service.</title>
+      <link>/post/want-to-buck-the-economic-downturn-simple-offer-good-customer-service/</link>
+      <pubDate>Tue, 15 Apr 2008 08:24:10 +0000</pubDate>
+      
+      <guid>/post/want-to-buck-the-economic-downturn-simple-offer-good-customer-service/</guid>
+      <description>It&amp;rsquo;s now widely accepted that the economy is undergoing a serious contraction, and so consumers are about to far more picky about what they buy and who they buy it from, so if you&amp;rsquo;re running a business and you don&amp;rsquo;t believe the customer is king then you&amp;rsquo;re most likely to end up seeing your business shrink faster than the economy as a whole.
+I&amp;rsquo;ve had numerous experiences over the past few months of companies that seem to think they&amp;rsquo;re doing the customer a favour by taking their money and providing a service, which is a very dangerous thing to do.</description>
+    </item>
+    
+    <item>
+      <title>The &#34;joys&#34; of a new home</title>
+      <link>/post/the-joys-of-a-new-home/</link>
+      <pubDate>Wed, 26 Mar 2008 13:42:07 +0000</pubDate>
+      
+      <guid>/post/the-joys-of-a-new-home/</guid>
+      <description>This is just a warning to anyone out there thinking of purchasing a newly built house; Get a full structural survey!!!!
+My wife and I recently moved into our new house which was built by Crest Nicholson, to start with Crest finished the house over three months later than originally stated, and after a few weeks in the property we have discovered a hole in the concrete kitchen floor, had to have several leaks in the plumbing fixed, we currently have a section of plasterboard missing where the tradespeople put screws through the central heating pipes (three confirmed places, one further suspected hit is to be checked shortly), and we have a surveyors report saying that the paint on the exposed parts of the roof is flaking and will, most likely, cause the wood to rot within the next five years.</description>
+    </item>
+    
+    <item>
+      <title>Additional bandwidth on Threes cellular broadband contract</title>
+      <link>/post/additional-bandwidth-on-threes-cellular-broadband-contract/</link>
+      <pubDate>Sun, 24 Feb 2008 13:13:29 +0000</pubDate>
+      
+      <guid>/post/additional-bandwidth-on-threes-cellular-broadband-contract/</guid>
+      <description>If, like me, you are on Threes cellular broadband package and you have a monthly allowance which you sometimes use up, you will have found that the only thing three will offer you is increasing your tariff and your allowance, which will only take effect after your next billing date.
+There is an alternative though, you can buy a simple pay as you go SIM, use it in your Three broadband modem, and pay 10, 15, or 25 pounds for a 1, 3, or 7 Gigabyte allowance.</description>
+    </item>
+    
+    <item>
+      <title>Threes&#39; &#34;upgrade&#34; to Turbo Broadband</title>
+      <link>/post/threes-upgrade-to-turbo-broadband/</link>
+      <pubDate>Thu, 07 Feb 2008 09:16:11 +0000</pubDate>
+      
+      <guid>/post/threes-upgrade-to-turbo-broadband/</guid>
+      <description>In the last few weeks the area I live in has received an &amp;ldquo;upgrade&amp;rdquo; to Threes&#39; Turbo broadband service from it&amp;rsquo;s normal 3G service. This is suppose to be a good thing because it would offer more speed, but alas reality is not what Three would have you beleive.
+Since the &amp;ldquo;upgrade&amp;rdquo; the connection has been unreliable to put it politely. The connection drops out at random intervals and this can be part of the way through downloading email, pulling up a web page, or anything.</description>
+    </item>
+    
+    <item>
+      <title>Is the maven repository creaking at the seams and starting to blow</title>
+      <link>/post/is-the-maven-repository-creaking-at-the-seams-and-starting-to-blow/</link>
+      <pubDate>Fri, 25 Jan 2008 13:38:00 +0000</pubDate>
+      
+      <guid>/post/is-the-maven-repository-creaking-at-the-seams-and-starting-to-blow/</guid>
+      <description>This one is a bit of a post for the techies, so if you&amp;rsquo;re more interested in the business side of my blog you may want to skip this post.
+ One of the things that, on paper, Apache Maven appears to do well is dependency handling. It checks down the dependency chain to verify that libraries versions match up, and that the latest library is used&amp;hellip;.. except with the current repository it isn&amp;rsquo;t guaranteed to work, and you can easily end up with multiple versions of the same jar on your classpath and not know about it.</description>
+    </item>
+    
+    <item>
+      <title>Adobe blatently ripping off customers in the UK</title>
+      <link>/post/an-example-of-blatently-ripping-off-customers-in-the-uk/</link>
+      <pubDate>Thu, 10 Jan 2008 13:13:06 +0000</pubDate>
+      
+      <guid>/post/an-example-of-blatently-ripping-off-customers-in-the-uk/</guid>
+      <description>I&amp;rsquo;ve recently been looking at Adobe&amp;rsquo;s Dreamweaver CS3 for web development, but they&amp;rsquo;re so blatantly ripping off customers here in the UK that I&amp;rsquo;m going to be looking elsewhere.
+The price for DreanWeaver CS3 in the UK is around 390 pounds, the price in the US is 399 dollars (about 200 to 210 pounds). So we&amp;rsquo;re basically being charged twice the price just for living in the UK.
+I asked Adobe for details of the reason why I should pay the nearly 200 pound difference and was told the following things (in this order);</description>
+    </item>
+    
+    <item>
+      <title>Wireless Broadband for a SOHO using a Huawei E220 and a router</title>
+      <link>/post/wireless-broadband-for-a-soho-using-an-huawei-e220-using-a-router/</link>
+      <pubDate>Tue, 08 Jan 2008 11:16:31 +0000</pubDate>
+      
+      <guid>/post/wireless-broadband-for-a-soho-using-an-huawei-e220-using-a-router/</guid>
+      <description>I&amp;rsquo;ve heard a few people are looking for a solution to using a cellular modem for their small or home office.
+The solution I&amp;rsquo;ve used is based on the Draytek Vigor 2800 and the Huawei E220 USB modem. The instructions on configuring these two can be found on Drayteks&#39; site at http://www.draytek.co.uk/support/kb_vigor_3g.html</description>
+    </item>
+    
+    <item>
+      <title>Cellular Broadband in the UK</title>
+      <link>/post/cellular-broadband-in-the-uk/</link>
+      <pubDate>Sun, 06 Jan 2008 18:03:50 +0000</pubDate>
+      
+      <guid>/post/cellular-broadband-in-the-uk/</guid>
+      <description>For the last couple of months I have been using a cellular broadband system instead of a standard ADSL line and I&amp;rsquo;ve got to say that I think describing as broadband is probably stretching the truth a little.
+I&amp;rsquo;ve been using a Huawei E220 on both the Three and Vodafone networks and the biggest problem I&amp;rsquo;ve seen is signal strength. I&amp;rsquo;m currently in a village with around 5,000 residents which is three miles from the Maidstone (the county town of Kent which has around 80,000 residents), so I&amp;rsquo;m not exactly in the sticks.</description>
+    </item>
+    
+    <item>
+      <title>Orange customer (dis-)service</title>
+      <link>/post/orange-customer-dis-service/</link>
+      <pubDate>Sat, 22 Dec 2007 19:06:00 +0000</pubDate>
+      
+      <guid>/post/orange-customer-dis-service/</guid>
+      <description>After Orange coming up with a sensible solution to the &amp;ldquo;fun&amp;rdquo; of not existing in experian and equifaxes databases due to moving to a newly built house, they&amp;rsquo;ve unfortunately shown how not to treat a customer, and here is their special recipe.
+In order to prove to Orange that the house I live in existed I was asked to obtain a bank statement which showed my name and the current address.</description>
+    </item>
+    
+    <item>
+      <title>Credit Reference Agencies - No substitute for customer service</title>
+      <link>/post/credit-reference-agencies-no-substitute-for-customer-service/</link>
+      <pubDate>Fri, 30 Nov 2007 12:05:24 +0000</pubDate>
+      
+      <guid>/post/credit-reference-agencies-no-substitute-for-customer-service/</guid>
+      <description>I&amp;rsquo;ve recently moved into the second house to be finished in a new development and found out that due to a local transmitter the Vodafone signal is so poor that it&amp;rsquo;s barely usable, so I decided to switch to the Orange network (which has good signal strength), but hit a small snag called Experian.
+Experian basically make money from selling other peoples information, but the problem is their information isn&amp;rsquo;t update to date and so they say the house that I&amp;rsquo;ve now been living in for two weeks doesn&amp;rsquo;t exist.</description>
+    </item>
+    
+    <item>
+      <title>Doesn&#39;t the UK have enough enemies already?</title>
+      <link>/post/doesnt-the-uk-have-enough-enemies-already/</link>
+      <pubDate>Fri, 26 Oct 2007 09:27:42 +0000</pubDate>
+      
+      <guid>/post/doesnt-the-uk-have-enough-enemies-already/</guid>
+      <description>It’s rare that anything in UK politics actually surprises me, but you would have thought after the bungles in Afghanistan and Iraq the UK government would think twice about blindly following US policy, but, alas, the UK governments endorsement of the US’s recent sanctions on Iran seem to show that it is still more interested in staying close to the US than it is about thinking about anything else.
+One key theory in group control is that if you can get the group to fear a common enemy you can get away with a lot of big mistakes.</description>
+    </item>
+    
+    <item>
+      <title>Advertising practices bordering on the dishonest</title>
+      <link>/post/advertising-practices-bordering-on-the-dishonest/</link>
+      <pubDate>Thu, 27 Sep 2007 14:20:39 +0000</pubDate>
+      
+      <guid>/post/advertising-practices-bordering-on-the-dishonest/</guid>
+      <description>Everyone knows that in advertising there is a certain amount of creativity, and that there are bounds to what most companies would consider responsible advertising, but I&amp;rsquo;ve come across a company which seems to be willing to set the borders of responsible advertising a little wider than most.
+ The company is Crest Nicholson, a UK house builder, who, in web pages that are thinly disguised adverts for two of their developments (here and here) have large glowing quotes about how good these developments are and the company in general.</description>
+    </item>
+    
+    <item>
+      <title>Distributed computing, the next money saving step?</title>
+      <link>/post/distributed-computing-the-next-money-saving-step/</link>
+      <pubDate>Tue, 18 Sep 2007 09:07:10 +0000</pubDate>
+      
+      <guid>/post/distributed-computing-the-next-money-saving-step/</guid>
+      <description>A password breaking program called John the ripper has been modified to use the CPUShare pay-per-MIP parallel processing network as a test. This means that anyone with an MD5 hashed password can now look to rent enough machine power to take a serious shot at finding the original password.
+This is a step along the current path of technology which is leading us away from single expensive solutions and on to more organic systems which can adapt to changes in usage as neccessary.</description>
+    </item>
+    
+    <item>
+      <title>Beware the bad spec........</title>
+      <link>/post/beware-the-bad-spec/</link>
+      <pubDate>Wed, 08 Aug 2007 14:31:49 +0000</pubDate>
+      
+      <guid>/post/beware-the-bad-spec/</guid>
+      <description>I&amp;rsquo;ve recently been having an Email conversation with some the guys who wrote the technical specification RFC3920 about the language used and it&amp;rsquo;s left me wondering how many more times I will see the same mistake made.
+Specifications are suppose to aide clarity, they&amp;rsquo;re suppose to make it easy to produce compatible systems because a good specification will leave little room for ambiguity, but the big problem is the eagerness of specification writers to either make up terms or redefine words to fit their needs.</description>
+    </item>
+    
+    <item>
+      <title>If your using Struts 2, make sure you&#39;re using 2.0.9</title>
+      <link>/post/if-your-using-struts-2-make-sure-youre-using-209/</link>
+      <pubDate>Tue, 31 Jul 2007 07:05:29 +0000</pubDate>
+      
+      <guid>/post/if-your-using-struts-2-make-sure-youre-using-209/</guid>
+      <description>The struts guys were pretty swift in releasing a fix to the problem I blogged about before, so if you&amp;rsquo;re using Struts 2 you really should to 2.0.9.</description>
+    </item>
+    
+    <item>
+      <title>Big security hole found in Struts 2 and possibly WebWork</title>
+      <link>/post/big-security-hole-found-in-struts-2-and-possibly-webwork/</link>
+      <pubDate>Mon, 16 Jul 2007 07:53:34 +0000</pubDate>
+      
+      <guid>/post/big-security-hole-found-in-struts-2-and-possibly-webwork/</guid>
+      <description>In the programming world two of the most widely understood types of problems are cross site scripting (sometimes called XSS), and user command injection (e.g. SQL injection), so you can imagine my surprise when I found the Struts 2 framework which has only been considered suitable for production use suffers both.
+This serves as a good example of why any development team should have at least one person who has a background in application security and is tasked with checking for the common types of security problems which come from fundamental design mistakes.</description>
+    </item>
+    
+    <item>
+      <title>Why CD keys will become part of history...</title>
+      <link>/post/one-more-reason-why-cd-keys-will-become-part-of-history/</link>
+      <pubDate>Tue, 05 Jun 2007 08:32:28 +0000</pubDate>
+      
+      <guid>/post/one-more-reason-why-cd-keys-will-become-part-of-history/</guid>
+      <description>No matter how good you think a CD key generation scheme is there will always be legitimate users who encounter problems. You also have the problem that the key generation scheme will eventually be cracked, CD generators will be made, and you end up with the situation where even if you buy a new copy of the software from the primary distributor you still may not be able to use the software to it&amp;rsquo;s full potential.</description>
+    </item>
+    
+    <item>
+      <title>Oh PS3, why do you lack PSP features?</title>
+      <link>/post/oh-ps3-why-do-you-lack-psp-features/</link>
+      <pubDate>Sat, 02 Jun 2007 11:24:00 +0000</pubDate>
+      
+      <guid>/post/oh-ps3-why-do-you-lack-psp-features/</guid>
+      <description>Sony have been selling the PS3 for some months now as a network enabled home entertainment device, yet it seems to be lacking at least one piece of functionality which is available on Apple TVs that has also been available on Sonys&#39; own PSP for over a year.
+There is no doubt that the last firmware update was a big step up for the PS3 as an entertainment center. Upgrading the DVD playback software to do a decent job of upscaling was a good move, and adding the ability to be a DNLA client is also a great boot because it allows users to play movies and music stored on DNLA enabled PCs and storage devices around their network, but the PS3 still lacks the ability to subscribe to Podcasts which the PSP has been able to do for over a year, and it&amp;rsquo;s quite frankly stumped me as to why it&amp;rsquo;s not available.</description>
+    </item>
+    
+    <item>
+      <title>Linux, Still not there yet</title>
+      <link>/post/linux-still-not-there-yet/</link>
+      <pubDate>Mon, 28 May 2007 10:23:52 +0000</pubDate>
+      
+      <guid>/post/linux-still-not-there-yet/</guid>
+      <description>I&amp;rsquo;ve finally made the choice between OpenSuSE or Vista as my preferred OS for the next few years, and the decision went to Vista, and to my surprise it only took a couple of hours to decide.
+For the tests I installed both OpenSuSE 10.2 and Vista on my desktop to see how things went and within a couple of hours OpenSuSE had already lost the fight on an age old problem for Linux&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>A step in the right direction for Linux</title>
+      <link>/post/a-step-in-the-right-direction-for-linux/</link>
+      <pubDate>Wed, 14 Feb 2007 08:40:53 +0000</pubDate>
+      
+      <guid>/post/a-step-in-the-right-direction-for-linux/</guid>
+      <description>I&amp;rsquo;ve used machines running Linux for well over a decade for various things, and a few times I&amp;rsquo;ve tried to use it as my the operating system for my desktop, but I&amp;rsquo;ve always reverted back to Windows because of usability and hardware compatibility issues.
+I&amp;rsquo;ve recently started to moved away from Linux as a server operating system for the same reason, but my main problem with Linux may now be addressed, and that&amp;rsquo;s making things just work.</description>
+    </item>
+    
+    <item>
+      <title>Bots and Spam</title>
+      <link>/post/bots-and-spam/</link>
+      <pubDate>Fri, 29 Dec 2006 08:47:10 +0000</pubDate>
+      
+      <guid>/post/bots-and-spam/</guid>
+      <description>One of the major contributors to spam emails are computers which are called bots (or zombies). Bots are computers which have become infected with one or more programs which allow other people to control what the computer does (e.g. if a bot program is installed on your computer someone else could make your computer send out spam Emails all day long and you may not even notice). Sending spam is only one of a number of bad things that bot controllers can do with your computer, but it is one of the most visible.</description>
+    </item>
+    
+    <item>
+      <title>Whats a Wii Like?</title>
+      <link>/post/whats-a-wii-like/</link>
+      <pubDate>Thu, 14 Dec 2006 10:20:31 +0000</pubDate>
+      
+      <guid>/post/whats-a-wii-like/</guid>
+      <description>After a few days Wii-ing (I couldn&amp;rsquo;t resist it), I thought I&amp;rsquo;d pass on some thoughts for those wondering if the new console lives up to the hype&amp;hellip; well&amp;hellip;. for hard core gamers it&amp;rsquo;s not the thing to have as your main console. For everyone else is fantastic fun, and even hard core gamers may want one as a second console.
+The graphics won&amp;rsquo;t rival an Xbox 360, PS3, or a high-end gaming PC with a recent graphics cards, but thats something that Nintendo have not made a big secret.</description>
+    </item>
+    
+    <item>
+      <title>Little tip for you new Wii owners....</title>
+      <link>/post/little-tip-for-you-new-wii-owners/</link>
+      <pubDate>Thu, 14 Dec 2006 09:51:02 +0000</pubDate>
+      
+      <guid>/post/little-tip-for-you-new-wii-owners/</guid>
+      <description>If your remote doesn&amp;rsquo;t appear to work after a system update, turn the Wii off for 1 minute then on again at the wall socket.
+This should get your Wii working again :)</description>
+    </item>
+    
+    <item>
+      <title>Java Games</title>
+      <link>/post/java-games/</link>
+      <pubDate>Fri, 10 Nov 2006 10:59:08 +0000</pubDate>
+      
+      <guid>/post/java-games/</guid>
+      <description>I&amp;rsquo;m one of those people who&amp;rsquo;ve been using Java long enough to have written it off as not being able to present a good graphical front end, that was until I saw this post at Java Lobby (The video in the post is available directly from YouTube, be aware, it has a techno soundtrack).
+None of these cut it against the current generation of PC games, and I&amp;rsquo;ve looked into a few of these games, and some of them semi-cheat by using JNI to call through to native APIs such as OpenGL, so portability is questionable, but the achievements of a working AI, physics, and game processing models at speeds which don&amp;rsquo;t impact gameplay is pretty impressive, particularly as they are not produced by large multi-million dollar games development houses.</description>
+    </item>
+    
+    <item>
+      <title>Plug time....</title>
+      <link>/post/plug-time/</link>
+      <pubDate>Mon, 06 Nov 2006 08:00:15 +0000</pubDate>
+      
+      <guid>/post/plug-time/</guid>
+      <description>Some of you may be wondering what I do for a day job. For those that are interested, and for those who are looking for a centralised password storage solution :), I&amp;rsquo;m a director of Enterprise Data Safe Limited who sell the Enterprise Password Safe. My specific areas of responsibility cover development, sales, and support.
+ So now you know you can read my posts knowing where my interests lie.</description>
+    </item>
+    
+    <item>
+      <title>Finally I can ditch Acrobar Reader</title>
+      <link>/post/finally-i-can-ditch-acrobar-reader/</link>
+      <pubDate>Mon, 02 Oct 2006 07:38:27 +0000</pubDate>
+      
+      <guid>/post/finally-i-can-ditch-acrobar-reader/</guid>
+      <description>Adobes Acrobat reader is, in my opinion, an over-hyped bloated piece of resource hungry software. I&amp;rsquo;ve had countless IE hangs that appeared to be because of it, and finally I can get rid of it to read PDFs.
+ How am I going to read PDFs without it, simple, use Foxit Reader. It&amp;rsquo;s small, fast, and in two months of using 2.0 and previous version has yet to hang on me.</description>
+    </item>
+    
+    <item>
+      <title>Vista... killer of your current disk utilities?</title>
+      <link>/post/vista-killer-of-your-current-disk-utilities/</link>
+      <pubDate>Thu, 15 Jun 2006 09:57:57 +0000</pubDate>
+      
+      <guid>/post/vista-killer-of-your-current-disk-utilities/</guid>
+      <description>I&amp;rsquo;ve been trying out Microsoft Windows Vista Beta 2 (like many IT people who&amp;rsquo;ve joined the free beta), and found a couple of interesting things about it&amp;rsquo;s partition management and it&amp;rsquo;s effect on some of the disk utilities I&amp;rsquo;ve trusted to help me with Windows XP problems in the past.
+I initially installed Vista on my test box, which went well (apart from D-Link telling me &amp;ldquo;We have no information on when drivers for Windows Vista will be made available for any D-Link product.</description>
+    </item>
+    
+    <item>
+      <title>The quality issue with open source software</title>
+      <link>/post/the-quality-issue-with-open-source-software/</link>
+      <pubDate>Sat, 13 May 2006 13:49:06 +0000</pubDate>
+      
+      <guid>/post/the-quality-issue-with-open-source-software/</guid>
+      <description>There is no doubt that open source software saves people money. There is also no doubt that there are a large number of talented people working for free on open source software. But there is a large amount of debate over the quality of the open source &amp;ldquo;product&amp;rdquo; .
+A lot of open source authors dismiss the statement that &amp;ldquo;open source software has a lower quality level&amp;rdquo; as being just F.</description>
+    </item>
+    
+    <item>
+      <title>SpikeSource - What value do they add?</title>
+      <link>/post/spikesource-what-value-do-they-add/</link>
+      <pubDate>Thu, 16 Feb 2006 11:20:50 +0000</pubDate>
+      
+      <guid>/post/spikesource-what-value-do-they-add/</guid>
+      <description>SpikeSource popped up on my radar after seeing an article on The Register. After looking a bit at what they do I still seem to be unable to see what value they add.
+My main problem is one of their claims that&amp;hellip;
+Now I know there certainly weren&amp;rsquo;t 2,965 new stable releases of Apache in 2005, so my guess is their talking about changes to the development version of the code, which, as pretty much anyone in IT support will tell you, you should definitely not be using in a environment with real users.</description>
+    </item>
+    
+    <item>
+      <title>Why anti-spam black lists are bad.</title>
+      <link>/post/why-ant-spam-black-lists-are-bad/</link>
+      <pubDate>Sun, 29 Jan 2006 13:24:57 +0000</pubDate>
+      
+      <guid>/post/why-ant-spam-black-lists-are-bad/</guid>
+      <description>I want to make it clear that I&amp;rsquo;m not a spammer, I hate spam, and would like to find a way to banish it from the net for everyone, but black lists are just not going to make it happen, and here&amp;rsquo;s why&amp;hellip;.
+I&amp;rsquo;ve recently been looking into Email and the inevitable spam problem, and have found that IP address based anti-spam real time black lists (or RBLs) are probably doing more damage than good.</description>
+    </item>
+    
+  </channel>
+</rss>

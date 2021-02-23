@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>App Stores on Al Sutton&#39;s Blog</title>
+    <link>/tags/App-Stores/</link>
+    <description>Recent content in App Stores on Al Sutton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 01 Feb 2011 07:51:42 +0000</lastBuildDate><atom:link href="/tags/App-Stores/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Opinion] Google Hiring Android Developers And The Android Ecosystem</title>
+      <link>/post/opinion-google-hiring-android-developers-and-the-android-ecosystem/</link>
+      <pubDate>Tue, 01 Feb 2011 07:51:42 +0000</pubDate>
+      
+      <guid>/post/opinion-google-hiring-android-developers-and-the-android-ecosystem/</guid>
+      <description>Yesterday the Wall Street Journal ran a story about Google planning to hire Android application developers which, to me, seems to have the potential to be the worst possible thing they could do to the Android eco-system. I&amp;rsquo;m going to outline the reasons why I hold this view but I&amp;rsquo;m always open to other, well reasoned, points of view.
+The reasons I currently have this view are as follows;
+1. It does nothing to help non-Google developers who are currently struggling to make a living from developing Android applications.</description>
+    </item>
+    
+  </channel>
+</rss>

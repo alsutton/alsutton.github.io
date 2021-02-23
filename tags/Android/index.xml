@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on Al Sutton&#39;s Blog</title>
+    <link>/tags/Android/</link>
+    <description>Recent content in Android on Al Sutton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 01 Feb 2011 07:51:42 +0000</lastBuildDate><atom:link href="/tags/Android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Opinion] Google Hiring Android Developers And The Android Ecosystem</title>
+      <link>/post/opinion-google-hiring-android-developers-and-the-android-ecosystem/</link>
+      <pubDate>Tue, 01 Feb 2011 07:51:42 +0000</pubDate>
+      
+      <guid>/post/opinion-google-hiring-android-developers-and-the-android-ecosystem/</guid>
+      <description>Yesterday the Wall Street Journal ran a story about Google planning to hire Android application developers which, to me, seems to have the potential to be the worst possible thing they could do to the Android eco-system. I&amp;rsquo;m going to outline the reasons why I hold this view but I&amp;rsquo;m always open to other, well reasoned, points of view.
+The reasons I currently have this view are as follows;
+1. It does nothing to help non-Google developers who are currently struggling to make a living from developing Android applications.</description>
+    </item>
+    
+    <item>
+      <title>The Android Honeycomb Emulator</title>
+      <link>/post/the-android-honeycomb-preview-emulator/</link>
+      <pubDate>Thu, 27 Jan 2011 09:06:00 +0000</pubDate>
+      
+      <guid>/post/the-android-honeycomb-preview-emulator/</guid>
+      <description>Some people have noticed some niggles with the Android Honeycomb Previewemulator, so I&amp;rsquo;ve put together a few tips which may help improve your experience.
+I&amp;rsquo;ll do my best to keep this updated with tips and post hints on my twitter account as I get them.
+Things you can do something about
+Emulated memory size
+By default the Honeycomb AVD is created to emulate 256MB of RAM, my advice is to increase this significantly.</description>
+    </item>
+    
+    <item>
+      <title>Amazons Apps Store</title>
+      <link>/post/926/</link>
+      <pubDate>Wed, 05 Jan 2011 11:52:53 +0000</pubDate>
+      
+      <guid>/post/926/</guid>
+      <description>(This was prompted by a question asked by Reto Meier)
+As many of you may know my company built and later sold AndAppStore over the course of two years. During that time we kept an eye on the competition and received feedback from users and developers and got a good idea of what both sides wanted. I commented on Google Market because it was the main distribution channel for developers, but I rarely commented on competitors alternative app stores because each of them has their own business plan and all of the legally operating ones seemed to be doing their best to strike a balance between what they need to survive and what users and developers want.</description>
+    </item>
+    
+    <item>
+      <title>Multi-Core Android 101</title>
+      <link>/post/multi-core-android-101/</link>
+      <pubDate>Thu, 30 Dec 2010 14:02:00 +0000</pubDate>
+      
+      <guid>/post/multi-core-android-101/</guid>
+      <description>Some of you may already be familiar with multi-core programming, so a lot of what I&amp;rsquo;m going to cover will be very familiar to you, but some Android developers may have never written for (or considered) how the multiple CPU cores available on CPUs such as Nvidias Tegra 2 chips (as rumoured to be in the Motorola Honeycomb Tablet) can improve the speed of their applications if the applications are written in a multi-core friendly manner.</description>
+    </item>
+    
+    <item>
+      <title>Android screen densities; what you see may not be what you get.</title>
+      <link>/post/android-screen-densities-what-you-see-may-not-be-what-you-get/</link>
+      <pubDate>Mon, 13 Sep 2010 18:37:38 +0000</pubDate>
+      
+      <guid>/post/android-screen-densities-what-you-see-may-not-be-what-you-get/</guid>
+      <description>Since Android 1.6 Google have beenasking developers to use specific size and density groupings for their graphical resources to ensure that their user interfaces looked good on a range of devices, but unfortunately developers are not fully supporting it and now OEMs are making their devices report the wrong densities.
+I&amp;rsquo;ve blogged before about developers not supporting the various sizes and densities fully which resulted in UIs which look odd and empty on tablets, but OEMs reporting the wrong densities seems to be a new phenomenon which means even if a developer provided graphic assets for all the screen sizes and densities Android supports they may still see the wrong assets being used and their UI looking odd on some devices through no fault of their own.</description>
+    </item>
+    
+    <item>
+      <title>Talk on Android Tablets</title>
+      <link>/post/talk-on-android-tablets/</link>
+      <pubDate>Wed, 08 Sep 2010 10:04:29 +0000</pubDate>
+      
+      <guid>/post/talk-on-android-tablets/</guid>
+      <description>At the end of October I&amp;rsquo;ll be giving a talk on Android Tablets, eReaders, and other devices at droidcon London, so if you&amp;rsquo;ve found my posts on the subject interesting (or if you want to see any of the other speakers who are going to be presenting), the you can register to attend the Droidcon UK website.</description>
+    </item>
+    
+    <item>
+      <title>Android Facebook App; now with less tablet love</title>
+      <link>/post/android-facebook-app-now-with-less-tablet-love/</link>
+      <pubDate>Wed, 04 Aug 2010 07:35:08 +0000</pubDate>
+      
+      <guid>/post/android-facebook-app-now-with-less-tablet-love/</guid>
+      <description>A short while ago I posted about how many Android applications hadn&amp;rsquo;t allowed for tablets by assuming a direct correlation between screen density and screen resolution. I used the Android Facebook application as an example, and as they&amp;rsquo;ve just released an update I thought I should follow up the previous post and look at the changes they&amp;rsquo;ve made. Unfortunately it seems they&amp;rsquo;re heading in the wrong direction.
+The biggest backwards step is the removal of landscape mode.</description>
+    </item>
+    
+    <item>
+      <title>Community created &#34;work in progress&#34; books; tread carefully</title>
+      <link>/post/community-create-books-tread-carefully/</link>
+      <pubDate>Tue, 13 Jul 2010 07:59:22 +0000</pubDate>
+      
+      <guid>/post/community-create-books-tread-carefully/</guid>
+      <description>In the last day or two lots of people have helped circulate a link to an O&amp;rsquo;Reilly effort to create a cookbook of community supplied Android examples, which is a noble effort, but there is a big drawback; and that&amp;rsquo;s the potential quality of the information.
+Any healthy community tends to be pyramid shaped when it comes to knowledge and experience. At the bottom are the people who are starting out and have little knowledge or experience of the subject matter, and at the top are the people who&amp;rsquo;ve been involved in the area for a (relatively) long time and have studied it in depth.</description>
+    </item>
+    
+    <item>
+      <title>Android, tablets, and mdpi-large</title>
+      <link>/post/android-tablets-and-mdpi-large/</link>
+      <pubDate>Sat, 03 Jul 2010 15:20:31 +0000</pubDate>
+      
+      <guid>/post/android-tablets-and-mdpi-large/</guid>
+      <description>When the Dell Streak was first launched there was an aspect of it that caught me off guard, its&#39; pixel density, and it would appear I&amp;rsquo;m not alone.
+Before the Streak developers could pretty much assume that if their app was installed via Google Market any device which reported itself as having low density display (ldpi) had a QVGA screen, any device with a medium density (mdpi) screen had a HVGA screen, and any device with a high density (hdpi) screen had a WVGA screen, and that seemed to work pretty well.</description>
+    </item>
+    
+    <item>
+      <title>Building AOSP for the Nexus One</title>
+      <link>/post/building-aosp-for-the-nexus-one/</link>
+      <pubDate>Tue, 29 Jun 2010 07:16:44 +0000</pubDate>
+      
+      <guid>/post/building-aosp-for-the-nexus-one/</guid>
+      <description>Please Note: Messing around with the firmware and OS on any device can render the device unusable. Please do not attempt to modify your firmware or OS unless you are confident you know what you are doing. I offer no guarantees and do not accept any liability for anything which may go wrong if you follow the information in this post.
+Here is my modified version of the instructions from the AOSP page for building for the HTC Dream range of &amp;lsquo;phones to cover the Nexus One Android 2.</description>
+    </item>
+    
+    <item>
+      <title>Google, Android, and Private APIs.</title>
+      <link>/post/google-android-apps-and-private-apis/</link>
+      <pubDate>Fri, 07 May 2010 07:58:45 +0000</pubDate>
+      
+      <guid>/post/google-android-apps-and-private-apis/</guid>
+      <description>[Declaration of interest: My company runs AndAppStore, an alternative to Googles Android Market]
+Theres been a fair amount of talk around Googles use of &amp;ldquo;Private APIs&amp;rdquo; in their Android applications since the Andy Rubin interview which appeared in the NY Times Bits blog, and I&amp;rsquo;d like to point out what appears to be a glaring mistake in one of the replies Andy gave.
+During the interview he said;
+I don&amp;rsquo;t know whether he said this because he doesn&amp;rsquo;t know about what&amp;rsquo;s in some of Googles Android applications, or whether he was towing a party line about Androids&#39; open source nature, but that statement simply isn&amp;rsquo;t true.</description>
+    </item>
+    
+    <item>
+      <title>AOSP - in need of love at both ends</title>
+      <link>/post/aosp-in-need-of-love-at-both-ends/</link>
+      <pubDate>Wed, 10 Mar 2010 17:18:11 +0000</pubDate>
+      
+      <guid>/post/aosp-in-need-of-love-at-both-ends/</guid>
+      <description>After spending some time trying to build a firmware I&amp;rsquo;ve seen some things which have opened my eyes as to why the Android Open Source Project may not be seeing the kind of community contributions that would be expected of such a high profile project.
+Other people have shown an interest in knowing my thoughts so I&amp;rsquo;m going to throw out my top 3 for discussion which will hopefully help to improve things;</description>
+    </item>
+    
+    <item>
+      <title>Building firmware... not for the infirm...</title>
+      <link>/post/building-firmware-not-for-the-infirm/</link>
+      <pubDate>Tue, 09 Mar 2010 13:43:49 +0000</pubDate>
+      
+      <guid>/post/building-firmware-not-for-the-infirm/</guid>
+      <description>A project I&amp;rsquo;m working on requires the use of a custom firmware image, so I&amp;rsquo;ve been exposed to the joy that is trying to build and use the open source version of Android, and to be honest it&amp;rsquo;s left me a little battered.
+If you&amp;rsquo;re on an ADP1, and you&amp;rsquo;re just looking to build a 1.6 firmware, you&amp;rsquo;re in for a smooth ride. JBQ and his helpers did a fantastic job and created some easy to follow instructions which you can use to build a firmware image from the donut-plus-aosp branch of the central android repository.</description>
+    </item>
+    
+    <item>
+      <title>Marking Apps on Googles Android Market</title>
+      <link>/post/marking-on-the-googles-android-market/</link>
+      <pubDate>Mon, 23 Mar 2009 07:50:37 +0000</pubDate>
+      
+      <guid>/post/marking-on-the-googles-android-market/</guid>
+      <description>There seems to be a lot of variation on how many stars people give an application on Googles Android Market. Some give 3 stars for an app they find hard to use, others give 1 star because the developer chose not to make the applications source code available (even though this doesn&amp;rsquo;t affect the application as delivered to the user).
+I&amp;rsquo;m trying to stick to the following marking scheme and would welcome comments and feedback as to any changes people think would make sense.</description>
+    </item>
+    
+    <item>
+      <title>Google Market for Android Paid Apps launch = Fail</title>
+      <link>/post/google-market-for-android-paid-apps-launch-fail/</link>
+      <pubDate>Sun, 22 Feb 2009 17:48:44 +0000</pubDate>
+      
+      <guid>/post/google-market-for-android-paid-apps-launch-fail/</guid>
+      <description>Android developers have been waiting for the ability to list pay-for applications in Googles Market, but now most of them wish it had never arrived because the experience it&amp;rsquo;s giving users may just turn them off Android forever.
+The first joy is the &amp;ldquo;copy protection&amp;rdquo; offered by Google. Developers can turn this on for their apps but doing so can stop a the application running at all regardless of if it&amp;rsquo;s been copied.</description>
+    </item>
+    
+    <item>
+      <title>Will the Android Market T&amp;Cs kill off &#34;fun&#34; apps?</title>
+      <link>/post/will-the-android-market-tcs-kill-off-fun-apps/</link>
+      <pubDate>Fri, 13 Feb 2009 16:09:23 +0000</pubDate>
+      
+      <guid>/post/will-the-android-market-tcs-kill-off-fun-apps/</guid>
+      <description>Over recent weeks there has been a lot of speculation over when Android users will be able to buy applications from Googles Market, but some of the terms and conditions in the Developer Distribution Agreement could scare many developers away before they deploy their first application.
+The first thing that came to light is that purchasers will have 24 hours in which they can get a refund apparently with no questions asked.</description>
+    </item>
+    
+    <item>
+      <title>Will US Patent laws strange Android?</title>
+      <link>/post/will-us-patent-laws-strange-android/</link>
+      <pubDate>Sat, 31 Jan 2009 10:39:41 +0000</pubDate>
+      
+      <guid>/post/will-us-patent-laws-strange-android/</guid>
+      <description>In recent days there the issue of the US patent obtained by Apple relating to the multi-touch functionality has reared it&amp;rsquo;s head on the Android development lists, and the discussions have left me deeply concerned about whether Android will ever become a serious global player in the mobile OS market.
+The discussion started rolling when a patch to add multi-touch functionality on Android was posted on the android-platform mailing list, and ran in parallel another list directly discussing the impact the patent may have, but surprisingly ended up with a post from a Google employee saying that patents should not be discussed on any of the google hosted android lists, and this was further expanded by another Google employee saying that it was &amp;ldquo;because of legal repercussions&amp;rdquo;, and &amp;ldquo;it is simply best not to know about them&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Android licensing system</title>
+      <link>/post/android-licensing-system/</link>
+      <pubDate>Fri, 09 Jan 2009 16:52:51 +0000</pubDate>
+      
+      <guid>/post/android-licensing-system/</guid>
+      <description>Funky Android has made available a Android application licensing system via AndAppStore. It&amp;rsquo;s something that we feel has been missing from the Android space and we hope that it&amp;rsquo;ll help companies looking to focus on (and thus make money from) Android applications.
+So if you&amp;rsquo;ve been waiting for a way to commercially license your apps feel free to give it a spin and send in your feedback.
+(Declaration of interest : I am a director of Funky Android)</description>
+    </item>
+    
+    <item>
+      <title>Google finally coming good with the Android Development Programme</title>
+      <link>/post/google-finally-coming-good-with-the-android-development-programme/</link>
+      <pubDate>Sat, 06 Dec 2008 19:02:51 +0000</pubDate>
+      
+      <guid>/post/google-finally-coming-good-with-the-android-development-programme/</guid>
+      <description>It looks like the folks at Google are listening and they&amp;rsquo;ve taken a big step which will help a number of developers get at least one Android powered device to work with.
+Yesterday Dan Morill announced a new version of the SDK with a link to the android blog, what he didn&amp;rsquo;t mention is that the blog post also reveals that Google have created a programme for developers which allows they to get what is basically an unlocked T-Mobile G1.</description>
+    </item>
+    
+    <item>
+      <title>The Android Email client on the G1, possibly the worst app on an &#34;Internet&#34; phone ever.</title>
+      <link>/post/the-android-email-client-on-the-g1-possibly-the-worst-app-on-an-internet-phone-ever/</link>
+      <pubDate>Tue, 11 Nov 2008 12:22:39 +0000</pubDate>
+      
+      <guid>/post/the-android-email-client-on-the-g1-possibly-the-worst-app-on-an-internet-phone-ever/</guid>
+      <description>The G1 has been around a few weeks, it&amp;rsquo;s billed as &amp;ldquo;The phone that&amp;rsquo;s built for the internet&amp;rdquo;, but it would appear that the G1 isn&amp;rsquo;t built for email which many people consider as being one of the most useful things on the internet for over 35 years.
+The G1 has two in-built Email clients; one is for Googles&#39; GMail, the other is for accounts with whichever ISP you&amp;rsquo;re with. Personally after seeing several stories of problems with Google locking accounts (see here, here, and here for a few) I&amp;rsquo;d prefer to stay with my ISP, but that leaves me with an Email client which is being described by other G1 users as &amp;ldquo;the most pathetic attempt I&amp;rsquo;ve ever seen&amp;rdquo; and &amp;ldquo;frustrating&amp;rdquo;, views which I wholeheartedly agree with.</description>
+    </item>
+    
+    <item>
+      <title>Why I won&#39;t be buying the Android T-Mobile G1 phone</title>
+      <link>/post/why-i-wont-be-buying-the-android-t-mobile-g1-phone/</link>
+      <pubDate>Wed, 29 Oct 2008 09:39:49 +0000</pubDate>
+      
+      <guid>/post/why-i-wont-be-buying-the-android-t-mobile-g1-phone/</guid>
+      <description>After getting interested in Android after Mike Jennings talk, weeks of coding on AndAppStore.com, reading up on APIs, watching and getting involved with discussions on the Android developers and discussion mailing lists, and following various Android community sites to see if the G1 was the start of the Android revolution, I&amp;rsquo;ve decided that, for now, I&amp;rsquo;m not going to get an Android &amp;lsquo;phone, and here are the reasons why;
+The T-Mobile Deal (phone &amp;amp; contract)</description>
+    </item>
+    
+    <item>
+      <title>Expect to pay when you setup your pitch in Googles Marketplace</title>
+      <link>/post/expect-to-pay-when-you-setup-your-pitch-in-googles-marketplace/</link>
+      <pubDate>Wed, 22 Oct 2008 17:33:48 +0000</pubDate>
+      
+      <guid>/post/expect-to-pay-when-you-setup-your-pitch-in-googles-marketplace/</guid>
+      <description>If you want to have your application listed in Androids Marketplace the first thing you have to do is pay them $25. That&amp;rsquo;s right, even if you&amp;rsquo;re developing a free application for their open platform to list on their &amp;ldquo;user-driven&amp;rdquo; marketplace, it&amp;rsquo;s going to cost you a $25 entry fee.
+Do you have an app you&amp;rsquo;d like to to sell?, well, if you make a sale via the Marketplace, that&amp;rsquo;ll be another 30% (yes, thirty percent) of your sales going to them.</description>
+    </item>
+    
+    <item>
+      <title>Where Googles Android may have already failed</title>
+      <link>/post/where-googles-android-may-have-already-failed/</link>
+      <pubDate>Tue, 14 Oct 2008 10:07:44 +0000</pubDate>
+      
+      <guid>/post/where-googles-android-may-have-already-failed/</guid>
+      <description>(Declaration of interest; I&amp;rsquo;m involved in AndAppStore.com which allows Android Applications developers to list Android applications and users to download them)
+Imagine this; You have a product you want to make available worldwide, but you need the help of others to make it popular. You start a worldwide PR campaign, you make a mock-up available so people become familiar with your product, you run a worldwide competition for people to come up with uses for your product, and then you announce launch dates in one country for one date, another for a month later, a few more next year, and, well everyone else, you&amp;rsquo;ll have to wait and see what happens.</description>
+    </item>
+    
+  </channel>
+</rss>

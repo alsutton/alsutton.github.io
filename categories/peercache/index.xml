@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>peercache on Al Sutton&#39;s Blog</title>
+    <link>/categories/peercache/</link>
+    <description>Recent content in peercache on Al Sutton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 11 Sep 2017 08:46:31 +0000</lastBuildDate><atom:link href="/categories/peercache/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Peercache - locally shared caches of build dependencies</title>
+      <link>/post/peercache-locally-shared-caches-of-build-dependencies/</link>
+      <pubDate>Mon, 11 Sep 2017 08:46:31 +0000</pubDate>
+      
+      <guid>/post/peercache-locally-shared-caches-of-build-dependencies/</guid>
+      <description>The idea
+Currently most build systems have two sources for build dependencies; A remotely hosted source (e.g. maven central, internal build cache on a server), or a local on-disk cache, but many development groups have another potential source which doesn&amp;rsquo;t seem to be being used at the moment; other developers on the same LAN, which is why I started thinking about implementing a peer-to-peer caching system and I&amp;rsquo;m putting the idea out there for discussion.</description>
+    </item>
+    
+  </channel>
+</rss>

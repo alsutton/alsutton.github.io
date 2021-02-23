@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Business on Al Sutton&#39;s Blog</title>
+    <link>/categories/Business/</link>
+    <description>Recent content in Business on Al Sutton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 01 Sep 2011 07:57:37 +0000</lastBuildDate><atom:link href="/categories/Business/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Does Google see UK developers as unimportant?</title>
+      <link>/post/does-google-see-uk-developers-as-unimportant/</link>
+      <pubDate>Thu, 01 Sep 2011 07:57:37 +0000</pubDate>
+      
+      <guid>/post/does-google-see-uk-developers-as-unimportant/</guid>
+      <description>This morning Google announced a number of new developer events around the world, and, as a result of what was announced, it would appear that the UK will not see a high profile Google developer event this year, which seems odd to me.
+If you look at London (which most would consider the UKs&#39; strongest candidate for an event) it&amp;rsquo;s the most populated city in Europe with over double the population of its&#39; nearest rival (Berlin), has one of the worlds busiest international transport hubs (Heathrow Airport, the only european airport in the top 5 for passenger throughput), is home to Googles second largest engineering center outside the US (after Zurich), and if Google did fly people in from Mountain View there would be no language barrier.</description>
+    </item>
+    
+    <item>
+      <title>PayPal X Contest Winners - Good &amp; Very Bad.</title>
+      <link>/post/paypal-x-contest-winners-good-very-bad/</link>
+      <pubDate>Thu, 25 Mar 2010 08:36:24 +0000</pubDate>
+      
+      <guid>/post/paypal-x-contest-winners-good-very-bad/</guid>
+      <description>First off the good. AppBackr. They came second, and as far as I&amp;rsquo;m aware they didn&amp;rsquo;t break any rules. I&amp;rsquo;ve personally sent them a congratulatory message and everyone who took part in making PortaPayments sees them as a honest, worthy winner. In the future I&amp;rsquo;d have no problems in working with them to help them help apps get funded with a tie-up via AndAppStore or help getting the word out to Android developers.</description>
+    </item>
+    
+    <item>
+      <title>Be positive, even if you want to be critical</title>
+      <link>/post/be-positive-even-if-you-want-to-be-critical/</link>
+      <pubDate>Tue, 16 Mar 2010 12:03:37 +0000</pubDate>
+      
+      <guid>/post/be-positive-even-if-you-want-to-be-critical/</guid>
+      <description>After certain events in recent weeks I thought it was worth putting up a post trying to encourage people to be more constructive in their criticisms.
+Take, for example, a conversation I had with a developer a few weeks ago who came from a Symbian background;
+Dev : I&amp;rsquo;m looking for a code examples for things like&amp;hellip; how to change screens using a horizontal finger gesture on the screen on Android.</description>
+    </item>
+    
+    <item>
+      <title>Why &#34;New customer only&#34; deals are bad for regular payment businesses.</title>
+      <link>/post/why-new-customer-only-deals-are-bad-for-regular-payment-businesses/</link>
+      <pubDate>Wed, 09 Sep 2009 10:14:01 +0000</pubDate>
+      
+      <guid>/post/why-new-customer-only-deals-are-bad-for-regular-payment-businesses/</guid>
+      <description>I thought the effect of &amp;ldquo;New customer only&amp;rdquo; deals on long term business were well understood, but, in the last month, I&amp;rsquo;ve seen some examples which show that some companies still haven&amp;rsquo;t grasped their long term effects.
+Its&#39; true that &amp;ldquo;new customer only&amp;rdquo; deals get people through the door (which every business needs), but for businesses that survive on regular payments (e.g. subscriptions or credit repayments), or want customers to continue to use them, it also has a crippling side effect.</description>
+    </item>
+    
+  </channel>
+</rss>

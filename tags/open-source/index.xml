@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>open source on Al Sutton&#39;s Blog</title>
+    <link>/tags/open-source/</link>
+    <description>Recent content in open source on Al Sutton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 29 Jun 2010 07:16:44 +0000</lastBuildDate><atom:link href="/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building AOSP for the Nexus One</title>
+      <link>/post/building-aosp-for-the-nexus-one/</link>
+      <pubDate>Tue, 29 Jun 2010 07:16:44 +0000</pubDate>
+      
+      <guid>/post/building-aosp-for-the-nexus-one/</guid>
+      <description>Please Note: Messing around with the firmware and OS on any device can render the device unusable. Please do not attempt to modify your firmware or OS unless you are confident you know what you are doing. I offer no guarantees and do not accept any liability for anything which may go wrong if you follow the information in this post.
+Here is my modified version of the instructions from the AOSP page for building for the HTC Dream range of &amp;lsquo;phones to cover the Nexus One Android 2.</description>
+    </item>
+    
+    <item>
+      <title>Google, Android, and Private APIs.</title>
+      <link>/post/google-android-apps-and-private-apis/</link>
+      <pubDate>Fri, 07 May 2010 07:58:45 +0000</pubDate>
+      
+      <guid>/post/google-android-apps-and-private-apis/</guid>
+      <description>[Declaration of interest: My company runs AndAppStore, an alternative to Googles Android Market]
+Theres been a fair amount of talk around Googles use of &amp;ldquo;Private APIs&amp;rdquo; in their Android applications since the Andy Rubin interview which appeared in the NY Times Bits blog, and I&amp;rsquo;d like to point out what appears to be a glaring mistake in one of the replies Andy gave.
+During the interview he said;
+I don&amp;rsquo;t know whether he said this because he doesn&amp;rsquo;t know about what&amp;rsquo;s in some of Googles Android applications, or whether he was towing a party line about Androids&#39; open source nature, but that statement simply isn&amp;rsquo;t true.</description>
+    </item>
+    
+  </channel>
+</rss>

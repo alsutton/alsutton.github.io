@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google&#43; Import on Al Sutton&#39;s Blog</title>
+    <link>/categories/Google&#43;-Import/</link>
+    <description>Recent content in Google&#43; Import on Al Sutton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 14 Aug 2013 08:41:18 +0000</lastBuildDate><atom:link href="/categories/Google+-Import/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Importing Devices</title>
+      <link>/post/importing-devices/</link>
+      <pubDate>Wed, 14 Aug 2013 08:41:18 +0000</pubDate>
+      
+      <guid>/post/importing-devices/</guid>
+      <description>I&amp;rsquo;ve often wondered if people who recommend importing devices which are only available in specific countries realise it&amp;rsquo;s a self-defeating practice.
+Companies monitor sales through channels, they don&amp;rsquo;t know where the end customers are. So if, for example, there&amp;rsquo;s a product only available in US, and you buy it from a US-based supplier, the company producing that product sees it as a US sale rather than one for the country you&amp;rsquo;re in.</description>
+    </item>
+    
+    <item>
+      <title>Oh Hai</title>
+      <link>/post/oh-hai/</link>
+      <pubDate>Tue, 06 Aug 2013 12:10:06 +0000</pubDate>
+      
+      <guid>/post/oh-hai/</guid>
+      <description>Time to play :)</description>
+    </item>
+    
+    <item>
+      <title>Google Play Edition Devices</title>
+      <link>/post/google-play-edition-devices/</link>
+      <pubDate>Sat, 03 Aug 2013 08:04:20 +0000</pubDate>
+      
+      <guid>/post/google-play-edition-devices/</guid>
+      <description>So in the last couple of months Google have released the Google Play Edition HTC One, the PE Samsung S4, Nexus 7 (2013 edition), ChromeCast, and the MotoX all only in the US, adding to +Google Glass&amp;rsquo;s continued US-only availability. If you go beyond hardware there&amp;rsquo;s things like Voice, All Access Music, and I&amp;rsquo;m sure a number of other products which, if you&amp;rsquo;re not in the US, you&amp;rsquo;re not likely to be able to use.</description>
+    </item>
+    
+    <item>
+      <title>Leaving OUYA</title>
+      <link>/post/leaving-ouya/</link>
+      <pubDate>Sun, 23 Jun 2013 08:43:50 +0000</pubDate>
+      
+      <guid>/post/leaving-ouya/</guid>
+      <description>Nearly 8 months ago I met with a few software engineers working from some rented desks in San Francisco. They were the +OUYA engineering team. We talked, they took me through their interview process. I also had a meeting with Julie Uhrman, after which I went from being a believer that it could happen to a believer that it would happen and there was a place on the team for me and I could help make it happen.</description>
+    </item>
+    
+    <item>
+      <title>Droidcon London 2013</title>
+      <link>/post/droidcon-london-2013/</link>
+      <pubDate>Thu, 20 Jun 2013 12:15:33 +0000</pubDate>
+      
+      <guid>/post/droidcon-london-2013/</guid>
+      <description>I got a call from +Skills Matter asking me if I&amp;rsquo;d be interested in going to +droidcon London 2013&amp;hellip;. well, it&amp;rsquo;s already certain I&amp;rsquo;ll be there, and here&amp;rsquo;s why;
+There are going to be several tracks at #DroidconUK13 , and each track has a track-master, a person who has volunteered to co-ordinate the track, sort out who talks in which slots, and make sure their track is appealing to developers.</description>
+    </item>
+    
+    <item>
+      <title>Developing for different platforms</title>
+      <link>/post/developing-for-different-platforms/</link>
+      <pubDate>Sun, 19 May 2013 09:26:27 +0000</pubDate>
+      
+      <guid>/post/developing-for-different-platforms/</guid>
+      <description>So if I understand this TechCrunch article correctly; +Overdose Caffeine stopped developing for the +OUYA because they don&amp;rsquo;t want to implement a control system which works well with an OUYA controller (and the article reads very much like they may have received an incentive to highlight another product)
+To me this article highlights one part of the value of the OUYA store; It stops users getting apps from developers who don&amp;rsquo;t understand the UX needs of a console.</description>
+    </item>
+    
+    <item>
+      <title>Google Glass Hardware</title>
+      <link>/post/google-glass-hardware/</link>
+      <pubDate>Tue, 30 Apr 2013 09:32:41 +0000</pubDate>
+      
+      <guid>/post/google-glass-hardware/</guid>
+      <description>Maybe I&amp;rsquo;ve been looking in all the wrong places, but it seems no-one has raised an issue with the current iteration of +Project Glass hardware; The uncertainty over the future of its&#39; CPU.
+All the reports I&amp;rsquo;ve seen say that the current hardware is running an OMAP 4430 and TI announced last year they were winding down their smartphone and tablet orientated OMAP chips, which is the segment where the 4430 lives (see http://goo.</description>
+    </item>
+    
+    <item>
+      <title>Facebook Developer Relations</title>
+      <link>/post/facebook-developer-relations/</link>
+      <pubDate>Tue, 12 Mar 2013 08:32:42 +0000</pubDate>
+      
+      <guid>/post/facebook-developer-relations/</guid>
+      <description>I know this is going to be unpopular, but I think Facebook have got their Developer Relations working pretty well.
+Rather than expect developers to pay to fly and stay near them, they&amp;rsquo;re setting up conferences around the world. That way you know you&amp;rsquo;re going to get locally relevant content and not pay a few thousand bucks to be told you can&amp;rsquo;t get access to some of the key technologies because you live in the wrong place.</description>
+    </item>
+    
+    <item>
+      <title>I/O 13 or Droidcon</title>
+      <link>/post/io-13-or-droidcon/</link>
+      <pubDate>Thu, 07 Mar 2013 09:22:07 +0000</pubDate>
+      
+      <guid>/post/io-13-or-droidcon/</guid>
+      <description>So it&amp;rsquo;s been confirmed; #io13 will be yet another free-for-all with the freebie grabbers :(
+This means I&amp;rsquo;m now definitely going to give it a skip it in favour of +Droidcon Berlin and +droidcon London later in the year. Whilst I&amp;rsquo;ve had some good conversations at #io events I&amp;rsquo;ve also had a number of ones which left me thinking &amp;ldquo;OK, this person isn&amp;rsquo;t really into coding and technology&amp;rdquo;, whereas at the Droidcons I&amp;rsquo;ve been to the only time I&amp;rsquo;ve thought that was talking to some of the people who have stands and are clearly identifiable as sales people (usually wearing a company T-shirt or something similar).</description>
+    </item>
+    
+    <item>
+      <title>I/O Freebies</title>
+      <link>/post/io-freebies/</link>
+      <pubDate>Fri, 22 Feb 2013 08:35:20 +0000</pubDate>
+      
+      <guid>/post/io-freebies/</guid>
+      <description>So now people are expecting a Chromebook Pixel and an X-Phone as giveaways at #io13 . If it&amp;rsquo;s open ticket sales again this year I can see the developer attendee count going down and the freebie hunter count going up.
+At #io12 I met a guy who guy who said he was getting two of everything because he bought a ticket for himself and one for his son. His son was at college studying English, had no interest in the freebies, but took up the offer of a free trip to San Francisco in return for turning up to pick-up the goodies at the times his Dad told him to.</description>
+    </item>
+    
+    <item>
+      <title>Google Ordering Process Fails</title>
+      <link>/post/google-ordering-process-fails/</link>
+      <pubDate>Fri, 07 Dec 2012 08:36:36 +0000</pubDate>
+      
+      <guid>/post/google-ordering-process-fails/</guid>
+      <description>Looks like +Google have done it again; Completely f&amp;rsquo;ed up when writing a simple order management system.
+I&amp;rsquo;m seeing numerous reports from people who ordered #Nexus4 &amp;rsquo;s after me and were told it would arrive in &amp;ldquo;4-5 weeks&amp;rdquo; that they&amp;rsquo;ve received their &amp;lsquo;phones, which my order (made about 3 minutes after the 4th of Dec restock, with a &amp;ldquo;1-2 week&amp;rdquo; estimate) is still sitting in &amp;ldquo;Pending&amp;rdquo;.
+Every #IO ticket ordering session for the past couple of years has been a disaster, the initial #Nexus4 seemed to be a road crash, and this time, although you could order, the order execution process seems to be completely screwed, and in traditional Google style, all you have is an email address to get an answer from and, if they deem you worthy, you might actually get a reply.</description>
+    </item>
+    
+    <item>
+      <title>The reason you need a &#34;Close Account&#34; button in your web app for users</title>
+      <link>/post/the-reason-you-need-a-close-account-button-in-your-web-app-for-users/</link>
+      <pubDate>Tue, 04 Dec 2012 12:17:21 +0000</pubDate>
+      
+      <guid>/post/the-reason-you-need-a-close-account-button-in-your-web-app-for-users/</guid>
+      <description>&amp;ldquo;Close Account&amp;rdquo; buttons are unpopular mainly for marketing reasons; They give users an easy way to leave your site, and so your user count goes down and your site looks less popular, but, in many countries, not allowing users to close their account can get you into deep water with privicy issues as well as severely damaging your user count credibility ( no-one trusts user counts at a Hotel California - http://en.</description>
+    </item>
+    
+    <item>
+      <title>Charging the Nexus 10</title>
+      <link>/post/charging-the-nexus-10/</link>
+      <pubDate>Thu, 15 Nov 2012 08:06:02 +0000</pubDate>
+      
+      <guid>/post/charging-the-nexus-10/</guid>
+      <description>It charges from a Micro-USB connector which is, for Samsung, a huge step in the right direction.
+The feel of the device reminds me very much of a Xoom. The rubber back is a good touch (I can&amp;rsquo;t count how many samsung tablets I&amp;rsquo;ve had slip around in my hands).
+In terms of setup, it still disappoints me that +Android doesn&amp;rsquo;t show the MAC address when you set up WiFi for the first time.</description>
+    </item>
+    
+    <item>
+      <title>Focusing on my role at OUYA</title>
+      <link>/post/focusing-on-my-role-at-ouya/</link>
+      <pubDate>Sun, 28 Oct 2012 12:11:59 +0000</pubDate>
+      
+      <guid>/post/focusing-on-my-role-at-ouya/</guid>
+      <description>Closing down my other projects. My role at +OUYA is going to be full time so there&amp;rsquo;ll be little to no time to do anything else.</description>
+    </item>
+    
+    <item>
+      <title>Updates to Android Devices</title>
+      <link>/post/updates-to-android-devices/</link>
+      <pubDate>Tue, 09 Oct 2012 09:14:28 +0000</pubDate>
+      
+      <guid>/post/updates-to-android-devices/</guid>
+      <description>At #io12 +Hugo Barra announced the new Android Platform Development Kit. The PDK was described as helping hardware developers port Jelly Bean to their devices and was said to be available &amp;ldquo;two to three months before the platform release date&amp;rdquo;, and that selected hardware partners had been given access to the JB PDK a few weeks before #io12 (around the 30min mark in the video below).
+Personally I felt it was this years attempt to reassure users their devices would get updates after last years attempt (The 18 month update guarantee) failed so miserably.</description>
+    </item>
+    
+    <item>
+      <title>Android Tablets</title>
+      <link>/post/android-tablets/</link>
+      <pubDate>Fri, 07 Sep 2012 08:34:07 +0000</pubDate>
+      
+      <guid>/post/android-tablets/</guid>
+      <description>One phrase from last nights +Amazon.com Kindle launch makes me think they&amp;rsquo;re going to take over the #Android tablet space and have big consumer support;
+&amp;ldquo;&amp;hellip;people don&amp;rsquo;t want gadgets anymore. They want services that improve over time. They want services that improve every day, every week, and every month.&amp;rdquo;
+This has been true for a long time. Consumers buy devices from washing machines to TVs because they want it to do something, not because it has the lastest bit of technology from the manufacturer.</description>
+    </item>
+    
+    <item>
+      <title>Crowd Funding</title>
+      <link>/post/crowd-funding/</link>
+      <pubDate>Fri, 31 Aug 2012 09:23:39 +0000</pubDate>
+      
+      <guid>/post/crowd-funding/</guid>
+      <description>This is the P&amp;amp;L; for Diaspora, a project which raised two hundred thousand dollars on Kickstarter (http://goo.gl/Yf3Pi) and has now decided to turn it over &amp;ldquo;to the community&amp;rdquo; (http://goo.gl/yH9W9) (read; all the money has gone, they&amp;rsquo;ve not managed to create any revenue streams, and they&amp;rsquo;re not putting any money in to keep it going).
+Looking over the figures a couple of things jump out at me;
+  The only income is the Kickstarter money.</description>
+    </item>
+    
+    <item>
+      <title>ICS SMS Rate Limit</title>
+      <link>/post/ics-sms-rate-limit/</link>
+      <pubDate>Fri, 24 Aug 2012 09:28:06 +0000</pubDate>
+      
+      <guid>/post/ics-sms-rate-limit/</guid>
+      <description>One of the changes in #IceCreamSandwich was the introduction of a lower SMS usage monitor rate which restricts how many SMSes can be sent by any application in a given time.
+My guess would be that the aim is to prevent malicious apps sending huge amounts of SMSes to premium rate numbers, but unfortunately some users seem to be hitting the limit with the default SMS messaging app (https://groups.google.com/d/msg/android-discuss/bsDO0jQVdTI/Ns7oaTCcIa8J), and it&amp;rsquo;s possible developers may see users complaining about this if their apps rely on SMS usage and are heavily used, so I thought it&amp;rsquo;s worth letting people what the limits are in case people ask them.</description>
+    </item>
+    
+    <item>
+      <title>The Galaxy S3 has Multi-Window management code on it</title>
+      <link>/post/the-galaxy-s3-has-multi-window-management-code-on-it/</link>
+      <pubDate>Fri, 17 Aug 2012 12:04:17 +0000</pubDate>
+      
+      <guid>/post/the-galaxy-s3-has-multi-window-management-code-on-it/</guid>
+      <description>TL;DR: Implementing it in your apps is more hassle than it&amp;rsquo;s worth.
+To answer the most common question; Yes, the two apps on one screen functionality of the Galaxy Note 10.1 is limited to a few apps. All of them ship with the device.
+The code to support multi-window mode is baked into the core Android framework on the device (so much so that the classes are in the framework library odex), which means that it could be submitted to the #AOSP to become part of Androids core functionality.</description>
+    </item>
+    
+    <item>
+      <title>Adobe Flash</title>
+      <link>/post/adobe-flash/</link>
+      <pubDate>Fri, 17 Aug 2012 08:46:15 +0000</pubDate>
+      
+      <guid>/post/adobe-flash/</guid>
+      <description>After a comment on a previous post from +George Medve on Flash I though it best to share my take on it. I&amp;rsquo;m doing this as a post because it&amp;rsquo;s probably of interest to some people who wouldn&amp;rsquo;t read the comments on the other post;
+In terms of Flashes security, I think this article says it all. 2 days ago Adobe were patching a bug which could crash machines and/or allow remote users to take control.</description>
+    </item>
+    
+    <item>
+      <title>OUYA doesn&#39;t need to be pure Android</title>
+      <link>/post/ouya-doesnt-need-to-be-pure-android/</link>
+      <pubDate>Mon, 16 Jul 2012 20:44:26 +0000</pubDate>
+      
+      <guid>/post/ouya-doesnt-need-to-be-pure-android/</guid>
+      <description>The #Ouya Kickstarter has nearly crossed the US$5million mark.
+I&amp;rsquo;ve read all the negative press, a lot of which was written before this weekends Android XBMC posts by +Kieran Gutteridge and +Jason Parker.
+If you bear in mind that Apple apparently sold more than 2.7 million Apple TVs&#39; in the first half of this year (http://goo.gl/K9ldI), a US$99 XBMC capable device which has the ability to run apps and games as well seems to me to have a good chance of being a success.</description>
+    </item>
+    
+    <item>
+      <title>Building Android JellyBean on OS X</title>
+      <link>/post/building-android-jellybean-on-os-x/</link>
+      <pubDate>Wed, 11 Jul 2012 12:25:50 +0000</pubDate>
+      
+      <guid>/post/building-android-jellybean-on-os-x/</guid>
+      <description>Building AOSP JB on OS X 10.7 with XCode 4 takes just a little tweak to your build. Instead of running just make you need to run;
+make CC=&amp;ldquo;gcc&amp;rdquo; CXX=&amp;ldquo;g++&amp;rdquo;
+Which will allow the build to complete.</description>
+    </item>
+    
+    <item>
+      <title>Experimenting with the Nexus Q</title>
+      <link>/post/experimenting-with-the-nexus-q/</link>
+      <pubDate>Fri, 06 Jul 2012 12:14:29 +0000</pubDate>
+      
+      <guid>/post/experimenting-with-the-nexus-q/</guid>
+      <description>It&amp;rsquo;s always fun when you can pull the birds on a new device :)
+Hopefully my posts messing around with the NexusQ have shown you that it is just an #Android device and that most apps would work on it with little to no effort as long as they don&amp;rsquo;t require things like a camera or multi-touch input. If the Q were combined with a simple control system (e.g. an app on the phone which worked as a touchpad for the Q) you&amp;rsquo;d have yourself, in my opinion, one of the best Android living room experiences currently available.</description>
+    </item>
+    
+    <item>
+      <title>Nexus Q ideas</title>
+      <link>/post/nexus-q-ideas/</link>
+      <pubDate>Thu, 28 Jun 2012 09:19:41 +0000</pubDate>
+      
+      <guid>/post/nexus-q-ideas/</guid>
+      <description>After chatting with +Billy Rutledge yesterday I&amp;rsquo;ve got a few ideas spinning for how people could use the #NexusQ so I thought I&amp;rsquo;d put them out there as they seem to revolve around one theme; The Q as a hub device.
+Multiplayer gaming could use it as the server/co-ordinator for multiple devices running on the same WiFi network so that no-ones individual device needs to be nominated as the primary device (and take the processing hit), and any peer-to-peer co-ordination alogrithms could be offloaded onto the Q creating a star topology instead of a mesh, which tends to be more efficient.</description>
+    </item>
+    
+    <item>
+      <title>Android on Google Glass</title>
+      <link>/post/android-on-google-glass/</link>
+      <pubDate>Thu, 28 Jun 2012 08:42:34 +0000</pubDate>
+      
+      <guid>/post/android-on-google-glass/</guid>
+      <description>Did I mentioned I was told yesterday that Googlers already have some +Android apps running on +Project Glass?
+I had an OMG moment when I was told that, then I remembered +Sergey Brin&amp;rsquo;s &amp;ldquo;US-only&amp;rdquo; statement, and once again I felt like a mug spending over US$2500 in flights, hotel costs, and the ticket, and, over the course of IO, spending over 21 hours on a plane for a round trip and spending a week away from my office.</description>
+    </item>
+    
+    <item>
+      <title>Android Launchers</title>
+      <link>/post/android-launchers/</link>
+      <pubDate>Tue, 19 Jun 2012 08:37:57 +0000</pubDate>
+      
+      <guid>/post/android-launchers/</guid>
+      <description>Sometimes you have to put your money where your mouth is&amp;hellip;.
+Not so long ago I mentioned that writing a home screen / launcher app which changed with the environment around you wasn&amp;rsquo;t something I thought would be too hard and certainly wasn&amp;rsquo;t something I thought would take tens of thousands of dollars to write.
+I had some spare time, so to back this up I&amp;rsquo;ve put together a quick and dirty prototype for +Android 4.</description>
+    </item>
+    
+    <item>
+      <title>Android ICS Roll-out</title>
+      <link>/post/android-ics-roll-out/</link>
+      <pubDate>Fri, 18 May 2012 08:45:08 +0000</pubDate>
+      
+      <guid>/post/android-ics-roll-out/</guid>
+      <description>t&amp;rsquo;s now over 6 months (OK, 6 months and 1 day) since the #GalaxyNexus was launched in the UK.
+Even if the Android release cycle was stretched out to one release every 12 months that means we&amp;rsquo;re half way through a release cycle and currently the installed base is around 5% of devices.
+5%, or 1 in 20 devices, is a small percentage of the market. To put this in context developers could extend the appeal of their apps to more end users by translating English apps into Korean than by adding ICS features.</description>
+    </item>
+    
+    <item>
+      <title>Buying Nexus Devices through the Play Store</title>
+      <link>/post/buying-nexus-devices-through-the-play-store/</link>
+      <pubDate>Wed, 16 May 2012 08:29:04 +0000</pubDate>
+      
+      <guid>/post/buying-nexus-devices-through-the-play-store/</guid>
+      <description>Seems to be the day for rumours about Google selling the next range of Nexus devices through the +Google Play store.
+Given that currently you can only buy the Galaxy Nexus in the US via the Play Store I personally don&amp;rsquo;t see this is a good route to take. I know a lot of non-US developers were pretty pi**ed off when they found out that only the US Xoom was a Google Experience device, and the non-US Xoom has suffered severe OS update lag since.</description>
+    </item>
+    
+    <item>
+      <title>HTC One V</title>
+      <link>/post/htc-one-v/</link>
+      <pubDate>Fri, 04 May 2012 12:07:48 +0000</pubDate>
+      
+      <guid>/post/htc-one-v/</guid>
+      <description>I really wanted to like the +HTC One V. It had all the makings of the &amp;lsquo;phone I&amp;rsquo;ve been waiting for; A sub 4&amp;quot; screen with Ice Cream Sandwich, and then I played with it.
+Sense combined with physical buttons made me feel like I wasn&amp;rsquo;t gaining anything over Gingerbread. The UI felt a little clunky. And the chin&amp;hellip; I&amp;rsquo;ve never been a fan of HTCs chin-&amp;lsquo;phones, and I&amp;rsquo;m still not.</description>
+    </item>
+    
+    <item>
+      <title>Tracking down AOSP Build Bugs</title>
+      <link>/post/tracking-down-aosp-build-bugs/</link>
+      <pubDate>Wed, 04 Apr 2012 12:18:54 +0000</pubDate>
+      
+      <guid>/post/tracking-down-aosp-build-bugs/</guid>
+      <description>I&amp;rsquo;ve been asked how I tracked down an AOSP build issue on OS X (http://goo.gl/J9mOL), so I thought it might be worth putting the process up here so others can get an idea of whats involved;
+ I picked the first error which was stopping the build. With a build problem there may be many error messages, but by focusing on them one at a time in the order they occur you can find that fixing an early build fail also fixes several later ones and so you don&amp;rsquo;t end up wasting time fixing things which are symptoms of a problem rather than the cause.</description>
+    </item>
+    
+    <item>
+      <title>Current state of building the AOSP on OS X</title>
+      <link>/post/current-state-of-building-the-aosp-on-os-x/</link>
+      <pubDate>Wed, 04 Apr 2012 09:29:13 +0000</pubDate>
+      
+      <guid>/post/current-state-of-building-the-aosp-on-os-x/</guid>
+      <description>I&amp;rsquo;ve been asked how I tracked down an AOSP build issue on OS X (http://goo.gl/J9mOL), so I thought it might be worth putting the process up here so others can get an idea of whats involved;
+ I picked the first error which was stopping the build. With a build problem there may be many error messages, but if you focus on them one at a time in order you often find that fixes to early build problems also fix later ones and so you don&amp;rsquo;t end up wasting time fixing things which are only symptoms of a problem.</description>
+    </item>
+    
+    <item>
+      <title>&#34;Mobile&#34; Computing</title>
+      <link>/post/mobile-computing/</link>
+      <pubDate>Tue, 07 Feb 2012 09:20:51 +0000</pubDate>
+      
+      <guid>/post/mobile-computing/</guid>
+      <description>After spending 3 weeks not having a house (due to legal delays during the purchase) I should be reunited with all my tech this weekend in the new house, so I thought it might be worth reflecting on some of the changes made to accommodate life on the road.
+My normal tech set-up included a hefty Mac Pro (8 cores, 32GB of RAM), a Subversion server, multiple Time Capsules (one per machine I have), so it&amp;rsquo;s just not practical to take all of that on the road.</description>
+    </item>
+    
+    <item>
+      <title>AppsLib distributing without permission</title>
+      <link>/post/appslib-distributing-without-permission/</link>
+      <pubDate>Wed, 01 Feb 2012 12:24:24 +0000</pubDate>
+      
+      <guid>/post/appslib-distributing-without-permission/</guid>
+      <description>Today I found out that the AppsLib Android application directory is distributing one of my companies apps against our wishes.
+They&amp;rsquo;ve provided no method for removing the app, no method for closing the account they&amp;rsquo;ve created under our name, and I suspect that we&amp;rsquo;re not the only company they&amp;rsquo;ve done this to. The email address for the account is our support email address, but we&amp;rsquo;ve never received an account confirmation email or any indication it was being used in this way.</description>
+    </item>
+    
+    <item>
+      <title>Ice Cream Sandwich Ideas</title>
+      <link>/post/ice-cream-sandwich-ideas/</link>
+      <pubDate>Sun, 18 Dec 2011 12:06:51 +0000</pubDate>
+      
+      <guid>/post/ice-cream-sandwich-ideas/</guid>
+      <description>If been playing with the Xbox360 and its voice control using the Kinect and it&amp;rsquo;s sparked an idea in my head which I thought I&amp;rsquo;d post here for comments; What would people think if there was a setting in Android which took you straight into a voice control screen from an unlock?
+This would allow users to do things like unlock their device with facial recognition then speak to their phone to get it to do things like dialling home, sending texts, emailing, etc.</description>
+    </item>
+    
+    <item>
+      <title>iPhone testing wrap-up</title>
+      <link>/post/iphone-testing-wrap-up/</link>
+      <pubDate>Fri, 09 Dec 2011 09:15:52 +0000</pubDate>
+      
+      <guid>/post/iphone-testing-wrap-up/</guid>
+      <description>As you&amp;rsquo;ve probably guessed, I&amp;rsquo;m impressed with the iPhone. Given the tests I&amp;rsquo;ve been doing over the last week I can see why it is an aspirational device. Apps have a consistent feel and are wide ranging, the device is easily portable, it has a pretty decent camera, and it just comes together in a pretty simple to use package.
+I&amp;rsquo;m also pleasantly surprised by Lumia. It falls short in terms of the variety of apps available, but Windows Phone 7 is only a year or so away from it&amp;rsquo;s public launch, so that&amp;rsquo;s to be expected.</description>
+    </item>
+    
+    <item>
+      <title>I/O 2012</title>
+      <link>/post/io-2012/</link>
+      <pubDate>Tue, 29 Nov 2011 09:17:25 +0000</pubDate>
+      
+      <guid>/post/io-2012/</guid>
+      <description>I&amp;rsquo;d be interested to hear peoples thoughts on going to IO next year. Last year was the first year I went and, although it was a fantastic experience, I&amp;rsquo;m in two minds about going this year.
+Basically my thinking is;
+Sessions; Useful but streamed so I could see them anyway
+People; Largely thought provoking, but I could meet most of them at more local events.
+Giveaways; They have monetary value, but aren&amp;rsquo;t enough of a reason for me to go (I hardly use the giveaways from IO2011).</description>
+    </item>
+    
+    <item>
+      <title>A message for Android OEMs</title>
+      <link>/post/a-message-for-android-oems/</link>
+      <pubDate>Tue, 15 Nov 2011 08:39:53 +0000</pubDate>
+      
+      <guid>/post/a-message-for-android-oems/</guid>
+      <description>I know some of the people who follow me work for companies who make/brand/sell Android devices, so I&amp;rsquo;m going to put this out there and hope it&amp;rsquo;s useful to them.
+There are a number of developers (me included) who see the Nexus One as the pinnacle of current Android devices. It&amp;rsquo;s size, solid construction, and reliability made it a device we could carry knowing that it&amp;rsquo;d work when we need it.</description>
+    </item>
+    
+    <item>
+      <title>Some tips about the ICS emulator</title>
+      <link>/post/some-tips-about-the-ics-emulator/</link>
+      <pubDate>Wed, 02 Nov 2011 08:00:42 +0000</pubDate>
+      
+      <guid>/post/some-tips-about-the-ics-emulator/</guid>
+      <description>Some tips about the ICS emulator;
+  Don&amp;rsquo;t expect it to run well on any machine with less than 3GB of RAM. It can be done, but don&amp;rsquo;t rely on it :).
+  There is a list of know issues in the emulator at http://tools.android.com/knownissues (from @ediTLJ on twitter)
+  Increase the default RAM for your AVDs to 1024MB (yup, 1GB)
+  If the emulator has crashed try deleting the AVD you used.</description>
+    </item>
+    
+    <item>
+      <title>Android Ice Cream Sandwich</title>
+      <link>/post/android-ice-cream-sandwich/</link>
+      <pubDate>Mon, 10 Oct 2011 08:30:51 +0000</pubDate>
+      
+      <guid>/post/android-ice-cream-sandwich/</guid>
+      <description>Given the announcement due tomorrow I think we&amp;rsquo;re going to be looking at consumers being able to get their hands on an Ice Cream Sandwich device before developers have had a good chance to play with an SDK, which, just like the last time this happened, is pretty disappointing.
+There isn&amp;rsquo;t really anyone who wins from this because it creates a situation where consumers get their new shiny &amp;lsquo;phone only to find out that all the latest features are only supported by a few apps which are either preloaded (in the case of the G-apps), or they come across in Market by chance and are from a select few privileged developers.</description>
+    </item>
+    
+    <item>
+      <title>Android Developer Lab Summary</title>
+      <link>/post/android-developer-lab-summary/</link>
+      <pubDate>Mon, 03 Oct 2011 09:30:53 +0000</pubDate>
+      
+      <guid>/post/android-developer-lab-summary/</guid>
+      <description>Great Android Developer Lab in London, Good to talk to +Richard Hyndman +Nick Butcher and +Sparky Rhode . Main tips from the day;
+  Fragments are the future. If you&amp;rsquo;re writing new code use Fragments. If you don&amp;rsquo;t you&amp;rsquo;re doing it wrong.
+  Avoid showAsAction=&amp;ldquo;always&amp;rdquo;, Ice Cream Sandwich &amp;lsquo;phones can have small screens and so could be limited on space for options.
+  Most of the best apps come from teams with Developers and Designers on them.</description>
+    </item>
+    
+    <item>
+      <title>No Content Found</title>
+      <link>/post/1468/</link>
+      <pubDate>Fri, 05 Aug 2011 07:54:09 +0000</pubDate>
+      
+      <guid>/post/1468/</guid>
+      <description>Disheartened to admit that I&amp;rsquo;ve just had to recommend a current iPhone user upgrades to another iPhone instead of switching to Android.
+Reasons were;
+  They already know iOS, so little to no learning curve.
+  They&amp;rsquo;re a power user, not a &amp;ldquo;geek&amp;rdquo;, so availability of apps &amp;amp; media is probably more important than customisation. (There is no equivalent to iTunes for obtaining Movies, TV shows, and Music in one place on Android outside the US, and many main stream apps appear as iOS first releases in the UK)</description>
+    </item>
+    
+  </channel>
+</rss>

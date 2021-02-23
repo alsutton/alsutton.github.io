@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gphone on Al Sutton&#39;s Blog</title>
+    <link>/tags/gphone/</link>
+    <description>Recent content in gphone on Al Sutton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 22 Feb 2009 17:48:44 +0000</lastBuildDate><atom:link href="/tags/gphone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Market for Android Paid Apps launch = Fail</title>
+      <link>/post/google-market-for-android-paid-apps-launch-fail/</link>
+      <pubDate>Sun, 22 Feb 2009 17:48:44 +0000</pubDate>
+      
+      <guid>/post/google-market-for-android-paid-apps-launch-fail/</guid>
+      <description>Android developers have been waiting for the ability to list pay-for applications in Googles Market, but now most of them wish it had never arrived because the experience it&amp;rsquo;s giving users may just turn them off Android forever.
+The first joy is the &amp;ldquo;copy protection&amp;rdquo; offered by Google. Developers can turn this on for their apps but doing so can stop a the application running at all regardless of if it&amp;rsquo;s been copied.</description>
+    </item>
+    
+  </channel>
+</rss>

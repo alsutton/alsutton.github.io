@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xoom on Al Sutton&#39;s Blog</title>
+    <link>/tags/xoom/</link>
+    <description>Recent content in xoom on Al Sutton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 30 Dec 2010 14:02:00 +0000</lastBuildDate><atom:link href="/tags/xoom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi-Core Android 101</title>
+      <link>/post/multi-core-android-101/</link>
+      <pubDate>Thu, 30 Dec 2010 14:02:00 +0000</pubDate>
+      
+      <guid>/post/multi-core-android-101/</guid>
+      <description>Some of you may already be familiar with multi-core programming, so a lot of what I&amp;rsquo;m going to cover will be very familiar to you, but some Android developers may have never written for (or considered) how the multiple CPU cores available on CPUs such as Nvidias Tegra 2 chips (as rumoured to be in the Motorola Honeycomb Tablet) can improve the speed of their applications if the applications are written in a multi-core friendly manner.</description>
+    </item>
+    
+  </channel>
+</rss>

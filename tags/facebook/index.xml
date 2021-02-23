@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>facebook on Al Sutton&#39;s Blog</title>
+    <link>/tags/facebook/</link>
+    <description>Recent content in facebook on Al Sutton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 04 Aug 2010 07:35:08 +0000</lastBuildDate><atom:link href="/tags/facebook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android Facebook App; now with less tablet love</title>
+      <link>/post/android-facebook-app-now-with-less-tablet-love/</link>
+      <pubDate>Wed, 04 Aug 2010 07:35:08 +0000</pubDate>
+      
+      <guid>/post/android-facebook-app-now-with-less-tablet-love/</guid>
+      <description>A short while ago I posted about how many Android applications hadn&amp;rsquo;t allowed for tablets by assuming a direct correlation between screen density and screen resolution. I used the Android Facebook application as an example, and as they&amp;rsquo;ve just released an update I thought I should follow up the previous post and look at the changes they&amp;rsquo;ve made. Unfortunately it seems they&amp;rsquo;re heading in the wrong direction.
+The biggest backwards step is the removal of landscape mode.</description>
+    </item>
+    
+  </channel>
+</rss>

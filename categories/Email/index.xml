@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Email on Al Sutton&#39;s Blog</title>
+    <link>/categories/Email/</link>
+    <description>Recent content in Email on Al Sutton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 29 Jan 2006 13:24:57 +0000</lastBuildDate><atom:link href="/categories/Email/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why anti-spam black lists are bad.</title>
+      <link>/post/why-ant-spam-black-lists-are-bad/</link>
+      <pubDate>Sun, 29 Jan 2006 13:24:57 +0000</pubDate>
+      
+      <guid>/post/why-ant-spam-black-lists-are-bad/</guid>
+      <description>I want to make it clear that I&amp;rsquo;m not a spammer, I hate spam, and would like to find a way to banish it from the net for everyone, but black lists are just not going to make it happen, and here&amp;rsquo;s why&amp;hellip;.
+I&amp;rsquo;ve recently been looking into Email and the inevitable spam problem, and have found that IP address based anti-spam real time black lists (or RBLs) are probably doing more damage than good.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on Al Sutton&#39;s Blog</title>
+    <link>/categories/Technology/</link>
+    <description>Recent content in Technology on Al Sutton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 09 Dec 2011 12:29:55 +0000</lastBuildDate><atom:link href="/categories/Technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Galaxy Nexus -v- iPhone -v- Lumia 800</title>
+      <link>/post/galaxy-nexus-v-iphone-v-lumia-800/</link>
+      <pubDate>Fri, 09 Dec 2011 12:29:55 +0000</pubDate>
+      
+      <guid>/post/galaxy-nexus-v-iphone-v-lumia-800/</guid>
+      <description>Over the course of a week I compared the Lumia 800, iPhone, and Galaxy Nexus. The following are my opinions of each which I hope will be useful to other people thinking about buying a new smartphone;
+Size
+I&amp;rsquo;m going to say straight off that the Galaxy Nexus is too big to become my daily &amp;lsquo;phone. I thought it would be when the specs started floating around, and, having had it a while now and travelled a bit with it, I still think it&amp;rsquo;s true.</description>
+    </item>
+    
+    <item>
+      <title>Experiences of In-App Mobile Advertising</title>
+      <link>/post/experiences-of-in-app-mobile-advertising/</link>
+      <pubDate>Fri, 10 Jul 2009 08:06:21 +0000</pubDate>
+      
+      <guid>/post/experiences-of-in-app-mobile-advertising/</guid>
+      <description>With my companies Funky Expenses Android applicaion we have two versions; An ad-supported version and a pay-for ad-free version so that users can choose how they help to fund development (yes, we do get requests for a free ad-free version, but unfortunately that won&amp;rsquo;t keep the company afloat). The ad-free version is available from Google Market (which currently has the largest user base by a long way) and AndAppStore, and the pay for version is only available in Google Market.</description>
+    </item>
+    
+    <item>
+      <title>Google strangles Android on Netbooks before it gets going</title>
+      <link>/post/google-stranges-android-on-netbooks-before-it-gets-going/</link>
+      <pubDate>Wed, 08 Jul 2009 06:15:06 +0000</pubDate>
+      
+      <guid>/post/google-stranges-android-on-netbooks-before-it-gets-going/</guid>
+      <description>During my morning check of Twitter I came across this tweet from Google;
+&amp;ldquo;Introducing the #Google Chrome OS http://bit.ly/N1rNZ&amp;rdquo;
+Which started to raise some concerns. It had widely been predicted that we&amp;rsquo;d see Android making it&amp;rsquo;s way onto netbooks in the near future, but with this one announcement that idea has taken a huge knock backwards.
+The reason is simple; Androids design is primarily focused on touch screen devices, Chrome OS is focused on netbooks, and netbooks rarely (if ever) have a touch screen.</description>
+    </item>
+    
+    <item>
+      <title>Is the iPhone 3GS a rip-off in the UK?</title>
+      <link>/post/is-the-iphone-3gs-a-rip-off-in-the-uk/</link>
+      <pubDate>Tue, 09 Jun 2009 08:19:52 +0000</pubDate>
+      
+      <guid>/post/is-the-iphone-3gs-a-rip-off-in-the-uk/</guid>
+      <description>(If you want to tweet this please use the tag #O2iPhoneRipOff)
+Is it me or is the new O2 iPhone pricing policy looking like a bit of a rip-off?
+First off, there is the cost of the &amp;lsquo;phone. At Apples WWDC it was announced that in the US;
+3G 8GB goes from $199 to $99. 3GS 16GB to be $199 (same as old price for 3G 8GB) 3GS 32GB to be $299 (same as old price for 3G 16GB).</description>
+    </item>
+    
+    <item>
+      <title>Marking Apps on Googles Android Market</title>
+      <link>/post/marking-on-the-googles-android-market/</link>
+      <pubDate>Mon, 23 Mar 2009 07:50:37 +0000</pubDate>
+      
+      <guid>/post/marking-on-the-googles-android-market/</guid>
+      <description>There seems to be a lot of variation on how many stars people give an application on Googles Android Market. Some give 3 stars for an app they find hard to use, others give 1 star because the developer chose not to make the applications source code available (even though this doesn&amp;rsquo;t affect the application as delivered to the user).
+I&amp;rsquo;m trying to stick to the following marking scheme and would welcome comments and feedback as to any changes people think would make sense.</description>
+    </item>
+    
+    <item>
+      <title>Google Market for Android Paid Apps launch = Fail</title>
+      <link>/post/google-market-for-android-paid-apps-launch-fail/</link>
+      <pubDate>Sun, 22 Feb 2009 17:48:44 +0000</pubDate>
+      
+      <guid>/post/google-market-for-android-paid-apps-launch-fail/</guid>
+      <description>Android developers have been waiting for the ability to list pay-for applications in Googles Market, but now most of them wish it had never arrived because the experience it&amp;rsquo;s giving users may just turn them off Android forever.
+The first joy is the &amp;ldquo;copy protection&amp;rdquo; offered by Google. Developers can turn this on for their apps but doing so can stop a the application running at all regardless of if it&amp;rsquo;s been copied.</description>
+    </item>
+    
+    <item>
+      <title>Why I won&#39;t be buying the Android T-Mobile G1 phone</title>
+      <link>/post/why-i-wont-be-buying-the-android-t-mobile-g1-phone/</link>
+      <pubDate>Wed, 29 Oct 2008 09:39:49 +0000</pubDate>
+      
+      <guid>/post/why-i-wont-be-buying-the-android-t-mobile-g1-phone/</guid>
+      <description>After getting interested in Android after Mike Jennings talk, weeks of coding on AndAppStore.com, reading up on APIs, watching and getting involved with discussions on the Android developers and discussion mailing lists, and following various Android community sites to see if the G1 was the start of the Android revolution, I&amp;rsquo;ve decided that, for now, I&amp;rsquo;m not going to get an Android &amp;lsquo;phone, and here are the reasons why;
+The T-Mobile Deal (phone &amp;amp; contract)</description>
+    </item>
+    
+    <item>
+      <title>Same Scam... Different Audience</title>
+      <link>/post/same-scam-different-audience/</link>
+      <pubDate>Sun, 19 Oct 2008 15:23:08 +0000</pubDate>
+      
+      <guid>/post/same-scam-different-audience/</guid>
+      <description>I&amp;rsquo;ve recently been subscribed to the development and discussion mailing lists for Googles Android platform due to working on AndAppStore.com and recently an email posting caught my eye because it reminded me of a scam that I thought had long since passed.
+The scam works like this; A person or company comes along and says &amp;ldquo;Hey, you&amp;rsquo;re really talented, I&amp;rsquo;d love to sign you up so I can offer you some great projects to work on, and, of course, and you&amp;rsquo;ll get a share of the profits&amp;rdquo;, which is indeed a good offer.</description>
+    </item>
+    
+    <item>
+      <title>Where Googles Android may have already failed</title>
+      <link>/post/where-googles-android-may-have-already-failed/</link>
+      <pubDate>Tue, 14 Oct 2008 10:07:44 +0000</pubDate>
+      
+      <guid>/post/where-googles-android-may-have-already-failed/</guid>
+      <description>(Declaration of interest; I&amp;rsquo;m involved in AndAppStore.com which allows Android Applications developers to list Android applications and users to download them)
+Imagine this; You have a product you want to make available worldwide, but you need the help of others to make it popular. You start a worldwide PR campaign, you make a mock-up available so people become familiar with your product, you run a worldwide competition for people to come up with uses for your product, and then you announce launch dates in one country for one date, another for a month later, a few more next year, and, well everyone else, you&amp;rsquo;ll have to wait and see what happens.</description>
+    </item>
+    
+    <item>
+      <title>Leveraging the work of others</title>
+      <link>/post/leveraging-the-work-of-others/</link>
+      <pubDate>Thu, 29 May 2008 15:11:16 +0000</pubDate>
+      
+      <guid>/post/leveraging-the-work-of-others/</guid>
+      <description>Recently one of the darlings of Web 2.0 called Twitter has been suffering from growing pains which many attribute to issues coping with it&amp;rsquo;s own popularity.
+The guys at Twitter have been open and up-front about their problems, and one thing has come to light, they&amp;rsquo;ve failed to make full use of one of the greatest resources available in software development; Open Source Software.
+Twitter isn&amp;rsquo;t alone, many other startups are only making use of OSS at the most basic levels by using Linux, the apache web server, PostgreSQL or MySQL, and a language with a free implementation (such as PHP or Java), without looking further to utilising technologies such as Hibernate, ActiveMQ, and YUI.</description>
+    </item>
+    
+    <item>
+      <title>Additional bandwidth on Threes cellular broadband contract</title>
+      <link>/post/additional-bandwidth-on-threes-cellular-broadband-contract/</link>
+      <pubDate>Sun, 24 Feb 2008 13:13:29 +0000</pubDate>
+      
+      <guid>/post/additional-bandwidth-on-threes-cellular-broadband-contract/</guid>
+      <description>If, like me, you are on Threes cellular broadband package and you have a monthly allowance which you sometimes use up, you will have found that the only thing three will offer you is increasing your tariff and your allowance, which will only take effect after your next billing date.
+There is an alternative though, you can buy a simple pay as you go SIM, use it in your Three broadband modem, and pay 10, 15, or 25 pounds for a 1, 3, or 7 Gigabyte allowance.</description>
+    </item>
+    
+    <item>
+      <title>Threes&#39; &#34;upgrade&#34; to Turbo Broadband</title>
+      <link>/post/threes-upgrade-to-turbo-broadband/</link>
+      <pubDate>Thu, 07 Feb 2008 09:16:11 +0000</pubDate>
+      
+      <guid>/post/threes-upgrade-to-turbo-broadband/</guid>
+      <description>In the last few weeks the area I live in has received an &amp;ldquo;upgrade&amp;rdquo; to Threes&#39; Turbo broadband service from it&amp;rsquo;s normal 3G service. This is suppose to be a good thing because it would offer more speed, but alas reality is not what Three would have you beleive.
+Since the &amp;ldquo;upgrade&amp;rdquo; the connection has been unreliable to put it politely. The connection drops out at random intervals and this can be part of the way through downloading email, pulling up a web page, or anything.</description>
+    </item>
+    
+    <item>
+      <title>Wireless Broadband for a SOHO using a Huawei E220 and a router</title>
+      <link>/post/wireless-broadband-for-a-soho-using-an-huawei-e220-using-a-router/</link>
+      <pubDate>Tue, 08 Jan 2008 11:16:31 +0000</pubDate>
+      
+      <guid>/post/wireless-broadband-for-a-soho-using-an-huawei-e220-using-a-router/</guid>
+      <description>I&amp;rsquo;ve heard a few people are looking for a solution to using a cellular modem for their small or home office.
+The solution I&amp;rsquo;ve used is based on the Draytek Vigor 2800 and the Huawei E220 USB modem. The instructions on configuring these two can be found on Drayteks&#39; site at http://www.draytek.co.uk/support/kb_vigor_3g.html</description>
+    </item>
+    
+    <item>
+      <title>Cellular Broadband in the UK</title>
+      <link>/post/cellular-broadband-in-the-uk/</link>
+      <pubDate>Sun, 06 Jan 2008 18:03:50 +0000</pubDate>
+      
+      <guid>/post/cellular-broadband-in-the-uk/</guid>
+      <description>For the last couple of months I have been using a cellular broadband system instead of a standard ADSL line and I&amp;rsquo;ve got to say that I think describing as broadband is probably stretching the truth a little.
+I&amp;rsquo;ve been using a Huawei E220 on both the Three and Vodafone networks and the biggest problem I&amp;rsquo;ve seen is signal strength. I&amp;rsquo;m currently in a village with around 5,000 residents which is three miles from the Maidstone (the county town of Kent which has around 80,000 residents), so I&amp;rsquo;m not exactly in the sticks.</description>
+    </item>
+    
+  </channel>
+</rss>

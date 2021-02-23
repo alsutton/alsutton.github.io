@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on Al Sutton&#39;s Blog</title>
+    <link>/tags/Technology/</link>
+    <description>Recent content in Technology on Al Sutton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 29 Oct 2008 09:39:49 +0000</lastBuildDate><atom:link href="/tags/Technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I won&#39;t be buying the Android T-Mobile G1 phone</title>
+      <link>/post/why-i-wont-be-buying-the-android-t-mobile-g1-phone/</link>
+      <pubDate>Wed, 29 Oct 2008 09:39:49 +0000</pubDate>
+      
+      <guid>/post/why-i-wont-be-buying-the-android-t-mobile-g1-phone/</guid>
+      <description>After getting interested in Android after Mike Jennings talk, weeks of coding on AndAppStore.com, reading up on APIs, watching and getting involved with discussions on the Android developers and discussion mailing lists, and following various Android community sites to see if the G1 was the start of the Android revolution, I&amp;rsquo;ve decided that, for now, I&amp;rsquo;m not going to get an Android &amp;lsquo;phone, and here are the reasons why;
+The T-Mobile Deal (phone &amp;amp; contract)</description>
+    </item>
+    
+    <item>
+      <title>Google Android and Code Signing App Shops</title>
+      <link>/post/google-android-and-code-signing-app-shops/</link>
+      <pubDate>Wed, 17 Sep 2008 07:54:47 +0000</pubDate>
+      
+      <guid>/post/google-android-and-code-signing-app-shops/</guid>
+      <description>After listening to Mike Jennings excellent intro to Android presentation at the London Dev Day I floated an idea which seemed to have some traction so I thought I&amp;rsquo;d expand it out for those that are interested.
+The Problem
+There is currently no way for a user to judge how trustworthy an Android application is. A user can say what they will allow an application to do (such as dialling out, intercepting SMSs&#39;, etc.</description>
+    </item>
+    
+  </channel>
+</rss>
