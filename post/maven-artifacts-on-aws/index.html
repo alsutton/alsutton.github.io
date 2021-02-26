@@ -178,7 +178,7 @@ will vary between domain name registrars. If you want to keep everything in AWS 
 <p>Go to the <a href="https://s3.console.aws.amazon.com/s3/home">S3 control panel</a> and create a bucket with 
 either the domain name you want to serve your artifacts from, or, if you don&rsquo;t want to use a 
 custom domain name, a short name which will be the start of the URL you provide your libraries from.</p>
-<p>The AWS region you want to use is entirely up to you. I&rsquo;m in the UK so I use &ldquo;<code>EU (London) eu-west-2</code>&rdquo;
+<p>The AWS region you want to use is entirely up to you. I&rsquo;m in the UK, so I use &ldquo;<code>EU (London) eu-west-2</code>&rdquo;
 out of habit. If you think your library will appeal to folk in a certain area you might want to use
 a region close to where your users are (e.g. for a library focused on supporting the Hindi language, 
 you might want to use &ldquo;<code>Asia Pacific (Mumbai) ap-south-1</code>&rdquo; so downloads are slightly faster for users
@@ -247,7 +247,7 @@ artifacts in the right place.</p>
 <p>Getting the layout of the files is the most important thing to get right. If you
 get it wrong, your artifacts won&rsquo;t be found by any build tool.</p>
 <p>Fortunately it&rsquo;s easy to translate an artefact name into the correct layout; You
-need to create a nested set of folders with for each section of the &ldquo;group&rdquo; which has a dot
+need to create a nested set of folders with one for each section of the &ldquo;group&rdquo; which has a dot
 (<code>.</code>) between them, then another folder for the artefact name, then a final folder for the version,
 which is where you place your release files which we created below.</p>
 <p>For example, for <code>com.alsutton:java-cryptography-wrapper:1.0</code> all of the relevant
