@@ -146,7 +146,7 @@
                         <span class="date"> Thu, Feb 25, 2021 
                                            </span>
                         <em class="fas fa-stopwatch"></em>
-                        <span class="reading-time">8-minute read</span>
+                        <span class="reading-time">9-minute read</span>
                     </div>
                 
             </div>
@@ -172,25 +172,25 @@ absolutely necessary though, so if you&rsquo;re running through this post to see
 shouldn&rsquo;t feel the need to go and register a domain.</p>
 <p>If you already have a DNS domain registered you will need to be able to create a DNS <code>CNAME</code> 
 record. This is something your domain registrar should have instructions for, and the instructions
-will vary between domain name registrars. If you want to keep everything in AWS Amazon offer a
-service called <a href="https://aws.amazon.com/route53/">Route 53</a> which will do the job.</p>
+will vary between domain name registrars. If you want to keep everything in AWS you can use 
+<a href="https://aws.amazon.com/route53/">AWS Route 53</a> which will do the job.</p>
 <h2 id="setting-up-the-simple-storage-service-s3">Setting up the Simple Storage Service (S3)</h2>
 <p>Go to the <a href="https://s3.console.aws.amazon.com/s3/home">S3 control panel</a> and create a bucket with 
 either the domain name you want to serve your artifacts from, or, if you don&rsquo;t want to use a 
-custom domain name, a short name which you want to use.</p>
-<p>The AWS region you want to use is entirely up to you. I&rsquo;m in the UK so I use <code>EU (London) eu-west-2</code>
+custom domain name, a short name which will be the start of the URL you provide your libraries from.</p>
+<p>The AWS region you want to use is entirely up to you. I&rsquo;m in the UK so I use &ldquo;<code>EU (London) eu-west-2</code>&rdquo;
 out of habit. If you think your library will appeal to folk in a certain area you might want to use
 a region close to where your users are (e.g. for a library focused on supporting the Hindi language, 
-you might want to use <code>Asia Pacific (Mumbai) ap-south-1</code> so downloads are slightly faster for users
+you might want to use &ldquo;<code>Asia Pacific (Mumbai) ap-south-1</code>&rdquo; so downloads are slightly faster for users
 in India).</p>
-<p>You should make sure you turn <em>off</em> &ldquo;Block Public Access settings for bucket&rdquo;. You want your artifacts
-to be available publicly, and this setting prevents that, so it will need to be switched off. You will
+<p>You should make sure you turn off &ldquo;Block Public Access settings for bucket&rdquo;. You want your artifacts
+to be available publicly, and this setting prevents that, so it needs to be switched off. You will
 need to click the acknowledgement box to confirm that you want to be able to make things uploaded
-to your bucket public.</p>
+to your bucket available to the general public.</p>
 <p><img src="/images/2021-02-26-s3-block-public-access.jpg" alt="S3 Creations with Public Access Off"></p>
 <p>You can then scroll to the bottom of the page and click &ldquo;Create Bucket&rdquo; to create the bucket.</p>
 <h2 id="turn-on-static-website-hosting">Turn on &ldquo;Static website hosting&rdquo;</h2>
-<p>After the bucket has been created you&rsquo;ll need to turn on &ldquo;Static&rdquo;. You can do this by
+<p>After the bucket has been created you&rsquo;ll need to turn on &ldquo;Static website hosting&rdquo;. You can do this by
 clicking on the bucket in the bucket list in the S3 control console, then clicking on 
 the &ldquo;Properties&rdquo; option;</p>
 <p><img src="/images/2021-02-25-s3-bucket-properties.jpg" alt="S3 Bucket Properties Screenshot"></p>
@@ -206,6 +206,8 @@ confirm that static hosting is now turned on for the bucket, and you&rsquo;ll fi
 URL which S3&rsquo;s web serving is serving your bucket under (for this example it&rsquo;s
 <code>http://test-maven.alsutton.com.s3-website.eu-west-2.amazonaws.com</code>).</p>
 <p><img src="/images/2021-02-26-s3-static-hosting-on.jpg" alt="S3 Static Hosting On Screenshot"></p>
+<p>If you&rsquo;ve decided not to use a custom domain this is the URL you&rsquo;ll give folk
+who want to use your library.</p>
 <h2 id="custom-domain-update">Custom Domain Update</h2>
 <p>If you&rsquo;ve chosen to use a custom domain, this is where you need to go to your
 DNS registrar and create the <code>CNAME</code> mentioned earlier. Your <code>CNAME</code> will map
@@ -214,8 +216,8 @@ at the end of the last section.</p>
 <p>For the example domain above (<code>test-maven.alsutton.com</code>) I would create a <code>CNAME</code>
 record which points to <code>test-maven.alsutton.com.s3-website.eu-west-2.amazonaws.com</code>.</p>
 <p><img src="/images/2021-02-26-domain-cname.jpg" alt="CNAME Creation Screenshot"></p>
-<p><em>Warning:</em> The Domain Name Service (DNS) caches both good and failed lookups. When
-you create your entry it may be some time before everyone in the world can see it,
+<p><em>Warning:</em> The Domain Name System (DNS) caches both successful and failed look-ups. When
+you create your <code>CNAME</code> it may be some time before everyone in the world can see it,
 and, similarly, if you update the <code>CNAME</code> the change make take a while to propagate,
 so don&rsquo;t be surprised if you can&rsquo;t use your custom domain immediately. It&rsquo;s a good
 idea to allow a day or two between setting everything up and letting folk know about
@@ -233,17 +235,22 @@ the <code>index.html</code> file you&rsquo;ve just uploaded, then select &ldquo;
 &ldquo;Object Actions&rdquo; menu, then confirm your choice by clicking the &ldquo;Make Public&rdquo; 
 button.</p>
 <p><img src="/images/2021-02-26-s3-object-make-public.jpg" alt="S3 Make Public Screenshot"></p>
-<p>You should be able to access your test page using the URL <code>http://{your domain}/index.html</code>.</p>
+<p>If the DNS <code>CNAME</code> has propagated to your local DNS servers you should be 
+able to access your test page using the URL <code>http://{your domain}/index.html</code>. If
+you get an error saying the domain does not exist the <code>CNAME</code> creation may not
+have reached your servers yet, and if you get an error starting 40 (usually 404
+or 403) it means that you should check you made the index.html public in the S3
+control panel.</p>
 <p>Once you&rsquo;ve completed all these steps you can move on to uploading your
 artifacts in the right place.</p>
 <h2 id="folder-layout">Folder Layout</h2>
 <p>Getting the layout of the files is the most important thing to get right. If you
 get it wrong, your artifacts won&rsquo;t be found by any build tool.</p>
 <p>Fortunately it&rsquo;s easy to translate an artefact name into the correct layout; You
-need to create a nested folder for each section of the group which has a dot
-(<code>.</code>) between them, then another for the artefact name, then another for the version,
-and you place your files inside that.</p>
-<p>So, for example, for <code>com.alsutton:java-cryptography-wrapper:1.0</code> all of the relevant
+need to create a nested set of folders with for each section of the &ldquo;group&rdquo; which has a dot
+(<code>.</code>) between them, then another folder for the artefact name, then a final folder for the version,
+which is where you place your release files which we created below.</p>
+<p>For example, for <code>com.alsutton:java-cryptography-wrapper:1.0</code> all of the relevant
 files go in <code>com/alsutton/java-cryptography-wrapper/1.0/</code>. For <code>com.alsutton:java-cryptography-wrapper:1.1</code>
 they would go in <code>com/alsutton/java-cryptography-wrapper/1.1/</code> and so on.</p>
 <p>Inside Amazons S3 control panel you can create each folder using the &ldquo;Create Folder&rdquo; button,
@@ -251,14 +258,14 @@ and when you&rsquo;ve created the right structure you should see something like 
 <p><img src="/images/2021-02-26-s3-bucket-directories.jpg" alt="S3 Console Screenshot"></p>
 <h2 id="creating-the-files-to-upload">Creating the files to upload</h2>
 <p>If you&rsquo;re using Gradle you can make use of the <a href="https://docs.gradle.org/current/userguide/publishing_maven.html">Maven Publishing Plugin</a>
-to create the files you need. If you&rsquo;re unsure of how to configure the plugin you can use the 
+to create the files you need to make available. If you&rsquo;re unsure of how to configure the plugin you can use the 
 <a href="https://github.com/alsutton/java-cryptography-wrapper/commit/0b97be4d61517bb6a3a342b88cbf688f8a1f3017">configuration from one of my projects</a>
 as a template.</p>
 <p>With the Gradle Maven Publishing Plugin configured you should now be able to create the maven artifacts
 locally by running the following command;</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gradlew publishToMavenLocal 
 </code></pre></div><p>This will create a set of files in a local folder which is usually inside &ldquo;{your_home_directory}/.m2/repository/&rdquo;
-and, from there, follows the same layout we created in the section above.</p>
+and, from there, follows the same folder layout we created in the section above (e.g. <code>com/alsutton/java-cryptography-wrapper/1.0</code>).</p>
 <h2 id="uploading-the-files">Uploading the files</h2>
 <p>Now you&rsquo;ve found your files you will need to upload them to your S3 bucket and make them public in the same way we 
 uploaded the index.html file for our earlier test. You will need to make sure that these files 
@@ -268,7 +275,7 @@ are missing, or aren&rsquo;t public, users will see errors such as being told th
 folder above the three important files. When you publish locally you will get a folder called <code>maven-metadata-local.xml</code>,
 you will need to rename this <code>maven-metadata.xml</code> before uploading it to the same location that it&rsquo;s in on your local 
 machine (so in the <code>artefact_name</code> folder, not in <code>artefact_name/1.0</code>).</p>
-<h2 id="making-the-repository-available">Making the repository available</h2>
+<h2 id="using-your-new-repository">Using your new repository</h2>
 <p>Congratulations, your library is now available!</p>
 <p>If you&rsquo;re targetting folk who use gradle they will need to add in your repository to their builds. They can do this
 by adding the following to their gradle build files;</p>
