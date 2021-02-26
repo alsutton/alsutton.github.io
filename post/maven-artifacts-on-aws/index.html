@@ -201,8 +201,8 @@ value to &ldquo;Enabled&rdquo;, leave the &ldquo;Hosting Type&rdquo; option set 
 enter <code>index.html</code> in the box titled &ldquo;Index Document&rdquo;, and then click &ldquo;Save Changes&rdquo;</p>
 <p><img src="/images/2021-02-26-s3-static-hosting-edit.jpg" alt="S3 Static Hosting Screenshot"></p>
 <p>Once you&rsquo;ve done this you can scroll to the bottom of the bucket properties to
-confirm that static hosting is now turned on for the bucket. This also where 
-you&rsquo;ll  find the URL which S3&rsquo;s web serving service has associated with your 
+confirm that static hosting is now turned on for the bucket. This is also where 
+you&rsquo;ll find the URL which S3&rsquo;s web serving service has associated with your 
 bucket (for this example it&rsquo;s
 <code>http://test-maven.alsutton.com.s3-website.eu-west-2.amazonaws.com</code>).</p>
 <p><img src="/images/2021-02-26-s3-static-hosting-on.jpg" alt="S3 Static Hosting On Screenshot"></p>
@@ -223,7 +223,7 @@ so don&rsquo;t be surprised if you can&rsquo;t use your custom domain immediatel
 idea to allow a day or two between setting everything up and letting folk know about
 the domain.</p>
 <h2 id="a-quick-test">A quick test</h2>
-<p>We can test to see if our S3 backed serving is working by uploading a simple
+<p>We can test to see if our S3 backed web serving is working by uploading a simple
 HTML index page and trying to access it. You can create an <code>index.html</code> file
 which contains <code>&lt;html&gt;&lt;body&gt;&lt;H1&gt;IT WORKED!!!!!!!!&lt;/H1&gt;&lt;/body&gt;&lt;/html&gt;</code>, and
 use the <a href="https://s3.console.aws.amazon.com/s3/home">S3 control panel</a> to
