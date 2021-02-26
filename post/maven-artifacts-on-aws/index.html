@@ -186,11 +186,11 @@ in India).</p>
 <p>You should make sure you turn off &ldquo;Block Public Access settings for bucket&rdquo;. You want your artifacts
 to be available publicly, and this setting prevents that, so it needs to be switched off. You will
 need to click the acknowledgement box to confirm that you want to be able to make things uploaded
-to your bucket available to the general public.</p>
+to your bucket available to everyone.</p>
 <p><img src="/images/2021-02-26-s3-block-public-access.jpg" alt="S3 Creations with Public Access Off"></p>
 <p>You can then scroll to the bottom of the page and click &ldquo;Create Bucket&rdquo; to create the bucket.</p>
 <h2 id="turn-on-static-website-hosting">Turn on &ldquo;Static website hosting&rdquo;</h2>
-<p>After the bucket has been created you&rsquo;ll need to turn on &ldquo;Static website hosting&rdquo;. You can do this by
+<p>The bucket has been created you&rsquo;ll need to turn on &ldquo;Static website hosting&rdquo;. You can do this by
 clicking on the bucket in the bucket list in the S3 control console, then clicking on 
 the &ldquo;Properties&rdquo; option;</p>
 <p><img src="/images/2021-02-25-s3-bucket-properties.jpg" alt="S3 Bucket Properties Screenshot"></p>
@@ -227,9 +227,9 @@ the domain.</p>
 HTML index page and trying to access it. You can create an <code>index.html</code> file
 which contains <code>&lt;html&gt;&lt;body&gt;&lt;H1&gt;IT WORKED!!!!!!!!&lt;/H1&gt;&lt;/body&gt;&lt;/html&gt;</code>, and
 use the <a href="https://s3.console.aws.amazon.com/s3/home">S3 control panel</a> to
-upload it to your bucket (Click on the bucket name, then click on upload,
-and follow the instructions).</p>
-<p>After uploading the file you will need to make it public. The S3 control panel
+upload it to your bucket (Click on the bucket name, then click on the &ldquo;upload&rdquo;
+button and follow the instructions).</p>
+<p>You now need to make the file available to everyone. The S3 control panel
 is a bit clumsy when it comes to editing permissions, so you&rsquo;ll need to click on
 the <code>index.html</code> file you&rsquo;ve just uploaded, then select &ldquo;Make Public&rdquo; from the 
 &ldquo;Object Actions&rdquo; menu, then confirm your choice by clicking the &ldquo;Make Public&rdquo; 
@@ -241,15 +241,13 @@ you get an error saying the domain does not exist the <code>CNAME</code> creatio
 have reached your servers yet, and if you get an error starting 40 (usually 404
 or 403) it means that you should check you made the index.html public in the S3
 control panel.</p>
-<p>Once you&rsquo;ve completed all these steps you can move on to uploading your
-artifacts in the right place.</p>
 <h2 id="folder-layout">Folder Layout</h2>
 <p>Getting the layout of the files is the most important thing to get right. If you
 get it wrong, your artifacts won&rsquo;t be found by any build tool.</p>
 <p>Fortunately it&rsquo;s easy to translate an artefact name into the correct layout; You
 need to create a nested set of folders with one for each section of the &ldquo;group&rdquo; which has a dot
 (<code>.</code>) between them, then another folder for the artefact name, then a final folder for the version,
-which is where you place your release files which we created below.</p>
+which is where you place your release files which we&rsquo;ll create below.</p>
 <p>For example, for <code>com.alsutton:java-cryptography-wrapper:1.0</code> all of the relevant
 files go in <code>com/alsutton/java-cryptography-wrapper/1.0/</code>. For <code>com.alsutton:java-cryptography-wrapper:1.1</code>
 they would go in <code>com/alsutton/java-cryptography-wrapper/1.1/</code> and so on.</p>
@@ -271,20 +269,20 @@ and, from there, follows the same folder layout we created in the section above 
 uploaded the index.html file for our earlier test. You will need to make sure that these files 
 (.module, .pom, etc.) are uploaded and public for other people to be able to find your library. If any of these
 are missing, or aren&rsquo;t public, users will see errors such as being told there was a &ldquo;403 error&rdquo; fetching your library.</p>
-<p>To make things easier for users you should also upload and make public the maven metadata file that&rsquo;s availble one
+<p>To make things easier for users you should also upload and make public the maven metadata file that&rsquo;s available one
 folder above the three important files. When you publish locally you will get a folder called <code>maven-metadata-local.xml</code>,
 you will need to rename this <code>maven-metadata.xml</code> before uploading it to the same location that it&rsquo;s in on your local 
 machine (so in the <code>artefact_name</code> folder, not in <code>artefact_name/1.0</code>).</p>
 <h2 id="using-your-new-repository">Using your new repository</h2>
 <p>Congratulations, your library is now available!</p>
-<p>If you&rsquo;re targetting folk who use gradle they will need to add in your repository to their builds. They can do this
+<p>If you&rsquo;re targeting folk who use gradle they will need to add in your repository to their builds. They can do this
 by adding the following to their gradle build files;</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin">repositories {
     maven {
         url = uri(<span style="color:#e6db74">&#34;http://{your_domain}/&#34;</span>)
     }
 }
-</code></pre></div><p>and then they can reference your library using gradle&rsquo;s normal dependency declaration (e.g., for the artefact
+</code></pre></div><p>They can now reference your library using gradle&rsquo;s normal dependency declaration (e.g., for the artefact
 in the &ldquo;Folder Layout&rdquo; section, they would add <code>implementation(&quot;com.alsutton:java-cryptography-wrapper:1.0&quot;)</code>).</p>
 <h2 id="optional-going-next-level---content-delivery-network-and-https">(optional) Going Next Level - Content Delivery Network and HTTPS</h2>
 <p>So far what we have will only serve artifacts via http, and so could be susceptible to a 
