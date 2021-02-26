@@ -6,7 +6,16 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 19 Feb 2019 16:45:54 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Feb 2021 10:45:54 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hosting build artefacts on AWS</title>
+      <link>/post/maven-artefacts-on-aws/</link>
+      <pubDate>Thu, 25 Feb 2021 10:45:54 +0000</pubDate>
+      
+      <guid>/post/maven-artefacts-on-aws/</guid>
+      <description>Hosting build artefacts on Amazon Web Services With JCenter closing down folks are looking at alternative places to host their build artefacts, and AWS can easily meet that need. AWS isn&amp;rsquo;t the only platform capable of hosting Maven artefacts, any hosting provide can do it, but AWS has the ability to scale to high levels and offers a free tier which means that you can get started very cheaply and, if your libraries are really successful, you don&amp;rsquo;t need to revisit the set-up unless you want to.</description>
+    </item>
+    
     <item>
       <title>Ideas for a healthier engineering environment</title>
       <link>/post/healthy-engineering/</link>
@@ -616,13 +625,12 @@ Reason; Twitter, due to its&#39; 140 character limit, is easy to scan.</descript
     </item>
     
     <item>
-      <title>Why I recommended an iPhone.....</title>
+      <title>Why I recommended an iPhone</title>
       <link>/post/why-i-recommended-an-iphone/</link>
       <pubDate>Thu, 25 Aug 2011 06:30:14 +0000</pubDate>
       
       <guid>/post/why-i-recommended-an-iphone/</guid>
-      <description>[Imported from Google+]
-I&amp;rsquo;m disheartened to admit that I&amp;rsquo;ve just had to recommend a current iPhone user upgrades to another iPhone instead of switching to Android.
+      <description>Why I recommended an iPhone I&amp;rsquo;m disheartened to admit that I&amp;rsquo;ve just had to recommend a current iPhone user upgrades to another iPhone instead of switching to Android.
 Reasons high-level reasons were;
   They already know iOS, so little to no learning curve.
   They&amp;rsquo;re a power user, not a &amp;ldquo;geek&amp;rdquo;, so availability of apps &amp;amp; media is probably more important than customisation. (There is no equivalent to iTunes for obtaining Movies, TV shows, and Music in one place on Android outside the US, and many main stream apps appear as iOS first releases in the UK)</description>
@@ -662,18 +670,6 @@ I&amp;rsquo;m not convinced of the benefits of the Motorola-Google deal. Patent 
 I&amp;rsquo;ve seen the rumoured Ice Cream Sandwich leak, couple of things make me suspicious;
   Kernel Version; It&amp;rsquo;s the same as the current Gingerbread AOSP build, and all of the 3 Honeycomb devices I have are based on 2.6.36 kernels, not 2.6.35, so it seems odd to me a later Android version would use an earlier kernel.
   Baseband version; It&amp;rsquo;s the same as the current Gingerbread release.</description>
-    </item>
-    
-    <item>
-      <title>No Content Found</title>
-      <link>/post/1468/</link>
-      <pubDate>Fri, 05 Aug 2011 07:54:09 +0000</pubDate>
-      
-      <guid>/post/1468/</guid>
-      <description>Disheartened to admit that I&amp;rsquo;ve just had to recommend a current iPhone user upgrades to another iPhone instead of switching to Android.
-Reasons were;
-  They already know iOS, so little to no learning curve.
-  They&amp;rsquo;re a power user, not a &amp;ldquo;geek&amp;rdquo;, so availability of apps &amp;amp; media is probably more important than customisation. (There is no equivalent to iTunes for obtaining Movies, TV shows, and Music in one place on Android outside the US, and many main stream apps appear as iOS first releases in the UK)</description>
     </item>
     
     <item>
@@ -767,10 +763,10 @@ By default the Honeycomb AVD is created to emulate 256MB of RAM, my advice is to
     
     <item>
       <title>Amazons Apps Store</title>
-      <link>/post/926/</link>
+      <link>/post/amazons-app-store/</link>
       <pubDate>Wed, 05 Jan 2011 11:52:53 +0000</pubDate>
       
-      <guid>/post/926/</guid>
+      <guid>/post/amazons-app-store/</guid>
       <description>(This was prompted by a question asked by Reto Meier)
 As many of you may know my company built and later sold AndAppStore over the course of two years. During that time we kept an eye on the competition and received feedback from users and developers and got a good idea of what both sides wanted. I commented on Google Market because it was the main distribution channel for developers, but I rarely commented on competitors alternative app stores because each of them has their own business plan and all of the legally operating ones seemed to be doing their best to strike a balance between what they need to survive and what users and developers want.</description>
     </item>
