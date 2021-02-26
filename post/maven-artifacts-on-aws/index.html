@@ -280,7 +280,7 @@ by adding the following to their gradle build files;</p>
 </code></pre></div><p>and then they can reference your library using gradle&rsquo;s normal dependency declaration (e.g., for the artefact
 in the &ldquo;Folder Layout&rdquo; section, they would add <code>implementation(&quot;com.alsutton:java-cryptography-wrapper:1.0&quot;)</code>).</p>
 <h2 id="optional-going-next-level---content-delivery-network-and-https">(optional) Going Next Level - Content Delivery Network and HTTPS</h2>
-<p>So far what we have our repository, but it&rsquo;s serving via http, and so could be susceptible to a 
+<p>So far what we have will only serve artifacts via http, and so could be susceptible to a 
 <a href="https://en.wikipedia.org/wiki/Supply_chain_attack">Supply Chain Attack</a>, and it&rsquo;s from an S3 bucket in a single
 location, meaning some folk will see slower downloads because they&rsquo;re geographically far away from where the S3 bucket
 is being served from.</p>
