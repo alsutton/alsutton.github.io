@@ -160,7 +160,7 @@ that you can get started very cheaply and, if your libraries are really successf
 revisit the set-up unless you want to.</p>
 <p>The first part of this post will cover setting up AWS to serve your libraries, if you have
 another hosting provider you&rsquo;re happy with you can skip to the 
-[section which describes how  to layout your files](#Directory Layout) so that build tools
+<a href="#folder-layout">section which describes where to put your files</a> so that build tools
 will be able to find the files they need.</p>
 <h2 id="create-an-aws-account">Create an AWS Account</h2>
 <p>If you don&rsquo;t already have one you will need to <a href="https://portal.aws.amazon.com/billing/signup">create an AWS Account</a>.</p>
@@ -246,7 +246,7 @@ and you place your files inside that.</p>
 <p>So, for example, for <code>com.alsutton:java-cryptography-wrapper:1.0</code> all of the relevant
 files go in <code>com/alsutton/java-cryptography-wrapper/1.0/</code>. For <code>com.alsutton:java-cryptography-wrapper:1.1</code>
 they would go in <code>com/alsutton/java-cryptography-wrapper/1.1/</code> and so on.</p>
-<p>Inside Amazons S3 control panel you can create each directory using the &ldquo;Create Folder&rdquo; button,
+<p>Inside Amazons S3 control panel you can create each folder using the &ldquo;Create Folder&rdquo; button,
 and when you&rsquo;ve created the right structure you should see something like this;</p>
 <p><img src="/images/2021-02-26-s3-bucket-directories.jpg" alt="S3 Console Screenshot"></p>
 <h2 id="creating-the-files-to-upload">Creating the files to upload</h2>
@@ -257,7 +257,7 @@ as a template.</p>
 <p>With the Gradle Maven Publishing Plugin configured you should now be able to create the maven artefacts
 locally by running the following command;</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gradlew publishToMavenLocal 
-</code></pre></div><p>This will create a set of files in a local directory which is usually inside &ldquo;{your_home_directory}/.m2/repository/&rdquo;
+</code></pre></div><p>This will create a set of files in a local folder which is usually inside &ldquo;{your_home_directory}/.m2/repository/&rdquo;
 and, from there, follows the same layout we created in the section above.</p>
 <h2 id="uploading-the-files">Uploading the files</h2>
 <p>Now you&rsquo;ve found your files you will need to upload them to your S3 bucket and make them public in the same way we 
