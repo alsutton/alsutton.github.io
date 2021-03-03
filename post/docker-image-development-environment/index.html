@@ -53,7 +53,7 @@
 <meta name="twitter:image" content="/images/profile.png"/>
 
 <meta name="twitter:title" content="Improving Your Docker Image Development Experience"/>
-<meta name="twitter:description" content="Many CI systems allow you to build inside a Docker container, but creating the docker image which is used for the container can be a slow process. Various third party resource, like Docker Hub, may have rate limits, and fetching all the updates and new packages over the internet may take a while, but there are a few steps you can take which will make building and testing your images easier if you&rsquo;re building a Debian or Ubuntu base image."/>
+<meta name="twitter:description" content="Many CI systems allow you to build inside a Docker container, but creating the docker image which is used for the container can be a slow process. Various third party resources, like Docker Hub, may have rate limits, and fetching all the updates and new packages over the internet may take a while, but there are a few things you can do which will make building and testing your images faster."/>
 
 </head>
 <body><div class="sidebar animated fadeInDown ">
@@ -152,11 +152,10 @@
             </div>
 
             <p>Many CI systems allow you to build inside a Docker container, but creating the docker image 
-which is used for the container can be a slow process. Various third party resource, like 
+which is used for the container can be a slow process. Various third party resources, like 
 Docker Hub, may have <a href="https://www.docker.com/increase-rate-limits">rate limits</a>, and fetching 
-all the updates and new packages over the internet may take a while, but there are a few steps
-you can take which will make building and testing your images easier if you&rsquo;re building a 
-Debian or Ubuntu base image.</p>
+all the updates and new packages over the internet may take a while, but there are a few things
+you can do which will make building and testing your images faster.</p>
 <p>There are three main things I do to improve my docker image development experience; Optimising 
 my Docker file instruction order, making a caching HTTP proxy available, and having a local docker 
 registry mirror available. I&rsquo;ll explain each one below.</p>
@@ -198,7 +197,9 @@ to need all those images, and so you can combine those steps and save them some 
 <h3 id="why-1">Why?</h3>
 <p>Both Debian and Ubuntu use <code>apt</code>, and <code>apt</code> fetches package updates via unsecured <code>http://</code>. 
 There&rsquo;s a lot of debate about whether this is good or bad, but, from the
-perspective of making your Docker image development quick, this is a good thing.</p>
+perspective of making your Docker image development quick, this is a good thing. If you&rsquo;re
+using a different distribution you should check if it&rsquo;s using <code>http</code> (not <code>https</code>) to fetch
+packages, if it is a local caching HTTP proxy should speed up your builds too.</p>
 <p>When a file is fetched via <code>https://</code> it&rsquo;s encrypted, and the encryption means that for any
 given file, for two separate requests, the bytes served won&rsquo;t be the same. The differences
 mean it can&rsquo;t be cached without some <a href="https://wiki.squid-cache.org/Features/DynamicSslCert#Create_Self-Signed_Root_CA_Certificate">nasty tricks which make your environment less secure</a>. 
