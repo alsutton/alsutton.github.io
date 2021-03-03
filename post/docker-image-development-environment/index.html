@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en" data-theme=""><head>
+    <title> Al Sutton | Improving The Docker Image Development Experience </title>
+
+    
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.81.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="">
+    
+    <link rel="stylesheet"
+          href="/css/style.min.0c643de4008adca329f7a2d616ce308cca99d4ef45e4cca307323e7857910194.css"
+          integrity="sha256-DGQ95ACK3KMp96LWFs4wjMqZ1O9F5MyjBzI&#43;eFeRAZQ="
+          crossorigin="anonymous"
+          type="text/css">
+    
+    <link rel="stylesheet"
+        href="/css/markupHighlight.min.f798cbda9aaa38f89eb38be6414bd082cfd71a6780375cbf67b6d2fb2b96491e.css"
+        integrity="sha256-95jL2pqqOPies4vmQUvQgs/XGmeAN1y/Z7bS&#43;yuWSR4="
+        crossorigin="anonymous"
+        type="text/css">
+    
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+
+    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <link rel="canonical" href="/post/docker-image-development-environment/">
+
+    
+    
+    
+    
+    <script type="text/javascript"
+            src="/js/anatole-header.min.0c05c0a90d28c968a1cad4fb31abd0b8e1264e788ccefed022ae1d3b6f627514.js"
+            integrity="sha256-DAXAqQ0oyWihytT7MavQuOEmTniMzv7QIq4dO29idRQ="
+            crossorigin="anonymous"></script>
+
+
+    
+        
+        
+        <script type="text/javascript"
+                src="/js/anatole-theme-switcher.min.8ef71e0fd43f21a303733dbbecae5438b791d2b826c68a9883bd7aa459a076d2.js"
+                integrity="sha256-jvceD9Q/IaMDcz277K5UOLeR0rgmxoqYg716pFmgdtI="
+                crossorigin="anonymous"></script>
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/images/profile.png"/>
+
+<meta name="twitter:title" content="Improving The Docker Image Development Experience"/>
+<meta name="twitter:description" content="Many CI systems allow you to build inside a Docker container, but creating the docker image which is used for the container can be a slow process. Various third party resource, like Docker Hub, may have rate limits, and fetching all the updates and new packages over the internet may take a while, but there are a few steps you can take which will make building and testing your images easier if you&rsquo;re building a Debian or Ubuntu base image."/>
+
+</head>
+<body><div class="sidebar animated fadeInDown ">
+    <div class="logo-title">
+        <div class="title">
+            <img src="/images/profile.jpeg" alt="profile picture">
+            <h3 title=""><a href="/">Al Sutton</a></h3>
+            <div class="description">
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <ul class="social-links">
+        
+            <li>
+                <a href="https://www.linkedin.com/in/alsutton/" rel="me" aria-label="Linkedin">
+                    <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://github.com/alsutton" rel="me" aria-label="GitHub">
+                    <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://www.alsutton.blog/index.xml" rel="me" aria-label="RSS">
+                    <i class="fas fa-rss fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Al Sutton  2021 </div>
+    </div>
+</div>
+<div class="main">
+    <div class="page-top  animated fadeInDown ">
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </a>
+    <ul class="nav" id="navMenu">
+        
+        
+            
+            <li><a 
+                   href="/"
+                        
+                   title="">Home</a></li>
+        
+            
+            <li><a 
+                   href="/post/"
+                        
+                   title="">Posts</a></li>
+        
+            
+            <li><a 
+                   href="https://github.com/alsutton"
+                        
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        
+                   title="">Projects</a></li>
+        
+        
+        
+            <li class="theme-switch-item">
+                <a class="theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+</div>
+
+    <div class="autopagerize_page_element">
+        <div class="content">
+    <div class="post  animated fadeInDown ">
+        <div class="post-content">
+            
+            <div class="post-title">
+                <h3>Improving The Docker Image Development Experience</h3>
+                
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date"> Wed, Mar 3, 2021 
+                                           </span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">11-minute read</span>
+                    </div>
+                
+            </div>
+
+            <p>Many CI systems allow you to build inside a Docker container, but creating the docker image 
+which is used for the container can be a slow process. Various third party resource, like 
+Docker Hub, may have <a href="https://www.docker.com/increase-rate-limits">rate limits</a>, and fetching 
+all the updates and new packages over the internet may take a while, but there are a few steps
+you can take which will make building and testing your images easier if you&rsquo;re building a 
+Debian or Ubuntu base image.</p>
+<p>There are three main things I do to improve my docker image development experience; Optimising 
+my Docker file instruction order, making a caching HTTP proxy available, and having a local docker 
+registry mirror available. I&rsquo;ll explain each one below.</p>
+<h2 id="optimise-your-docker-file-instruction-order">Optimise your Docker file instruction order</h2>
+<h3 id="why">Why?</h3>
+<p>Docker creates a new disk image for each instruction in your docker file, and it will try to 
+re-use these intermediate images when you re-run your docker file build. This means that if
+you have things in your docker file which are unlikely to change and can be moved further up
+your docker file you should move them further up.</p>
+<h3 id="how">How?</h3>
+<p>It&rsquo;s not always possible to move things further up in your docker file; Sometimes you need
+to install a package before you can run a program, so there is a set order, but you may still
+be able to split some parts into multiple steps while you&rsquo;re developing the image, then combine
+them back into a single step when you make your dockerfile available.</p>
+<p>If, for example, you&rsquo;re installing a group of packages and one set is fixed, but the other is changing as 
+you work on your image, you might want to split that into multiple docker <code>RUN</code> commands so that Docker can 
+create a cacheable image with the fixed set of packages to use as the starting point for the step which installs 
+the package list you&rsquo;re changing. This means you&rsquo;ll get faster image build
+times because only the package list your changing needs to be re-installed in the image.</p>
+<p>You can always combine the package installations before making the dockerfile available, 
+so part of your development docker image might look like this;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dockerfile" data-lang="dockerfile"><span style="color:#75715e"># Install the packages needed for the build</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noninteractive&#34;</span> apt-get install -y git-core gnupg flex bison build-essential <span style="color:#ae81ff">\ </span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>	zip curl zlib1g-dev gcc-multilib g++-multilib <span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noninteractive&#34;</span> apt-get install -y libc6-dev-i386 lib32ncurses5-dev<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noninteractive&#34;</span> apt-get install -y x11proto-core-dev libx11-dev lib32z1-dev <span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noninteractive&#34;</span> apt-get install -y libgl1-mesa-dev libxml2-utils xsltproc unzip<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noninteractive&#34;</span> apt-get install -y fontconfig libncurses5 procps rsync<span style="color:#960050;background-color:#1e0010">
+</span></code></pre></div><p>as you build up the list of packages to install, and then, before publishing the dockerfile,
+you&rsquo;d combine those lines to become;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dockerfile" data-lang="dockerfile"><span style="color:#66d9ef">RUN</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noninteractive&#34;</span> apt-get install -y git-core gnupg flex bison build-essential <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>	zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>	x11proto-core-dev libx11-dev lib32z1-dev libgl1-mesa-dev libxml2-utils xsltproc unzip <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>	fontconfig libncurses5 procps rsync<span style="color:#960050;background-color:#1e0010">
+</span></code></pre></div><p>The reason you&rsquo;d combine them is that each image takes up some space on the machine where the image
+is build, and while you benefit from each line creating an extra image, your end users are unlikely
+to need all those images, and so you can combine those steps and save them some space.</p>
+<h2 id="set-up-a-local-caching-http-proxy">Set up a local caching HTTP proxy</h2>
+<h3 id="why-1">Why?</h3>
+<p>Both Debian and Ubuntu use <code>apt</code>, and <code>apt</code> fetches package updates via unsecured <code>http://</code>. 
+There&rsquo;s a lot of debate about whether this is good or bad, but, from the
+perspective of making your Docker image development quick, this is a good thing.</p>
+<p>When a file is fetched via <code>https://</code> it&rsquo;s encrypted, and the encryption means that for any
+given file, for two separate requests, the bytes served won&rsquo;t be the same. The differences
+mean it can&rsquo;t be cached without some <a href="https://wiki.squid-cache.org/Features/DynamicSslCert#Create_Self-Signed_Root_CA_Certificate">nasty tricks which make your environment less secure</a>. 
+When a file is fetched via <code>http://</code> the data is unencrypted, and so the same set of bytes 
+are sent for each request, and so caching is possible in a low-risk way.</p>
+<p>Having downloads cached locally means your download speed is limited by your local network and
+hardware. You&rsquo;re not pulling data from the original server, all you&rsquo;re doing is pulling
+data from your local cache to your machine, so any Internet speed fluctuations won&rsquo;t come
+into play. An added benefit is you&rsquo;re less likely to be rate limited because you&rsquo;re not
+pulling as much data from the original source server.</p>
+<p>HTTP caching pays off from the second build onwards. The first build will ask the local 
+cache for the file, then the local cache will ask the original source server (because
+it doesn&rsquo;t have the file locally). The second build will ask the local cache and, because 
+it now has the file, it will serve the file over your local network. Eventually the file 
+may need to be updated, so the cache will go back to the original server, but, during 
+development of a docker image, where you&rsquo;re rebuilding your image a lot, you&rsquo;ll get a 
+lot cache hits if you&rsquo;re changing a part of the image which will trigger a new set
+of package installations.</p>
+<h3 id="added-bonus">Added bonus</h3>
+<p>If you have a number of Linux machines which are using the same <code>apt</code> based distribution 
+and version you can use the proxy with those machines as well. This will give you faster
+updates on your machines as well as speeding up your docker builds.</p>
+<h3 id="installing-the-proxy">Installing the proxy</h3>
+<p>The machine you run your cache on doesn&rsquo;t have to be a mega-machine; If it&rsquo;s just 
+you building an image on your own then you could the machine you&rsquo;re working on or 
+a Raspberry Pi. I have an old Core i5-2320 machine with 16 GB of RAM and a 2 TB 
+hard disk (yes, HDD, not an SDD). which serves me and a few test machines on my 
+LAN, so don&rsquo;t feel you need to spend out hundreds of pounds on a high-end machine 
+with super-fast SSDs (although if you want to then don&rsquo;t let me hold you back :)).</p>
+<p>I use <a href="https://www.debian.org/">Debian 10</a> for all the Linux machines I run. Ubuntu and 
+Raspbian are based on Debian, so these instructions should work for them as well. I also use
+<a href="http://www.squid-cache.org/">Squid</a> as my caching proxy because it&rsquo;s well tested and easy
+to configure for our needs. Neither are hard requirements, so if you have your own
+preferences for Linux distribution and caching HTTP proxy feel free to use them.</p>
+<p>To install squid you run the following command as root;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ apt install squid 
+</code></pre></div><p>Then you&rsquo;ll need to change a couple of lines in the configuration file <code>/etc/squid/squid.conf</code>
+so that squid can cope with the size of Linux packages.</p>
+<p>The first change creates an on-disk cache of 10 GB, so we&rsquo;re not completely reliant 
+on RAM based caching;</p>
+<pre><code># cache_dir ufs /var/spool/squid 100 16 256
+</code></pre><p>should become;</p>
+<pre><code>cache_dir ufs /var/spool/squid 102400 16 256
+</code></pre><p>The next change does a similar thing for RAM. As I mentioned above my cache machine has
+16 GB of memory, so I set aside 4 GB of RAM for cached objects. If you&rsquo;re using a machine
+with a small amount of RAM you may want to make this value lower than 4 GB;</p>
+<pre><code># cache_mem 256 KB
+</code></pre><p>becomes</p>
+<pre><code>cache_mem 4 GB
+</code></pre><p>The next pair of changes increase the maximum size of an object the cache will store. 
+Linux packages can be multiple-megabytes, so for both the disk and in-memory caches
+I increase this to 50 MB;</p>
+<pre><code># maximum_object_size 4 MB
+</code></pre><p>should become</p>
+<pre><code>maximum_object_size 50 MB
+</code></pre><p>and</p>
+<pre><code># maximum_object_size_in_memory 512 KB
+</code></pre><p>should become;</p>
+<pre><code>maximum_object_size_in_memory 50 MB
+</code></pre><p>The final change allows all the machines on your local network to use the caching proxy,
+without this only the machine you installed squid on will be able to use the cache;</p>
+<pre><code>#http_access allow localnet
+</code></pre><p>should become</p>
+<pre><code>http_access allow localnet
+</code></pre><h3 id="using-the-proxy">Using the proxy</h3>
+<p>Ubuntu and Debian can be configured to use an HTTP proxy for package 
+updates and installations by setting the <code>http_proxy</code> environment variable. 
+This makes it very easy to use the proxy in your build, all you need to do 
+is add the following line after the <code>FROM</code> line in your docker file;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dockerfile" data-lang="dockerfile"><span style="color:#66d9ef">ARG</span> http_proxy<span style="color:#960050;background-color:#1e0010">
+</span></code></pre></div><p>Now you can add a <code>build-arg</code> to your <code>docker build</code> command which tells
+points the build at your proxy like this;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ docker build --build-arg http_proxy<span style="color:#f92672">=</span>http://<span style="color:#f92672">{</span>squid_host_ip_address<span style="color:#f92672">}</span>:3128/ .
+</code></pre></div><p>(The <code>:3128</code> refers to the default port that squid runs on.)</p>
+<p>Now you&rsquo;ve made these changes you should, when you perform builds, see the squid
+cache being used by looking at <code>/var/log/squid/access.log</code> on the machine running
+squid.</p>
+<h3 id="what-should-you-expect">What should you expect?</h3>
+<p>The squid statistics for two consecutive builds of a docker file I have which 
+installs ~240 packages are;</p>
+<pre><code>Cache information for squid:
+        Hits as % of all requests:      5min: 50.0%, 60min: 50.0%
+        Hits as % of bytes sent:        5min: 50.0%, 60min: 50.0%
+</code></pre><p>A hit rate 50% means that the package updates for the second build were served entirely,
+or almost entirely, from the cache. After a third build outside the 5-minute window you 
+can see the trend continuing;</p>
+<pre><code>Cache information for squid:
+        Hits as % of all requests:      5min: 98.5%, 60min: 66.2%
+        Hits as % of bytes sent:        5min: 99.9%, 60min: 66.6%
+</code></pre><p>As for the build speed, the original package install build steps were reported
+as;</p>
+<pre><code> =&gt; [ 4/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get update                                                    4.6s
+ =&gt; [ 5/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get upgrade -y                                               12.1s
+ =&gt; [ 6/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get install -y apt-utils                                      2.1s
+ =&gt; [ 7/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get install -y git-core gnupg flex bison build-essential  z  70.4s
+</code></pre><p>by the third build we&rsquo;re getting;</p>
+<pre><code> =&gt; [ 4/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get update                                                    3.7s
+ =&gt; [ 5/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get upgrade -y                                               11.5s
+ =&gt; [ 6/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get install -y apt-utils                                      2.1s
+ =&gt; [ 7/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get install -y git-core gnupg flex bison build-essential  z  56.7s
+</code></pre><p>which is a 20% improvement on my 80Mb/s down/20 Mb/s up internet connection.</p>
+<h2 id="setting-up-a-local-registry-mirror">Setting up a local registry mirror</h2>
+<p>As mentioned earlier Docker Hub, which is where many folk pull base docker images from,
+has some <a href="https://www.docker.com/increase-rate-limits">rate limits</a>. Docker does a 
+great job of caching images locally, so if you&rsquo;re only building on one machine, and you&rsquo;re
+sticking with a single base version of Linux in your <code>FROM</code> command, then installing a local 
+registry isn&rsquo;t really necessary.</p>
+<p>If, however, you have a few machines, and/or you&rsquo;re playing with lots of base Linux 
+versions, then you could hit the rate limit. This is where a local caching docker registry 
+can come in useful.</p>
+<p>The docker folk have made it <strong>very</strong> easy to get a registry up and running. They have some
+<a href="https://docs.docker.com/registry/deploying/">great instructions</a> which will get you started,
+but there is one tweak you&rsquo;ll need to make to allow base images to be cached, and a second I like
+to make to control where the cached images are stored.</p>
+<p>Firstly, to configure the proxy functionality, you need to change the default configuration.
+Without this you&rsquo;ll only get local images served from your registry, which is not what we want.</p>
+<p>To do this you need to create a <code>config.yml</code> file which looks like this;</p>
+<pre><code>version: 0.1
+log:
+  fields:
+    service: registry
+storage:
+  cache:
+    blobdescriptor: inmemory
+  filesystem:
+    rootdirectory: /var/lib/registry
+http:
+  addr: :5000
+  headers:
+    X-Content-Type-Options: [nosniff]
+health:
+  storagedriver:
+    enabled: true
+    interval: 10s
+    threshold: 3
+proxy:
+  remoteurl: https://registry-1.docker.io
+</code></pre><p>Secondly I like to store the images on a Hard Disk rather than an SSD. Docker images can become
+large, and there aren&rsquo;t many concurrent requests for them in my environment, so I prefer to
+put them on the hard disk of my local registry because HDDs' are still cheaper than SDDs for
+bulk storage.</p>
+<p>My HDD is mounted on <code>/hdd</code> on my machine, and I keep my docker related files in <code>/hdd/docker</code>.
+<code>config.yml</code> is located at <code>/hdd/docker/etc/config.yml</code>, and I use <code>/hdd/docker/registry</code> for
+image storage. To start the registry in a way which recognises this I use the command;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">docker run -d <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>  -p 5000:5000 <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>  --restart<span style="color:#f92672">=</span>always <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>  --name registry <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>  -v /hdd/docker/etc/config.yml:/etc/docker/registry/config.yml <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>  -v /hdd/docker/registry:/var/lib/registry <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>  registry:2
+</code></pre></div><p>which maps, using dockers <code>-v</code> option, my config file and storage
+area into the registry image.</p>
+<p>Once you&rsquo;ve run that command your registry is now up and running.</p>
+<h3 id="using-the-local-registry">Using the local registry</h3>
+<p>To use the local registry mirror you&rsquo;ll need to configure the docker installations
+where you&rsquo;re performing the build. On Linux you&rsquo;ll need to create the file
+&lsquo;/etc/docker/daemon.json&rsquo; which contains the following;</p>
+<pre><code>{
+  &quot;registry-mirrors&quot;: [
+    &quot;http://{your_registry_ip_address}:5000/&quot;
+  ],
+  &quot;insecure-registries&quot;: [
+    &quot;{your_registry_ip_address}:5000&quot;
+  ],
+}
+</code></pre><p>where <code>{your_registry_ip_address}</code> is the IP address of the machine you&rsquo;re running
+the docker registry on. You&rsquo;ll need to include the <code>insecure-registries</code> option
+because we&rsquo;re not using an SSL certificate to serve the images. If you want to
+expose this cache outside a trusted network you should read the Docker documentation
+titled <a href="https://docs.docker.com/registry/deploying/#run-an-externally-accessible-registry">&ldquo;Run an externally-accessible registry&rdquo;</a>
+so you can ensure you&rsquo;ve secured your image cache.</p>
+<h1 id="thats-all-folks">That&rsquo;s all folks</h1>
+<p>Doing these three things should improve your docker image development experience. If
+you have limited internet bandwidth the cache and local registry should really help,
+and if you have great bandwidth you&rsquo;ll notice a smaller improvement, but you&rsquo;ll 
+still be helping those folk who maintain package and image repositories by lightening
+the load on them.</p>
+<p>If you have questions you can find me on <a href="https://mastodon.social/@alsutton">Mastodon</a>, <a href="https://github.com/alsutton/">GitHub</a>,
+and <a href="https://twitter.com/alsutton">Twitter</a>.</p>
+</div>
+        <div class="post-footer">
+            <div class="info">
+                
+                
+            </div>
+        </div>
+
+        
+    </div>
+
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript"
+        src="/js/jquery.min.72e5cdc7ae76325aa57a51c185e2b93c1b216e69c1a4fec5e53a9035977f931e.js"
+        integrity="sha256-cuXNx652MlqlelHBheK5PBshbmnBpP7F5TqQNZd/kx4="
+        crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript"
+        src="/js/bundle.min.c8b242abc1fe7aff347bfd713f638199bc03c20706de4041bd4c06133f49d0a0.js"
+        integrity="sha256-yLJCq8H&#43;ev80e/1xP2OBmbwDwgcG3kBBvUwGEz9J0KA="
+        crossorigin="anonymous"></script>
+
+<script type="text/javascript"
+        src="/js/medium-zoom.min.2d6fd0be87fa98f0c9b4dc2536b312bbca48757f584f6ea1f394abc9bcc38fbc.js"
+        integrity="sha256-LW/Qvof6mPDJtNwlNrMSu8pIdX9YT26h85SrybzDj7w="
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
