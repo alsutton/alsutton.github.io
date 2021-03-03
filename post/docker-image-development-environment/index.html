@@ -195,8 +195,8 @@ is build, and while you benefit from each line creating an extra image, your end
 to need all those images, and so you can combine those steps and save them some space.</p>
 <h2 id="set-up-a-local-caching-http-proxy">Set up a local caching HTTP proxy</h2>
 <h3 id="why-1">Why?</h3>
-<p>Both Debian and Ubuntu use <code>apt</code>, and <code>apt</code> fetches package updates via unsecured <code>http://</code>. 
-There&rsquo;s a lot of debate about whether this is good or bad, but, from the
+<p>Both Debian and Ubuntu use <code>apt</code>, and their default configuration fetches packages via 
+unsecured <code>http://</code>. There&rsquo;s a lot of debate about whether this is good or bad, but, from the
 perspective of making your Docker image development quick, this is a good thing. If you&rsquo;re
 using a different distribution you should check if it&rsquo;s using <code>http</code> (not <code>https</code>) to fetch
 packages, if it is a local caching HTTP proxy should speed up your builds too.</p>
