@@ -243,9 +243,9 @@ on RAM based caching;</p>
 <pre><code># cache_dir ufs /var/spool/squid 100 16 256
 </code></pre><p>should become;</p>
 <pre><code>cache_dir ufs /var/spool/squid 102400 16 256
-</code></pre><p>The next change does a similar thing for RAM. As I mentioned above my cache machine has
-16 GB of memory, so I set aside 4 GB of RAM for cached objects. If you&rsquo;re using a machine
-with a small amount of RAM you may want to make this value lower than 4 GB;</p>
+</code></pre><p>The next change increases the amount of RAM the cache uses. As I mentioned above my cache 
+machine has 16 GB of memory, so I set aside 4 GB of RAM for cached objects. If you&rsquo;re using 
+a machine with a smaller amount of RAM you may want to make this value lower than 4 GB;</p>
 <pre><code># cache_mem 256 KB
 </code></pre><p>becomes</p>
 <pre><code>cache_mem 4 GB
