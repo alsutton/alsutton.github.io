@@ -202,7 +202,8 @@ etc. In recent times manufacturers have been less open about how many bits per c
 <p>The reason this is important is because with a multi-layer cell all the bits have to be read, the 
 appropriate bit changed, and then all the bits written. There are techniques for making this less performance
 impacting (e.g. only storing 1 bit per cell, then when all the cells have one bit start adding a second bit,
-then reorganising the disk in the background to minimise the bits per cell), but as the disk fills up it becomes 
+then reorganising the disk in the background to maximise the bits per cell so there are &ldquo;empty&rdquo; cells for
+new writes to go into without needing a read), but as the disk fills up it becomes 
 harder to do this. With an SLC drive you don&rsquo;t encounter the problem, with an MLC drive your drive needs
 to get roughly half-full before this becomes an issue, with TLC the impact can kick-in at 33% full, QLC it&rsquo;s 25%, and,
 with manufacturers <a href="https://www.tomshardware.com/news/toshiba-5-bit-per-cell-flash-plx-xl-nand-pcie-4.0-ssd,40237.html">talking about Penta-Layer Cell</a>
