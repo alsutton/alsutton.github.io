@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark"><head>
-    <title> Al Sutton | Java </title>
+    <title> Al Sutton | Nokia 6210 &amp; SMS commands </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.81.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -29,10 +29,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-    <link rel="canonical" href="/categories/Java/">
+    <link rel="canonical" href="/post/nokia-6210-commands/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="/categories/Java/index.xml" title="" />
     
     
     
@@ -53,8 +52,9 @@
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="/images/profile.jpeg"/>
 
-<meta name="twitter:title" content="Java"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Nokia 6210 &amp; SMS commands"/>
+<meta name="twitter:description" content="The following are instructions for send and receiving SMS message using a Nokia 6210 connected to a PC via the Nokia Data Cable. This should also work for Infrared connections to between the 6210 and PC, but I have not tested it.
+Sending SMS&rsquo;s To send an SMS you can type the following. All characters you type are in bold, and all response from the Nokia 6210 are in monospace."/>
 
 </head>
 <body><div class="sidebar animated fadeInDown ">
@@ -136,59 +136,64 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-    <div class="archive  animated fadeInDown ">
-        <ul class="list-with-title">
+    <div class="post  animated fadeInDown ">
+        <div class="post-content">
             
-                <div class="listing-title">2006</div>
+            <div class="post-title">
+                <h3>Nokia 6210 &amp; SMS commands</h3>
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/post/java-games/" title="Java Games">Java Games</a>
-                                <div class="post-time"><span class="date"> Nov 10 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date"> Sun, Apr 7, 2002 
+                                           </span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">2-minute read</span>
+                    </div>
                 
-            
-                <div class="listing-title">2001</div>
+            </div>
+
+            <p>The following are instructions for send and receiving SMS message using a Nokia 6210 connected to 
+a PC via the Nokia Data Cable. This should also work for Infrared connections to between the 
+6210 and PC, but I have not tested it.</p>
+<h1 id="sending-smss">Sending SMS&rsquo;s</h1>
+<p>To send an SMS you can type the following. All characters you type are in <strong>bold</strong>, 
+and all response from the Nokia 6210 are in <code>monospace</code>.</p>
+<p>You should replace the 
+sections <strong>{PHONE_NUMBER}</strong> with the number you wish to send the SMS to, and 
+<strong>{MESSAGE}</strong> with the message you wish to send. The section marked <strong>{CTRL+Z}</strong> 
+indicates that you should press the CTRL key and Z keys together at this point. The section marked 
+<code>{nn}</code> will be replaced by a number the &lsquo;phone uses to track the message.</p>
+<p><strong>AT+CMGF=1</strong></p>
+<p><code>OK</code></p>
+<p><strong>AT+CMGS=&quot;{PHONE_NUMBER}&quot;,129</strong></p>
+<p><code>&gt;</code></p>
+<p><strong>{MESSAGE}{CTRL+Z}</strong></p>
+<p><code>+CMGS: {nn}</code></p>
+<h1 id="receiving-smss">Receiving SMS&rsquo;s</h1>
+<p>To put the Nokia 6210 into a mode where all incoming messages are sent down the
+serial line type the following command</p>
+<p><strong>AT+CMGF=1</strong></p>
+<p><strong>AT+CNMI=2,2</strong></p>
+<p>NOTE: This will put the phone into a mode whereby any incoming SMS&rsquo;s are not stored on the &lsquo;phone, but are passed straight through to your console. To return the &lsquo;phone to it&rsquo;s normal mode (storing SMS&rsquo;s on the &lsquo;phone, and not sending them through), type the following commands;</p>
+<p><strong>AT+CNMI=0,0,0,0,0</strong></p>
+<p><strong>AT+CMGF=0</strong></p>
+<p>Each time a message arrives you will see the following</p>
+<p><code>+CMT: &quot;{SENDER_NUMBER}&quot;,,&quot;{MESSAGE_TIMESTAMP}&quot; {MESSAGE_DATA}</code></p>
+<p>The sections of the per-message response are detailed below;</p>
+<p><code>{SENDER_NUMBER}</code> is the phone number of the message sender</p>
+<p><code>{MESSAGE_TIMESTAMP}</code> is when the message was send in the format yy/mm/dd,hh:mm:ss+TZ.</p>
+<p><code>{MESSAGE_DATA}</code> is the text of the message.</p>
+</div>
+        <div class="post-footer">
+            <div class="info">
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/post/asxmlp/" title="Tiny XML Parser">Tiny XML Parser</a>
-                                <div class="post-time"><span class="date"> May 12 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
                 
-            
-                <div class="listing-title">2000</div>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/post/kvmjab/" title="KVMJab - JVM/KVM Jabber Client Library">KVMJab - JVM/KVM Jabber Client Library</a>
-                                <div class="post-time"><span class="date"> Dec 1 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-                <div class="listing-title">1998</div>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/post/jazilla-in-wired/" title="Jazilla featured in Wired">Jazilla featured in Wired</a>
-                                <div class="post-time"><span class="date"> Apr 3 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-        </ul>
+            </div>
+        </div>
+
+        
     </div>
+
 
         </div>
     </div>

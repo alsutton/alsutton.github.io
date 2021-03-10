@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark"><head>
-    <title> Al Sutton | Java </title>
+    <title> Al Sutton | Steps to install Oracle 8.1.7 on RedHat Linux 7.1 </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.81.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -29,10 +29,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-    <link rel="canonical" href="/categories/Java/">
+    <link rel="canonical" href="/post/oracle-8-1-7-on-RHEL-7-1/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="/categories/Java/index.xml" title="" />
     
     
     
@@ -53,8 +52,13 @@
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="/images/profile.jpeg"/>
 
-<meta name="twitter:title" content="Java"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Steps to install Oracle 8.1.7 on RedHat Linux 7.1"/>
+<meta name="twitter:description" content="Prerequisites You need to have a version of JDK 1.1.8 installed. I used the one from Blackdown.org.
+Steps   Install the compat-glibc RPM from RedHat.
+  Type . /usr/i386-glib21-linux/bin/i386-glibc21-linux-env.sh
+  Type export LD_ASSUME_KERNEL=2.2.5
+  Run the installer (called runInstaller in the Oracle install directory).
+  Note: An error may occur towards the end of the install on ${ORACLE_HOME}/ctx/lib/ins_ctx.mk, to fix this I did the following;"/>
 
 </head>
 <body><div class="sidebar animated fadeInDown ">
@@ -136,59 +140,75 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-    <div class="archive  animated fadeInDown ">
-        <ul class="list-with-title">
+    <div class="post  animated fadeInDown ">
+        <div class="post-content">
             
-                <div class="listing-title">2006</div>
+            <div class="post-title">
+                <h3>Steps to install Oracle 8.1.7 on RedHat Linux 7.1</h3>
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/post/java-games/" title="Java Games">Java Games</a>
-                                <div class="post-time"><span class="date"> Nov 10 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date"> Sat, Dec 15, 2001 
+                                           </span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">One-minute read</span>
+                    </div>
                 
-            
-                <div class="listing-title">2001</div>
+            </div>
+
+            <h1 id="prerequisites">Prerequisites</h1>
+<p>You need to have a version of JDK 1.1.8 installed. I used the one from Blackdown.org.</p>
+<h1 id="steps">Steps</h1>
+<ol>
+<li>
+<p>Install the compat-glibc RPM from RedHat.</p>
+</li>
+<li>
+<p>Type . /usr/i386-glib21-linux/bin/i386-glibc21-linux-env.sh</p>
+</li>
+<li>
+<p>Type export LD_ASSUME_KERNEL=2.2.5</p>
+</li>
+<li>
+<p>Run the installer (called runInstaller in the Oracle install directory).</p>
+</li>
+</ol>
+<p><strong>Note:</strong> An error may occur towards the end of the install on ${ORACLE_HOME}/ctx/lib/ins_ctx.mk, to fix this I did the following;</p>
+<ol>
+<li>
+<p>Start a new shell</p>
+</li>
+<li>
+<p>Type cd ${ORACLE_HOME}/ctx/lib</p>
+</li>
+<li>
+<p>Type vi ins_ctx.mk</p>
+</li>
+<li>
+<p>Inser a line at the top of the makefile which sets the ORACLE_HOME to the correct value. (Or set the ORACLE_HOME environment variable to the correct value).</p>
+</li>
+<li>
+<p>Save the file and close vi</p>
+</li>
+<li>
+<p>Type make -f ins_ctx.mk</p>
+</li>
+</ol>
+<p>Once the make is complete tell the Oracle install procedure to ignore the error.</p>
+<h1 id="oracle-9i">Oracle 9i</h1>
+<p>There are some instructions on installing Oracle 9i EE at <a href="https://web.archive.org/web/20030207174435/http://www.puschitz.com/InstallingOracle9i.html">http://www.puschitz.com/InstallingOracle9i.html</a> written by Werner Puschitz.</p>
+</div>
+        <div class="post-footer">
+            <div class="info">
+                <span class="separator"><a class="category" href="/categories/Linux/">Linux</a></span>
+
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/post/asxmlp/" title="Tiny XML Parser">Tiny XML Parser</a>
-                                <div class="post-time"><span class="date"> May 12 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-                <div class="listing-title">2000</div>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/post/kvmjab/" title="KVMJab - JVM/KVM Jabber Client Library">KVMJab - JVM/KVM Jabber Client Library</a>
-                                <div class="post-time"><span class="date"> Dec 1 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-                <div class="listing-title">1998</div>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/post/jazilla-in-wired/" title="Jazilla featured in Wired">Jazilla featured in Wired</a>
-                                <div class="post-time"><span class="date"> Apr 3 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-        </ul>
+            </div>
+        </div>
+
+        
     </div>
+
 
         </div>
     </div>

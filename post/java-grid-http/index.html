@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark"><head>
-    <title> Al Sutton | Java </title>
+    <title> Al Sutton | Java Grid Processing </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.81.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -29,10 +29,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-    <link rel="canonical" href="/categories/Java/">
+    <link rel="canonical" href="/post/java-grid-http/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="/categories/Java/index.xml" title="" />
     
     
     
@@ -53,8 +52,9 @@
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="/images/profile.jpeg"/>
 
-<meta name="twitter:title" content="Java"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Java Grid Processing"/>
+<meta name="twitter:description" content="Many people believe that distributed (or grid based) computing has only recently been possible on home machines. This isn&rsquo;t true.
+Java has offered the basic tools to perform distributed processing since it&rsquo;s earliest days (even when it was called Oak on the *7 research system in 1992). The key piece of technology for doing this are Java Applets (or the agents from Oak). The distributed processing system detailed here is suited to tasks which involve datasets which can be broken down into small components."/>
 
 </head>
 <body><div class="sidebar animated fadeInDown ">
@@ -136,59 +136,49 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-    <div class="archive  animated fadeInDown ">
-        <ul class="list-with-title">
+    <div class="post  animated fadeInDown ">
+        <div class="post-content">
             
-                <div class="listing-title">2006</div>
+            <div class="post-title">
+                <h3>Java Grid Processing</h3>
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/post/java-games/" title="Java Games">Java Games</a>
-                                <div class="post-time"><span class="date"> Nov 10 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date"> Sun, May 2, 2004 
+                                           </span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">3-minute read</span>
+                    </div>
                 
-            
-                <div class="listing-title">2001</div>
+            </div>
+
+            <p>Many people believe that distributed (or grid based) computing has only recently been possible on home machines. This isn&rsquo;t true.</p>
+<p>Java has offered the basic tools to perform distributed processing since it&rsquo;s earliest days (even when it was called Oak on the *7 research system in 1992). The key piece of technology for doing this are Java Applets (or the agents from Oak). The distributed processing system detailed here is suited to tasks which involve datasets which can be broken down into small components.</p>
+<p>Applets have the ability to make an HTTP request to the server from which they downloaded. This can be used by an Applet to obtain a subset of the data which will processed to solve a problem. This can be obtained from a co-ordinating server (or set of servers) whenever the Applet wishes, which means you can write an applet which follows the following loop until it is terminated by the user;</p>
+<ol>
+<li>Download subset of the data to process from the server using HTTP.</li>
+<li>Perform actions on subset</li>
+<li>Send results to co-ordinating server using HTTP</li>
+<li>Repeat from first step</li>
+</ol>
+<p>Due to applets requiring a web page in which they operate it is advised that the page hosting the applet contains a large warning to the user which explains that closing the window will stop the computer participating in the grid.</p>
+<p>The only other component that needs to be written is the co-ordinating server. This can be very simplistic in that it can be a Servlet or CGI script which accesses a database storing the status of the subsets of the data (i.e. whether they are unprocessed, being processed, or have been processed and a result is available).</p>
+<p>When writing such a system it is recommended that the following things are included;</p>
+<ol>
+<li>Result Timeout - If a result has not been received from an Applet after a set amount of time the system act as if the Applet will never complete processing of the subset. The timeout should be carefully chosen so that slow machines are still able to participate and do not suffer from the subsets allocated to them being timed out before they can process them.</li>
+<li>Result Verification - It is potentially possible that an incorrect result may be returned from a client, in order to minimize the possibility of this causing problems each subset should be processed by at least two separate systems, if the results submitted by the different Applets are not the same then either further investigation needs to take place, or the subset needs to be sent out to more Applets in order to achieve a &ldquo;majority&rdquo; agreed result.</li>
+</ol>
+</div>
+        <div class="post-footer">
+            <div class="info">
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/post/asxmlp/" title="Tiny XML Parser">Tiny XML Parser</a>
-                                <div class="post-time"><span class="date"> May 12 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
                 
-            
-                <div class="listing-title">2000</div>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/post/kvmjab/" title="KVMJab - JVM/KVM Jabber Client Library">KVMJab - JVM/KVM Jabber Client Library</a>
-                                <div class="post-time"><span class="date"> Dec 1 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-                <div class="listing-title">1998</div>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/post/jazilla-in-wired/" title="Jazilla featured in Wired">Jazilla featured in Wired</a>
-                                <div class="post-time"><span class="date"> Apr 3 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-        </ul>
+            </div>
+        </div>
+
+        
     </div>
+
 
         </div>
     </div>

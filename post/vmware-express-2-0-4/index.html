@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark"><head>
-    <title> Al Sutton | Java </title>
+    <title> Al Sutton | Steps to install VMware and the Linux kernel &gt; 2.4.8 </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.81.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -29,10 +29,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-    <link rel="canonical" href="/categories/Java/">
+    <link rel="canonical" href="/post/vmware-express-2-0-4/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="/categories/Java/index.xml" title="" />
     
     
     
@@ -53,8 +52,9 @@
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="/images/profile.jpeg"/>
 
-<meta name="twitter:title" content="Java"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Steps to install VMware and the Linux kernel &gt; 2.4.8"/>
+<meta name="twitter:description" content="I encountered some problems installing VMware Express (v2.0.4 build 1133) on SuSE Linux 8.0 and RedHat Linux 7.1 &amp; 7.2. Below are the steps I used to resolve the problem. This fix may work with later kernels (2.4.10, 2.4.11, 2.4.12,..), but I have not tested it.
+I have received a report from Peter Schwekendiek that this works with VMware GSX-Server 1.0.3 with Kernel 2.4.16, but it does NOT work with 2."/>
 
 </head>
 <body><div class="sidebar animated fadeInDown ">
@@ -136,59 +136,105 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-    <div class="archive  animated fadeInDown ">
-        <ul class="list-with-title">
+    <div class="post  animated fadeInDown ">
+        <div class="post-content">
             
-                <div class="listing-title">2006</div>
+            <div class="post-title">
+                <h3>Steps to install VMware and the Linux kernel &gt; 2.4.8</h3>
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/post/java-games/" title="Java Games">Java Games</a>
-                                <div class="post-time"><span class="date"> Nov 10 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date"> Sun, Feb 10, 2002 
+                                           </span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">One-minute read</span>
+                    </div>
                 
-            
-                <div class="listing-title">2001</div>
+            </div>
+
+            <p>I encountered some problems installing VMware Express (v2.0.4 build 1133) on SuSE Linux 8.0 and RedHat Linux 7.1 &amp; 7.2. Below are the steps I used to resolve the problem. This fix may work with later kernels (2.4.10, 2.4.11, 2.4.12,..), but I have not tested it.</p>
+<p>I have received a report from Peter Schwekendiek that this works with VMware GSX-Server 1.0.3 with Kernel 2.4.16, but it does NOT work with 2.4.17.</p>
+<p>Prerequisites
+You need to have VMware Express installed</p>
+<p>Steps</p>
+<ol>
+<li>
+<p>cd /usr/lib/vmware/modules/source</p>
+</li>
+<li>
+<p>tar xf vmmon.tar</p>
+</li>
+<li>
+<p>vi vmmon-only/linux/driver.c</p>
+</li>
+<li>
+<p>Insert #include &ldquo;hostif.h&rdquo; after the line #include &ldquo;driver-config.h&rdquo;</p>
+</li>
+<li>
+<p>Change #include &lt;malloc.h&gt; to #include &lt;slab.h&gt;</p>
+</li>
+<li>
+<p>Remove the line #include &ldquo;hostif.h&rdquo; located a few lines below the line inserted in step 5</p>
+</li>
+<li>
+<p>Replace the text current-&gt;dumpable with the text current-&gt;mm-&gt;dumpable</p>
+</li>
+<li>
+<p>Save the file &amp; exit vi</p>
+</li>
+<li>
+<p>vi vmmon-only/linux/hostif.c</p>
+</li>
+<li>
+<p>Change #include &lt;malloc.h&gt; to #include &lt;slab.h&gt;</p>
+</li>
+<li>
+<p>rm vmmon.tar</p>
+</li>
+<li>
+<p>tar cf vmmon.tar vmmon-only</p>
+</li>
+<li>
+<p>rm -rf vmmon-only</p>
+</li>
+<li>
+<p>tar xf vmnet.tar</p>
+</li>
+<li>
+<p>cd vmnet-only</p>
+</li>
+<li>
+<p>grep &ldquo;malloc.h&rdquo; *</p>
+</li>
+<li>
+<p>For each file listed by the output of 16, edit the file, and perform step 10. upon it, and then save it</p>
+</li>
+<li>
+<p>cd ..</p>
+</li>
+<li>
+<p>rm vmnet.tar</p>
+</li>
+<li>
+<p>tar cf vmnet.tar vmnet-only</p>
+</li>
+<li>
+<p>rm -rf vmnet-only</p>
+</li>
+</ol>
+<p>You should now be able to run vmware-config.pl and the modules should compile without any problems.</p>
+</div>
+        <div class="post-footer">
+            <div class="info">
+                <span class="separator"><a class="category" href="/categories/Linux/">Linux</a></span>
+
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/post/asxmlp/" title="Tiny XML Parser">Tiny XML Parser</a>
-                                <div class="post-time"><span class="date"> May 12 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-                <div class="listing-title">2000</div>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/post/kvmjab/" title="KVMJab - JVM/KVM Jabber Client Library">KVMJab - JVM/KVM Jabber Client Library</a>
-                                <div class="post-time"><span class="date"> Dec 1 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-                <div class="listing-title">1998</div>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/post/jazilla-in-wired/" title="Jazilla featured in Wired">Jazilla featured in Wired</a>
-                                <div class="post-time"><span class="date"> Apr 3 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-        </ul>
+            </div>
+        </div>
+
+        
     </div>
+
 
         </div>
     </div>

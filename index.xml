@@ -1593,6 +1593,90 @@ I&amp;rsquo;ve recently been looking into Email and the inevitable spam problem,
     </item>
     
     <item>
+      <title>Sky&#43; Service Menu</title>
+      <link>/post/sky-service-menu/</link>
+      <pubDate>Sun, 10 Oct 2004 16:03:03 +0000</pubDate>
+      
+      <guid>/post/sky-service-menu/</guid>
+      <description>There is a hidden service menu on Sky+ units which gives you access to engineer functions. If you have been having problems recording using Sky+ and the screen has been reporting there is a fault it may be worth doing using the system reset option from this menu.
+Please Note: this WILL lose all of your previous recorded programs and your recording schedule. Once you have performed a full reset, you should wait 5 minutes before trying to use the Sky+ system.</description>
+    </item>
+    
+    <item>
+      <title>SonyEricsson T610 Service Menu</title>
+      <link>/post/t610-service-menu/</link>
+      <pubDate>Thu, 10 Jun 2004 10:03:21 +0000</pubDate>
+      
+      <guid>/post/t610-service-menu/</guid>
+      <description>There is a hidden service menu on the T610 which gives you access to the firmware version numbers for the components of the system. To access it use the following key combination from the &amp;ldquo;normal&amp;rdquo; screen (i.e. where you dial a number from)
+ Move the joystick right Release the joystick (it should return to the center) Press * Move the joystick left Release the joystick (it should return to the center) Move the joystick left again Release the joystick (it should return to the center) Press * Move the joystick left Release the joystick (it should return to the center) Press *  You should then see a menu with the following options;</description>
+    </item>
+    
+    <item>
+      <title>Java Grid Processing</title>
+      <link>/post/java-grid-http/</link>
+      <pubDate>Sun, 02 May 2004 09:22:21 +0000</pubDate>
+      
+      <guid>/post/java-grid-http/</guid>
+      <description>Many people believe that distributed (or grid based) computing has only recently been possible on home machines. This isn&amp;rsquo;t true.
+Java has offered the basic tools to perform distributed processing since it&amp;rsquo;s earliest days (even when it was called Oak on the *7 research system in 1992). The key piece of technology for doing this are Java Applets (or the agents from Oak). The distributed processing system detailed here is suited to tasks which involve datasets which can be broken down into small components.</description>
+    </item>
+    
+    <item>
+      <title>Nokia 6210 &amp; SMS commands</title>
+      <link>/post/nokia-6210-commands/</link>
+      <pubDate>Sun, 07 Apr 2002 11:40:20 +0000</pubDate>
+      
+      <guid>/post/nokia-6210-commands/</guid>
+      <description>The following are instructions for send and receiving SMS message using a Nokia 6210 connected to a PC via the Nokia Data Cable. This should also work for Infrared connections to between the 6210 and PC, but I have not tested it.
+Sending SMS&amp;rsquo;s To send an SMS you can type the following. All characters you type are in bold, and all response from the Nokia 6210 are in monospace.</description>
+    </item>
+    
+    <item>
+      <title>Steps to install VMware and the Linux kernel &gt; 2.4.8</title>
+      <link>/post/vmware-express-2-0-4/</link>
+      <pubDate>Sun, 10 Feb 2002 11:41:32 +0000</pubDate>
+      
+      <guid>/post/vmware-express-2-0-4/</guid>
+      <description>I encountered some problems installing VMware Express (v2.0.4 build 1133) on SuSE Linux 8.0 and RedHat Linux 7.1 &amp;amp; 7.2. Below are the steps I used to resolve the problem. This fix may work with later kernels (2.4.10, 2.4.11, 2.4.12,..), but I have not tested it.
+I have received a report from Peter Schwekendiek that this works with VMware GSX-Server 1.0.3 with Kernel 2.4.16, but it does NOT work with 2.</description>
+    </item>
+    
+    <item>
+      <title>Steps to install Oracle 8.1.7 on RedHat Linux 7.1</title>
+      <link>/post/oracle-8-1-7-on-RHEL-7-1/</link>
+      <pubDate>Sat, 15 Dec 2001 15:11:30 +0000</pubDate>
+      
+      <guid>/post/oracle-8-1-7-on-RHEL-7-1/</guid>
+      <description>Prerequisites You need to have a version of JDK 1.1.8 installed. I used the one from Blackdown.org.
+Steps   Install the compat-glibc RPM from RedHat.
+  Type . /usr/i386-glib21-linux/bin/i386-glibc21-linux-env.sh
+  Type export LD_ASSUME_KERNEL=2.2.5
+  Run the installer (called runInstaller in the Oracle install directory).
+  Note: An error may occur towards the end of the install on ${ORACLE_HOME}/ctx/lib/ins_ctx.mk, to fix this I did the following;</description>
+    </item>
+    
+    <item>
+      <title>Tiny XML Parser</title>
+      <link>/post/asxmlp/</link>
+      <pubDate>Sat, 12 May 2001 16:20:41 +0000</pubDate>
+      
+      <guid>/post/asxmlp/</guid>
+      <description>ASXMLP is a J2SE / J2ME library for parsinhg XML which is small, portable, flexible, highly efficient, and has minimal requirements.
+The library offers both push and model views of an xml document, and typically compiles to around 6Kb of class files, making it ideal for J2ME projects, applets, or WebStart applications where code size of great concern.
+The parser was originally written by Al Sutton, and has been tested in Jonathan Knudsens&#39; Parsing XML in J2ME article at developers.</description>
+    </item>
+    
+    <item>
+      <title>KVMJab - JVM/KVM Jabber Client Library</title>
+      <link>/post/kvmjab/</link>
+      <pubDate>Fri, 01 Dec 2000 13:24:50 +0000</pubDate>
+      
+      <guid>/post/kvmjab/</guid>
+      <description>I&amp;rsquo;ve made available a library that I&amp;rsquo;ve created which allows you to communicate via Jabber on Java Standard or Micro editions.</description>
+    </item>
+    
+    <item>
       <title>Jazilla featured in Wired</title>
       <link>/post/jazilla-in-wired/</link>
       <pubDate>Fri, 03 Apr 1998 11:20:50 +0000</pubDate>
@@ -1600,6 +1684,28 @@ I&amp;rsquo;ve recently been looking into Email and the inevitable spam problem,
       <guid>/post/jazilla-in-wired/</guid>
       <description>Wired have featured the efforts to help make a Java based version of Netscape Communicator which features a couple of quotes from me.
 The interview was conducted purely by Email, which is great given the timezone difference, and hopefully it&amp;rsquo;ll attract a few extra developers to work on the project.</description>
+    </item>
+    
+    <item>
+      <title>King&#39;s College, London wins ISRI award</title>
+      <link>/post/isri-award/</link>
+      <pubDate>Tue, 01 Jul 1997 11:20:50 +0000</pubDate>
+      
+      <guid>/post/isri-award/</guid>
+      <description>Al Sutton from King&amp;rsquo;s College, London wins The Internation Systems Research Institute (&amp;ldquo;ISRI&amp;rdquo;) 1997 Award of a top of the range Hewlett-Packard Vectra Pentium 200 worth 3,000 pounds.
+Al Sutton, a BSc. in Maths and Computer Science, received his award from Ron McQuaker, President of the British Computer Society at Coutts Bank in London, before an audience of 70 IT Directors and leading IT Academics from Universities from all over the UK.</description>
+    </item>
+    
+    <item>
+      <title>Announcing SMSmail - The Psion SMS communications package</title>
+      <link>/post/smsmail/</link>
+      <pubDate>Thu, 17 Apr 1997 14:45:50 +0000</pubDate>
+      
+      <guid>/post/smsmail/</guid>
+      <description>You can now send and receive Internet e-mail from your Psion 3a using your SMS link and Nokia 2110 mobile &amp;lsquo;phone!
+By connecting your Psion to the &amp;lsquo;phone using the SMS Link cable SMSmail software allows you to send messages to the Internet via the Airmail® service. Suddenly your Psion turns into a powerful Internet communicator!
+Features
+ Send and receive standard SMS messages and files from Psion to Psion or Psion to compatible mobile &amp;lsquo;phone.</description>
     </item>
     
   </channel>

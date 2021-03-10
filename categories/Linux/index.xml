@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on </title>
+    <link>/categories/Linux/</link>
+    <description>Recent content in Linux on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 10 Feb 2002 11:41:32 +0000</lastBuildDate><atom:link href="/categories/Linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Steps to install VMware and the Linux kernel &gt; 2.4.8</title>
+      <link>/post/vmware-express-2-0-4/</link>
+      <pubDate>Sun, 10 Feb 2002 11:41:32 +0000</pubDate>
+      
+      <guid>/post/vmware-express-2-0-4/</guid>
+      <description>I encountered some problems installing VMware Express (v2.0.4 build 1133) on SuSE Linux 8.0 and RedHat Linux 7.1 &amp;amp; 7.2. Below are the steps I used to resolve the problem. This fix may work with later kernels (2.4.10, 2.4.11, 2.4.12,..), but I have not tested it.
+I have received a report from Peter Schwekendiek that this works with VMware GSX-Server 1.0.3 with Kernel 2.4.16, but it does NOT work with 2.</description>
+    </item>
+    
+    <item>
+      <title>Steps to install Oracle 8.1.7 on RedHat Linux 7.1</title>
+      <link>/post/oracle-8-1-7-on-RHEL-7-1/</link>
+      <pubDate>Sat, 15 Dec 2001 15:11:30 +0000</pubDate>
+      
+      <guid>/post/oracle-8-1-7-on-RHEL-7-1/</guid>
+      <description>Prerequisites You need to have a version of JDK 1.1.8 installed. I used the one from Blackdown.org.
+Steps   Install the compat-glibc RPM from RedHat.
+  Type . /usr/i386-glib21-linux/bin/i386-glibc21-linux-env.sh
+  Type export LD_ASSUME_KERNEL=2.2.5
+  Run the installer (called runInstaller in the Oracle install directory).
+  Note: An error may occur towards the end of the install on ${ORACLE_HOME}/ctx/lib/ins_ctx.mk, to fix this I did the following;</description>
+    </item>
+    
+  </channel>
+</rss>
