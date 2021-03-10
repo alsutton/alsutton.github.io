@@ -263,7 +263,7 @@ sure to change <code>aosp-disk-1</code> to something else (e.g. <code>aosp-disk-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ mount /mnt/aosp-disk-1
 $ mount /mnt/aosp-disk-2
 </code></pre></div><h1 id="7-two-disk-setup-only-after-checking-out-the-source-code">7. Two disk setup only: After checking out the source code</h1>
-<p>Once you&rsquo;ve followed Googles instructions on <a href="https://source.android.com/setup/start">checkout out the AOSP</a>
+<p>Once you&rsquo;ve followed Googles instructions on <a href="https://source.android.com/setup/start">checking out the AOSP</a>
 source code into your source code hosting partition you will, before you start your build, need to create
 a link from the <code>out</code> directory in the source code checkout to a directory on your build output disk.</p>
 <p>If you have checked out the AOSP source code into <code>/mnt/aosp-disk-1/aosp-checkout/</code> you can run the following;</p>
@@ -279,7 +279,7 @@ large amounts of data to a disk, as you would do in a large build.</p>
 <p>While it&rsquo;s possible to have the OS automatically tell the SSD to TRIM a disk, the OS can&rsquo;t predict the future,
 and so doesn&rsquo;t know when you&rsquo;re going to kick off a build which is likely to write a lot of data. TRIM can also
 be slow, so you ideally don&rsquo;t want to have a TRIM start while you&rsquo;re in the middle of a build, so, to save the
-Linux developers needing to write a future prediction algorithm I manually trigger a TRIM operation on all 
+Linux developers needing to write a future prediction algorithm, I manually trigger a TRIM operation on all 
 filesystems before I run a large build by running the following command as <code>root</code>;</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ fstrim -a
 </code></pre></div><h1 id="thats-all-folks">That&rsquo;s all folks</h1>
