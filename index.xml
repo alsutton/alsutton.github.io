@@ -1592,5 +1592,15 @@ Now I know there certainly weren&amp;rsquo;t 2,965 new stable releases of Apache
 I&amp;rsquo;ve recently been looking into Email and the inevitable spam problem, and have found that IP address based anti-spam real time black lists (or RBLs) are probably doing more damage than good.</description>
     </item>
     
+    <item>
+      <title>Jazilla featured in Wired</title>
+      <link>/post/jazilla-in-wired/</link>
+      <pubDate>Fri, 03 Apr 1998 11:20:50 +0000</pubDate>
+      
+      <guid>/post/jazilla-in-wired/</guid>
+      <description>Wired have featured the efforts to help make a Java based version of Netscape Communicator which features a couple of quotes from me.
+The interview was conducted purely by Email, which is great given the timezone difference, and hopefully it&amp;rsquo;ll attract a few extra developers to work on the project.</description>
+    </item>
+    
   </channel>
 </rss>

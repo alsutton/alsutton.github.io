@@ -17,5 +17,15 @@
 None of these cut it against the current generation of PC games, and I&amp;rsquo;ve looked into a few of these games, and some of them semi-cheat by using JNI to call through to native APIs such as OpenGL, so portability is questionable, but the achievements of a working AI, physics, and game processing models at speeds which don&amp;rsquo;t impact gameplay is pretty impressive, particularly as they are not produced by large multi-million dollar games development houses.</description>
     </item>
     
+    <item>
+      <title>Jazilla featured in Wired</title>
+      <link>/post/jazilla-in-wired/</link>
+      <pubDate>Fri, 03 Apr 1998 11:20:50 +0000</pubDate>
+      
+      <guid>/post/jazilla-in-wired/</guid>
+      <description>Wired have featured the efforts to help make a Java based version of Netscape Communicator which features a couple of quotes from me.
+The interview was conducted purely by Email, which is great given the timezone difference, and hopefully it&amp;rsquo;ll attract a few extra developers to work on the project.</description>
+    </item>
+    
   </channel>
 </rss>
