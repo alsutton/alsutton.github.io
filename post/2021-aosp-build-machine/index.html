@@ -182,13 +182,13 @@ half an hour (yes, you will be looking at multi-hour builds).</p>
 <p>You don&rsquo;t have to break the bank; In my case Machine #2 is actually a 2010 Mac Pro (~US$1000 on eBay)
 with a <a href="https://amzn.to/2Oy6jxA">Samsung Evo 840 SATA SSD</a>, and a CPU upgrade (<a href="https://ark.intel.com/content/www/us/en/ark/products/52577/intel-xeon-processor-x5675-12m-cache-3-06-ghz-6-40-gt-s-intel-qpi.html">Xeon X5675</a>). You can buy similar 
 specification machines that are non-Apple for even cheaper, and if you&rsquo;re willing to make space for a rack mountable 
-server from eBay you can get a 12+ core machine for <a href="https://www.ebay.co.uk/sch/i.html?_from=R40&amp;_trksid=p2380057.m570.l1313&amp;_nkw=Dual+X5675+server&amp;_sacat=0">a lot less than a Core i5-9600k desktop</a>.</p>
+server bought on eBay you can get a 12+ core machine for <a href="https://www.ebay.co.uk/sch/i.html?_from=R40&amp;_trksid=p2380057.m570.l1313&amp;_nkw=Dual+X5675+server&amp;_sacat=0">a lot less than a Core i5-9600k desktop</a>.</p>
 <p>So given the choice of two machines with similar prices, go for the one which has more cores.</p>
 <p>(The only reason I used a Mac Pro is because I&rsquo;ve had one for 10 years, so I already had the hardware available)</p>
 <h1 id="2-ram">2. RAM</h1>
 <p>You&rsquo;ll need about twice the number of cores in GB of RAM.</p>
 <p>A little extra RAM can help, but a lot extra won&rsquo;t. I&rsquo;ve tried a few different RAM sizes on my 12-core build 
-machine and while 16 GB RAM was definitely too small any improvement I got from going above 24 GB 
+machine and while 16 GB RAM was definitely too small, any improvement I got from going above 24 GB 
 was close to meaningless. Doubling the RAM from 24 GB to 48 GB in Machine 2 only gave me a less than one 
 percent drop in build times, and similarly bringing Machine 1 down to 16 GB only gave me a low single digit
 percentage increase.</p>
@@ -241,7 +241,7 @@ on other programs could cause problems.</p>
 <p>To make these changes you need run a command and change a system file <strong>for each partition</strong>. So
 if you have your source code checked out to <code>/dev/nvme0n1p1</code>, and your build output is going to
 <code>/dev/nvme0n2p1</code>, you&rsquo;ll need to do the following for each one.</p>
-<p>As the <code>root</code> user do the following;</p>
+<p>As the <code>root</code> user run the following commands;</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ mkfs.ext4 -O ^has_journal /dev/nvme0n1p1 
 $ mkdir /mnt/aosp-disk-1 
 </code></pre></div><p>(You can alter the directory in the <code>mkdir</code> command to something more memorable if you want to,
