@@ -229,8 +229,9 @@ and then use all of your build output hosting disk.</p>
 source code and build output.</p>
 <h2 id="use-ext4-as-the-file-system">Use ext4 as the file system.</h2>
 <p>ext4 is a reliable, trusted, and well tested file system. I&rsquo;ve tried other filesystems which are designed
-to be more flash-friendly (e.g. F2FS), the improvement wasn&rsquo;t noticeable, and most also carried warnings
-about current maintenance, SSD wear, or other similarly concerning things.</p>
+to be more flash-friendly (e.g. F2FS), there wasn&rsquo;t a noticeable improvement in build times, and most 
+alternatives had warnings about the state of current maintenance, SSD wear, or other 
+similarly concerning things.</p>
 <h1 id="6-customise-how-linux-uses-the-disks">6. Customise how Linux uses the disk(s)</h1>
 <p>Once you&rsquo;ve installed linux, and it&rsquo;s up and running, there are a couple of things you can do to improve your
 performance; turn off ext4 journaling and access time recording for the source code and build output.</p>
@@ -239,7 +240,8 @@ you&rsquo;ve not created separate partitions I would advise against following th
 on other programs could cause problems.</p>
 <p>To make these changes you need run a command and change a system file <strong>for each partition</strong>. So
 if you have your source code checked out to <code>/dev/nvme0n1p1</code>, and your build output is going to
-<code>/dev/nvme0n2p1</code>, you&rsquo;ll need to do the following for each as the <code>root</code> user;</p>
+<code>/dev/nvme0n2p1</code>, you&rsquo;ll need to do the following for each one.</p>
+<p>As the <code>root</code> user do the following;</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ mkfs.ext4 -O ^has_journal /dev/nvme0n1p1 
 $ mkdir /mnt/aosp-disk-1 
 </code></pre></div><p>(You can alter the directory in the <code>mkdir</code> command to something more memorable if you want to,
