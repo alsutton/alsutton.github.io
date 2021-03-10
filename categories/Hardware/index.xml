@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardware on </title>
+    <link>/categories/Hardware/</link>
+    <description>Recent content in Hardware on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 08 Mar 2021 08:45:54 +0000</lastBuildDate><atom:link href="/categories/Hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Buying choices for SSDs</title>
+      <link>/post/ssd-technologies/</link>
+      <pubDate>Mon, 08 Mar 2021 08:45:54 +0000</pubDate>
+      
+      <guid>/post/ssd-technologies/</guid>
+      <description>Buying disks has, if anything, become more confusing recently. Gone are the days when the only question was 2.5&amp;quot; or 3.5&amp;quot;, now there are hardware and software interfaces to worry about as well. I&amp;rsquo;ve recently wandered into the maze of SSD buying, so I thought it might be useful for others if I shared what I learnt;
+2.5&amp;quot; or 3.5&amp;quot; These two are relatively simple; They refer to the physical size of the disk housing (the thing which contains the disk itself), and the connector is, for anything recent, SATA.</description>
+    </item>
+    
+  </channel>
+</rss>

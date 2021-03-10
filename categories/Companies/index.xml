@@ -78,16 +78,5 @@ Experian basically make money from selling other peoples information, but the pr
  The company is Crest Nicholson, a UK house builder, who, in web pages that are thinly disguised adverts for two of their developments (here and here) have large glowing quotes about how good these developments are and the company in general.</description>
     </item>
     
-    <item>
-      <title>SpikeSource - What value do they add?</title>
-      <link>/post/spikesource-what-value-do-they-add/</link>
-      <pubDate>Thu, 16 Feb 2006 11:20:50 +0000</pubDate>
-      
-      <guid>/post/spikesource-what-value-do-they-add/</guid>
-      <description>SpikeSource popped up on my radar after seeing an article on The Register. After looking a bit at what they do I still seem to be unable to see what value they add.
-My main problem is one of their claims that&amp;hellip;
-Now I know there certainly weren&amp;rsquo;t 2,965 new stable releases of Apache in 2005, so my guess is their talking about changes to the development version of the code, which, as pretty much anyone in IT support will tell you, you should definitely not be using in a environment with real users.</description>
-    </item>
-    
   </channel>
 </rss>

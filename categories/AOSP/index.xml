@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AOSP on </title>
+    <link>/categories/AOSP/</link>
+    <description>Recent content in AOSP on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 10 Mar 2021 08:45:54 +0000</lastBuildDate><atom:link href="/categories/AOSP/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an Android Firmware build machine</title>
+      <link>/post/2021-aosp-build-machine/</link>
+      <pubDate>Wed, 10 Mar 2021 08:45:54 +0000</pubDate>
+      
+      <guid>/post/2021-aosp-build-machine/</guid>
+      <description>Most commodity desktop computers won&amp;rsquo;t be able to build the Android Open Source Project in less than 4 hours, and most folk are on a budget when they build a new machine, so I&amp;rsquo;ve put together a few tips which will help you build a machine capable of building the AOSP in two to three hours.
+WWGD? The first question that most folk ask when considering a machine for building the AOSP is &amp;ldquo;What Would Google Do?</description>
+    </item>
+    
+    <item>
+      <title>Improving Your Docker Image Development Experience</title>
+      <link>/post/docker-image-development-environment/</link>
+      <pubDate>Wed, 03 Mar 2021 08:45:54 +0000</pubDate>
+      
+      <guid>/post/docker-image-development-environment/</guid>
+      <description>Many CI systems allow you to build inside a Docker container, but creating the docker image which is used for the container can be a slow process. Various third party resources, like Docker Hub, may have rate limits, and fetching all the updates and new packages over the internet may take a while, but there are a few things you can do which will make building and testing your images faster.</description>
+    </item>
+    
+    <item>
+      <title>AOSP - in need of love at both ends</title>
+      <link>/post/aosp-in-need-of-love-at-both-ends/</link>
+      <pubDate>Wed, 10 Mar 2010 17:18:11 +0000</pubDate>
+      
+      <guid>/post/aosp-in-need-of-love-at-both-ends/</guid>
+      <description>After spending some time trying to build a firmware I&amp;rsquo;ve seen some things which have opened my eyes as to why the Android Open Source Project may not be seeing the kind of community contributions that would be expected of such a high profile project.
+Other people have shown an interest in knowing my thoughts so I&amp;rsquo;m going to throw out my top 3 for discussion which will hopefully help to improve things;</description>
+    </item>
+    
+    <item>
+      <title>Building firmware... not for the infirm...</title>
+      <link>/post/building-firmware-not-for-the-infirm/</link>
+      <pubDate>Tue, 09 Mar 2010 13:43:49 +0000</pubDate>
+      
+      <guid>/post/building-firmware-not-for-the-infirm/</guid>
+      <description>A project I&amp;rsquo;m working on requires the use of a custom firmware image, so I&amp;rsquo;ve been exposed to the joy that is trying to build and use the open source version of Android, and to be honest it&amp;rsquo;s left me a little battered.
+If you&amp;rsquo;re on an ADP1, and you&amp;rsquo;re just looking to build a 1.6 firmware, you&amp;rsquo;re in for a smooth ride. JBQ and his helpers did a fantastic job and created some easy to follow instructions which you can use to build a firmware image from the donut-plus-aosp branch of the central android repository.</description>
+    </item>
+    
+  </channel>
+</rss>

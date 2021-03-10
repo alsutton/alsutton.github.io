@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Culture on </title>
+    <link>/categories/Culture/</link>
+    <description>Recent content in Culture on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 19 Feb 2019 16:45:54 +0000</lastBuildDate><atom:link href="/categories/Culture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ideas for a healthier engineering environment</title>
+      <link>/post/healthy-engineering/</link>
+      <pubDate>Tue, 19 Feb 2019 16:45:54 +0000</pubDate>
+      
+      <guid>/post/healthy-engineering/</guid>
+      <description>Ideas for a healthier engineering environment We&amp;rsquo;ve all had good and bad work experiences, but how many of us are learning from them? Having recently left Deliveroo I decided to put together some things I thought were good engineering guidelines based on the experiences I&amp;rsquo;ve had at several companies so I could try to find a future workplace which was in-line with my ideal way of working.
+ Don&amp;rsquo;t assume you have complete knowledge No-one is part of every conversation in a company, and very few, if any, engineers remember every fact from every conversation they have, so assuming you know all of the reasons behind someones actions is always going to lead to mistakes.</description>
+    </item>
+    
+    <item>
+      <title>Feedback - Take it, but also rate it.</title>
+      <link>/post/feedback-take-it-but-also-rate-it/</link>
+      <pubDate>Fri, 15 Sep 2017 09:17:28 +0000</pubDate>
+      
+      <guid>/post/feedback-take-it-but-also-rate-it/</guid>
+      <description>Something I&amp;rsquo;ve seen over the (several) years I&amp;rsquo;ve been working in tech is a lack of understanding that feedback has differing levels of value. Sometimes this goes to the extremes of feedback that&amp;rsquo;s ignored because it&amp;rsquo;s come from a person or group which has consistently provided low value feedback, or groups which don&amp;rsquo;t get a lot of feedback because people think it won&amp;rsquo;t be acted on. Both of these are very bad places to be in.</description>
+    </item>
+    
+  </channel>
+</rss>

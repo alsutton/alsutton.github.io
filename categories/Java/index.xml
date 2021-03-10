@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on </title>
+    <link>/categories/Java/</link>
+    <description>Recent content in Java on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 10 Nov 2006 10:59:08 +0000</lastBuildDate><atom:link href="/categories/Java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Games</title>
+      <link>/post/java-games/</link>
+      <pubDate>Fri, 10 Nov 2006 10:59:08 +0000</pubDate>
+      
+      <guid>/post/java-games/</guid>
+      <description>I&amp;rsquo;m one of those people who&amp;rsquo;ve been using Java long enough to have written it off as not being able to present a good graphical front end, that was until I saw this post at Java Lobby (The video in the post is available directly from YouTube, be aware, it has a techno soundtrack).
+None of these cut it against the current generation of PC games, and I&amp;rsquo;ve looked into a few of these games, and some of them semi-cheat by using JNI to call through to native APIs such as OpenGL, so portability is questionable, but the achievements of a working AI, physics, and game processing models at speeds which don&amp;rsquo;t impact gameplay is pretty impressive, particularly as they are not produced by large multi-million dollar games development houses.</description>
+    </item>
+    
+  </channel>
+</rss>

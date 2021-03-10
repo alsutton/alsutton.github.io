@@ -6,7 +6,17 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 08 Mar 2021 08:45:54 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Mar 2021 08:45:54 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an Android Firmware build machine</title>
+      <link>/post/2021-aosp-build-machine/</link>
+      <pubDate>Wed, 10 Mar 2021 08:45:54 +0000</pubDate>
+      
+      <guid>/post/2021-aosp-build-machine/</guid>
+      <description>Most commodity desktop computers won&amp;rsquo;t be able to build the Android Open Source Project in less than 4 hours, and most folk are on a budget when they build a new machine, so I&amp;rsquo;ve put together a few tips which will help you build a machine capable of building the AOSP in two to three hours.
+WWGD? The first question that most folk ask when considering a machine for building the AOSP is &amp;ldquo;What Would Google Do?</description>
+    </item>
+    
     <item>
       <title>Buying choices for SSDs</title>
       <link>/post/ssd-technologies/</link>
@@ -114,21 +124,12 @@ Companies monitor sales through channels, they don&amp;rsquo;t know where the en
     </item>
     
     <item>
-      <title>Oh Hai</title>
-      <link>/post/oh-hai/</link>
-      <pubDate>Tue, 06 Aug 2013 12:10:06 +0000</pubDate>
-      
-      <guid>/post/oh-hai/</guid>
-      <description>Time to play :)</description>
-    </item>
-    
-    <item>
       <title>Google Play Edition Devices</title>
       <link>/post/google-play-edition-devices/</link>
       <pubDate>Sat, 03 Aug 2013 08:04:20 +0000</pubDate>
       
       <guid>/post/google-play-edition-devices/</guid>
-      <description>So in the last couple of months Google have released the Google Play Edition HTC One, the PE Samsung S4, Nexus 7 (2013 edition), ChromeCast, and the MotoX all only in the US, adding to +Google Glass&amp;rsquo;s continued US-only availability. If you go beyond hardware there&amp;rsquo;s things like Voice, All Access Music, and I&amp;rsquo;m sure a number of other products which, if you&amp;rsquo;re not in the US, you&amp;rsquo;re not likely to be able to use.</description>
+      <description>So in the last couple of months Google have released the Google Play Edition HTC One, the PE Samsung S4, Nexus 7 (2013 edition), ChromeCast, and the MotoX all only in the US, adding to Google Glass&amp;rsquo;s continued US-only availability. If you go beyond hardware there&amp;rsquo;s things like Voice, All Access Music, and I&amp;rsquo;m sure a number of other products which, if you&amp;rsquo;re not in the US, you&amp;rsquo;re not likely to be able to use.</description>
     </item>
     
     <item>
@@ -137,7 +138,7 @@ Companies monitor sales through channels, they don&amp;rsquo;t know where the en
       <pubDate>Sun, 23 Jun 2013 08:43:50 +0000</pubDate>
       
       <guid>/post/leaving-ouya/</guid>
-      <description>Nearly 8 months ago I met with a few software engineers working from some rented desks in San Francisco. They were the +OUYA engineering team. We talked, they took me through their interview process. I also had a meeting with Julie Uhrman, after which I went from being a believer that it could happen to a believer that it would happen and there was a place on the team for me and I could help make it happen.</description>
+      <description>Nearly 8 months ago I met with a few software engineers working from some rented desks in San Francisco. They were the OUYA engineering team. We talked, they took me through their interview process. I also had a meeting with Julie Uhrman, after which I went from being a believer that it could happen to a believer that it would happen and there was a place on the team for me and I could help make it happen.</description>
     </item>
     
     <item>
@@ -146,7 +147,7 @@ Companies monitor sales through channels, they don&amp;rsquo;t know where the en
       <pubDate>Thu, 20 Jun 2013 12:15:33 +0000</pubDate>
       
       <guid>/post/droidcon-london-2013/</guid>
-      <description>I got a call from +Skills Matter asking me if I&amp;rsquo;d be interested in going to +droidcon London 2013&amp;hellip;. well, it&amp;rsquo;s already certain I&amp;rsquo;ll be there, and here&amp;rsquo;s why;
+      <description>I got a call from Skills Matter asking me if I&amp;rsquo;d be interested in going to droidcon London 2013&amp;hellip;. well, it&amp;rsquo;s already certain I&amp;rsquo;ll be there, and here&amp;rsquo;s why;
 There are going to be several tracks at #DroidconUK13 , and each track has a track-master, a person who has volunteered to co-ordinate the track, sort out who talks in which slots, and make sure their track is appealing to developers.</description>
     </item>
     
@@ -156,7 +157,7 @@ There are going to be several tracks at #DroidconUK13 , and each track has a tra
       <pubDate>Sun, 19 May 2013 09:26:27 +0000</pubDate>
       
       <guid>/post/developing-for-different-platforms/</guid>
-      <description>So if I understand this TechCrunch article correctly; +Overdose Caffeine stopped developing for the +OUYA because they don&amp;rsquo;t want to implement a control system which works well with an OUYA controller (and the article reads very much like they may have received an incentive to highlight another product)
+      <description>So if I understand this TechCrunch article correctly; Overdose Caffeine stopped developing for the OUYA because they don&amp;rsquo;t want to implement a control system which works well with an OUYA controller (and the article reads very much like they may have received an incentive to highlight another product)
 To me this article highlights one part of the value of the OUYA store; It stops users getting apps from developers who don&amp;rsquo;t understand the UX needs of a console.</description>
     </item>
     
@@ -166,7 +167,7 @@ To me this article highlights one part of the value of the OUYA store; It stops 
       <pubDate>Tue, 30 Apr 2013 09:32:41 +0000</pubDate>
       
       <guid>/post/google-glass-hardware/</guid>
-      <description>Maybe I&amp;rsquo;ve been looking in all the wrong places, but it seems no-one has raised an issue with the current iteration of +Project Glass hardware; The uncertainty over the future of its&#39; CPU.
+      <description>Maybe I&amp;rsquo;ve been looking in all the wrong places, but it seems no-one has raised an issue with the current iteration of Project Glass hardware; The uncertainty over the future of its&#39; CPU.
 All the reports I&amp;rsquo;ve seen say that the current hardware is running an OMAP 4430 and TI announced last year they were winding down their smartphone and tablet orientated OMAP chips, which is the segment where the 4430 lives (see http://goo.</description>
     </item>
     
@@ -187,7 +188,7 @@ Rather than expect developers to pay to fly and stay near them, they&amp;rsquo;r
       
       <guid>/post/io-13-or-droidcon/</guid>
       <description>So it&amp;rsquo;s been confirmed; #io13 will be yet another free-for-all with the freebie grabbers :(
-This means I&amp;rsquo;m now definitely going to give it a skip it in favour of +Droidcon Berlin and +droidcon London later in the year. Whilst I&amp;rsquo;ve had some good conversations at #io events I&amp;rsquo;ve also had a number of ones which left me thinking &amp;ldquo;OK, this person isn&amp;rsquo;t really into coding and technology&amp;rdquo;, whereas at the Droidcons I&amp;rsquo;ve been to the only time I&amp;rsquo;ve thought that was talking to some of the people who have stands and are clearly identifiable as sales people (usually wearing a company T-shirt or something similar).</description>
+This means I&amp;rsquo;m now definitely going to give it a skip it in favour of Droidcon Berlin and droidcon London later in the year. Whilst I&amp;rsquo;ve had some good conversations at #io events I&amp;rsquo;ve also had a number of ones which left me thinking &amp;ldquo;OK, this person isn&amp;rsquo;t really into coding and technology&amp;rdquo;, whereas at the Droidcons I&amp;rsquo;ve been to the only time I&amp;rsquo;ve thought that was talking to some of the people who have stands and are clearly identifiable as sales people (usually wearing a company T-shirt or something similar).</description>
     </item>
     
     <item>
@@ -206,7 +207,7 @@ At #io12 I met a guy who guy who said he was getting two of everything because h
       <pubDate>Fri, 07 Dec 2012 08:36:36 +0000</pubDate>
       
       <guid>/post/google-ordering-process-fails/</guid>
-      <description>Looks like +Google have done it again; Completely f&amp;rsquo;ed up when writing a simple order management system.
+      <description>Looks like Google have done it again; Completely f&amp;rsquo;ed up when writing a simple order management system.
 I&amp;rsquo;m seeing numerous reports from people who ordered #Nexus4 &amp;rsquo;s after me and were told it would arrive in &amp;ldquo;4-5 weeks&amp;rdquo; that they&amp;rsquo;ve received their &amp;lsquo;phones, which my order (made about 3 minutes after the 4th of Dec restock, with a &amp;ldquo;1-2 week&amp;rdquo; estimate) is still sitting in &amp;ldquo;Pending&amp;rdquo;.
 Every #IO ticket ordering session for the past couple of years has been a disaster, the initial #Nexus4 seemed to be a road crash, and this time, although you could order, the order execution process seems to be completely screwed, and in traditional Google style, all you have is an email address to get an answer from and, if they deem you worthy, you might actually get a reply.</description>
     </item>
@@ -228,7 +229,7 @@ Every #IO ticket ordering session for the past couple of years has been a disast
       <guid>/post/charging-the-nexus-10/</guid>
       <description>It charges from a Micro-USB connector which is, for Samsung, a huge step in the right direction.
 The feel of the device reminds me very much of a Xoom. The rubber back is a good touch (I can&amp;rsquo;t count how many samsung tablets I&amp;rsquo;ve had slip around in my hands).
-In terms of setup, it still disappoints me that +Android doesn&amp;rsquo;t show the MAC address when you set up WiFi for the first time.</description>
+In terms of setup, it still disappoints me that Android doesn&amp;rsquo;t show the MAC address when you set up WiFi for the first time.</description>
     </item>
     
     <item>
@@ -237,7 +238,7 @@ In terms of setup, it still disappoints me that +Android doesn&amp;rsquo;t show 
       <pubDate>Sun, 28 Oct 2012 12:11:59 +0000</pubDate>
       
       <guid>/post/focusing-on-my-role-at-ouya/</guid>
-      <description>Closing down my other projects. My role at +OUYA is going to be full time so there&amp;rsquo;ll be little to no time to do anything else.</description>
+      <description>Closing down my other projects. My role at OUYA is going to be full time so there&amp;rsquo;ll be little to no time to do anything else.</description>
     </item>
     
     <item>
@@ -246,7 +247,7 @@ In terms of setup, it still disappoints me that +Android doesn&amp;rsquo;t show 
       <pubDate>Tue, 09 Oct 2012 09:14:28 +0000</pubDate>
       
       <guid>/post/updates-to-android-devices/</guid>
-      <description>At #io12 +Hugo Barra announced the new Android Platform Development Kit. The PDK was described as helping hardware developers port Jelly Bean to their devices and was said to be available &amp;ldquo;two to three months before the platform release date&amp;rdquo;, and that selected hardware partners had been given access to the JB PDK a few weeks before #io12 (around the 30min mark in the video below).
+      <description>At #io12 Hugo Barra announced the new Android Platform Development Kit. The PDK was described as helping hardware developers port Jelly Bean to their devices and was said to be available &amp;ldquo;two to three months before the platform release date&amp;rdquo;, and that selected hardware partners had been given access to the JB PDK a few weeks before #io12 (around the 30min mark in the video below).
 Personally I felt it was this years attempt to reassure users their devices would get updates after last years attempt (The 18 month update guarantee) failed so miserably.</description>
     </item>
     
@@ -256,7 +257,7 @@ Personally I felt it was this years attempt to reassure users their devices woul
       <pubDate>Fri, 07 Sep 2012 08:34:07 +0000</pubDate>
       
       <guid>/post/android-tablets/</guid>
-      <description>One phrase from last nights +Amazon.com Kindle launch makes me think they&amp;rsquo;re going to take over the #Android tablet space and have big consumer support;
+      <description>One phrase from last nights Amazon.com Kindle launch makes me think they&amp;rsquo;re going to take over the #Android tablet space and have big consumer support;
 &amp;ldquo;&amp;hellip;people don&amp;rsquo;t want gadgets anymore. They want services that improve over time. They want services that improve every day, every week, and every month.&amp;rdquo;
 This has been true for a long time. Consumers buy devices from washing machines to TVs because they want it to do something, not because it has the lastest bit of technology from the manufacturer.</description>
     </item>
@@ -299,7 +300,7 @@ The code to support multi-window mode is baked into the core Android framework o
       <pubDate>Fri, 17 Aug 2012 08:46:15 +0000</pubDate>
       
       <guid>/post/adobe-flash/</guid>
-      <description>After a comment on a previous post from +George Medve on Flash I though it best to share my take on it. I&amp;rsquo;m doing this as a post because it&amp;rsquo;s probably of interest to some people who wouldn&amp;rsquo;t read the comments on the other post;
+      <description>After a comment on a previous post from George Medve on Flash I though it best to share my take on it. I&amp;rsquo;m doing this as a post because it&amp;rsquo;s probably of interest to some people who wouldn&amp;rsquo;t read the comments on the other post;
 In terms of Flashes security, I think this article says it all. 2 days ago Adobe were patching a bug which could crash machines and/or allow remote users to take control.</description>
     </item>
     
@@ -310,7 +311,7 @@ In terms of Flashes security, I think this article says it all. 2 days ago Adobe
       
       <guid>/post/ouya-doesnt-need-to-be-pure-android/</guid>
       <description>The #Ouya Kickstarter has nearly crossed the US$5million mark.
-I&amp;rsquo;ve read all the negative press, a lot of which was written before this weekends Android XBMC posts by +Kieran Gutteridge and +Jason Parker.
+I&amp;rsquo;ve read all the negative press, a lot of which was written before this weekends Android XBMC posts by Kieran Gutteridge and Jason Parker.
 If you bear in mind that Apple apparently sold more than 2.7 million Apple TVs&#39; in the first half of this year (http://goo.gl/K9ldI), a US$99 XBMC capable device which has the ability to run apps and games as well seems to me to have a good chance of being a success.</description>
     </item>
     
@@ -355,7 +356,7 @@ It&amp;rsquo;s a bit time consuming, but it should be enough to get the Q workin
       <pubDate>Thu, 28 Jun 2012 09:19:41 +0000</pubDate>
       
       <guid>/post/nexus-q-ideas/</guid>
-      <description>After chatting with +Billy Rutledge yesterday I&amp;rsquo;ve got a few ideas spinning for how people could use the #NexusQ so I thought I&amp;rsquo;d put them out there as they seem to revolve around one theme; The Q as a hub device.
+      <description>After chatting with Billy Rutledge yesterday I&amp;rsquo;ve got a few ideas spinning for how people could use the #NexusQ so I thought I&amp;rsquo;d put them out there as they seem to revolve around one theme; The Q as a hub device.
 Multiplayer gaming could use it as the server/co-ordinator for multiple devices running on the same WiFi network so that no-ones individual device needs to be nominated as the primary device (and take the processing hit), and any peer-to-peer co-ordination alogrithms could be offloaded onto the Q creating a star topology instead of a mesh, which tends to be more efficient.</description>
     </item>
     
@@ -365,8 +366,8 @@ Multiplayer gaming could use it as the server/co-ordinator for multiple devices 
       <pubDate>Thu, 28 Jun 2012 08:42:34 +0000</pubDate>
       
       <guid>/post/android-on-google-glass/</guid>
-      <description>Did I mentioned I was told yesterday that Googlers already have some +Android apps running on +Project Glass?
-I had an OMG moment when I was told that, then I remembered +Sergey Brin&amp;rsquo;s &amp;ldquo;US-only&amp;rdquo; statement, and once again I felt like a mug spending over US$2500 in flights, hotel costs, and the ticket, and, over the course of IO, spending over 21 hours on a plane for a round trip and spending a week away from my office.</description>
+      <description>Did I mentioned I was told yesterday that Googlers already have some Android apps running on Project Glass?
+I had an OMG moment when I was told that, then I remembered Sergey Brin&amp;rsquo;s &amp;ldquo;US-only&amp;rdquo; statement, and once again I felt like a mug spending over US$2500 in flights, hotel costs, and the ticket, and, over the course of IO, spending over 21 hours on a plane for a round trip and spending a week away from my office.</description>
     </item>
     
     <item>
@@ -377,7 +378,7 @@ I had an OMG moment when I was told that, then I remembered +Sergey Brin&amp;rsq
       <guid>/post/android-launchers/</guid>
       <description>Sometimes you have to put your money where your mouth is&amp;hellip;.
 Not so long ago I mentioned that writing a home screen / launcher app which changed with the environment around you wasn&amp;rsquo;t something I thought would be too hard and certainly wasn&amp;rsquo;t something I thought would take tens of thousands of dollars to write.
-I had some spare time, so to back this up I&amp;rsquo;ve put together a quick and dirty prototype for +Android 4.</description>
+I had some spare time, so to back this up I&amp;rsquo;ve put together a quick and dirty prototype for Android 4.</description>
     </item>
     
     <item>
@@ -397,7 +398,7 @@ Even if the Android release cycle was stretched out to one release every 12 mont
       <pubDate>Wed, 16 May 2012 08:29:04 +0000</pubDate>
       
       <guid>/post/buying-nexus-devices-through-the-play-store/</guid>
-      <description>Seems to be the day for rumours about Google selling the next range of Nexus devices through the +Google Play store.
+      <description>Seems to be the day for rumours about Google selling the next range of Nexus devices through the Google Play store.
 Given that currently you can only buy the Galaxy Nexus in the US via the Play Store I personally don&amp;rsquo;t see this is a good route to take. I know a lot of non-US developers were pretty pi**ed off when they found out that only the US Xoom was a Google Experience device, and the non-US Xoom has suffered severe OS update lag since.</description>
     </item>
     
@@ -407,7 +408,7 @@ Given that currently you can only buy the Galaxy Nexus in the US via the Play St
       <pubDate>Fri, 04 May 2012 12:07:48 +0000</pubDate>
       
       <guid>/post/htc-one-v/</guid>
-      <description>I really wanted to like the +HTC One V. It had all the makings of the &amp;lsquo;phone I&amp;rsquo;ve been waiting for; A sub 4&amp;quot; screen with Ice Cream Sandwich, and then I played with it.
+      <description>I really wanted to like the HTC One V. It had all the makings of the &amp;lsquo;phone I&amp;rsquo;ve been waiting for; A sub 4&amp;quot; screen with Ice Cream Sandwich, and then I played with it.
 Sense combined with physical buttons made me feel like I wasn&amp;rsquo;t gaining anything over Gingerbread. The UI felt a little clunky. And the chin&amp;hellip; I&amp;rsquo;ve never been a fan of HTCs chin-&amp;lsquo;phones, and I&amp;rsquo;m still not.</description>
     </item>
     
@@ -586,7 +587,7 @@ There isn&amp;rsquo;t really anyone who wins from this because it creates a situ
       <pubDate>Mon, 03 Oct 2011 09:30:53 +0000</pubDate>
       
       <guid>/post/android-developer-lab-summary/</guid>
-      <description>Great Android Developer Lab in London, Good to talk to +Richard Hyndman +Nick Butcher and +Sparky Rhode . Main tips from the day;
+      <description>Great Android Developer Lab in London, Good to talk to Richard Hyndman Nick Butcher and Sparky Rhode . Main tips from the day;
   Fragments are the future. If you&amp;rsquo;re writing new code use Fragments. If you don&amp;rsquo;t you&amp;rsquo;re doing it wrong.
   Avoid showAsAction=&amp;ldquo;always&amp;rdquo;, Ice Cream Sandwich &amp;lsquo;phones can have small screens and so could be limited on space for options.
   Most of the best apps come from teams with Developers and Designers on them.</description>
@@ -911,7 +912,7 @@ Dev : I&amp;rsquo;m looking for a code examples for things like&amp;hellip; how 
     </item>
     
     <item>
-      <title>PayPal X; Where counting is not a requirement and compliance with requirements is optional..</title>
+      <title>PayPal X; Where counting is not a requirement and compliance with requirements is optional.</title>
       <link>/post/paypal-counting-not-a-requirement/</link>
       <pubDate>Thu, 11 Mar 2010 07:32:32 +0000</pubDate>
       
@@ -991,7 +992,7 @@ When we entered the PayPal X Developers Challenge we hoped for a good result (wh
       
       <guid>/post/a-paypal-developer-challenge-experience/</guid>
       <description>Update : I&amp;rsquo;ve put a list of 17 apps out of the current 54 which we believe don&amp;rsquo;t comply with the rules. You can find the list here.
-Towards the middle of December 2009 I came across details of the PayPal X Developer Challenge, which is a contest to write apps using PayPals adaptive APIs. There were two prizes, one of $50,000 cash + $50,000 in PayPal fees, the other $25,000 cash + $25,000 in fees.</description>
+Towards the middle of December 2009 I came across details of the PayPal X Developer Challenge, which is a contest to write apps using PayPals adaptive APIs. There were two prizes, one of $50,000 cash $50,000 in PayPal fees, the other $25,000 cash $25,000 in fees.</description>
     </item>
     
     <item>
@@ -1034,7 +1035,7 @@ The reason is simple; Androids design is primarily focused on touch screen devic
       <description>(If you want to tweet this please use the tag #O2iPhoneRipOff)
 Is it me or is the new O2 iPhone pricing policy looking like a bit of a rip-off?
 First off, there is the cost of the &amp;lsquo;phone. At Apples WWDC it was announced that in the US;
-3G 8GB goes from $199 to $99. 3GS 16GB to be $199 (same as old price for 3G 8GB) 3GS 32GB to be $299 (same as old price for 3G 16GB).</description>
+3G 8 GB goes from $199 to $99. 3GS 16 GB to be $199 (same as old price for 3G 8GB) 3GS 32 GB to be $299 (same as old price for 3G 16GB).</description>
     </item>
     
     <item>
@@ -1535,18 +1536,19 @@ None of these cut it against the current generation of PC games, and I&amp;rsquo
       <pubDate>Mon, 06 Nov 2006 08:00:15 +0000</pubDate>
       
       <guid>/post/plug-time/</guid>
-      <description>Some of you may be wondering what I do for a day job. For those that are interested, and for those who are looking for a centralised password storage solution :), I&amp;rsquo;m a director of Enterprise Data Safe Limited who sell the Enterprise Password Safe. My specific areas of responsibility cover development, sales, and support.
- So now you know you can read my posts knowing where my interests lie.</description>
+      <description>Some of you may be wondering what I do for a day job. For those that are interested, and for those who are looking for a centralised password storage solution :), I&amp;rsquo;m a director of Enterprise Data Safe Limited who sell the Enterprise Password Safe.
+My specific areas of responsibility cover development, sales, and support.
+So now you know you can read my posts knowing where my interests lie.</description>
     </item>
     
     <item>
-      <title>Finally I can ditch Acrobar Reader</title>
-      <link>/post/finally-i-can-ditch-acrobar-reader/</link>
+      <title>Finally I can ditch Acrobat Reader</title>
+      <link>/post/finally-i-can-ditch-acrobat-reader/</link>
       <pubDate>Mon, 02 Oct 2006 07:38:27 +0000</pubDate>
       
-      <guid>/post/finally-i-can-ditch-acrobar-reader/</guid>
-      <description>Adobes Acrobat reader is, in my opinion, an over-hyped bloated piece of resource hungry software. I&amp;rsquo;ve had countless IE hangs that appeared to be because of it, and finally I can get rid of it to read PDFs.
- How am I going to read PDFs without it, simple, use Foxit Reader. It&amp;rsquo;s small, fast, and in two months of using 2.0 and previous version has yet to hang on me.</description>
+      <guid>/post/finally-i-can-ditch-acrobat-reader/</guid>
+      <description>Adobes Acrobat reader is, in my opinion, an over-hyped bloated piece of resource hungry software. I&amp;rsquo;ve had countless IE hangs that appeared to be because of it, and finally I can get rid of it to read PDFs.
+How am I going to read PDFs without it, simple, use Foxit Reader. It&amp;rsquo;s small, fast, and in two months of using 2.0 and previous version has yet to hang on me. My advice&amp;hellip; Make the switch as soon as possible.</description>
     </item>
     
     <item>

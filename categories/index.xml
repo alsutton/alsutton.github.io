@@ -6,22 +6,58 @@
     <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 31 Mar 2018 16:45:54 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Mar 2021 08:45:54 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>RSS</title>
-      <link>/categories/RSS/</link>
-      <pubDate>Sat, 31 Mar 2018 16:45:54 +0000</pubDate>
+      <title>AOSP</title>
+      <link>/categories/AOSP/</link>
+      <pubDate>Wed, 10 Mar 2021 08:45:54 +0000</pubDate>
       
-      <guid>/categories/RSS/</guid>
+      <guid>/categories/AOSP/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>peercache</title>
-      <link>/categories/peercache/</link>
+      <title>Hardware</title>
+      <link>/categories/Hardware/</link>
+      <pubDate>Mon, 08 Mar 2021 08:45:54 +0000</pubDate>
+      
+      <guid>/categories/Hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>/categories/Docker/</link>
+      <pubDate>Wed, 03 Mar 2021 08:45:54 +0000</pubDate>
+      
+      <guid>/categories/Docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Development</title>
+      <link>/categories/Software-Development/</link>
+      <pubDate>Thu, 25 Feb 2021 10:45:54 +0000</pubDate>
+      
+      <guid>/categories/Software-Development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Culture</title>
+      <link>/categories/Culture/</link>
+      <pubDate>Tue, 19 Feb 2019 16:45:54 +0000</pubDate>
+      
+      <guid>/categories/Culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Build Systems</title>
+      <link>/categories/Build-Systems/</link>
       <pubDate>Mon, 11 Sep 2017 08:46:31 +0000</pubDate>
       
-      <guid>/categories/peercache/</guid>
+      <guid>/categories/Build-Systems/</guid>
       <description></description>
     </item>
     
@@ -35,29 +71,38 @@
     </item>
     
     <item>
-      <title>Google&#43; Import</title>
-      <link>/categories/Google&#43;-Import/</link>
-      <pubDate>Wed, 14 Aug 2013 08:41:18 +0000</pubDate>
-      
-      <guid>/categories/Google&#43;-Import/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Android</title>
       <link>/categories/Android/</link>
-      <pubDate>Fri, 07 Sep 2012 08:34:07 +0000</pubDate>
+      <pubDate>Sat, 03 Aug 2013 08:04:20 +0000</pubDate>
       
       <guid>/categories/Android/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Software Development</title>
-      <link>/categories/Software-Development/</link>
-      <pubDate>Wed, 21 Dec 2011 12:59:01 +0000</pubDate>
+      <title>Personal</title>
+      <link>/categories/Personal/</link>
+      <pubDate>Sun, 23 Jun 2013 08:43:50 +0000</pubDate>
       
-      <guid>/categories/Software-Development/</guid>
+      <guid>/categories/Personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conferences</title>
+      <link>/categories/Conferences/</link>
+      <pubDate>Thu, 20 Jun 2013 12:15:33 +0000</pubDate>
+      
+      <guid>/categories/Conferences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google&#43; Import</title>
+      <link>/categories/Google&#43;-Import/</link>
+      <pubDate>Sun, 28 Oct 2012 12:11:59 +0000</pubDate>
+      
+      <guid>/categories/Google&#43;-Import/</guid>
       <description></description>
     </item>
     
@@ -107,6 +152,33 @@
     </item>
     
     <item>
+      <title>PayPalX</title>
+      <link>/categories/PayPalX/</link>
+      <pubDate>Thu, 25 Mar 2010 08:36:24 +0000</pubDate>
+      
+      <guid>/categories/PayPalX/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ChromeOS</title>
+      <link>/categories/ChromeOS/</link>
+      <pubDate>Wed, 08 Jul 2009 06:15:06 +0000</pubDate>
+      
+      <guid>/categories/ChromeOS/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gaming</title>
+      <link>/categories/Gaming/</link>
+      <pubDate>Fri, 19 Sep 2008 10:40:25 +0000</pubDate>
+      
+      <guid>/categories/Gaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Companies</title>
       <link>/categories/Companies/</link>
       <pubDate>Tue, 15 Apr 2008 08:24:10 +0000</pubDate>
@@ -125,15 +197,6 @@
     </item>
     
     <item>
-      <title>Gaming</title>
-      <link>/categories/Gaming/</link>
-      <pubDate>Tue, 05 Jun 2007 08:32:28 +0000</pubDate>
-      
-      <guid>/categories/Gaming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>PC</title>
       <link>/categories/PC/</link>
       <pubDate>Tue, 05 Jun 2007 08:32:28 +0000</pubDate>
@@ -148,6 +211,24 @@
       <pubDate>Sat, 02 Jun 2007 11:24:00 +0000</pubDate>
       
       <guid>/categories/PS3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>/categories/Java/</link>
+      <pubDate>Fri, 10 Nov 2006 10:59:08 +0000</pubDate>
+      
+      <guid>/categories/Java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>/categories/Windows/</link>
+      <pubDate>Thu, 15 Jun 2006 09:57:57 +0000</pubDate>
+      
+      <guid>/categories/Windows/</guid>
       <description></description>
     </item>
     

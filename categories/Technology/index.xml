@@ -19,69 +19,6 @@ I&amp;rsquo;m going to say straight off that the Galaxy Nexus is too big to beco
     </item>
     
     <item>
-      <title>Experiences of In-App Mobile Advertising</title>
-      <link>/post/experiences-of-in-app-mobile-advertising/</link>
-      <pubDate>Fri, 10 Jul 2009 08:06:21 +0000</pubDate>
-      
-      <guid>/post/experiences-of-in-app-mobile-advertising/</guid>
-      <description>With my companies Funky Expenses Android applicaion we have two versions; An ad-supported version and a pay-for ad-free version so that users can choose how they help to fund development (yes, we do get requests for a free ad-free version, but unfortunately that won&amp;rsquo;t keep the company afloat). The ad-free version is available from Google Market (which currently has the largest user base by a long way) and AndAppStore, and the pay for version is only available in Google Market.</description>
-    </item>
-    
-    <item>
-      <title>Google strangles Android on Netbooks before it gets going</title>
-      <link>/post/google-stranges-android-on-netbooks-before-it-gets-going/</link>
-      <pubDate>Wed, 08 Jul 2009 06:15:06 +0000</pubDate>
-      
-      <guid>/post/google-stranges-android-on-netbooks-before-it-gets-going/</guid>
-      <description>During my morning check of Twitter I came across this tweet from Google;
-&amp;ldquo;Introducing the #Google Chrome OS http://bit.ly/N1rNZ&amp;rdquo;
-Which started to raise some concerns. It had widely been predicted that we&amp;rsquo;d see Android making it&amp;rsquo;s way onto netbooks in the near future, but with this one announcement that idea has taken a huge knock backwards.
-The reason is simple; Androids design is primarily focused on touch screen devices, Chrome OS is focused on netbooks, and netbooks rarely (if ever) have a touch screen.</description>
-    </item>
-    
-    <item>
-      <title>Is the iPhone 3GS a rip-off in the UK?</title>
-      <link>/post/is-the-iphone-3gs-a-rip-off-in-the-uk/</link>
-      <pubDate>Tue, 09 Jun 2009 08:19:52 +0000</pubDate>
-      
-      <guid>/post/is-the-iphone-3gs-a-rip-off-in-the-uk/</guid>
-      <description>(If you want to tweet this please use the tag #O2iPhoneRipOff)
-Is it me or is the new O2 iPhone pricing policy looking like a bit of a rip-off?
-First off, there is the cost of the &amp;lsquo;phone. At Apples WWDC it was announced that in the US;
-3G 8GB goes from $199 to $99. 3GS 16GB to be $199 (same as old price for 3G 8GB) 3GS 32GB to be $299 (same as old price for 3G 16GB).</description>
-    </item>
-    
-    <item>
-      <title>Marking Apps on Googles Android Market</title>
-      <link>/post/marking-on-the-googles-android-market/</link>
-      <pubDate>Mon, 23 Mar 2009 07:50:37 +0000</pubDate>
-      
-      <guid>/post/marking-on-the-googles-android-market/</guid>
-      <description>There seems to be a lot of variation on how many stars people give an application on Googles Android Market. Some give 3 stars for an app they find hard to use, others give 1 star because the developer chose not to make the applications source code available (even though this doesn&amp;rsquo;t affect the application as delivered to the user).
-I&amp;rsquo;m trying to stick to the following marking scheme and would welcome comments and feedback as to any changes people think would make sense.</description>
-    </item>
-    
-    <item>
-      <title>Google Market for Android Paid Apps launch = Fail</title>
-      <link>/post/google-market-for-android-paid-apps-launch-fail/</link>
-      <pubDate>Sun, 22 Feb 2009 17:48:44 +0000</pubDate>
-      
-      <guid>/post/google-market-for-android-paid-apps-launch-fail/</guid>
-      <description>Android developers have been waiting for the ability to list pay-for applications in Googles Market, but now most of them wish it had never arrived because the experience it&amp;rsquo;s giving users may just turn them off Android forever.
-The first joy is the &amp;ldquo;copy protection&amp;rdquo; offered by Google. Developers can turn this on for their apps but doing so can stop a the application running at all regardless of if it&amp;rsquo;s been copied.</description>
-    </item>
-    
-    <item>
-      <title>Why I won&#39;t be buying the Android T-Mobile G1 phone</title>
-      <link>/post/why-i-wont-be-buying-the-android-t-mobile-g1-phone/</link>
-      <pubDate>Wed, 29 Oct 2008 09:39:49 +0000</pubDate>
-      
-      <guid>/post/why-i-wont-be-buying-the-android-t-mobile-g1-phone/</guid>
-      <description>After getting interested in Android after Mike Jennings talk, weeks of coding on AndAppStore.com, reading up on APIs, watching and getting involved with discussions on the Android developers and discussion mailing lists, and following various Android community sites to see if the G1 was the start of the Android revolution, I&amp;rsquo;ve decided that, for now, I&amp;rsquo;m not going to get an Android &amp;lsquo;phone, and here are the reasons why;
-The T-Mobile Deal (phone &amp;amp; contract)</description>
-    </item>
-    
-    <item>
       <title>Same Scam... Different Audience</title>
       <link>/post/same-scam-different-audience/</link>
       <pubDate>Sun, 19 Oct 2008 15:23:08 +0000</pubDate>
@@ -89,16 +26,6 @@ The T-Mobile Deal (phone &amp;amp; contract)</description>
       <guid>/post/same-scam-different-audience/</guid>
       <description>I&amp;rsquo;ve recently been subscribed to the development and discussion mailing lists for Googles Android platform due to working on AndAppStore.com and recently an email posting caught my eye because it reminded me of a scam that I thought had long since passed.
 The scam works like this; A person or company comes along and says &amp;ldquo;Hey, you&amp;rsquo;re really talented, I&amp;rsquo;d love to sign you up so I can offer you some great projects to work on, and, of course, and you&amp;rsquo;ll get a share of the profits&amp;rdquo;, which is indeed a good offer.</description>
-    </item>
-    
-    <item>
-      <title>Where Googles Android may have already failed</title>
-      <link>/post/where-googles-android-may-have-already-failed/</link>
-      <pubDate>Tue, 14 Oct 2008 10:07:44 +0000</pubDate>
-      
-      <guid>/post/where-googles-android-may-have-already-failed/</guid>
-      <description>(Declaration of interest; I&amp;rsquo;m involved in AndAppStore.com which allows Android Applications developers to list Android applications and users to download them)
-Imagine this; You have a product you want to make available worldwide, but you need the help of others to make it popular. You start a worldwide PR campaign, you make a mock-up available so people become familiar with your product, you run a worldwide competition for people to come up with uses for your product, and then you announce launch dates in one country for one date, another for a month later, a few more next year, and, well everyone else, you&amp;rsquo;ll have to wait and see what happens.</description>
     </item>
     
     <item>

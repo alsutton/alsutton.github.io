@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on </title>
+    <link>/categories/Personal/</link>
+    <description>Recent content in Personal on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 23 Jun 2013 08:43:50 +0000</lastBuildDate><atom:link href="/categories/Personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leaving OUYA</title>
+      <link>/post/leaving-ouya/</link>
+      <pubDate>Sun, 23 Jun 2013 08:43:50 +0000</pubDate>
+      
+      <guid>/post/leaving-ouya/</guid>
+      <description>Nearly 8 months ago I met with a few software engineers working from some rented desks in San Francisco. They were the OUYA engineering team. We talked, they took me through their interview process. I also had a meeting with Julie Uhrman, after which I went from being a believer that it could happen to a believer that it would happen and there was a place on the team for me and I could help make it happen.</description>
+    </item>
+    
+  </channel>
+</rss>

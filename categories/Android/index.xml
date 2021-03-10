@@ -6,14 +6,63 @@
     <description>Recent content in Android on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 07 Sep 2012 08:34:07 +0000</lastBuildDate><atom:link href="/categories/Android/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Aug 2013 08:04:20 +0000</lastBuildDate><atom:link href="/categories/Android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Play Edition Devices</title>
+      <link>/post/google-play-edition-devices/</link>
+      <pubDate>Sat, 03 Aug 2013 08:04:20 +0000</pubDate>
+      
+      <guid>/post/google-play-edition-devices/</guid>
+      <description>So in the last couple of months Google have released the Google Play Edition HTC One, the PE Samsung S4, Nexus 7 (2013 edition), ChromeCast, and the MotoX all only in the US, adding to Google Glass&amp;rsquo;s continued US-only availability. If you go beyond hardware there&amp;rsquo;s things like Voice, All Access Music, and I&amp;rsquo;m sure a number of other products which, if you&amp;rsquo;re not in the US, you&amp;rsquo;re not likely to be able to use.</description>
+    </item>
+    
+    <item>
+      <title>Leaving OUYA</title>
+      <link>/post/leaving-ouya/</link>
+      <pubDate>Sun, 23 Jun 2013 08:43:50 +0000</pubDate>
+      
+      <guid>/post/leaving-ouya/</guid>
+      <description>Nearly 8 months ago I met with a few software engineers working from some rented desks in San Francisco. They were the OUYA engineering team. We talked, they took me through their interview process. I also had a meeting with Julie Uhrman, after which I went from being a believer that it could happen to a believer that it would happen and there was a place on the team for me and I could help make it happen.</description>
+    </item>
+    
+    <item>
+      <title>Droidcon London 2013</title>
+      <link>/post/droidcon-london-2013/</link>
+      <pubDate>Thu, 20 Jun 2013 12:15:33 +0000</pubDate>
+      
+      <guid>/post/droidcon-london-2013/</guid>
+      <description>I got a call from Skills Matter asking me if I&amp;rsquo;d be interested in going to droidcon London 2013&amp;hellip;. well, it&amp;rsquo;s already certain I&amp;rsquo;ll be there, and here&amp;rsquo;s why;
+There are going to be several tracks at #DroidconUK13 , and each track has a track-master, a person who has volunteered to co-ordinate the track, sort out who talks in which slots, and make sure their track is appealing to developers.</description>
+    </item>
+    
+    <item>
+      <title>Developing for different platforms</title>
+      <link>/post/developing-for-different-platforms/</link>
+      <pubDate>Sun, 19 May 2013 09:26:27 +0000</pubDate>
+      
+      <guid>/post/developing-for-different-platforms/</guid>
+      <description>So if I understand this TechCrunch article correctly; Overdose Caffeine stopped developing for the OUYA because they don&amp;rsquo;t want to implement a control system which works well with an OUYA controller (and the article reads very much like they may have received an incentive to highlight another product)
+To me this article highlights one part of the value of the OUYA store; It stops users getting apps from developers who don&amp;rsquo;t understand the UX needs of a console.</description>
+    </item>
+    
+    <item>
+      <title>Charging the Nexus 10</title>
+      <link>/post/charging-the-nexus-10/</link>
+      <pubDate>Thu, 15 Nov 2012 08:06:02 +0000</pubDate>
+      
+      <guid>/post/charging-the-nexus-10/</guid>
+      <description>It charges from a Micro-USB connector which is, for Samsung, a huge step in the right direction.
+The feel of the device reminds me very much of a Xoom. The rubber back is a good touch (I can&amp;rsquo;t count how many samsung tablets I&amp;rsquo;ve had slip around in my hands).
+In terms of setup, it still disappoints me that Android doesn&amp;rsquo;t show the MAC address when you set up WiFi for the first time.</description>
+    </item>
+    
     <item>
       <title>Android Tablets</title>
       <link>/post/android-tablets/</link>
       <pubDate>Fri, 07 Sep 2012 08:34:07 +0000</pubDate>
       
       <guid>/post/android-tablets/</guid>
-      <description>One phrase from last nights +Amazon.com Kindle launch makes me think they&amp;rsquo;re going to take over the #Android tablet space and have big consumer support;
+      <description>One phrase from last nights Amazon.com Kindle launch makes me think they&amp;rsquo;re going to take over the #Android tablet space and have big consumer support;
 &amp;ldquo;&amp;hellip;people don&amp;rsquo;t want gadgets anymore. They want services that improve over time. They want services that improve every day, every week, and every month.&amp;rdquo;
 This has been true for a long time. Consumers buy devices from washing machines to TVs because they want it to do something, not because it has the lastest bit of technology from the manufacturer.</description>
     </item>
@@ -283,6 +332,35 @@ When we entered the PayPal X Developers Challenge we hoped for a good result (wh
     </item>
     
     <item>
+      <title>Experiences of In-App Mobile Advertising</title>
+      <link>/post/experiences-of-in-app-mobile-advertising/</link>
+      <pubDate>Fri, 10 Jul 2009 08:06:21 +0000</pubDate>
+      
+      <guid>/post/experiences-of-in-app-mobile-advertising/</guid>
+      <description>With my companies Funky Expenses Android applicaion we have two versions; An ad-supported version and a pay-for ad-free version so that users can choose how they help to fund development (yes, we do get requests for a free ad-free version, but unfortunately that won&amp;rsquo;t keep the company afloat). The ad-free version is available from Google Market (which currently has the largest user base by a long way) and AndAppStore, and the pay for version is only available in Google Market.</description>
+    </item>
+    
+    <item>
+      <title>Marking Apps on Googles Android Market</title>
+      <link>/post/marking-on-the-googles-android-market/</link>
+      <pubDate>Mon, 23 Mar 2009 07:50:37 +0000</pubDate>
+      
+      <guid>/post/marking-on-the-googles-android-market/</guid>
+      <description>There seems to be a lot of variation on how many stars people give an application on Googles Android Market. Some give 3 stars for an app they find hard to use, others give 1 star because the developer chose not to make the applications source code available (even though this doesn&amp;rsquo;t affect the application as delivered to the user).
+I&amp;rsquo;m trying to stick to the following marking scheme and would welcome comments and feedback as to any changes people think would make sense.</description>
+    </item>
+    
+    <item>
+      <title>Google Market for Android Paid Apps launch = Fail</title>
+      <link>/post/google-market-for-android-paid-apps-launch-fail/</link>
+      <pubDate>Sun, 22 Feb 2009 17:48:44 +0000</pubDate>
+      
+      <guid>/post/google-market-for-android-paid-apps-launch-fail/</guid>
+      <description>Android developers have been waiting for the ability to list pay-for applications in Googles Market, but now most of them wish it had never arrived because the experience it&amp;rsquo;s giving users may just turn them off Android forever.
+The first joy is the &amp;ldquo;copy protection&amp;rdquo; offered by Google. Developers can turn this on for their apps but doing so can stop a the application running at all regardless of if it&amp;rsquo;s been copied.</description>
+    </item>
+    
+    <item>
       <title>Will the Android Market T&amp;Cs kill off &#34;fun&#34; apps?</title>
       <link>/post/will-the-android-market-tcs-kill-off-fun-apps/</link>
       <pubDate>Fri, 13 Feb 2009 16:09:23 +0000</pubDate>
@@ -290,6 +368,107 @@ When we entered the PayPal X Developers Challenge we hoped for a good result (wh
       <guid>/post/will-the-android-market-tcs-kill-off-fun-apps/</guid>
       <description>Over recent weeks there has been a lot of speculation over when Android users will be able to buy applications from Googles Market, but some of the terms and conditions in the Developer Distribution Agreement could scare many developers away before they deploy their first application.
 The first thing that came to light is that purchasers will have 24 hours in which they can get a refund apparently with no questions asked.</description>
+    </item>
+    
+    <item>
+      <title>Will US Patent laws strange Android?</title>
+      <link>/post/will-us-patent-laws-strange-android/</link>
+      <pubDate>Sat, 31 Jan 2009 10:39:41 +0000</pubDate>
+      
+      <guid>/post/will-us-patent-laws-strange-android/</guid>
+      <description>In recent days there the issue of the US patent obtained by Apple relating to the multi-touch functionality has reared it&amp;rsquo;s head on the Android development lists, and the discussions have left me deeply concerned about whether Android will ever become a serious global player in the mobile OS market.
+The discussion started rolling when a patch to add multi-touch functionality on Android was posted on the android-platform mailing list, and ran in parallel another list directly discussing the impact the patent may have, but surprisingly ended up with a post from a Google employee saying that patents should not be discussed on any of the google hosted android lists, and this was further expanded by another Google employee saying that it was &amp;ldquo;because of legal repercussions&amp;rdquo;, and &amp;ldquo;it is simply best not to know about them&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Android licensing system</title>
+      <link>/post/android-licensing-system/</link>
+      <pubDate>Fri, 09 Jan 2009 16:52:51 +0000</pubDate>
+      
+      <guid>/post/android-licensing-system/</guid>
+      <description>Funky Android has made available a Android application licensing system via AndAppStore. It&amp;rsquo;s something that we feel has been missing from the Android space and we hope that it&amp;rsquo;ll help companies looking to focus on (and thus make money from) Android applications.
+So if you&amp;rsquo;ve been waiting for a way to commercially license your apps feel free to give it a spin and send in your feedback.
+(Declaration of interest : I am a director of Funky Android)</description>
+    </item>
+    
+    <item>
+      <title>Google finally coming good with the Android Development Programme</title>
+      <link>/post/google-finally-coming-good-with-the-android-development-programme/</link>
+      <pubDate>Sat, 06 Dec 2008 19:02:51 +0000</pubDate>
+      
+      <guid>/post/google-finally-coming-good-with-the-android-development-programme/</guid>
+      <description>It looks like the folks at Google are listening and they&amp;rsquo;ve taken a big step which will help a number of developers get at least one Android powered device to work with.
+Yesterday Dan Morill announced a new version of the SDK with a link to the android blog, what he didn&amp;rsquo;t mention is that the blog post also reveals that Google have created a programme for developers which allows they to get what is basically an unlocked T-Mobile G1.</description>
+    </item>
+    
+    <item>
+      <title>The Android Email client on the G1, possibly the worst app on an &#34;Internet&#34; phone ever.</title>
+      <link>/post/the-android-email-client-on-the-g1-possibly-the-worst-app-on-an-internet-phone-ever/</link>
+      <pubDate>Tue, 11 Nov 2008 12:22:39 +0000</pubDate>
+      
+      <guid>/post/the-android-email-client-on-the-g1-possibly-the-worst-app-on-an-internet-phone-ever/</guid>
+      <description>The G1 has been around a few weeks, it&amp;rsquo;s billed as &amp;ldquo;The phone that&amp;rsquo;s built for the internet&amp;rdquo;, but it would appear that the G1 isn&amp;rsquo;t built for email which many people consider as being one of the most useful things on the internet for over 35 years.
+The G1 has two in-built Email clients; one is for Googles&#39; GMail, the other is for accounts with whichever ISP you&amp;rsquo;re with. Personally after seeing several stories of problems with Google locking accounts (see here, here, and here for a few) I&amp;rsquo;d prefer to stay with my ISP, but that leaves me with an Email client which is being described by other G1 users as &amp;ldquo;the most pathetic attempt I&amp;rsquo;ve ever seen&amp;rdquo; and &amp;ldquo;frustrating&amp;rdquo;, views which I wholeheartedly agree with.</description>
+    </item>
+    
+    <item>
+      <title>Why I won&#39;t be buying the Android T-Mobile G1 phone</title>
+      <link>/post/why-i-wont-be-buying-the-android-t-mobile-g1-phone/</link>
+      <pubDate>Wed, 29 Oct 2008 09:39:49 +0000</pubDate>
+      
+      <guid>/post/why-i-wont-be-buying-the-android-t-mobile-g1-phone/</guid>
+      <description>After getting interested in Android after Mike Jennings talk, weeks of coding on AndAppStore.com, reading up on APIs, watching and getting involved with discussions on the Android developers and discussion mailing lists, and following various Android community sites to see if the G1 was the start of the Android revolution, I&amp;rsquo;ve decided that, for now, I&amp;rsquo;m not going to get an Android &amp;lsquo;phone, and here are the reasons why;
+The T-Mobile Deal (phone &amp;amp; contract)</description>
+    </item>
+    
+    <item>
+      <title>First Android security flaw to be publicly reported...</title>
+      <link>/post/first-android-security-flaw-to-be-publicly-reported/</link>
+      <pubDate>Sat, 25 Oct 2008 13:07:38 +0000</pubDate>
+      
+      <guid>/post/first-android-security-flaw-to-be-publicly-reported/</guid>
+      <description>The New York times is reporting a security flaw in the G1, and to me it&amp;rsquo;s confirmation that Google left opening up the source to public far too late by doing it the day before users could go out and buy hardware with it installed.
+If the source code had been available a few months (or even weeks) ago there would have been time for the collective eyeballs of the development community to take a look for problems like the reported one (which was found after a few days) and fix them before the device reached the hands of consumers.</description>
+    </item>
+    
+    <item>
+      <title>Expect to pay when you setup your pitch in Googles Marketplace</title>
+      <link>/post/expect-to-pay-when-you-setup-your-pitch-in-googles-marketplace/</link>
+      <pubDate>Wed, 22 Oct 2008 17:33:48 +0000</pubDate>
+      
+      <guid>/post/expect-to-pay-when-you-setup-your-pitch-in-googles-marketplace/</guid>
+      <description>If you want to have your application listed in Androids Marketplace the first thing you have to do is pay them $25. That&amp;rsquo;s right, even if you&amp;rsquo;re developing a free application for their open platform to list on their &amp;ldquo;user-driven&amp;rdquo; marketplace, it&amp;rsquo;s going to cost you a $25 entry fee.
+Do you have an app you&amp;rsquo;d like to to sell?, well, if you make a sale via the Marketplace, that&amp;rsquo;ll be another 30% (yes, thirty percent) of your sales going to them.</description>
+    </item>
+    
+    <item>
+      <title>Android; The not-so-open open platform</title>
+      <link>/post/android-the-not-so-open-open-platform/</link>
+      <pubDate>Wed, 22 Oct 2008 08:16:57 +0000</pubDate>
+      
+      <guid>/post/android-the-not-so-open-open-platform/</guid>
+      <description>If you&amp;rsquo;ve taken an interest in Googles Android platform before you&amp;rsquo;ll be familiar with phrases such as &amp;ldquo;Android is the first truly open and comprehensive platform for mobile devices&amp;rdquo; from when the Android and Open Handset Alliance initiative was started, and if you&amp;rsquo;ve attended talks by some of the Evangelists you&amp;rsquo;ll have been told that you can replace any part of the &amp;lsquo;phones software, but, this morning, it would appear that you won&amp;rsquo;t be on a level playing field.</description>
+    </item>
+    
+    <item>
+      <title>Where Googles Android may have already failed</title>
+      <link>/post/where-googles-android-may-have-already-failed/</link>
+      <pubDate>Tue, 14 Oct 2008 10:07:44 +0000</pubDate>
+      
+      <guid>/post/where-googles-android-may-have-already-failed/</guid>
+      <description>(Declaration of interest; I&amp;rsquo;m involved in AndAppStore.com which allows Android Applications developers to list Android applications and users to download them)
+Imagine this; You have a product you want to make available worldwide, but you need the help of others to make it popular. You start a worldwide PR campaign, you make a mock-up available so people become familiar with your product, you run a worldwide competition for people to come up with uses for your product, and then you announce launch dates in one country for one date, another for a month later, a few more next year, and, well everyone else, you&amp;rsquo;ll have to wait and see what happens.</description>
+    </item>
+    
+    <item>
+      <title>Google Android and Code Signing App Shops</title>
+      <link>/post/google-android-and-code-signing-app-shops/</link>
+      <pubDate>Wed, 17 Sep 2008 07:54:47 +0000</pubDate>
+      
+      <guid>/post/google-android-and-code-signing-app-shops/</guid>
+      <description>After listening to Mike Jennings excellent intro to Android presentation at the London Dev Day I floated an idea which seemed to have some traction so I thought I&amp;rsquo;d expand it out for those that are interested.
+The Problem
+There is currently no way for a user to judge how trustworthy an Android application is. A user can say what they will allow an application to do (such as dialling out, intercepting SMSs&#39;, etc.</description>
     </item>
     
   </channel>
