@@ -152,6 +152,16 @@ Companies monitor sales through channels, they don&amp;rsquo;t know where the en
     </item>
     
     <item>
+      <title>Android Master Key Exploit</title>
+      <link>/post/android-master-key-exploit/</link>
+      <pubDate>Mon, 08 Jul 2013 13:43:50 +0000</pubDate>
+      
+      <guid>/post/android-master-key-exploit/</guid>
+      <description>The details of what I believe to be Android bug 8219321 (master keys) are below. I&amp;rsquo;ve put this together from the Cyanogenmod bug report and patch, so if anyone has some better information I&amp;rsquo;d welcome it.
+When checking APK content signatures PackageParser calls its loadCertificates method, which in turn uses the getInputStream method of JarFile whose implementation is in ZipFile (the parent of JarFile) and looks up the relevant entry in a Map.</description>
+    </item>
+    
+    <item>
       <title>Leaving OUYA</title>
       <link>/post/leaving-ouya/</link>
       <pubDate>Sun, 23 Jun 2013 08:43:50 +0000</pubDate>
