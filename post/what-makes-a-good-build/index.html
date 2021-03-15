@@ -219,9 +219,10 @@ date and time, using plugins which produce inconsistently ordered output (e.g.
 a zip file where the filenames are in a random order), or relying on the order in 
 which filenames are supplied by the operating system being consistent, can all cause the output 
 of a part of your build to change even though your source code hasn&rsquo;t. If this happens you 
-should try to resolve it by asking yourself if you should sort some data to give a predictable
-ordering, or whether you can use something fixed, like a commit ID, instead of the current
-time and date.</p>
+should ask yourself if you can sort some data to give a predictable
+ordering, or use something fixed, like a commit ID, instead of the current
+time and date, so that there are fewer (or ideally zero) things changing when
+you build the same source code multiple times.</p>
 <p>When a build isn&rsquo;t reproducible you end up with one of two situations; You end up
 with fast build where the output may not be correct because the cache isn&rsquo;t invaliding
 entries when things have changed (e.g. the current time or date), or you end
