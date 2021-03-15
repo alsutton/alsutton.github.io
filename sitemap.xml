@@ -3,18 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2021-03-10T08:45:54+00:00</lastmod>
+    <lastmod>2021-03-15T10:45:50+00:00</lastmod>
+  </url><url>
+    <loc>/categories/Build-Systems/</loc>
+    <lastmod>2021-03-15T10:45:50+00:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2021-03-15T10:45:50+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2021-03-15T10:45:50+00:00</lastmod>
+  </url><url>
+    <loc>/post/what-makes-a-good-build/</loc>
+    <lastmod>2021-03-15T10:45:50+00:00</lastmod>
   </url><url>
     <loc>/categories/AOSP/</loc>
     <lastmod>2021-03-10T08:45:54+00:00</lastmod>
   </url><url>
     <loc>/post/2021-aosp-build-machine/</loc>
-    <lastmod>2021-03-10T08:45:54+00:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2021-03-10T08:45:54+00:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
     <lastmod>2021-03-10T08:45:54+00:00</lastmod>
   </url><url>
     <loc>/post/ssd-technologies/</loc>
@@ -35,6 +41,12 @@
     <loc>/categories/Software-Development/</loc>
     <lastmod>2021-02-25T10:45:54+00:00</lastmod>
   </url><url>
+    <loc>/post/leaving-twitter/</loc>
+    <lastmod>2021-02-17T17:45:54+00:00</lastmod>
+  </url><url>
+    <loc>/categories/Personal/</loc>
+    <lastmod>2021-02-17T17:45:54+00:00</lastmod>
+  </url><url>
     <loc>/categories/Culture/</loc>
     <lastmod>2019-02-19T16:45:54+00:00</lastmod>
   </url><url>
@@ -49,9 +61,6 @@
   </url><url>
     <loc>/post/feedback-take-it-but-also-rate-it/</loc>
     <lastmod>2017-09-15T09:17:28+00:00</lastmod>
-  </url><url>
-    <loc>/categories/Build-Systems/</loc>
-    <lastmod>2017-09-11T08:46:31+00:00</lastmod>
   </url><url>
     <loc>/post/peercache-locally-shared-caches-of-build-dependencies/</loc>
     <lastmod>2017-09-11T08:46:31+00:00</lastmod>
@@ -75,9 +84,6 @@
     <lastmod>2013-08-03T08:04:20+00:00</lastmod>
   </url><url>
     <loc>/post/leaving-ouya/</loc>
-    <lastmod>2013-06-23T08:43:50+00:00</lastmod>
-  </url><url>
-    <loc>/categories/Personal/</loc>
     <lastmod>2013-06-23T08:43:50+00:00</lastmod>
   </url><url>
     <loc>/categories/Conferences/</loc>

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark"><head>
+    <title> Al Sutton | What makes a good build </title>
+
+    
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.81.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="">
+    
+    <link rel="stylesheet"
+          href="/css/style.min.0c643de4008adca329f7a2d616ce308cca99d4ef45e4cca307323e7857910194.css"
+          integrity="sha256-DGQ95ACK3KMp96LWFs4wjMqZ1O9F5MyjBzI&#43;eFeRAZQ="
+          crossorigin="anonymous"
+          type="text/css">
+    
+    <link rel="stylesheet"
+        href="/css/markupHighlight.min.f798cbda9aaa38f89eb38be6414bd082cfd71a6780375cbf67b6d2fb2b96491e.css"
+        integrity="sha256-95jL2pqqOPies4vmQUvQgs/XGmeAN1y/Z7bS&#43;yuWSR4="
+        crossorigin="anonymous"
+        type="text/css">
+    
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+
+    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <link rel="canonical" href="/post/what-makes-a-good-build/">
+
+    
+    
+    
+    
+    <script type="text/javascript"
+            src="/js/anatole-header.min.0c05c0a90d28c968a1cad4fb31abd0b8e1264e788ccefed022ae1d3b6f627514.js"
+            integrity="sha256-DAXAqQ0oyWihytT7MavQuOEmTniMzv7QIq4dO29idRQ="
+            crossorigin="anonymous"></script>
+
+
+    
+        
+        
+        <script type="text/javascript"
+                src="/js/anatole-theme-switcher.min.8ef71e0fd43f21a303733dbbecae5438b791d2b826c68a9883bd7aa459a076d2.js"
+                integrity="sha256-jvceD9Q/IaMDcz277K5UOLeR0rgmxoqYg716pFmgdtI="
+                crossorigin="anonymous"></script>
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/images/profile.jpeg"/>
+
+<meta name="twitter:title" content="What makes a good build"/>
+<meta name="twitter:description" content="I&rsquo;ve seen a number of different approaches to building programs, and between writing about the specifications of an Android firmware build machine, and how to create a cost-effective build farm, I thought it&rsquo;d be worth covering a few things that I believe are important when trying to create a scalable build for your software.
+What is a &ldquo;build&rdquo;? When I talk about a build I mean the instructions that tell a machine how to take your source code and create an executable program."/>
+
+</head>
+<body><div class="sidebar animated fadeInDown ">
+    <div class="logo-title">
+        <div class="title">
+            <img src="/images/profile.jpeg" alt="profile picture">
+            <h3 title=""><a href="/">Al Sutton</a></h3>
+            <div class="description">
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <ul class="social-links">
+        
+            <li>
+                <a href="https://www.linkedin.com/in/alsutton/" rel="me" aria-label="Linkedin">
+                    <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://github.com/alsutton" rel="me" aria-label="GitHub">
+                    <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://www.alsutton.blog/index.xml" rel="me" aria-label="RSS">
+                    <i class="fas fa-rss fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Al Sutton  2021 </div>
+    </div>
+</div>
+<div class="main">
+    <div class="page-top  animated fadeInDown ">
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </a>
+    <ul class="nav" id="navMenu">
+        
+        
+            
+            <li><a 
+                   href="/"
+                        
+                   title="">Home</a></li>
+        
+            
+            <li><a 
+                   href="/post/"
+                        
+                   title="">Posts</a></li>
+        
+            
+            <li><a 
+                   href="https://github.com/alsutton"
+                        
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        
+                   title="">Projects</a></li>
+        
+        
+        
+            <li class="theme-switch-item">
+                <a class="theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+</div>
+
+    <div class="autopagerize_page_element">
+        <div class="content">
+    <div class="post  animated fadeInDown ">
+        <div class="post-content">
+            
+            <div class="post-title">
+                <h3>What makes a good build</h3>
+                
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date"> Mon, Mar 15, 2021 
+                                           </span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">9-minute read</span>
+                    </div>
+                
+            </div>
+
+            <p>I&rsquo;ve seen a number of different approaches to building programs, and between writing about 
+<a href="https://www.alsutton.blog/post/2021-aosp-build-machine/">the specifications of an Android firmware build machine</a>,
+and how to create a cost-effective build farm, I thought it&rsquo;d be worth covering a few things that
+I believe are important when trying to create a scalable build for your software.</p>
+<h2 id="what-is-a-build">What is a &ldquo;build&rdquo;?</h2>
+<p>When I talk about a build I mean the instructions that tell a machine how to take your source code and 
+create an executable program. Not all languages need a build; Python, for example, allows
+you to write your program in a file and run it, but many languages (Java, Kotlin, C, Swift, etc.) need
+a set of instructions to convert the source code from a human-readable form into a machine form that
+users can then run.</p>
+<h2 id="three-key-things">Three key things</h2>
+<p>There are three things I look for in a &ldquo;good&rdquo; build; They should be <strong>Reliable</strong>, <strong>Reproducible</strong>, and
+<strong>Rigorously defined</strong>.  Once you have these three things can reduce the amount of time developers spend 
+waiting for a build to complete, and take advantage of some useful build tool features.</p>
+<h3 id="reliable">Reliable</h3>
+<p>Builds have to be reliable. Having a build which fails occasionally is like having a messaging 
+app which doesn&rsquo;t always send your messages; It&rsquo;s just not doing its job.</p>
+<p>One of the easiest ways of improving reliability is removing complexity. If your build system is
+distributing config files, generating files on a conditional basis, or anything else which is
+not focused on taking the source code and making a program from it, you&rsquo;re in a situation where 
+you&rsquo;re using a hammer as a screw-driver, and while that can work, it can also easily go wrong.</p>
+<p>Many build tools offer features to help with testing because there are several features they
+can offer to make running tests quick and effective, but this doesn&rsquo;t mean that you should write a complex
+test harness in your favourite build tools language. Build tool developers have identified that
+they can add a lot of value to the testing process and so provide useful features to accommodate
+it, but lots of older build tools (e.g. <a href="https://wiki.netbsd.org/tutorials/bsd_make/">make</a>) 
+have no special features related to testing your code.</p>
+<p>Build tools like <a href="https://bazel.build/">Bazel</a> and <a href="https://buck.build/">Buck</a> use a simplified 
+build language which makes it hard to do things which shouldn&rsquo;t be part of the build. The Buck
+team have a <a href="https://buck.build/concept/skylark.html">great article</a> on why they moved from 
+Python to Skylark after some first-hand experience of how using a more feature-rich language
+contributed to a higher maintenance overhead.</p>
+<p>Tools like <a href="https://gradle.org/">Gradle</a> take a different approach and let developers write
+anything they want in a supported language (Groovy or Kotlin in the case of Gradle). This 
+can give the appearance of make developers more productive if you&rsquo;re only focused on how 
+much code they&rsquo;re churning out, but it can also create a long-term maintenance cost as 
+the platform and libraries that the build rely on are upgraded with bug fixes or support 
+for new features (as the Buck team found out). I&rsquo;m not saying that Gradle is a bad tool, 
+but it&rsquo;s easy to use a good tool in a bad way when there&rsquo;s little stopping you from doing so.</p>
+<p>It&rsquo;s also easy to create unnecessary complexity, and reduce the chances of getting a 
+reliable build by over-using plugins and extensions. There are cases where plugins
+absolutely add value and are the right thing to use, but using them everywhere, even
+when they&rsquo;re not needed, can leave you susceptible to <a href="https://youtrack.jetbrains.com/issue/KT-31416">build</a> 
+<a href="https://issues.gradle.org/browse/GRADLE-2023">bugs</a> 
+which only occur as your build gets larger.</p>
+<p>Most folk feel good after solving a complex problem, but when it comes to solving problems
+which are only loosely related to translating source code into an executable, and you&rsquo;ve
+ended up with a solution that only uses a build tool, I&rsquo;d recommend thinking about the 
+chorus of one of my favourite songs; <a href="https://www.youtube.com/watch?v=LLs-JP5FGAg">Hedonism, by Skunk Anansie</a>: 
+<em>&ldquo;Just because you feel good, it doesn&rsquo;t make it right.&quot;</em></p>
+<h3 id="reproducible">Reproducible</h3>
+<p>You shouldn&rsquo;t have to perform every step of your build every time you build.</p>
+<p>One of the most common, and most effective, ways of speeding up any computational task
+is by introducing a <a href="https://en.wikipedia.org/wiki/Cache_(computing)">cache</a>. In
+a build this allows you to go from source code to a more machine-friendly representation
+once and then use the output of that processes in future builds, but for it
+to work well your build needs to be reproducible. Caches are awesome, but
+they come with a problem; They need to know what changes will make a cache entry
+invalid to ensure they don&rsquo;t supply old, incorrect data, and that&rsquo;s where issues with your build can
+come in.</p>
+<p>It&rsquo;s easy to end up with an unreproducible, uncacheable build; Using things like the current
+date and time, using plugins which produce inconsistently ordered output (e.g.
+a zip file where the filenames are in a random order), or relying on the order in 
+which filenames are supplied by the operating system being consistent, can all cause the output 
+of a part of your build to change even though your source code hasn&rsquo;t. If this happens you 
+should try to resolve it by asking yourself if you should sort some data to give a predictable
+ordering, or whether you can use something fixed, like a commit ID, instead of the current
+time and date.</p>
+<p>When a build isn&rsquo;t reproducible you end up with one of two situations; You end up
+with fast build where the output may not be correct because the cache isn&rsquo;t invaliding
+entries when things have changed (e.g. the current time or date), or you end
+up with a slower, but correct, build because parts of the build can&rsquo;t be cached.</p>
+<p>Wherever you can you should remove anything which changes on a per-build basis,
+that way a lot of your build can be cached, your builds will be fast, and 
+they output will accurately reflect what would have been created if the cache 
+didn&rsquo;t exist.</p>
+<h3 id="rigorously-defined">Rigorously defined</h3>
+<p>Your build system should define everything it needs, but not everything it
+might need.</p>
+<p>Build tools can do a lot of work for you, but they need you to tell them
+about relationships between the code. If you&rsquo;re not giving them an accurate
+representation of how parts of code relate to each other they&rsquo;ll probably perform 
+unnecessary work in your build (which will slow it down), and you may not be
+able to make the most of some useful features they have.</p>
+<p>To give you an example, if we&rsquo;ve got a build which has three components;
+<code>A</code>, <code>B</code>, and <code>C</code>, and we know that <code>A</code> uses APIs from <code>B</code> and <code>B</code> uses 
+APIs from <code>C</code> then we should create a representation which says;</p>
+<p><code>A -(depends on)-&gt; B -(depends on)-&gt; C</code></p>
+<p>If we then make a change to the source code so <code>A</code> now also uses APIs from <code>C</code> we should update
+our representation to show both dependency chains;</p>
+<p><code>A -(depends on)-&gt; B -(depends on)-&gt; C</code></p>
+<p><code>A -(depends on)-&gt; C</code></p>
+<p>You might be wondering why we need to do this; You might think if <code>A</code> depends
+on <code>B</code> and <code>B</code> depends on <code>C</code> then <code>A</code> will have <code>C</code> available to it, and you&rsquo;d
+be correct, but this is what&rsquo;s known as a <a href="https://en.wikipedia.org/wiki/Transitive_dependency">transitive dependency</a>, 
+and transitive dependencies make it difficult for you to get the most out of your build system.</p>
+<p>Advanced build tools include the ability to run queries against the dependencies
+you&rsquo;ve defined, which allows you to run a minimal set of tests to verify changes
+don&rsquo;t break anything.  If we look at 
+<a href="https://docs.bazel.build/versions/master/query-how-to.html#Reverse_Dependencies">Bazels' reverse dependencies query</a>
+feature, and look at our two graphs above, you should be able to see how, with the
+two chain representation, when you update <code>C</code> Bazel can identify that both
+<code>A</code> and <code>B</code> depend on it, and so the tests in <code>A</code> and <code>B</code> need to be run to identify
+any breaking changes. In the first, single line, representation that relies on a
+transitive dependency between <code>A</code> and <code>C</code>, Bazel has no way of
+identifying if <code>A</code> does or does not use APIs from <code>C</code> without knowing the languages
+of both <code>A</code> and <code>C</code> and performing static analysis on the code.</p>
+<p>So by removing transitive dependencies you can create a test system which is fast
+because it can accurately identify the blast-radius of any change and limit the
+test run to only code which is likely to be affected by a change.</p>
+<p>Similarly, you don&rsquo;t want to define dependency relationships where they&rsquo;re not
+needed. If you added a module <code>D</code> that is only used by <code>B</code> you should only add a 
+rule to show <code>B -(depends on) -&gt; D</code>, and not add rules saying that <code>A</code> or <code>C</code>
+use depend on <code>D</code> because, if <code>D</code> changes, you want your build tool to correctly
+identify <code>B</code> as the only thing affected by it.</p>
+<p>The same is true for plug-ins and extensions; You should only define these where
+they&rsquo;re needed. Using plug-ins and extensions on code where they&rsquo;re not needed
+will slow down your build as well as potentially impacting the reliability of the
+build because it has become unnecessarily complex.</p>
+<p>Some folk might consider that including dependencies, plug-ins, and extensions everywhere makes
+it easier for folk to write code without having to worry about the build system. This,
+again, is falling into the trap of not considering long-term maintenance; You need to
+think about what happens when the number of modules you have doubles; Will your build
+continue to slow down running unnecessary plugins? Will CI slow down because it can&rsquo;t
+determine the blast-radius for a change accurately? Will you hit bugs due to the 
+plug-in not being tested at the scale you&rsquo;re trying to operate at? I&rsquo;ve seen all of 
+these happen in real builds, and the easiest way to avoid them is by rigorously
+defining your build.  The book <a href="https://amzn.to/3rQcWKr">&ldquo;Software Engineering at Google&rdquo;</a> 
+has a good way to think about writing your build representation; <em>&ldquo;Code is read far more 
+than it is written&rdquo;</em>, so optimizing your build representation to maximise code
+writing speed rather than optimizing for the people and tools that may read it
+tens, hundreds, or thousands of times per day, is usually the wrong approach.</p>
+<h2 id="thats-all-folks">That&rsquo;s all folks</h2>
+<p>Hopefully this has given you some food for thought about your builds. The Android
+Open Source Project gets these mostly right, which is why we can build a build 
+farm for it that doesn&rsquo;t need lots of really expensive machines to test each change. Your
+project is probably a lot smaller that the AOSP, but, if you keep these principals in mind, you can set
+your build up so as your project grows you can maintain your speed of development
+by making the most of the features of your build tool.</p>
+<p>If you have questions
+or feedback you can find me on <a href="https://mastodon.social/@alsutton">Mastodon</a>, <a href="https://github.com/alsutton/">GitHub</a>,
+and <a href="https://twitter.com/alsutton">Twitter</a>.</p>
+</div>
+        <div class="post-footer">
+            <div class="info">
+                <span class="separator"><a class="category" href="/categories/Build-Systems/">Build Systems</a></span>
+
+                
+            </div>
+        </div>
+
+        
+    </div>
+
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript"
+        src="/js/jquery.min.72e5cdc7ae76325aa57a51c185e2b93c1b216e69c1a4fec5e53a9035977f931e.js"
+        integrity="sha256-cuXNx652MlqlelHBheK5PBshbmnBpP7F5TqQNZd/kx4="
+        crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript"
+        src="/js/bundle.min.c8b242abc1fe7aff347bfd713f638199bc03c20706de4041bd4c06133f49d0a0.js"
+        integrity="sha256-yLJCq8H&#43;ev80e/1xP2OBmbwDwgcG3kBBvUwGEz9J0KA="
+        crossorigin="anonymous"></script>
+
+<script type="text/javascript"
+        src="/js/medium-zoom.min.2d6fd0be87fa98f0c9b4dc2536b312bbca48757f584f6ea1f394abc9bcc38fbc.js"
+        integrity="sha256-LW/Qvof6mPDJtNwlNrMSu8pIdX9YT26h85SrybzDj7w="
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
