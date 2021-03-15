@@ -173,15 +173,9 @@ app which doesn&rsquo;t always send your messages; It&rsquo;s just not doing its
 distributing config files, generating files on a conditional basis, or anything else which is
 not focused on taking the source code and making a program from it, you&rsquo;re in a situation where 
 you&rsquo;re using a hammer as a screw-driver, and while that can work, it can also easily go wrong.</p>
-<p>Many build tools offer features to help with testing because there are several features they
-can offer to make running tests quick and effective, but this doesn&rsquo;t mean that you should write a complex
-test harness in your favourite build tools language. Build tool developers have identified that
-they can add a lot of value to the testing process and so provide useful features to accommodate
-it, but lots of older build tools (e.g. <a href="https://wiki.netbsd.org/tutorials/bsd_make/">make</a>) 
-have no special features related to testing your code.</p>
 <p>Build tools like <a href="https://bazel.build/">Bazel</a> and <a href="https://buck.build/">Buck</a> use a simplified 
 build language which makes it hard to do things which shouldn&rsquo;t be part of the build. The Buck
-team have a <a href="https://buck.build/concept/skylark.html">great article</a> on why they moved from 
+team have a <a href="https://buck.build/concept/skylark.html">great summary</a> on why they moved from 
 Python to Skylark after some first-hand experience of how using a more feature-rich language
 contributed to a higher maintenance overhead.</p>
 <p>Tools like <a href="https://gradle.org/">Gradle</a> take a different approach and let developers write
@@ -192,11 +186,19 @@ the platform and libraries that the build rely on are upgraded with bug fixes or
 for new features (as the Buck team found out). I&rsquo;m not saying that Gradle is a bad tool, 
 but it&rsquo;s easy to use a good tool in a bad way when there&rsquo;s little stopping you from doing so.</p>
 <p>It&rsquo;s also easy to create unnecessary complexity, and reduce the chances of getting a 
-reliable build by over-using plugins and extensions. There are cases where plugins
+reliable build, by over-using plugins and extensions. There are cases where plugins
 absolutely add value and are the right thing to use, but using them everywhere, even
 when they&rsquo;re not needed, can leave you susceptible to <a href="https://youtrack.jetbrains.com/issue/KT-31416">build</a> 
 <a href="https://issues.gradle.org/browse/GRADLE-2023">bugs</a> 
 which only occur as your build gets larger.</p>
+<p>Many build tools offer features to help with testing because there are several features they
+can offer to make running tests quick and effective, but this doesn&rsquo;t mean that you should write a complex
+test harness in your favourite build tools language. Build tool developers have identified that
+they can add a lot of value to the testing process and so provide useful features to accommodate
+it, but lots of older build tools (e.g. <a href="https://wiki.netbsd.org/tutorials/bsd_make/">make</a>)
+have no special features related to testing your code. The problems around creating fast effective
+test runs are one of the very limited situations where a build tool can add value, and just because
+your build tool will also run tests, that doesn&rsquo;t mean it should also be configuring your IDE.</p>
 <p>Most folk feel good after solving a complex problem, but when it comes to solving problems
 which are only loosely related to translating source code into an executable, and you&rsquo;ve
 ended up with a solution that only uses a build tool, I&rsquo;d recommend thinking about the 
