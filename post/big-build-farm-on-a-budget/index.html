@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark"><head>
+    <title> Al Sutton | Big build farm on a budget </title>
+
+    
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.81.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="">
+    
+    <link rel="stylesheet"
+          href="/css/style.min.d98386e9809c4644e290afb256e8aad6d2ae6b1aefe82c504efd652e6642708d.css"
+          integrity="sha256-2YOG6YCcRkTikK&#43;yVuiq1tKuaxrv6CxQTv1lLmZCcI0="
+          crossorigin="anonymous"
+          type="text/css">
+    
+    <link rel="stylesheet"
+        href="/css/markupHighlight.min.f798cbda9aaa38f89eb38be6414bd082cfd71a6780375cbf67b6d2fb2b96491e.css"
+        integrity="sha256-95jL2pqqOPies4vmQUvQgs/XGmeAN1y/Z7bS&#43;yuWSR4="
+        crossorigin="anonymous"
+        type="text/css">
+    
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+
+    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <link rel="canonical" href="/post/big-build-farm-on-a-budget/">
+
+    
+    
+    
+    
+    <script type="text/javascript"
+            src="/js/anatole-header.min.0c05c0a90d28c968a1cad4fb31abd0b8e1264e788ccefed022ae1d3b6f627514.js"
+            integrity="sha256-DAXAqQ0oyWihytT7MavQuOEmTniMzv7QIq4dO29idRQ="
+            crossorigin="anonymous"></script>
+
+
+    
+        
+        
+        <script type="text/javascript"
+                src="/js/anatole-theme-switcher.min.8ef71e0fd43f21a303733dbbecae5438b791d2b826c68a9883bd7aa459a076d2.js"
+                integrity="sha256-jvceD9Q/IaMDcz277K5UOLeR0rgmxoqYg716pFmgdtI="
+                crossorigin="anonymous"></script>
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Big build farm on a budget"/>
+<meta name="twitter:description" content="Being able to push a change to a server which builds and tests it can free you up to do other things, but getting the machines together to create a build farm for any large build can be expensive. If you have a long build, like the Android Open Source Project, a &ldquo;from clean&rdquo; build can take hours even when you have a powerful machine and a well designed build."/>
+
+
+    
+
+</head>
+<body><div class="sidebar . ">
+    <div class="logo-title">
+        <div class="title">
+            <img src="/images/profile.jpeg" alt="profile picture">
+            <h3 title=""><a href="/">Al Sutton</a></h3>
+            <div class="description">
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <ul class="social-links">
+        
+            <li>
+                <a href="https://www.linkedin.com/in/alsutton/" rel="me" aria-label="Linkedin">
+                    <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://github.com/alsutton" rel="me" aria-label="GitHub">
+                    <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://www.alsutton.blog/index.xml" rel="me" aria-label="RSS">
+                    <i class="fas fa-rss fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Al Sutton  2021 </div>
+    </div>
+</div>
+<div class="main">
+    <div class="page-top  . ">
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </a>
+    <ul class="nav" id="navMenu">
+        
+        
+            
+            <li><a 
+                   href="/"
+                        
+                   title="">Home</a></li>
+        
+            
+            <li><a 
+                   href="/post/"
+                        
+                   title="">Posts</a></li>
+        
+            
+            <li><a 
+                   href="https://github.com/alsutton"
+                        
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        
+                   title="">Projects</a></li>
+        
+        
+        
+            <li class="theme-switch-item">
+                <a class="theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+</div>
+
+    <div class="autopagerize_page_element">
+        <div class="content">
+    <div class="post  . ">
+        <div class="post-content">
+            
+            <div class="post-title">
+                <h3>Big build farm on a budget</h3>
+                
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date"> Tue, Mar 16, 2021 
+                                           </span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">11-minute read</span>
+                    </div>
+                
+            </div>
+
+            <p>Being able to push a change to a server which builds
+and tests it can free you up to do other things, but getting the machines together to 
+create a build farm for any large build can be expensive. 
+If you have a long build, like the Android Open Source Project, a &ldquo;from clean&rdquo; build can
+take hours even when you have a <a href="/post/2021-aosp-build-machine/">powerful machine</a> and a
+<a href="/post/what-makes-a-good-build/">well designed build</a>.</p>
+<p>There is a way to reduce those costs significantly though using a reference
+build and <a href="https://www.kernel.org/doc/html/latest/filesystems/overlayfs.html">the overlay filesystem</a>.</p>
+<h2 id="reference-builds">Reference Builds</h2>
+<p>All changes to a codebase share a common ancestor; The branch
+which contains all previously merged changes.</p>
+<p>I have a single powerful build machine; It checks out the branch of the 
+repository where all previously approved changes have been merged and performs a 
+cold build. It takes a long time, but any change that I&rsquo;m working on is, when
+compared to the whole codebase, small, and so having a well-designed build 
+allows me to quickly rebuild only things related to that small change.</p>
+<p>With many repositories this would be the git <code>main</code> branch, with the
+AOSP this could be a version specific branch such as <code>android11-qpr1-release</code>, 
+the important thing is that there is a common ancestor commit on the
+primary revision contol branch which is only a small number of commits
+away from my change (it may even be the direct parent of my changes commit).</p>
+<p>The collection of the source code, revision control system information (e.g. the
+<code>.git</code> directories), and build output is what I call the reference build, 
+and we can use it in the same way as
+<a href="https://en.wikipedia.org/wiki/Reference_frame_(video)">reference frames</a> are 
+used to reduce the work of video decoders to reduce the amount of work
+in change-checking builds.</p>
+<h2 id="overlay-filesystem">Overlay Filesystem</h2>
+<p>The next piece of the puzzle is the overlay filesystem. Unlike most filesystems
+that folk use the overlay filesystem doesn&rsquo;t specify how to lay-out blocks of 
+data in a disk partition; Instead it allows you to take a directory which should 
+not be modified, provide a separate directory where any changes to the unmodifiable 
+directory should be stored, and then it gives you a combined representation of the two.</p>
+<p>In OverlayFS terminology the unmodifiable directory is called the <em>lower filesystem</em>,
+and the area for the changes is called the <em>upper filesystem</em>. If you think of these
+as glass plates if something has been written to the upper layer you will see that
+instead of anything on the lower layer, but, if nothing is on the upper layer you&rsquo;ll
+be able to see through to what&rsquo;s on the lower layer.</p>
+<p>The best working example of how it works is one of its original design use cases;
+consumer configurable devices. When you update the firmware on a device like,
+say, your home broadband router, you&rsquo;re providing it with a filesystem image which
+contains all the code the router needs to run and area which contains a set of 
+configuration files which contain the device defaults. This configuration area 
+forms the <em>lower</em> layer.</p>
+<p>When you make configuration change the lower layer is not changed, but, instead,
+the change is written to the upper layer, which only exists on your device in 
+a SSD-like storage area. When a program asks for a configuration file the overlay
+filesystem will give it the version from your local upper layer with your changes. If 
+you&rsquo;ve not made any configuration changes the program gets the file
+with the system defaults from the lower layer which was part of the firmware image.</p>
+<p>When you perform a &ldquo;factory reset&rdquo; all that happens is the upper layer is deleted and
+all the programs on the device see the lower layer, which contains the system defaults.
+This is how many devices can perform a factory reset when you boot them while holding 
+down a reset button; early on in the boot
+process the check if the button is being held, and if it is they delete the upper
+layer and reboot so only the lower layer is used.</p>
+<h2 id="putting-the-two-together">Putting the two together</h2>
+<p>So, by now, you&rsquo;ve probably seen where this is going; If you create a reference build
+which becomes the lower layer in an Overlay Filesystem, and provide an empty upper 
+layer, you can pull the change you want to test, build it, and, if the build is 
+well-designed, it will only rebuild the parts which have changed rather than
+needing to rebuild everything.</p>
+<p>You may be wondering how much of a speed up this can give. My main build machine
+is a 12 core, 48 GB RAM, SSD backed machine which takes about 2 hours and 30 minutes
+to do a full AOSP build. Using the output from that as my reference build, and performing 
+a simple single file change, I can get a build with the change from a ~10 year old Core 
+<a href="https://ark.intel.com/content/www/us/en/ark/products/53446/intel-core-i5-2320-processor-6m-cache-up-to-3-30-ghz.html">i5-2320</a>,
+16 GB RAM, SSD backed machine in under 10 minutes. That last time I tried to do a 
+full build on the Core i5 machine I gave up after 5 hours.</p>
+<h2 id="distributing-the-reference-build">Distributing the reference build</h2>
+<p>The area that needs the most consideration is distributing the reference
+builds. With a build like the AOSP a tar file of the source code and build output
+can be tens or hundreds of gigabytes, so pushing a tar file of the reference build
+to every single build machine can take a long time, and even using something 
+like <a href="https://rsync.samba.org/">rsync</a> can be a slow process.</p>
+<p>To avoid lots of large data transfers I use NFS, the
+<a href="https://en.wikipedia.org/wiki/Network_File_System">Network File System</a>, because
+a lot of build tool &ldquo;Up to date&rdquo; checks involve just checking file metadata (e.g. the
+last modified time), and, with NFS, my build machine can provide that information to the 
+less powerful machines without the need to transfer the entire file contents.</p>
+<p>My big build machine has four areas which are exported via NFS; A 
+configuration export, and a set of three areas for the builds. This takes up
+a lot of space, but, for me, it&rsquo;s worth the investment in some SSDs to make
+these available in a resilient way.</p>
+<p>The reason I have three build areas is to avoid breaking builds on the less powerful
+machines. The build areas get moved through the stages;</p>
+<ul>
+<li><em>current</em> - Where the most recently completed build is.</li>
+<li><em>legacy</em> - Where the previously completed build is.</li>
+<li><em>recyclable</em> - where the next build should take place.</li>
+</ul>
+<p>Having the <em>legacy</em> area means that, if a less powerful machine is doing something 
+which runs for a long time, and the big build machine completes one build and starts 
+the next, the less powerful machine doesn&rsquo;t see the reference build it&rsquo;s using disappear
+(unless the job it&rsquo;s doing takes longer than two complete builds, in which case that
+job needs to be worked on).</p>
+<h2 id="how-i-make-this-work">How I make this work</h2>
+<p>The build areas on my big build machine (called <code>big-builder</code>) are called <code>build-1</code>, 
+<code>build-2</code>, <code>build-3</code>. The configuration area (called <code>build-config</code>) contains a single 
+file (called <code>latest-build</code>) which has the name of the area containing the most recent 
+build (i.e. it contains <code>build-2</code> if the most recent build was in <code>build-2</code>). The less powerful 
+machines have the following entries in <code>/etc/fstab</code> to ensure 
+they have the build config and build areas mounted;</p>
+<pre><code>big-builder:/build-config   /mnt/build-config    nfs   nofail   0    0
+big-builder:/build-1        /mnt/build-1         nfs   nofail   0    0
+big-builder:/build-2        /mnt/build-2         nfs   nofail   0    0
+big-builder:/build-3        /mnt/build-3         nfs   nofail   0    0
+</code></pre><p>I use the <code>nofail</code> option to allow the less powerful machines to boot without the 
+big build server being available. That way if I&rsquo;m not doing AOSP work I can leave 
+the power hungry beast turned off.</p>
+<p>Each less powerful machine has a couple of local directories which are used by
+the overlay filesystem; <code>/mnt/work</code> and <code>/mnt/upper</code>, and a directory in which the
+build takes place <code>/mnt/build</code></p>
+<p>When a less powerful machine needs to perform a build it runs a script, similar to
+the one below, as root (which is necessary to perform the mount);</p>
+<pre><code>#!/bin/bash
+
+CURRENT_BUILD_AREA=`cat /mnt/build-config/latest-build`
+
+# Remove any previous build
+umount /mnt/build
+rm -rf /mnt/work /mnt/upper
+
+# Ensure the mount points exist
+mkdir /mnt/work /mnt/upper /mnt/build
+
+# Mount the overlay filesystem
+mount -t overlay \
+      -o lowerdir=/mnt/$CURRENT_BUILD_AREA,upperdir=/mnt/upper,workdir=/mnt/work,noatime,nodiratime \
+      overlay \
+      /mnt/build
+</code></pre><p>After this has run we can start working in <code>/mnt/build</code> to check out the change we want to build.</p>
+<p>The reason I include the revision control information in the reference build is so I can do the following;</p>
+<pre><code>$ cd /mnt/build
+$ git fetch --all
+$ git checkout interesting_thing
+$ build
+$ run_tests
+...
+$ profit
+</code></pre><p>Due to the reference build being available the build step will trigger an incremental build which
+will take a few minutes instead of hours.</p>
+<p>If you wanted to you can actively develop in <code>/mnt/build</code>, including pushing changes back to
+your source control repository. The only thing you need to remember is that you&rsquo;ll need to stay
+with the same reference build, and if you want to use a more recent reference build you&rsquo;ll
+need to delete your local <em>upper</em> and <em>work</em> areas which will delete any local changes. This 
+means that, if you&rsquo;re planning to do develop in an overlay filesystem supported area, you 
+shouldn&rsquo;t use a system of automatically rotating reference builds in the way I do, you 
+should make sure you have a reference build that doesn&rsquo;t get  deleted until you&rsquo;re 
+finished using it.</p>
+<h2 id="aosp-quirks">AOSP quirks</h2>
+<p>It&rsquo;s worth mentioning a small niggle I have with the AOSP build; It hasn&rsquo;t been 
+created to provide a fourth R I like to see in builds; being <strong>Relocatable</strong>.</p>
+<p>The AOSP build keeps a track of the absolute path to where its been built, which means
+if you used <code>/mnt/build-1</code>, <code>/mnt/build-2</code>, <code>/mnt/build-3</code> on your big build machine,
+your less powerful machines would do more work because they would be building 
+in a different place (<code>/mnt/build</code>).</p>
+<p>There are a some ways around this, neither of which I particularly like, but
+they do ensure that the work done on less powerful machines is kept to a minimum.</p>
+<p>The least performance impacting solution is to create a partition
+per build area (<code>build-1</code>, <code>build-2</code>, <code>build-3</code> in my case) and then double mount 
+the partition you want to build in. So if, for example, <code>/dev/nvme0n1p1</code> is the
+partition for <code>build-1</code>, and it&rsquo;s using the ext4 filesystem, your <code>/etc/fstab</code>
+file would contain;</p>
+<pre><code>/dev/nvme0n1p1   /mnt/build-1   ext4   noatime,nodiratime  0  1
+</code></pre><p>then, before your build, you would run;</p>
+<pre><code>$ mount /dev/nvme0n1p1 /mnt/build
+</code></pre><p>then build in <code>/mnt/build</code> to ensure the big build machine creates
+reference builds with the same path as the less powerful machines will 
+be using when they build in their overlay filesystem.</p>
+<p>The down-side of this is, of course, that each partition will take a
+fixed amount of disk space, so, as the build grows, you may need to
+repartition your disk to make more room.</p>
+<p>Other ways of solving this issue involve using files instead of
+partitions, and then using loopback mounts, or building in the location 
+the less powerful machines will and then rsync-ing the build to 
+the exported areas, both of which will increase the time it takes 
+for reference builds to become available.</p>
+<h2 id="going-next-level">Going next level</h2>
+<p>You might be wondering how well this scales, well, like anything, there&rsquo;s
+a limit, and in this case it&rsquo;s usually the machine serving the 
+reference build.</p>
+<p>If your reference build server is saturating the network between it and
+the less powerful machines you can look at upgrading your network speed, 
+or splitting the network in separate subnets 
+by having a <a href="https://amzn.to/3bWXuaa">multi-port</a> ethernet adapter 
+in your reference build serving machine and having the less powerful 
+machines on a subnet with fewer machines on it.</p>
+<p>If you find that your reference build machine is struggling to serve all
+the lesser build machines and perform builds you&rsquo;ve got a couple of options; 
+Firstly you can push completed builds to another server which is dedicated 
+to serving reference builds (I&rsquo;ve used a <a href="https://amzn.to/38OKFfP">QNAP NAS</a> to
+do this in the past), or secondly, upgrade your build server (which
+may be cheaper than getting a dedicated file serving machine).</p>
+<p>If you start using a dedicated file serving machine you can then move
+towards replicating the reference builds between multiple file serving 
+machines either in a hierarchy or in a more peer to peer fashion using
+something like ping-time weighted <a href="https://en.wikipedia.org/wiki/BitTorrent">BitTorrent</a>.</p>
+<p>The important thing here is that you only need one really powerful machine;
+the one creating reference builds. The reference build file servers and
+change building machines can be a lot less powerful, and a lot cheaper
+to horizontally scale if you need extra capacity.</p>
+<h1 id="thats-all-folks">That&rsquo;s all folks</h1>
+<p>Hopefully this has given you some ideas about how you can scale up your
+AOSP build and test system in a way which can serve multiple people without
+breaking the bank.</p>
+<p>If you have questions 
+or feedback you can find me on <a href="https://mastodon.social/@alsutton">Mastodon</a>, <a href="https://github.com/alsutton/">GitHub</a>,
+and <a href="https://twitter.com/alsutton">Twitter</a>.</p>
+</div>
+        <div class="post-footer">
+            <div class="info">
+                <span class="separator"><a class="category" href="/categories/AOSP/">AOSP</a><a class="category" href="/categories/Build-Systems/">Build Systems</a></span>
+
+                
+            </div>
+        </div>
+
+        
+    </div>
+
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript"
+        src="/js/medium-zoom.min.2d6fd0be87fa98f0c9b4dc2536b312bbca48757f584f6ea1f394abc9bcc38fbc.js"
+        integrity="sha256-LW/Qvof6mPDJtNwlNrMSu8pIdX9YT26h85SrybzDj7w="
+        crossorigin="anonymous"></script></body>
+
+</html>

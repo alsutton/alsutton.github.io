@@ -6,7 +6,16 @@
     <description>Recent content in Build Systems on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 15 Mar 2021 10:45:50 +0000</lastBuildDate><atom:link href="/categories/Build-Systems/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Mar 2021 14:45:54 +0000</lastBuildDate><atom:link href="/categories/Build-Systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Big build farm on a budget</title>
+      <link>/post/big-build-farm-on-a-budget/</link>
+      <pubDate>Tue, 16 Mar 2021 14:45:54 +0000</pubDate>
+      
+      <guid>/post/big-build-farm-on-a-budget/</guid>
+      <description>Being able to push a change to a server which builds and tests it can free you up to do other things, but getting the machines together to create a build farm for any large build can be expensive. If you have a long build, like the Android Open Source Project, a &amp;ldquo;from clean&amp;rdquo; build can take hours even when you have a powerful machine and a well designed build.</description>
+    </item>
+    
     <item>
       <title>What makes a good build</title>
       <link>/post/what-makes-a-good-build/</link>
