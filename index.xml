@@ -142,6 +142,95 @@ First off the warning; This setup isn&amp;rsquo;t security hardened. If you&amp;
     </item>
     
     <item>
+      <title>UK Tax Authority and Digital Goods</title>
+      <link>/post/uk-tax-digital-goods/</link>
+      <pubDate>Fri, 14 Feb 2014 10:32:50 +0000</pubDate>
+      
+      <guid>/post/uk-tax-digital-goods/</guid>
+      <description>The biggest concern I have over the UK Tax authority (HMRC) and digital &amp;ldquo;currencies&amp;rdquo; is that they don&amp;rsquo;t seem to understand digital delivery, which already hurts UK businesses.
+The main taxation on the sale of goods and services by companies in the UK is VAT - Value Added Tax. Like many other taxes on sales it&amp;rsquo;s imposed on anything a VAT registered UK company sells to certain groups (mainly UK consumers and companies, and EU consumers).</description>
+    </item>
+    
+    <item>
+      <title>AmaHooGen</title>
+      <link>/post/amahoogen/</link>
+      <pubDate>Wed, 08 Jan 2014 14:22:21 +0000</pubDate>
+      
+      <guid>/post/amahoogen/</guid>
+      <description>We need competition for &amp;ldquo;Google&amp;rdquo; Android.
+There are a huge number of articles which explain the problems of any single company controlling a product that many others rely on, and last decade the problem became so evident with web browsers that the EU felt the need to force the dominant company (Microsoft) to advertise alternatives from competitors, so with Android fast becoming the dominant mobile OS it&amp;rsquo;s probably time we should think about how we can avoid ending up in a similar situation with Google and Mobile as we were with Microsoft and Browsers.</description>
+    </item>
+    
+    <item>
+      <title>I can see why at least one phone OEM is not making money</title>
+      <link>/post/2013-oems-not-making-money/</link>
+      <pubDate>Sun, 08 Dec 2013 09:36:51 +0000</pubDate>
+      
+      <guid>/post/2013-oems-not-making-money/</guid>
+      <description>I had an interesting conversation with an &amp;lsquo;phone OEM at Droidcon NL which gave me a good idea as to why there may be very few OEMs making money producing &amp;lsquo;phones.
+This OEM has a current line of around 15 different devices&amp;hellip;. yes&amp;hellip; 15. Most of the differences seemed to be cosmetic (e.g. different shells around the same core hardware), which is the kind of thing which should be very low priority if you&amp;rsquo;re not making money.</description>
+    </item>
+    
+    <item>
+      <title>Android 4.4 - Blocking Modders or Increasing Security</title>
+      <link>/post/android-4.4/</link>
+      <pubDate>Thu, 28 Nov 2013 14:41:12 +0000</pubDate>
+      
+      <guid>/post/android-4.4/</guid>
+      <description>There&amp;rsquo;s a fine line between user security and blocking modders, but the thing to remember is that far far far more users will benefit from enhanced security than will ever install a custom ROM, and so making a change which can block malware modifying the core OS seems a reasonable move to me.
+Some of these benefits are not direct; Some will say OS modifying malware is rare, but a move like this raises the bar to getting malware like that to work and so will discourage even more people from trying to create it.</description>
+    </item>
+    
+    <item>
+      <title>Android ShareActionProvider DarkActionBar Fix</title>
+      <link>/post/shareactionprovider-fix/</link>
+      <pubDate>Fri, 15 Nov 2013 16:11:02 +0000</pubDate>
+      
+      <guid>/post/shareactionprovider-fix/</guid>
+      <description>With the beta of the Droidcon NL 2013 app Quirijn Groot Bluemink posted a screenshot which showed a small problem; The menu provided by ShareActionProvider as part of the Theme.AppCompat.Light.DarkActionBar has black text on a dark grey background.
+The problem is due to the layout for each item in the menu defined in abc_activity_chooser_view_list_item.xml. The TextView in the layout uses ?attr/textAppearanceLargePopupMenu, which, when you follow the references all the way down to TextAppearance.</description>
+    </item>
+    
+    <item>
+      <title>Nexus 5 Bloatware</title>
+      <link>/post/nexus5-bloatware/</link>
+      <pubDate>Mon, 11 Nov 2013 10:51:22 +0000</pubDate>
+      
+      <guid>/post/nexus5-bloatware/</guid>
+      <description>It seems Google is getting in on the &amp;ldquo;promote via bloat-ware&amp;rdquo; game which is not great for users, like me, who don&amp;rsquo;t use a lot of Google services. Going through the list of pre-installed apps on a Nexus 5 which hasn&amp;rsquo;t been signed in to a Google account (and so hasn&amp;rsquo;t had apps restored or updated from the Play store) I&amp;rsquo;ve found nearly half of them are apps I don&amp;rsquo;t use;</description>
+    </item>
+    
+    <item>
+      <title>OUYA at 499 games</title>
+      <link>/post/ouya-at-499-games/</link>
+      <pubDate>Tue, 05 Nov 2013 13:22:12 +0000</pubDate>
+      
+      <guid>/post/ouya-at-499-games/</guid>
+      <description>Occasionally I look over the OUYA website, and today it had a nice looking number in the top right. Milestones like this make me believe what OUYA have achieved is pretty special; Afaik there are no other shipping #Android consoles which have built up a store of nearly 500 titles focused on the console platform from scratch, and it&amp;rsquo;s been less than a year since developers started getting their hands on hardware.</description>
+    </item>
+    
+    <item>
+      <title>Android; why closed open source can be bad</title>
+      <link>/post/closed-open-source/</link>
+      <pubDate>Sat, 05 Oct 2013 10:22:04 +0000</pubDate>
+      
+      <guid>/post/closed-open-source/</guid>
+      <description>In a G+ post comment I made a statement about how the closed-source components are detrimental to those OEMs who don&amp;rsquo;t sign up to the Google agreement for the GApps, and here&amp;rsquo;s an example;
+In JellyBean Google has starting giving approved OEMs Chrome as the default browser, but only gives it to OEMs who sign up to the GApps agreement. From what I&amp;rsquo;ve been told part of what you get is the GApps version of Chrome being used to back WebViews.</description>
+    </item>
+    
+    <item>
+      <title>Sonys&#39; SmartWatch 2</title>
+      <link>/post/sony-smartwatch-2/</link>
+      <pubDate>Fri, 20 Sep 2013 15:16:14 +0000</pubDate>
+      
+      <guid>/post/sony-smartwatch-2/</guid>
+      <description>A few people have asked me how I&amp;rsquo;ve been getting on with the SmartWatch2 from Sony &amp;hellip; The tldr is that I like it, and more than I thought I would. If you&amp;rsquo;re interested in why keep reading.
+I have a few main concerns with wearable tech, and the SmartWatch2 seems to address them all;
+ Battery life; The SW2 needs charging about as often as my current &amp;lsquo;phone (a Galaxy S4), so putting them both on charge at the same time isn&amp;rsquo;t difficult to remember.</description>
+    </item>
+    
+    <item>
       <title>Importing Devices</title>
       <link>/post/importing-devices/</link>
       <pubDate>Wed, 14 Aug 2013 08:41:18 +0000</pubDate>
