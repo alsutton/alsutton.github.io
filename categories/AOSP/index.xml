@@ -6,14 +6,28 @@
     <description>Recent content in AOSP on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 16 Mar 2021 14:45:54 +0000</lastBuildDate><atom:link href="/categories/AOSP/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Jul 2021 14:45:54 +0000</lastBuildDate><atom:link href="/categories/AOSP/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Working with android firmware</title>
+      <link>/post/working-with-android-firmware/</link>
+      <pubDate>Mon, 05 Jul 2021 14:45:54 +0000</pubDate>
+      
+      <guid>/post/working-with-android-firmware/</guid>
+      
+        <description>Occasionally I get asked &amp;ldquo;How do I make my own Android build?&amp;rdquo;. In this post I&amp;rsquo;m going to give you some tips and information which will hopefully give you a better idea of what&amp;rsquo;s needed.
+Step 1: Check your setup First off you&amp;rsquo;re going to need a machine capable of running Linux and has at least 500 GB of disk space and 16 GB of RAM. I&amp;rsquo;ve written a post before about what type of hardware is ideal, but, if you want to just test the water, you can use any machine with those specs.</description>
+      
+    </item>
+    
     <item>
       <title>Big build farm on a budget</title>
       <link>/post/big-build-farm-on-a-budget/</link>
       <pubDate>Tue, 16 Mar 2021 14:45:54 +0000</pubDate>
       
       <guid>/post/big-build-farm-on-a-budget/</guid>
-      <description>Being able to push a change to a server which builds and tests it can free you up to do other things, but getting the machines together to create a build farm for any large build can be expensive. If you have a long build, like the Android Open Source Project, a &amp;ldquo;from clean&amp;rdquo; build can take hours even when you have a powerful machine and a well designed build.</description>
+      
+        <description>Being able to push a change to a server which builds and tests it can free you up to do other things, but getting the machines together to create a build farm for any large build can be expensive. If you have a long build, like the Android Open Source Project, a &amp;ldquo;from clean&amp;rdquo; build can take hours even when you have a powerful machine and a well designed build.</description>
+      
     </item>
     
     <item>
@@ -22,8 +36,10 @@
       <pubDate>Wed, 10 Mar 2021 08:45:54 +0000</pubDate>
       
       <guid>/post/2021-aosp-build-machine/</guid>
-      <description>Most commodity desktop computers won&amp;rsquo;t be able to build the Android Open Source Project in less than 4 hours, and most folk are on a budget when they build a new machine, so I&amp;rsquo;ve put together a few tips which will help you build a machine capable of building the AOSP in two to three hours.
+      
+        <description>Most commodity desktop computers won&amp;rsquo;t be able to build the Android Open Source Project in less than 4 hours, and most folk are on a budget when they build a new machine, so I&amp;rsquo;ve put together a few tips which will help you build a machine capable of building the AOSP in two to three hours.
 WWGD? The first question that most folk ask when considering a machine for building the AOSP is &amp;ldquo;What Would Google Do?</description>
+      
     </item>
     
     <item>
@@ -32,7 +48,9 @@ WWGD? The first question that most folk ask when considering a machine for build
       <pubDate>Wed, 03 Mar 2021 08:45:54 +0000</pubDate>
       
       <guid>/post/docker-image-development-environment/</guid>
-      <description>Many CI systems allow you to build inside a Docker container, but creating the docker image which is used for the container can be a slow process. Various third party resources, like Docker Hub, may have rate limits, and fetching all the updates and new packages over the internet may take a while, but there are a few things you can do which will make building and testing your images faster.</description>
+      
+        <description>Many CI systems allow you to build inside a Docker container, but creating the docker image which is used for the container can be a slow process. Various third party resources, like Docker Hub, may have rate limits, and fetching all the updates and new packages over the internet may take a while, but there are a few things you can do which will make building and testing your images faster.</description>
+      
     </item>
     
     <item>
@@ -41,8 +59,10 @@ WWGD? The first question that most folk ask when considering a machine for build
       <pubDate>Wed, 10 Mar 2010 17:18:11 +0000</pubDate>
       
       <guid>/post/aosp-in-need-of-love-at-both-ends/</guid>
-      <description>After spending some time trying to build a firmware I&amp;rsquo;ve seen some things which have opened my eyes as to why the Android Open Source Project may not be seeing the kind of community contributions that would be expected of such a high profile project.
+      
+        <description>After spending some time trying to build a firmware I&amp;rsquo;ve seen some things which have opened my eyes as to why the Android Open Source Project may not be seeing the kind of community contributions that would be expected of such a high profile project.
 Other people have shown an interest in knowing my thoughts so I&amp;rsquo;m going to throw out my top 3 for discussion which will hopefully help to improve things;</description>
+      
     </item>
     
     <item>
@@ -51,8 +71,10 @@ Other people have shown an interest in knowing my thoughts so I&amp;rsquo;m goin
       <pubDate>Tue, 09 Mar 2010 13:43:49 +0000</pubDate>
       
       <guid>/post/building-firmware-not-for-the-infirm/</guid>
-      <description>A project I&amp;rsquo;m working on requires the use of a custom firmware image, so I&amp;rsquo;ve been exposed to the joy that is trying to build and use the open source version of Android, and to be honest it&amp;rsquo;s left me a little battered.
+      
+        <description>A project I&amp;rsquo;m working on requires the use of a custom firmware image, so I&amp;rsquo;ve been exposed to the joy that is trying to build and use the open source version of Android, and to be honest it&amp;rsquo;s left me a little battered.
 If you&amp;rsquo;re on an ADP1, and you&amp;rsquo;re just looking to build a 1.6 firmware, you&amp;rsquo;re in for a smooth ride. JBQ and his helpers did a fantastic job and created some easy to follow instructions which you can use to build a firmware image from the donut-plus-aosp branch of the central android repository.</description>
+      
     </item>
     
   </channel>

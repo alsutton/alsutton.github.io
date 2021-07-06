@@ -13,9 +13,11 @@
       <pubDate>Fri, 09 Dec 2011 12:29:55 +0000</pubDate>
       
       <guid>/post/galaxy-nexus-v-iphone-v-lumia-800/</guid>
-      <description>Over the course of a week I compared the Lumia 800, iPhone, and Galaxy Nexus. The following are my opinions of each which I hope will be useful to other people thinking about buying a new smartphone;
+      
+        <description>Over the course of a week I compared the Lumia 800, iPhone, and Galaxy Nexus. The following are my opinions of each which I hope will be useful to other people thinking about buying a new smartphone;
 Size
 I&amp;rsquo;m going to say straight off that the Galaxy Nexus is too big to become my daily &amp;lsquo;phone. I thought it would be when the specs started floating around, and, having had it a while now and travelled a bit with it, I still think it&amp;rsquo;s true.</description>
+      
     </item>
     
     <item>
@@ -24,8 +26,10 @@ I&amp;rsquo;m going to say straight off that the Galaxy Nexus is too big to beco
       <pubDate>Sun, 19 Oct 2008 15:23:08 +0000</pubDate>
       
       <guid>/post/same-scam-different-audience/</guid>
-      <description>I&amp;rsquo;ve recently been subscribed to the development and discussion mailing lists for Googles Android platform due to working on AndAppStore.com and recently an email posting caught my eye because it reminded me of a scam that I thought had long since passed.
+      
+        <description>I&amp;rsquo;ve recently been subscribed to the development and discussion mailing lists for Googles Android platform due to working on AndAppStore.com and recently an email posting caught my eye because it reminded me of a scam that I thought had long since passed.
 The scam works like this; A person or company comes along and says &amp;ldquo;Hey, you&amp;rsquo;re really talented, I&amp;rsquo;d love to sign you up so I can offer you some great projects to work on, and, of course, and you&amp;rsquo;ll get a share of the profits&amp;rdquo;, which is indeed a good offer.</description>
+      
     </item>
     
     <item>
@@ -34,9 +38,11 @@ The scam works like this; A person or company comes along and says &amp;ldquo;He
       <pubDate>Thu, 29 May 2008 15:11:16 +0000</pubDate>
       
       <guid>/post/leveraging-the-work-of-others/</guid>
-      <description>Recently one of the darlings of Web 2.0 called Twitter has been suffering from growing pains which many attribute to issues coping with it&amp;rsquo;s own popularity.
+      
+        <description>Recently one of the darlings of Web 2.0 called Twitter has been suffering from growing pains which many attribute to issues coping with it&amp;rsquo;s own popularity.
 The guys at Twitter have been open and up-front about their problems, and one thing has come to light, they&amp;rsquo;ve failed to make full use of one of the greatest resources available in software development; Open Source Software.
 Twitter isn&amp;rsquo;t alone, many other startups are only making use of OSS at the most basic levels by using Linux, the apache web server, PostgreSQL or MySQL, and a language with a free implementation (such as PHP or Java), without looking further to utilising technologies such as Hibernate, ActiveMQ, and YUI.</description>
+      
     </item>
     
     <item>
@@ -45,8 +51,10 @@ Twitter isn&amp;rsquo;t alone, many other startups are only making use of OSS at
       <pubDate>Sun, 24 Feb 2008 13:13:29 +0000</pubDate>
       
       <guid>/post/additional-bandwidth-on-threes-cellular-broadband-contract/</guid>
-      <description>If, like me, you are on Threes cellular broadband package and you have a monthly allowance which you sometimes use up, you will have found that the only thing three will offer you is increasing your tariff and your allowance, which will only take effect after your next billing date.
+      
+        <description>If, like me, you are on Threes cellular broadband package and you have a monthly allowance which you sometimes use up, you will have found that the only thing three will offer you is increasing your tariff and your allowance, which will only take effect after your next billing date.
 There is an alternative though, you can buy a simple pay as you go SIM, use it in your Three broadband modem, and pay 10, 15, or 25 pounds for a 1, 3, or 7 Gigabyte allowance.</description>
+      
     </item>
     
     <item>
@@ -55,8 +63,10 @@ There is an alternative though, you can buy a simple pay as you go SIM, use it i
       <pubDate>Thu, 07 Feb 2008 09:16:11 +0000</pubDate>
       
       <guid>/post/threes-upgrade-to-turbo-broadband/</guid>
-      <description>In the last few weeks the area I live in has received an &amp;ldquo;upgrade&amp;rdquo; to Threes&#39; Turbo broadband service from it&amp;rsquo;s normal 3G service. This is suppose to be a good thing because it would offer more speed, but alas reality is not what Three would have you beleive.
+      
+        <description>In the last few weeks the area I live in has received an &amp;ldquo;upgrade&amp;rdquo; to Threes&#39; Turbo broadband service from it&amp;rsquo;s normal 3G service. This is suppose to be a good thing because it would offer more speed, but alas reality is not what Three would have you beleive.
 Since the &amp;ldquo;upgrade&amp;rdquo; the connection has been unreliable to put it politely. The connection drops out at random intervals and this can be part of the way through downloading email, pulling up a web page, or anything.</description>
+      
     </item>
     
     <item>
@@ -65,8 +75,10 @@ Since the &amp;ldquo;upgrade&amp;rdquo; the connection has been unreliable to pu
       <pubDate>Tue, 08 Jan 2008 11:16:31 +0000</pubDate>
       
       <guid>/post/wireless-broadband-for-a-soho-using-an-huawei-e220-using-a-router/</guid>
-      <description>I&amp;rsquo;ve heard a few people are looking for a solution to using a cellular modem for their small or home office.
+      
+        <description>I&amp;rsquo;ve heard a few people are looking for a solution to using a cellular modem for their small or home office.
 The solution I&amp;rsquo;ve used is based on the Draytek Vigor 2800 and the Huawei E220 USB modem. The instructions on configuring these two can be found on Drayteks&#39; site at http://www.draytek.co.uk/support/kb_vigor_3g.html</description>
+      
     </item>
     
     <item>
@@ -75,8 +87,10 @@ The solution I&amp;rsquo;ve used is based on the Draytek Vigor 2800 and the Huaw
       <pubDate>Sun, 06 Jan 2008 18:03:50 +0000</pubDate>
       
       <guid>/post/cellular-broadband-in-the-uk/</guid>
-      <description>For the last couple of months I have been using a cellular broadband system instead of a standard ADSL line and I&amp;rsquo;ve got to say that I think describing as broadband is probably stretching the truth a little.
+      
+        <description>For the last couple of months I have been using a cellular broadband system instead of a standard ADSL line and I&amp;rsquo;ve got to say that I think describing as broadband is probably stretching the truth a little.
 I&amp;rsquo;ve been using a Huawei E220 on both the Three and Vodafone networks and the biggest problem I&amp;rsquo;ve seen is signal strength. I&amp;rsquo;m currently in a village with around 5,000 residents which is three miles from the Maidstone (the county town of Kent which has around 80,000 residents), so I&amp;rsquo;m not exactly in the sticks.</description>
+      
     </item>
     
   </channel>

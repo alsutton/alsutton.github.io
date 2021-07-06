@@ -13,8 +13,10 @@
       <pubDate>Wed, 08 Jan 2014 14:22:21 +0000</pubDate>
       
       <guid>/post/amahoogen/</guid>
-      <description>We need competition for &amp;ldquo;Google&amp;rdquo; Android.
+      
+        <description>We need competition for &amp;ldquo;Google&amp;rdquo; Android.
 There are a huge number of articles which explain the problems of any single company controlling a product that many others rely on, and last decade the problem became so evident with web browsers that the EU felt the need to force the dominant company (Microsoft) to advertise alternatives from competitors, so with Android fast becoming the dominant mobile OS it&amp;rsquo;s probably time we should think about how we can avoid ending up in a similar situation with Google and Mobile as we were with Microsoft and Browsers.</description>
+      
     </item>
     
     <item>
@@ -23,8 +25,10 @@ There are a huge number of articles which explain the problems of any single com
       <pubDate>Sun, 08 Dec 2013 09:36:51 +0000</pubDate>
       
       <guid>/post/2013-oems-not-making-money/</guid>
-      <description>I had an interesting conversation with an &amp;lsquo;phone OEM at Droidcon NL which gave me a good idea as to why there may be very few OEMs making money producing &amp;lsquo;phones.
+      
+        <description>I had an interesting conversation with an &amp;lsquo;phone OEM at Droidcon NL which gave me a good idea as to why there may be very few OEMs making money producing &amp;lsquo;phones.
 This OEM has a current line of around 15 different devices&amp;hellip;. yes&amp;hellip; 15. Most of the differences seemed to be cosmetic (e.g. different shells around the same core hardware), which is the kind of thing which should be very low priority if you&amp;rsquo;re not making money.</description>
+      
     </item>
     
     <item>
@@ -33,8 +37,10 @@ This OEM has a current line of around 15 different devices&amp;hellip;. yes&amp;
       <pubDate>Thu, 28 Nov 2013 14:41:12 +0000</pubDate>
       
       <guid>/post/android-4.4/</guid>
-      <description>There&amp;rsquo;s a fine line between user security and blocking modders, but the thing to remember is that far far far more users will benefit from enhanced security than will ever install a custom ROM, and so making a change which can block malware modifying the core OS seems a reasonable move to me.
+      
+        <description>There&amp;rsquo;s a fine line between user security and blocking modders, but the thing to remember is that far far far more users will benefit from enhanced security than will ever install a custom ROM, and so making a change which can block malware modifying the core OS seems a reasonable move to me.
 Some of these benefits are not direct; Some will say OS modifying malware is rare, but a move like this raises the bar to getting malware like that to work and so will discourage even more people from trying to create it.</description>
+      
     </item>
     
     <item>
@@ -43,8 +49,10 @@ Some of these benefits are not direct; Some will say OS modifying malware is rar
       <pubDate>Fri, 15 Nov 2013 16:11:02 +0000</pubDate>
       
       <guid>/post/shareactionprovider-fix/</guid>
-      <description>With the beta of the Droidcon NL 2013 app Quirijn Groot Bluemink posted a screenshot which showed a small problem; The menu provided by ShareActionProvider as part of the Theme.AppCompat.Light.DarkActionBar has black text on a dark grey background.
+      
+        <description>With the beta of the Droidcon NL 2013 app Quirijn Groot Bluemink posted a screenshot which showed a small problem; The menu provided by ShareActionProvider as part of the Theme.AppCompat.Light.DarkActionBar has black text on a dark grey background.
 The problem is due to the layout for each item in the menu defined in abc_activity_chooser_view_list_item.xml. The TextView in the layout uses ?attr/textAppearanceLargePopupMenu, which, when you follow the references all the way down to TextAppearance.</description>
+      
     </item>
     
     <item>
@@ -53,7 +61,9 @@ The problem is due to the layout for each item in the menu defined in abc_activi
       <pubDate>Mon, 11 Nov 2013 10:51:22 +0000</pubDate>
       
       <guid>/post/nexus5-bloatware/</guid>
-      <description>It seems Google is getting in on the &amp;ldquo;promote via bloat-ware&amp;rdquo; game which is not great for users, like me, who don&amp;rsquo;t use a lot of Google services. Going through the list of pre-installed apps on a Nexus 5 which hasn&amp;rsquo;t been signed in to a Google account (and so hasn&amp;rsquo;t had apps restored or updated from the Play store) I&amp;rsquo;ve found nearly half of them are apps I don&amp;rsquo;t use;</description>
+      
+        <description>It seems Google is getting in on the &amp;ldquo;promote via bloat-ware&amp;rdquo; game which is not great for users, like me, who don&amp;rsquo;t use a lot of Google services. Going through the list of pre-installed apps on a Nexus 5 which hasn&amp;rsquo;t been signed in to a Google account (and so hasn&amp;rsquo;t had apps restored or updated from the Play store) I&amp;rsquo;ve found nearly half of them are apps I don&amp;rsquo;t use;</description>
+      
     </item>
     
     <item>
@@ -62,7 +72,9 @@ The problem is due to the layout for each item in the menu defined in abc_activi
       <pubDate>Tue, 05 Nov 2013 13:22:12 +0000</pubDate>
       
       <guid>/post/ouya-at-499-games/</guid>
-      <description>Occasionally I look over the OUYA website, and today it had a nice looking number in the top right. Milestones like this make me believe what OUYA have achieved is pretty special; Afaik there are no other shipping #Android consoles which have built up a store of nearly 500 titles focused on the console platform from scratch, and it&amp;rsquo;s been less than a year since developers started getting their hands on hardware.</description>
+      
+        <description>Occasionally I look over the OUYA website, and today it had a nice looking number in the top right. Milestones like this make me believe what OUYA have achieved is pretty special; Afaik there are no other shipping #Android consoles which have built up a store of nearly 500 titles focused on the console platform from scratch, and it&amp;rsquo;s been less than a year since developers started getting their hands on hardware.</description>
+      
     </item>
     
     <item>
@@ -71,8 +83,10 @@ The problem is due to the layout for each item in the menu defined in abc_activi
       <pubDate>Sat, 05 Oct 2013 10:22:04 +0000</pubDate>
       
       <guid>/post/closed-open-source/</guid>
-      <description>In a G+ post comment I made a statement about how the closed-source components are detrimental to those OEMs who don&amp;rsquo;t sign up to the Google agreement for the GApps, and here&amp;rsquo;s an example;
+      
+        <description>In a G+ post comment I made a statement about how the closed-source components are detrimental to those OEMs who don&amp;rsquo;t sign up to the Google agreement for the GApps, and here&amp;rsquo;s an example;
 In JellyBean Google has starting giving approved OEMs Chrome as the default browser, but only gives it to OEMs who sign up to the GApps agreement. From what I&amp;rsquo;ve been told part of what you get is the GApps version of Chrome being used to back WebViews.</description>
+      
     </item>
     
     <item>
@@ -81,9 +95,11 @@ In JellyBean Google has starting giving approved OEMs Chrome as the default brow
       <pubDate>Fri, 20 Sep 2013 15:16:14 +0000</pubDate>
       
       <guid>/post/sony-smartwatch-2/</guid>
-      <description>A few people have asked me how I&amp;rsquo;ve been getting on with the SmartWatch2 from Sony &amp;hellip; The tldr is that I like it, and more than I thought I would. If you&amp;rsquo;re interested in why keep reading.
+      
+        <description>A few people have asked me how I&amp;rsquo;ve been getting on with the SmartWatch2 from Sony &amp;hellip; The tldr is that I like it, and more than I thought I would. If you&amp;rsquo;re interested in why keep reading.
 I have a few main concerns with wearable tech, and the SmartWatch2 seems to address them all;
  Battery life; The SW2 needs charging about as often as my current &amp;lsquo;phone (a Galaxy S4), so putting them both on charge at the same time isn&amp;rsquo;t difficult to remember.</description>
+      
     </item>
     
     <item>
@@ -92,7 +108,9 @@ I have a few main concerns with wearable tech, and the SmartWatch2 seems to addr
       <pubDate>Sat, 03 Aug 2013 08:04:20 +0000</pubDate>
       
       <guid>/post/google-play-edition-devices/</guid>
-      <description>So in the last couple of months Google have released the Google Play Edition HTC One, the PE Samsung S4, Nexus 7 (2013 edition), ChromeCast, and the MotoX all only in the US, adding to Google Glass&amp;rsquo;s continued US-only availability. If you go beyond hardware there&amp;rsquo;s things like Voice, All Access Music, and I&amp;rsquo;m sure a number of other products which, if you&amp;rsquo;re not in the US, you&amp;rsquo;re not likely to be able to use.</description>
+      
+        <description>So in the last couple of months Google have released the Google Play Edition HTC One, the PE Samsung S4, Nexus 7 (2013 edition), ChromeCast, and the MotoX all only in the US, adding to Google Glass&amp;rsquo;s continued US-only availability. If you go beyond hardware there&amp;rsquo;s things like Voice, All Access Music, and I&amp;rsquo;m sure a number of other products which, if you&amp;rsquo;re not in the US, you&amp;rsquo;re not likely to be able to use.</description>
+      
     </item>
     
     <item>
@@ -101,8 +119,10 @@ I have a few main concerns with wearable tech, and the SmartWatch2 seems to addr
       <pubDate>Mon, 08 Jul 2013 13:43:50 +0000</pubDate>
       
       <guid>/post/android-master-key-exploit/</guid>
-      <description>The details of what I believe to be Android bug 8219321 (master keys) are below. I&amp;rsquo;ve put this together from the Cyanogenmod bug report and patch, so if anyone has some better information I&amp;rsquo;d welcome it.
+      
+        <description>The details of what I believe to be Android bug 8219321 (master keys) are below. I&amp;rsquo;ve put this together from the Cyanogenmod bug report and patch, so if anyone has some better information I&amp;rsquo;d welcome it.
 When checking APK content signatures PackageParser calls its loadCertificates method, which in turn uses the getInputStream method of JarFile whose implementation is in ZipFile (the parent of JarFile) and looks up the relevant entry in a Map.</description>
+      
     </item>
     
     <item>
@@ -111,7 +131,9 @@ When checking APK content signatures PackageParser calls its loadCertificates me
       <pubDate>Sun, 23 Jun 2013 08:43:50 +0000</pubDate>
       
       <guid>/post/leaving-ouya/</guid>
-      <description>Nearly 8 months ago I met with a few software engineers working from some rented desks in San Francisco. They were the OUYA engineering team. We talked, they took me through their interview process. I also had a meeting with Julie Uhrman, after which I went from being a believer that it could happen to a believer that it would happen and there was a place on the team for me and I could help make it happen.</description>
+      
+        <description>Nearly 8 months ago I met with a few software engineers working from some rented desks in San Francisco. They were the OUYA engineering team. We talked, they took me through their interview process. I also had a meeting with Julie Uhrman, after which I went from being a believer that it could happen to a believer that it would happen and there was a place on the team for me and I could help make it happen.</description>
+      
     </item>
     
     <item>
@@ -120,8 +142,10 @@ When checking APK content signatures PackageParser calls its loadCertificates me
       <pubDate>Thu, 20 Jun 2013 12:15:33 +0000</pubDate>
       
       <guid>/post/droidcon-london-2013/</guid>
-      <description>I got a call from Skills Matter asking me if I&amp;rsquo;d be interested in going to droidcon London 2013&amp;hellip;. well, it&amp;rsquo;s already certain I&amp;rsquo;ll be there, and here&amp;rsquo;s why;
+      
+        <description>I got a call from Skills Matter asking me if I&amp;rsquo;d be interested in going to droidcon London 2013&amp;hellip;. well, it&amp;rsquo;s already certain I&amp;rsquo;ll be there, and here&amp;rsquo;s why;
 There are going to be several tracks at #DroidconUK13 , and each track has a track-master, a person who has volunteered to co-ordinate the track, sort out who talks in which slots, and make sure their track is appealing to developers.</description>
+      
     </item>
     
     <item>
@@ -130,8 +154,10 @@ There are going to be several tracks at #DroidconUK13 , and each track has a tra
       <pubDate>Sun, 19 May 2013 09:26:27 +0000</pubDate>
       
       <guid>/post/developing-for-different-platforms/</guid>
-      <description>So if I understand this TechCrunch article correctly; Overdose Caffeine stopped developing for the OUYA because they don&amp;rsquo;t want to implement a control system which works well with an OUYA controller (and the article reads very much like they may have received an incentive to highlight another product)
+      
+        <description>So if I understand this TechCrunch article correctly; Overdose Caffeine stopped developing for the OUYA because they don&amp;rsquo;t want to implement a control system which works well with an OUYA controller (and the article reads very much like they may have received an incentive to highlight another product)
 To me this article highlights one part of the value of the OUYA store; It stops users getting apps from developers who don&amp;rsquo;t understand the UX needs of a console.</description>
+      
     </item>
     
     <item>
@@ -140,9 +166,11 @@ To me this article highlights one part of the value of the OUYA store; It stops 
       <pubDate>Fri, 18 Jan 2013 08:36:36 +0000</pubDate>
       
       <guid>/post/andappstore-to-blackberry/</guid>
-      <description>Some of you may remember that, back at the end of 2010 I decided to sell AndAppStore to the Seavus group who, in turn, launched a &amp;ldquo;beyond apps&amp;rdquo; Android store called Soc.io Mall in 2011.
+      
+        <description>Some of you may remember that, back at the end of 2010 I decided to sell AndAppStore to the Seavus group who, in turn, launched a &amp;ldquo;beyond apps&amp;rdquo; Android store called Soc.io Mall in 2011.
 In the last couple of days emails have started to go out informing folk that Seavus and Blackberry have established strategic cooperation arrangement to support the Soc.io Mall developers in side Blackberry App World.
 I&amp;rsquo;m really happy with the way Seavus have been able to take the project I started and build upon it to help Android developers reach wider and wider audiences, and I hope that the developers who&amp;rsquo;ve helped to make the continued growth possible understand what they&amp;rsquo;ve helped build.</description>
+      
     </item>
     
     <item>
@@ -151,9 +179,11 @@ I&amp;rsquo;m really happy with the way Seavus have been able to take the projec
       <pubDate>Thu, 15 Nov 2012 08:06:02 +0000</pubDate>
       
       <guid>/post/charging-the-nexus-10/</guid>
-      <description>It charges from a Micro-USB connector which is, for Samsung, a huge step in the right direction.
+      
+        <description>It charges from a Micro-USB connector which is, for Samsung, a huge step in the right direction.
 The feel of the device reminds me very much of a Xoom. The rubber back is a good touch (I can&amp;rsquo;t count how many samsung tablets I&amp;rsquo;ve had slip around in my hands).
 In terms of setup, it still disappoints me that Android doesn&amp;rsquo;t show the MAC address when you set up WiFi for the first time.</description>
+      
     </item>
     
     <item>
@@ -162,9 +192,11 @@ In terms of setup, it still disappoints me that Android doesn&amp;rsquo;t show t
       <pubDate>Fri, 07 Sep 2012 08:34:07 +0000</pubDate>
       
       <guid>/post/android-tablets/</guid>
-      <description>One phrase from last nights Amazon.com Kindle launch makes me think they&amp;rsquo;re going to take over the #Android tablet space and have big consumer support;
+      
+        <description>One phrase from last nights Amazon.com Kindle launch makes me think they&amp;rsquo;re going to take over the #Android tablet space and have big consumer support;
 &amp;ldquo;&amp;hellip;people don&amp;rsquo;t want gadgets anymore. They want services that improve over time. They want services that improve every day, every week, and every month.&amp;rdquo;
 This has been true for a long time. Consumers buy devices from washing machines to TVs because they want it to do something, not because it has the lastest bit of technology from the manufacturer.</description>
+      
     </item>
     
     <item>
@@ -173,9 +205,11 @@ This has been true for a long time. Consumers buy devices from washing machines 
       <pubDate>Wed, 21 Dec 2011 12:59:01 +0000</pubDate>
       
       <guid>/post/compiling-ice-cream-sandwich-on-mac-os-x-lion-with-xcode-4/</guid>
-      <description>After making yesterdays post on how to build the Android Open Source Project master branch using Mac OS X 10.7 and Xcode 4 I&amp;rsquo;ve tracked down what&amp;rsquo;s necessary to get the Ice Cream Sandwich branch of AOSP compiling on the same platform.
+      
+        <description>After making yesterdays post on how to build the Android Open Source Project master branch using Mac OS X 10.7 and Xcode 4 I&amp;rsquo;ve tracked down what&amp;rsquo;s necessary to get the Ice Cream Sandwich branch of AOSP compiling on the same platform.
 This process has been tested against the android-4.0.3_r1 branch, so if you&amp;rsquo;re using another branch you may encounter some issues not mentioned here.
   Follow steps 1 to 4 from the instructions from yesterdays post, but check out the relevant ICS branch instead of master (Don&amp;rsquo;t forget to apply the patches from that post to the checked out ICS files).</description>
+      
     </item>
     
     <item>
@@ -184,8 +218,10 @@ This process has been tested against the android-4.0.3_r1 branch, so if you&amp;
       <pubDate>Tue, 20 Dec 2011 14:22:03 +0000</pubDate>
       
       <guid>/post/compiling-android-master-on-mac-os-x-lion-with-xcode-4/</guid>
-      <description>[Update: The patches have been merged into the AOSP master branch, so as of the 22nd of December AOSP master should compile on OS X 10.7 with Xcode 4 straight from checkout]
+      
+        <description>[Update: The patches have been merged into the AOSP master branch, so as of the 22nd of December AOSP master should compile on OS X 10.7 with Xcode 4 straight from checkout]
 My company has worked on some Android firmware projects in the past, but, due to the closed source nature of Honeycomb, that work pretty much dried up. Recently though Google released Android 4.0 to the masses and we&amp;rsquo;ve had a few enquiries about firmware work again, so I thought I&amp;rsquo;d see what the current state of building Android was for our default machine configuration.</description>
+      
     </item>
     
     <item>
@@ -194,8 +230,10 @@ My company has worked on some Android firmware projects in the past, but, due to
       <pubDate>Tue, 20 Sep 2011 09:07:34 +0000</pubDate>
       
       <guid>/post/http-multipart-on-android/</guid>
-      <description>After seeing a twitter post asking about HTTP MultiPart on Android which linked to a Google Groups thread which recommended a solution which required the inclusion of multiple libraries, I thought it might be worth sharing a method I&amp;rsquo;ve used in the past which can be used reasonably easily and doesn&amp;rsquo;t require tens of kilobytes of unused library functions to be added to your app.
+      
+        <description>After seeing a twitter post asking about HTTP MultiPart on Android which linked to a Google Groups thread which recommended a solution which required the inclusion of multiple libraries, I thought it might be worth sharing a method I&amp;rsquo;ve used in the past which can be used reasonably easily and doesn&amp;rsquo;t require tens of kilobytes of unused library functions to be added to your app.
 First off you&amp;rsquo;ll need the AOSP source which can be obtained from an unofficial mirror in the absence of the primary official repository at kernel.</description>
+      
     </item>
     
     <item>
@@ -204,8 +242,10 @@ First off you&amp;rsquo;ll need the AOSP source which can be obtained from an un
       <pubDate>Wed, 07 Sep 2011 10:56:20 +0000</pubDate>
       
       <guid>/post/droidcon-uk-approaching/</guid>
-      <description>It&amp;rsquo;s coming to that time of year again when one of the main Android events comes around - Droidcon UK
+      
+        <description>It&amp;rsquo;s coming to that time of year again when one of the main Android events comes around - Droidcon UK
 Last year I spoke about taking Android beyond &amp;lsquo;phones, this year I&amp;rsquo;ll be speaking about developing apps which scale well on single and multi-core devices (from single core, to dual, to quad, and beyond), which is something that&amp;rsquo;s going to become more and more important as we see more low-end single core devices, mid/high-end dual core, and top-end quad core devices come to market.</description>
+      
     </item>
     
     <item>
@@ -214,10 +254,12 @@ Last year I spoke about taking Android beyond &amp;lsquo;phones, this year I&amp
       <pubDate>Thu, 25 Aug 2011 06:30:14 +0000</pubDate>
       
       <guid>/post/why-i-recommended-an-iphone/</guid>
-      <description>Why I recommended an iPhone I&amp;rsquo;m disheartened to admit that I&amp;rsquo;ve just had to recommend a current iPhone user upgrades to another iPhone instead of switching to Android.
+      
+        <description>Why I recommended an iPhone I&amp;rsquo;m disheartened to admit that I&amp;rsquo;ve just had to recommend a current iPhone user upgrades to another iPhone instead of switching to Android.
 Reasons high-level reasons were;
   They already know iOS, so little to no learning curve.
   They&amp;rsquo;re a power user, not a &amp;ldquo;geek&amp;rdquo;, so availability of apps &amp;amp; media is probably more important than customisation. (There is no equivalent to iTunes for obtaining Movies, TV shows, and Music in one place on Android outside the US, and many main stream apps appear as iOS first releases in the UK)</description>
+      
     </item>
     
     <item>
@@ -226,8 +268,10 @@ Reasons high-level reasons were;
       <pubDate>Mon, 15 Aug 2011 06:20:55 +0000</pubDate>
       
       <guid>/post/googlemotorola-deal-opinion/</guid>
-      <description>[imported from Google+]
+      
+        <description>[imported from Google+]
 I&amp;rsquo;m not convinced of the benefits of the Motorola-Google deal. Patent protection will be good for Android, but it essentially creates a preferred hardware supplier for Android who is US focused. For all that&amp;rsquo;s said, Google management has to report to shareholders who will want to see Google get the most value out of Motorola, and an easy way to do that would be give Motorola an exclusivity period on all future releases of Android.</description>
+      
     </item>
     
     <item>
@@ -236,10 +280,12 @@ I&amp;rsquo;m not convinced of the benefits of the Motorola-Google deal. Patent 
       <pubDate>Fri, 12 Aug 2011 06:17:49 +0000</pubDate>
       
       <guid>/post/rumoured-android-ice-cream-sandwich-screenshots/</guid>
-      <description>[Imported from Google+]
+      
+        <description>[Imported from Google+]
 I&amp;rsquo;ve seen the rumoured Ice Cream Sandwich leak, couple of things make me suspicious;
   Kernel Version; It&amp;rsquo;s the same as the current Gingerbread AOSP build, and all of the 3 Honeycomb devices I have are based on 2.6.36 kernels, not 2.6.35, so it seems odd to me a later Android version would use an earlier kernel.
   Baseband version; It&amp;rsquo;s the same as the current Gingerbread release.</description>
+      
     </item>
     
     <item>
@@ -248,12 +294,14 @@ I&amp;rsquo;ve seen the rumoured Ice Cream Sandwich leak, couple of things make 
       <pubDate>Wed, 13 Jul 2011 06:05:29 +0000</pubDate>
       
       <guid>/post/new-market-layout-suggestions/</guid>
-      <description>[Imported from Google+]
+      
+        <description>[Imported from Google+]
 The new Android Market client recently started to roll out and looks like this;
 I can&amp;rsquo;t help feeling the following tweaks to the new non-US Market layout might be useful;
   Change the &amp;ldquo;Staff Choices&amp;rdquo; button to an &amp;ldquo;Apps&amp;rdquo; button
   Put &amp;ldquo;Staff Choices&amp;rdquo; where the current &amp;ldquo;Editors Choice&amp;rdquo; is
   Put the &amp;ldquo;Editors Choice&amp;rdquo; where they Grey featured app block is (Where the pageonce app is in the screenshot), and rename it &amp;ldquo;More Featured Apps.</description>
+      
     </item>
     
     <item>
@@ -262,9 +310,11 @@ I can&amp;rsquo;t help feeling the following tweaks to the new non-US Market lay
       <pubDate>Tue, 12 Apr 2011 14:46:26 +0000</pubDate>
       
       <guid>/post/android-honeycomb-source-drop/</guid>
-      <description>After checking over the Android Open Source Project repository I noticed an interesting comment in the manifests project;
+      
+        <description>After checking over the Android Open Source Project repository I noticed an interesting comment in the manifests project;
 which made me wonder if some of the Honeycomb source code had been dropped into the AOSP repository, and, well, it looks like it may have done.
 [Update : Jean-Baptiste Queru from Google has confirmed there is some Honeycomb goodness in the AOSP repo which comes from the AOSP repos master branch. It&amp;rsquo;s not the &amp;ldquo;full&amp;rdquo; honeycomb, but a snapshot of master that can be used for recreating a Honeycomb build to test any future incompatibilities against]</description>
+      
     </item>
     
     <item>
@@ -273,9 +323,11 @@ which made me wonder if some of the Honeycomb source code had been dropped into 
       <pubDate>Tue, 01 Feb 2011 07:51:42 +0000</pubDate>
       
       <guid>/post/opinion-google-hiring-android-developers-and-the-android-ecosystem/</guid>
-      <description>Yesterday the Wall Street Journal ran a story about Google planning to hire Android application developers which, to me, seems to have the potential to be the worst possible thing they could do to the Android eco-system. I&amp;rsquo;m going to outline the reasons why I hold this view but I&amp;rsquo;m always open to other, well reasoned, points of view.
+      
+        <description>Yesterday the Wall Street Journal ran a story about Google planning to hire Android application developers which, to me, seems to have the potential to be the worst possible thing they could do to the Android eco-system. I&amp;rsquo;m going to outline the reasons why I hold this view but I&amp;rsquo;m always open to other, well reasoned, points of view.
 The reasons I currently have this view are as follows;
 1. It does nothing to help non-Google developers who are currently struggling to make a living from developing Android applications.</description>
+      
     </item>
     
     <item>
@@ -284,11 +336,13 @@ The reasons I currently have this view are as follows;
       <pubDate>Thu, 27 Jan 2011 09:06:00 +0000</pubDate>
       
       <guid>/post/the-android-honeycomb-preview-emulator/</guid>
-      <description>Some people have noticed some niggles with the Android Honeycomb Previewemulator, so I&amp;rsquo;ve put together a few tips which may help improve your experience.
+      
+        <description>Some people have noticed some niggles with the Android Honeycomb Previewemulator, so I&amp;rsquo;ve put together a few tips which may help improve your experience.
 I&amp;rsquo;ll do my best to keep this updated with tips and post hints on my twitter account as I get them.
 Things you can do something about
 Emulated memory size
 By default the Honeycomb AVD is created to emulate 256MB of RAM, my advice is to increase this significantly.</description>
+      
     </item>
     
     <item>
@@ -297,8 +351,10 @@ By default the Honeycomb AVD is created to emulate 256MB of RAM, my advice is to
       <pubDate>Wed, 05 Jan 2011 11:52:53 +0000</pubDate>
       
       <guid>/post/amazons-app-store/</guid>
-      <description>(This was prompted by a question asked by Reto Meier)
+      
+        <description>(This was prompted by a question asked by Reto Meier)
 As many of you may know my company built and later sold AndAppStore over the course of two years. During that time we kept an eye on the competition and received feedback from users and developers and got a good idea of what both sides wanted. I commented on Google Market because it was the main distribution channel for developers, but I rarely commented on competitors alternative app stores because each of them has their own business plan and all of the legally operating ones seemed to be doing their best to strike a balance between what they need to survive and what users and developers want.</description>
+      
     </item>
     
     <item>
@@ -307,7 +363,9 @@ As many of you may know my company built and later sold AndAppStore over the cou
       <pubDate>Thu, 30 Dec 2010 14:02:00 +0000</pubDate>
       
       <guid>/post/multi-core-android-101/</guid>
-      <description>Some of you may already be familiar with multi-core programming, so a lot of what I&amp;rsquo;m going to cover will be very familiar to you, but some Android developers may have never written for (or considered) how the multiple CPU cores available on CPUs such as Nvidias Tegra 2 chips (as rumoured to be in the Motorola Honeycomb Tablet) can improve the speed of their applications if the applications are written in a multi-core friendly manner.</description>
+      
+        <description>Some of you may already be familiar with multi-core programming, so a lot of what I&amp;rsquo;m going to cover will be very familiar to you, but some Android developers may have never written for (or considered) how the multiple CPU cores available on CPUs such as Nvidias Tegra 2 chips (as rumoured to be in the Motorola Honeycomb Tablet) can improve the speed of their applications if the applications are written in a multi-core friendly manner.</description>
+      
     </item>
     
     <item>
@@ -316,9 +374,11 @@ As many of you may know my company built and later sold AndAppStore over the cou
       <pubDate>Mon, 20 Dec 2010 08:02:00 +0000</pubDate>
       
       <guid>/post/andappstore/</guid>
-      <description>I&amp;rsquo;m personally thrilled to announce that my company, Funky Android Ltd., has sold AndAppStore to the Seavus Group.
+      
+        <description>I&amp;rsquo;m personally thrilled to announce that my company, Funky Android Ltd., has sold AndAppStore to the Seavus Group.
 As part of a refocusing process, Funky Android Ltd. had been looking to sell AndAppStore, and, when approached by a representative of Seavus, they felt Seavus could provide AndAppStore with the resources it needed to grow the store faster and larger than Funky Android could realistically achieve.
 Everyone at Funky Android has found working with developers and users via AndAppStore thoroughly rewarding, and we will continue to be involved with it as and when Seavus ask us to.</description>
+      
     </item>
     
     <item>
@@ -327,8 +387,10 @@ Everyone at Funky Android has found working with developers and users via AndApp
       <pubDate>Tue, 07 Dec 2010 12:40:19 +0000</pubDate>
       
       <guid>/post/android-tablet-phone-uis-in-one-apk-how-to/</guid>
-      <description>(the code and application links are at the bottom of the article for those who are a bit impatient)
+      
+        <description>(the code and application links are at the bottom of the article for those who are a bit impatient)
 At DroidCon UK this year I presented a talk on why Android developers should be thinking about tablets and I touched upon creating UIs which can adapt to the device they&amp;rsquo;re on. Anyone who attended DroidCon UK has now had plenty of time to get a head start so I&amp;rsquo;m now going to show one method of getting an Android application to adapt itself to present an appropriate UI.</description>
+      
     </item>
     
     <item>
@@ -337,8 +399,10 @@ At DroidCon UK this year I presented a talk on why Android developers should be 
       <pubDate>Mon, 13 Sep 2010 18:37:38 +0000</pubDate>
       
       <guid>/post/android-screen-densities-what-you-see-may-not-be-what-you-get/</guid>
-      <description>Since Android 1.6 Google have beenasking developers to use specific size and density groupings for their graphical resources to ensure that their user interfaces looked good on a range of devices, but unfortunately developers are not fully supporting it and now OEMs are making their devices report the wrong densities.
+      
+        <description>Since Android 1.6 Google have beenasking developers to use specific size and density groupings for their graphical resources to ensure that their user interfaces looked good on a range of devices, but unfortunately developers are not fully supporting it and now OEMs are making their devices report the wrong densities.
 I&amp;rsquo;ve blogged before about developers not supporting the various sizes and densities fully which resulted in UIs which look odd and empty on tablets, but OEMs reporting the wrong densities seems to be a new phenomenon which means even if a developer provided graphic assets for all the screen sizes and densities Android supports they may still see the wrong assets being used and their UI looking odd on some devices through no fault of their own.</description>
+      
     </item>
     
     <item>
@@ -347,7 +411,9 @@ I&amp;rsquo;ve blogged before about developers not supporting the various sizes 
       <pubDate>Wed, 08 Sep 2010 10:04:29 +0000</pubDate>
       
       <guid>/post/talk-on-android-tablets/</guid>
-      <description>At the end of October I&amp;rsquo;ll be giving a talk on Android Tablets, eReaders, and other devices at droidcon London, so if you&amp;rsquo;ve found my posts on the subject interesting (or if you want to see any of the other speakers who are going to be presenting), the you can register to attend the Droidcon UK website.</description>
+      
+        <description>At the end of October I&amp;rsquo;ll be giving a talk on Android Tablets, eReaders, and other devices at droidcon London, so if you&amp;rsquo;ve found my posts on the subject interesting (or if you want to see any of the other speakers who are going to be presenting), the you can register to attend the Droidcon UK website.</description>
+      
     </item>
     
     <item>
@@ -356,8 +422,10 @@ I&amp;rsquo;ve blogged before about developers not supporting the various sizes 
       <pubDate>Wed, 04 Aug 2010 07:35:08 +0000</pubDate>
       
       <guid>/post/android-facebook-app-now-with-less-tablet-love/</guid>
-      <description>A short while ago I posted about how many Android applications hadn&amp;rsquo;t allowed for tablets by assuming a direct correlation between screen density and screen resolution. I used the Android Facebook application as an example, and as they&amp;rsquo;ve just released an update I thought I should follow up the previous post and look at the changes they&amp;rsquo;ve made. Unfortunately it seems they&amp;rsquo;re heading in the wrong direction.
+      
+        <description>A short while ago I posted about how many Android applications hadn&amp;rsquo;t allowed for tablets by assuming a direct correlation between screen density and screen resolution. I used the Android Facebook application as an example, and as they&amp;rsquo;ve just released an update I thought I should follow up the previous post and look at the changes they&amp;rsquo;ve made. Unfortunately it seems they&amp;rsquo;re heading in the wrong direction.
 The biggest backwards step is the removal of landscape mode.</description>
+      
     </item>
     
     <item>
@@ -366,8 +434,10 @@ The biggest backwards step is the removal of landscape mode.</description>
       <pubDate>Wed, 28 Jul 2010 10:21:28 +0000</pubDate>
       
       <guid>/post/stepping-back-from-public-android-work/</guid>
-      <description>Today is a sad day for me as I&amp;rsquo;ve decided to greatly reduce my involvement in the Android community, and I thought it best to explain why rather than leave the rumour mill to run its&#39; course.
+      
+        <description>Today is a sad day for me as I&amp;rsquo;ve decided to greatly reduce my involvement in the Android community, and I thought it best to explain why rather than leave the rumour mill to run its&#39; course.
 For those who don&amp;rsquo;t know my background my involvement with Android started when Dan Morrill demoed Android at the London Google Developer Day in 2008. During his session my brain started ticking and came up with a method of using cryptographic signatures to show approvals and create trust brands so users could tell who thought which apps were &amp;ldquo;safe&amp;rdquo;, I mentioned it to him, he seemed interested, and so I expanded on the idea in a blog post, and from there on I was hooked.</description>
+      
     </item>
     
     <item>
@@ -376,8 +446,10 @@ For those who don&amp;rsquo;t know my background my involvement with Android sta
       <pubDate>Tue, 13 Jul 2010 07:59:22 +0000</pubDate>
       
       <guid>/post/community-create-books-tread-carefully/</guid>
-      <description>In the last day or two lots of people have helped circulate a link to an O&amp;rsquo;Reilly effort to create a cookbook of community supplied Android examples, which is a noble effort, but there is a big drawback; and that&amp;rsquo;s the potential quality of the information.
+      
+        <description>In the last day or two lots of people have helped circulate a link to an O&amp;rsquo;Reilly effort to create a cookbook of community supplied Android examples, which is a noble effort, but there is a big drawback; and that&amp;rsquo;s the potential quality of the information.
 Any healthy community tends to be pyramid shaped when it comes to knowledge and experience. At the bottom are the people who are starting out and have little knowledge or experience of the subject matter, and at the top are the people who&amp;rsquo;ve been involved in the area for a (relatively) long time and have studied it in depth.</description>
+      
     </item>
     
     <item>
@@ -386,8 +458,10 @@ Any healthy community tends to be pyramid shaped when it comes to knowledge and 
       <pubDate>Sat, 03 Jul 2010 15:20:31 +0000</pubDate>
       
       <guid>/post/android-tablets-and-mdpi-large/</guid>
-      <description>When the Dell Streak was first launched there was an aspect of it that caught me off guard, its&#39; pixel density, and it would appear I&amp;rsquo;m not alone.
+      
+        <description>When the Dell Streak was first launched there was an aspect of it that caught me off guard, its&#39; pixel density, and it would appear I&amp;rsquo;m not alone.
 Before the Streak developers could pretty much assume that if their app was installed via Google Market any device which reported itself as having low density display (ldpi) had a QVGA screen, any device with a medium density (mdpi) screen had a HVGA screen, and any device with a high density (hdpi) screen had a WVGA screen, and that seemed to work pretty well.</description>
+      
     </item>
     
     <item>
@@ -396,8 +470,10 @@ Before the Streak developers could pretty much assume that if their app was inst
       <pubDate>Tue, 29 Jun 2010 07:16:44 +0000</pubDate>
       
       <guid>/post/building-aosp-for-the-nexus-one/</guid>
-      <description>Please Note: Messing around with the firmware and OS on any device can render the device unusable. Please do not attempt to modify your firmware or OS unless you are confident you know what you are doing. I offer no guarantees and do not accept any liability for anything which may go wrong if you follow the information in this post.
+      
+        <description>Please Note: Messing around with the firmware and OS on any device can render the device unusable. Please do not attempt to modify your firmware or OS unless you are confident you know what you are doing. I offer no guarantees and do not accept any liability for anything which may go wrong if you follow the information in this post.
 Here is my modified version of the instructions from the AOSP page for building for the HTC Dream range of &amp;lsquo;phones to cover the Nexus One Android 2.</description>
+      
     </item>
     
     <item>
@@ -406,10 +482,12 @@ Here is my modified version of the instructions from the AOSP page for building 
       <pubDate>Fri, 07 May 2010 07:58:45 +0000</pubDate>
       
       <guid>/post/google-android-apps-and-private-apis/</guid>
-      <description>[Declaration of interest: My company runs AndAppStore, an alternative to Googles Android Market]
+      
+        <description>[Declaration of interest: My company runs AndAppStore, an alternative to Googles Android Market]
 Theres been a fair amount of talk around Googles use of &amp;ldquo;Private APIs&amp;rdquo; in their Android applications since the Andy Rubin interview which appeared in the NY Times Bits blog, and I&amp;rsquo;d like to point out what appears to be a glaring mistake in one of the replies Andy gave.
 During the interview he said;
 I don&amp;rsquo;t know whether he said this because he doesn&amp;rsquo;t know about what&amp;rsquo;s in some of Googles Android applications, or whether he was towing a party line about Androids&#39; open source nature, but that statement simply isn&amp;rsquo;t true.</description>
+      
     </item>
     
     <item>
@@ -418,8 +496,10 @@ I don&amp;rsquo;t know whether he said this because he doesn&amp;rsquo;t know ab
       <pubDate>Wed, 10 Mar 2010 17:18:11 +0000</pubDate>
       
       <guid>/post/aosp-in-need-of-love-at-both-ends/</guid>
-      <description>After spending some time trying to build a firmware I&amp;rsquo;ve seen some things which have opened my eyes as to why the Android Open Source Project may not be seeing the kind of community contributions that would be expected of such a high profile project.
+      
+        <description>After spending some time trying to build a firmware I&amp;rsquo;ve seen some things which have opened my eyes as to why the Android Open Source Project may not be seeing the kind of community contributions that would be expected of such a high profile project.
 Other people have shown an interest in knowing my thoughts so I&amp;rsquo;m going to throw out my top 3 for discussion which will hopefully help to improve things;</description>
+      
     </item>
     
     <item>
@@ -428,8 +508,10 @@ Other people have shown an interest in knowing my thoughts so I&amp;rsquo;m goin
       <pubDate>Tue, 09 Mar 2010 13:43:49 +0000</pubDate>
       
       <guid>/post/building-firmware-not-for-the-infirm/</guid>
-      <description>A project I&amp;rsquo;m working on requires the use of a custom firmware image, so I&amp;rsquo;ve been exposed to the joy that is trying to build and use the open source version of Android, and to be honest it&amp;rsquo;s left me a little battered.
+      
+        <description>A project I&amp;rsquo;m working on requires the use of a custom firmware image, so I&amp;rsquo;ve been exposed to the joy that is trying to build and use the open source version of Android, and to be honest it&amp;rsquo;s left me a little battered.
 If you&amp;rsquo;re on an ADP1, and you&amp;rsquo;re just looking to build a 1.6 firmware, you&amp;rsquo;re in for a smooth ride. JBQ and his helpers did a fantastic job and created some easy to follow instructions which you can use to build a firmware image from the donut-plus-aosp branch of the central android repository.</description>
+      
     </item>
     
     <item>
@@ -438,8 +520,10 @@ If you&amp;rsquo;re on an ADP1, and you&amp;rsquo;re just looking to build a 1.6
       <pubDate>Fri, 26 Feb 2010 13:56:27 +0000</pubDate>
       
       <guid>/post/650-downloads-300-active-installs-and-8-votes-of-support-time-to-suspend-development/</guid>
-      <description>[This body of this post was updated on the at 08:45 GMT - 28th Feb 10 with the latest statistics]
+      
+        <description>[This body of this post was updated on the at 08:45 GMT - 28th Feb 10 with the latest statistics]
 When we entered the PayPal X Developers Challenge we hoped for a good result (who doesn&amp;rsquo;t when they enter a competition?). After the problems we saw with the way it&amp;rsquo;s being run we decided to use the number of votes we received to determine what to do with the project in the future.</description>
+      
     </item>
     
     <item>
@@ -448,7 +532,9 @@ When we entered the PayPal X Developers Challenge we hoped for a good result (wh
       <pubDate>Fri, 10 Jul 2009 08:06:21 +0000</pubDate>
       
       <guid>/post/experiences-of-in-app-mobile-advertising/</guid>
-      <description>With my companies Funky Expenses Android applicaion we have two versions; An ad-supported version and a pay-for ad-free version so that users can choose how they help to fund development (yes, we do get requests for a free ad-free version, but unfortunately that won&amp;rsquo;t keep the company afloat). The ad-free version is available from Google Market (which currently has the largest user base by a long way) and AndAppStore, and the pay for version is only available in Google Market.</description>
+      
+        <description>With my companies Funky Expenses Android applicaion we have two versions; An ad-supported version and a pay-for ad-free version so that users can choose how they help to fund development (yes, we do get requests for a free ad-free version, but unfortunately that won&amp;rsquo;t keep the company afloat). The ad-free version is available from Google Market (which currently has the largest user base by a long way) and AndAppStore, and the pay for version is only available in Google Market.</description>
+      
     </item>
     
     <item>
@@ -457,8 +543,10 @@ When we entered the PayPal X Developers Challenge we hoped for a good result (wh
       <pubDate>Mon, 23 Mar 2009 07:50:37 +0000</pubDate>
       
       <guid>/post/marking-on-the-googles-android-market/</guid>
-      <description>There seems to be a lot of variation on how many stars people give an application on Googles Android Market. Some give 3 stars for an app they find hard to use, others give 1 star because the developer chose not to make the applications source code available (even though this doesn&amp;rsquo;t affect the application as delivered to the user).
+      
+        <description>There seems to be a lot of variation on how many stars people give an application on Googles Android Market. Some give 3 stars for an app they find hard to use, others give 1 star because the developer chose not to make the applications source code available (even though this doesn&amp;rsquo;t affect the application as delivered to the user).
 I&amp;rsquo;m trying to stick to the following marking scheme and would welcome comments and feedback as to any changes people think would make sense.</description>
+      
     </item>
     
     <item>
@@ -467,8 +555,10 @@ I&amp;rsquo;m trying to stick to the following marking scheme and would welcome 
       <pubDate>Sun, 22 Feb 2009 17:48:44 +0000</pubDate>
       
       <guid>/post/google-market-for-android-paid-apps-launch-fail/</guid>
-      <description>Android developers have been waiting for the ability to list pay-for applications in Googles Market, but now most of them wish it had never arrived because the experience it&amp;rsquo;s giving users may just turn them off Android forever.
+      
+        <description>Android developers have been waiting for the ability to list pay-for applications in Googles Market, but now most of them wish it had never arrived because the experience it&amp;rsquo;s giving users may just turn them off Android forever.
 The first joy is the &amp;ldquo;copy protection&amp;rdquo; offered by Google. Developers can turn this on for their apps but doing so can stop a the application running at all regardless of if it&amp;rsquo;s been copied.</description>
+      
     </item>
     
     <item>
@@ -477,8 +567,10 @@ The first joy is the &amp;ldquo;copy protection&amp;rdquo; offered by Google. De
       <pubDate>Fri, 13 Feb 2009 16:09:23 +0000</pubDate>
       
       <guid>/post/will-the-android-market-tcs-kill-off-fun-apps/</guid>
-      <description>Over recent weeks there has been a lot of speculation over when Android users will be able to buy applications from Googles Market, but some of the terms and conditions in the Developer Distribution Agreement could scare many developers away before they deploy their first application.
+      
+        <description>Over recent weeks there has been a lot of speculation over when Android users will be able to buy applications from Googles Market, but some of the terms and conditions in the Developer Distribution Agreement could scare many developers away before they deploy their first application.
 The first thing that came to light is that purchasers will have 24 hours in which they can get a refund apparently with no questions asked.</description>
+      
     </item>
     
     <item>
@@ -487,8 +579,10 @@ The first thing that came to light is that purchasers will have 24 hours in whic
       <pubDate>Sat, 31 Jan 2009 10:39:41 +0000</pubDate>
       
       <guid>/post/will-us-patent-laws-strange-android/</guid>
-      <description>In recent days there the issue of the US patent obtained by Apple relating to the multi-touch functionality has reared it&amp;rsquo;s head on the Android development lists, and the discussions have left me deeply concerned about whether Android will ever become a serious global player in the mobile OS market.
+      
+        <description>In recent days there the issue of the US patent obtained by Apple relating to the multi-touch functionality has reared it&amp;rsquo;s head on the Android development lists, and the discussions have left me deeply concerned about whether Android will ever become a serious global player in the mobile OS market.
 The discussion started rolling when a patch to add multi-touch functionality on Android was posted on the android-platform mailing list, and ran in parallel another list directly discussing the impact the patent may have, but surprisingly ended up with a post from a Google employee saying that patents should not be discussed on any of the google hosted android lists, and this was further expanded by another Google employee saying that it was &amp;ldquo;because of legal repercussions&amp;rdquo;, and &amp;ldquo;it is simply best not to know about them&amp;rdquo;.</description>
+      
     </item>
     
     <item>
@@ -497,9 +591,11 @@ The discussion started rolling when a patch to add multi-touch functionality on 
       <pubDate>Fri, 09 Jan 2009 16:52:51 +0000</pubDate>
       
       <guid>/post/android-licensing-system/</guid>
-      <description>Funky Android has made available a Android application licensing system via AndAppStore. It&amp;rsquo;s something that we feel has been missing from the Android space and we hope that it&amp;rsquo;ll help companies looking to focus on (and thus make money from) Android applications.
+      
+        <description>Funky Android has made available a Android application licensing system via AndAppStore. It&amp;rsquo;s something that we feel has been missing from the Android space and we hope that it&amp;rsquo;ll help companies looking to focus on (and thus make money from) Android applications.
 So if you&amp;rsquo;ve been waiting for a way to commercially license your apps feel free to give it a spin and send in your feedback.
 (Declaration of interest : I am a director of Funky Android)</description>
+      
     </item>
     
     <item>
@@ -508,8 +604,10 @@ So if you&amp;rsquo;ve been waiting for a way to commercially license your apps 
       <pubDate>Sat, 06 Dec 2008 19:02:51 +0000</pubDate>
       
       <guid>/post/google-finally-coming-good-with-the-android-development-programme/</guid>
-      <description>It looks like the folks at Google are listening and they&amp;rsquo;ve taken a big step which will help a number of developers get at least one Android powered device to work with.
+      
+        <description>It looks like the folks at Google are listening and they&amp;rsquo;ve taken a big step which will help a number of developers get at least one Android powered device to work with.
 Yesterday Dan Morill announced a new version of the SDK with a link to the android blog, what he didn&amp;rsquo;t mention is that the blog post also reveals that Google have created a programme for developers which allows they to get what is basically an unlocked T-Mobile G1.</description>
+      
     </item>
     
     <item>
@@ -518,8 +616,10 @@ Yesterday Dan Morill announced a new version of the SDK with a link to the andro
       <pubDate>Tue, 11 Nov 2008 12:22:39 +0000</pubDate>
       
       <guid>/post/the-android-email-client-on-the-g1-possibly-the-worst-app-on-an-internet-phone-ever/</guid>
-      <description>The G1 has been around a few weeks, it&amp;rsquo;s billed as &amp;ldquo;The phone that&amp;rsquo;s built for the internet&amp;rdquo;, but it would appear that the G1 isn&amp;rsquo;t built for email which many people consider as being one of the most useful things on the internet for over 35 years.
+      
+        <description>The G1 has been around a few weeks, it&amp;rsquo;s billed as &amp;ldquo;The phone that&amp;rsquo;s built for the internet&amp;rdquo;, but it would appear that the G1 isn&amp;rsquo;t built for email which many people consider as being one of the most useful things on the internet for over 35 years.
 The G1 has two in-built Email clients; one is for Googles&#39; GMail, the other is for accounts with whichever ISP you&amp;rsquo;re with. Personally after seeing several stories of problems with Google locking accounts (see here, here, and here for a few) I&amp;rsquo;d prefer to stay with my ISP, but that leaves me with an Email client which is being described by other G1 users as &amp;ldquo;the most pathetic attempt I&amp;rsquo;ve ever seen&amp;rdquo; and &amp;ldquo;frustrating&amp;rdquo;, views which I wholeheartedly agree with.</description>
+      
     </item>
     
     <item>
@@ -528,8 +628,10 @@ The G1 has two in-built Email clients; one is for Googles&#39; GMail, the other 
       <pubDate>Wed, 29 Oct 2008 09:39:49 +0000</pubDate>
       
       <guid>/post/why-i-wont-be-buying-the-android-t-mobile-g1-phone/</guid>
-      <description>After getting interested in Android after Mike Jennings talk, weeks of coding on AndAppStore.com, reading up on APIs, watching and getting involved with discussions on the Android developers and discussion mailing lists, and following various Android community sites to see if the G1 was the start of the Android revolution, I&amp;rsquo;ve decided that, for now, I&amp;rsquo;m not going to get an Android &amp;lsquo;phone, and here are the reasons why;
+      
+        <description>After getting interested in Android after Mike Jennings talk, weeks of coding on AndAppStore.com, reading up on APIs, watching and getting involved with discussions on the Android developers and discussion mailing lists, and following various Android community sites to see if the G1 was the start of the Android revolution, I&amp;rsquo;ve decided that, for now, I&amp;rsquo;m not going to get an Android &amp;lsquo;phone, and here are the reasons why;
 The T-Mobile Deal (phone &amp;amp; contract)</description>
+      
     </item>
     
     <item>
@@ -538,8 +640,10 @@ The T-Mobile Deal (phone &amp;amp; contract)</description>
       <pubDate>Sat, 25 Oct 2008 13:07:38 +0000</pubDate>
       
       <guid>/post/first-android-security-flaw-to-be-publicly-reported/</guid>
-      <description>The New York times is reporting a security flaw in the G1, and to me it&amp;rsquo;s confirmation that Google left opening up the source to public far too late by doing it the day before users could go out and buy hardware with it installed.
+      
+        <description>The New York times is reporting a security flaw in the G1, and to me it&amp;rsquo;s confirmation that Google left opening up the source to public far too late by doing it the day before users could go out and buy hardware with it installed.
 If the source code had been available a few months (or even weeks) ago there would have been time for the collective eyeballs of the development community to take a look for problems like the reported one (which was found after a few days) and fix them before the device reached the hands of consumers.</description>
+      
     </item>
     
     <item>
@@ -548,8 +652,10 @@ If the source code had been available a few months (or even weeks) ago there wou
       <pubDate>Wed, 22 Oct 2008 17:33:48 +0000</pubDate>
       
       <guid>/post/expect-to-pay-when-you-setup-your-pitch-in-googles-marketplace/</guid>
-      <description>If you want to have your application listed in Androids Marketplace the first thing you have to do is pay them $25. That&amp;rsquo;s right, even if you&amp;rsquo;re developing a free application for their open platform to list on their &amp;ldquo;user-driven&amp;rdquo; marketplace, it&amp;rsquo;s going to cost you a $25 entry fee.
+      
+        <description>If you want to have your application listed in Androids Marketplace the first thing you have to do is pay them $25. That&amp;rsquo;s right, even if you&amp;rsquo;re developing a free application for their open platform to list on their &amp;ldquo;user-driven&amp;rdquo; marketplace, it&amp;rsquo;s going to cost you a $25 entry fee.
 Do you have an app you&amp;rsquo;d like to to sell?, well, if you make a sale via the Marketplace, that&amp;rsquo;ll be another 30% (yes, thirty percent) of your sales going to them.</description>
+      
     </item>
     
     <item>
@@ -558,7 +664,9 @@ Do you have an app you&amp;rsquo;d like to to sell?, well, if you make a sale vi
       <pubDate>Wed, 22 Oct 2008 08:16:57 +0000</pubDate>
       
       <guid>/post/android-the-not-so-open-open-platform/</guid>
-      <description>If you&amp;rsquo;ve taken an interest in Googles Android platform before you&amp;rsquo;ll be familiar with phrases such as &amp;ldquo;Android is the first truly open and comprehensive platform for mobile devices&amp;rdquo; from when the Android and Open Handset Alliance initiative was started, and if you&amp;rsquo;ve attended talks by some of the Evangelists you&amp;rsquo;ll have been told that you can replace any part of the &amp;lsquo;phones software, but, this morning, it would appear that you won&amp;rsquo;t be on a level playing field.</description>
+      
+        <description>If you&amp;rsquo;ve taken an interest in Googles Android platform before you&amp;rsquo;ll be familiar with phrases such as &amp;ldquo;Android is the first truly open and comprehensive platform for mobile devices&amp;rdquo; from when the Android and Open Handset Alliance initiative was started, and if you&amp;rsquo;ve attended talks by some of the Evangelists you&amp;rsquo;ll have been told that you can replace any part of the &amp;lsquo;phones software, but, this morning, it would appear that you won&amp;rsquo;t be on a level playing field.</description>
+      
     </item>
     
     <item>
@@ -567,7 +675,9 @@ Do you have an app you&amp;rsquo;d like to to sell?, well, if you make a sale vi
       <pubDate>Thu, 16 Oct 2008 23:23:08 +0000</pubDate>
       
       <guid>/post/20081016-androidguys/</guid>
-      <description>The folks over at AndroidGuys have been kind enough to publish an interview with me which covers some plans for AndAppStore and how I&amp;rsquo;d like to see the Android ecosystem develop.</description>
+      
+        <description>The folks over at AndroidGuys have been kind enough to publish an interview with me which covers some plans for AndAppStore and how I&amp;rsquo;d like to see the Android ecosystem develop.</description>
+      
     </item>
     
     <item>
@@ -576,8 +686,10 @@ Do you have an app you&amp;rsquo;d like to to sell?, well, if you make a sale vi
       <pubDate>Tue, 14 Oct 2008 10:07:44 +0000</pubDate>
       
       <guid>/post/where-googles-android-may-have-already-failed/</guid>
-      <description>(Declaration of interest; I&amp;rsquo;m involved in AndAppStore.com which allows Android Applications developers to list Android applications and users to download them)
+      
+        <description>(Declaration of interest; I&amp;rsquo;m involved in AndAppStore.com which allows Android Applications developers to list Android applications and users to download them)
 Imagine this; You have a product you want to make available worldwide, but you need the help of others to make it popular. You start a worldwide PR campaign, you make a mock-up available so people become familiar with your product, you run a worldwide competition for people to come up with uses for your product, and then you announce launch dates in one country for one date, another for a month later, a few more next year, and, well everyone else, you&amp;rsquo;ll have to wait and see what happens.</description>
+      
     </item>
     
     <item>
@@ -586,9 +698,11 @@ Imagine this; You have a product you want to make available worldwide, but you n
       <pubDate>Wed, 17 Sep 2008 07:54:47 +0000</pubDate>
       
       <guid>/post/google-android-and-code-signing-app-shops/</guid>
-      <description>After listening to Mike Jennings excellent intro to Android presentation at the London Dev Day I floated an idea which seemed to have some traction so I thought I&amp;rsquo;d expand it out for those that are interested.
+      
+        <description>After listening to Mike Jennings excellent intro to Android presentation at the London Dev Day I floated an idea which seemed to have some traction so I thought I&amp;rsquo;d expand it out for those that are interested.
 The Problem
 There is currently no way for a user to judge how trustworthy an Android application is. A user can say what they will allow an application to do (such as dialling out, intercepting SMSs&#39;, etc.</description>
+      
     </item>
     
   </channel>

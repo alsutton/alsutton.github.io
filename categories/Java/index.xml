@@ -13,8 +13,10 @@
       <pubDate>Fri, 10 Nov 2006 10:59:08 +0000</pubDate>
       
       <guid>/post/java-games/</guid>
-      <description>I&amp;rsquo;m one of those people who&amp;rsquo;ve been using Java long enough to have written it off as not being able to present a good graphical front end, that was until I saw this post at Java Lobby (The video in the post is available directly from YouTube, be aware, it has a techno soundtrack).
+      
+        <description>I&amp;rsquo;m one of those people who&amp;rsquo;ve been using Java long enough to have written it off as not being able to present a good graphical front end, that was until I saw this post at Java Lobby (The video in the post is available directly from YouTube, be aware, it has a techno soundtrack).
 None of these cut it against the current generation of PC games, and I&amp;rsquo;ve looked into a few of these games, and some of them semi-cheat by using JNI to call through to native APIs such as OpenGL, so portability is questionable, but the achievements of a working AI, physics, and game processing models at speeds which don&amp;rsquo;t impact gameplay is pretty impressive, particularly as they are not produced by large multi-million dollar games development houses.</description>
+      
     </item>
     
     <item>
@@ -23,9 +25,11 @@ None of these cut it against the current generation of PC games, and I&amp;rsquo
       <pubDate>Sat, 12 May 2001 16:20:41 +0000</pubDate>
       
       <guid>/post/asxmlp/</guid>
-      <description>ASXMLP is a J2SE / J2ME library for parsinhg XML which is small, portable, flexible, highly efficient, and has minimal requirements.
+      
+        <description>ASXMLP is a J2SE / J2ME library for parsinhg XML which is small, portable, flexible, highly efficient, and has minimal requirements.
 The library offers both push and model views of an xml document, and typically compiles to around 6Kb of class files, making it ideal for J2ME projects, applets, or WebStart applications where code size of great concern.
 The parser was originally written by Al Sutton, and has been tested in Jonathan Knudsens&#39; Parsing XML in J2ME article at developers.</description>
+      
     </item>
     
     <item>
@@ -34,7 +38,9 @@ The parser was originally written by Al Sutton, and has been tested in Jonathan 
       <pubDate>Fri, 01 Dec 2000 13:24:50 +0000</pubDate>
       
       <guid>/post/kvmjab/</guid>
-      <description>I&amp;rsquo;ve made available a library that I&amp;rsquo;ve created which allows you to communicate via Jabber on Java Standard or Micro editions.</description>
+      
+        <description>I&amp;rsquo;ve made available a library that I&amp;rsquo;ve created which allows you to communicate via Jabber on Java Standard or Micro editions.</description>
+      
     </item>
     
     <item>
@@ -43,8 +49,10 @@ The parser was originally written by Al Sutton, and has been tested in Jonathan 
       <pubDate>Fri, 03 Apr 1998 11:20:50 +0000</pubDate>
       
       <guid>/post/jazilla-in-wired/</guid>
-      <description>Wired have featured the efforts to help make a Java based version of Netscape Communicator which features a couple of quotes from me.
+      
+        <description>Wired have featured the efforts to help make a Java based version of Netscape Communicator which features a couple of quotes from me.
 The interview was conducted purely by Email, which is great given the timezone difference, and hopefully it&amp;rsquo;ll attract a few extra developers to work on the project.</description>
+      
     </item>
     
   </channel>

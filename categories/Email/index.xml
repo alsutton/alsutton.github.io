@@ -13,8 +13,10 @@
       <pubDate>Sun, 29 Jan 2006 13:24:57 +0000</pubDate>
       
       <guid>/post/why-ant-spam-black-lists-are-bad/</guid>
-      <description>I want to make it clear that I&amp;rsquo;m not a spammer, I hate spam, and would like to find a way to banish it from the net for everyone, but black lists are just not going to make it happen, and here&amp;rsquo;s why&amp;hellip;.
+      
+        <description>I want to make it clear that I&amp;rsquo;m not a spammer, I hate spam, and would like to find a way to banish it from the net for everyone, but black lists are just not going to make it happen, and here&amp;rsquo;s why&amp;hellip;.
 I&amp;rsquo;ve recently been looking into Email and the inevitable spam problem, and have found that IP address based anti-spam real time black lists (or RBLs) are probably doing more damage than good.</description>
+      
     </item>
     
   </channel>

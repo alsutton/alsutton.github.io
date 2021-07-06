@@ -13,7 +13,9 @@
       <pubDate>Thu, 25 Feb 2021 10:45:54 +0000</pubDate>
       
       <guid>/post/maven-artifacts-on-aws/</guid>
-      <description>With JCenter closing down folks are looking at alternative places to host their build artifacts, and AWS can easily meet that need. AWS isn&amp;rsquo;t the only platform capable of hosting Maven artifacts, any hosting provide can do it, but AWS has the ability to scale to high levels and offers a free tier which means that you can get started very cheaply and, if your libraries are really successful, you don&amp;rsquo;t need to revisit the set-up unless you want to.</description>
+      
+        <description>With JCenter closing down folks are looking at alternative places to host their build artifacts, and AWS can easily meet that need. AWS isn&amp;rsquo;t the only platform capable of hosting Maven artifacts, any hosting provide can do it, but AWS has the ability to scale to high levels and offers a free tier which means that you can get started very cheaply and, if your libraries are really successful, you don&amp;rsquo;t need to revisit the set-up unless you want to.</description>
+      
     </item>
     
     <item>
@@ -22,9 +24,11 @@
       <pubDate>Wed, 21 Dec 2011 12:59:01 +0000</pubDate>
       
       <guid>/post/compiling-ice-cream-sandwich-on-mac-os-x-lion-with-xcode-4/</guid>
-      <description>After making yesterdays post on how to build the Android Open Source Project master branch using Mac OS X 10.7 and Xcode 4 I&amp;rsquo;ve tracked down what&amp;rsquo;s necessary to get the Ice Cream Sandwich branch of AOSP compiling on the same platform.
+      
+        <description>After making yesterdays post on how to build the Android Open Source Project master branch using Mac OS X 10.7 and Xcode 4 I&amp;rsquo;ve tracked down what&amp;rsquo;s necessary to get the Ice Cream Sandwich branch of AOSP compiling on the same platform.
 This process has been tested against the android-4.0.3_r1 branch, so if you&amp;rsquo;re using another branch you may encounter some issues not mentioned here.
   Follow steps 1 to 4 from the instructions from yesterdays post, but check out the relevant ICS branch instead of master (Don&amp;rsquo;t forget to apply the patches from that post to the checked out ICS files).</description>
+      
     </item>
     
     <item>
@@ -33,8 +37,10 @@ This process has been tested against the android-4.0.3_r1 branch, so if you&amp;
       <pubDate>Tue, 20 Dec 2011 14:22:03 +0000</pubDate>
       
       <guid>/post/compiling-android-master-on-mac-os-x-lion-with-xcode-4/</guid>
-      <description>[Update: The patches have been merged into the AOSP master branch, so as of the 22nd of December AOSP master should compile on OS X 10.7 with Xcode 4 straight from checkout]
+      
+        <description>[Update: The patches have been merged into the AOSP master branch, so as of the 22nd of December AOSP master should compile on OS X 10.7 with Xcode 4 straight from checkout]
 My company has worked on some Android firmware projects in the past, but, due to the closed source nature of Honeycomb, that work pretty much dried up. Recently though Google released Android 4.0 to the masses and we&amp;rsquo;ve had a few enquiries about firmware work again, so I thought I&amp;rsquo;d see what the current state of building Android was for our default machine configuration.</description>
+      
     </item>
     
     <item>
@@ -43,9 +49,11 @@ My company has worked on some Android firmware projects in the past, but, due to
       <pubDate>Tue, 16 Mar 2010 12:03:37 +0000</pubDate>
       
       <guid>/post/be-positive-even-if-you-want-to-be-critical/</guid>
-      <description>After certain events in recent weeks I thought it was worth putting up a post trying to encourage people to be more constructive in their criticisms.
+      
+        <description>After certain events in recent weeks I thought it was worth putting up a post trying to encourage people to be more constructive in their criticisms.
 Take, for example, a conversation I had with a developer a few weeks ago who came from a Symbian background;
 Dev : I&amp;rsquo;m looking for a code examples for things like&amp;hellip; how to change screens using a horizontal finger gesture on the screen on Android.</description>
+      
     </item>
     
     <item>
@@ -54,8 +62,10 @@ Dev : I&amp;rsquo;m looking for a code examples for things like&amp;hellip; how 
       <pubDate>Fri, 26 Feb 2010 13:56:27 +0000</pubDate>
       
       <guid>/post/650-downloads-300-active-installs-and-8-votes-of-support-time-to-suspend-development/</guid>
-      <description>[This body of this post was updated on the at 08:45 GMT - 28th Feb 10 with the latest statistics]
+      
+        <description>[This body of this post was updated on the at 08:45 GMT - 28th Feb 10 with the latest statistics]
 When we entered the PayPal X Developers Challenge we hoped for a good result (who doesn&amp;rsquo;t when they enter a competition?). After the problems we saw with the way it&amp;rsquo;s being run we decided to use the number of votes we received to determine what to do with the project in the future.</description>
+      
     </item>
     
     <item>
@@ -64,8 +74,10 @@ When we entered the PayPal X Developers Challenge we hoped for a good result (wh
       <pubDate>Sun, 19 Oct 2008 15:23:08 +0000</pubDate>
       
       <guid>/post/same-scam-different-audience/</guid>
-      <description>I&amp;rsquo;ve recently been subscribed to the development and discussion mailing lists for Googles Android platform due to working on AndAppStore.com and recently an email posting caught my eye because it reminded me of a scam that I thought had long since passed.
+      
+        <description>I&amp;rsquo;ve recently been subscribed to the development and discussion mailing lists for Googles Android platform due to working on AndAppStore.com and recently an email posting caught my eye because it reminded me of a scam that I thought had long since passed.
 The scam works like this; A person or company comes along and says &amp;ldquo;Hey, you&amp;rsquo;re really talented, I&amp;rsquo;d love to sign you up so I can offer you some great projects to work on, and, of course, and you&amp;rsquo;ll get a share of the profits&amp;rdquo;, which is indeed a good offer.</description>
+      
     </item>
     
     <item>
@@ -74,8 +86,10 @@ The scam works like this; A person or company comes along and says &amp;ldquo;He
       <pubDate>Fri, 25 Jan 2008 13:38:00 +0000</pubDate>
       
       <guid>/post/is-the-maven-repository-creaking-at-the-seams-and-starting-to-blow/</guid>
-      <description>This one is a bit of a post for the techies, so if you&amp;rsquo;re more interested in the business side of my blog you may want to skip this post.
+      
+        <description>This one is a bit of a post for the techies, so if you&amp;rsquo;re more interested in the business side of my blog you may want to skip this post.
  One of the things that, on paper, Apache Maven appears to do well is dependency handling. It checks down the dependency chain to verify that libraries versions match up, and that the latest library is used&amp;hellip;.. except with the current repository it isn&amp;rsquo;t guaranteed to work, and you can easily end up with multiple versions of the same jar on your classpath and not know about it.</description>
+      
     </item>
     
     <item>
@@ -84,9 +98,11 @@ The scam works like this; A person or company comes along and says &amp;ldquo;He
       <pubDate>Thu, 16 Feb 2006 11:20:50 +0000</pubDate>
       
       <guid>/post/spikesource-what-value-do-they-add/</guid>
-      <description>SpikeSource popped up on my radar after seeing an article on The Register. After looking a bit at what they do I still seem to be unable to see what value they add.
+      
+        <description>SpikeSource popped up on my radar after seeing an article on The Register. After looking a bit at what they do I still seem to be unable to see what value they add.
 My main problem is one of their claims that&amp;hellip;
 Now I know there certainly weren&amp;rsquo;t 2,965 new stable releases of Apache in 2005, so my guess is their talking about changes to the development version of the code, which, as pretty much anyone in IT support will tell you, you should definitely not be using in a environment with real users.</description>
+      
     </item>
     
   </channel>

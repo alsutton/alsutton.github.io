@@ -13,7 +13,9 @@
       <pubDate>Sun, 28 Oct 2012 12:11:59 +0000</pubDate>
       
       <guid>/post/focusing-on-my-role-at-ouya/</guid>
-      <description>Closing down my other projects. My role at OUYA is going to be full time so there&amp;rsquo;ll be little to no time to do anything else.</description>
+      
+        <description>Closing down my other projects. My role at OUYA is going to be full time so there&amp;rsquo;ll be little to no time to do anything else.</description>
+      
     </item>
     
     <item>
@@ -22,8 +24,10 @@
       <pubDate>Tue, 09 Oct 2012 09:14:28 +0000</pubDate>
       
       <guid>/post/updates-to-android-devices/</guid>
-      <description>At #io12 Hugo Barra announced the new Android Platform Development Kit. The PDK was described as helping hardware developers port Jelly Bean to their devices and was said to be available &amp;ldquo;two to three months before the platform release date&amp;rdquo;, and that selected hardware partners had been given access to the JB PDK a few weeks before #io12 (around the 30min mark in the video below).
+      
+        <description>At #io12 Hugo Barra announced the new Android Platform Development Kit. The PDK was described as helping hardware developers port Jelly Bean to their devices and was said to be available &amp;ldquo;two to three months before the platform release date&amp;rdquo;, and that selected hardware partners had been given access to the JB PDK a few weeks before #io12 (around the 30min mark in the video below).
 Personally I felt it was this years attempt to reassure users their devices would get updates after last years attempt (The 18 month update guarantee) failed so miserably.</description>
+      
     </item>
     
     <item>
@@ -32,9 +36,11 @@ Personally I felt it was this years attempt to reassure users their devices woul
       <pubDate>Fri, 07 Sep 2012 08:34:07 +0000</pubDate>
       
       <guid>/post/android-tablets/</guid>
-      <description>One phrase from last nights Amazon.com Kindle launch makes me think they&amp;rsquo;re going to take over the #Android tablet space and have big consumer support;
+      
+        <description>One phrase from last nights Amazon.com Kindle launch makes me think they&amp;rsquo;re going to take over the #Android tablet space and have big consumer support;
 &amp;ldquo;&amp;hellip;people don&amp;rsquo;t want gadgets anymore. They want services that improve over time. They want services that improve every day, every week, and every month.&amp;rdquo;
 This has been true for a long time. Consumers buy devices from washing machines to TVs because they want it to do something, not because it has the lastest bit of technology from the manufacturer.</description>
+      
     </item>
     
     <item>
@@ -43,9 +49,11 @@ This has been true for a long time. Consumers buy devices from washing machines 
       <pubDate>Fri, 31 Aug 2012 09:23:39 +0000</pubDate>
       
       <guid>/post/crowd-funding/</guid>
-      <description>This is the P&amp;amp;L; for Diaspora, a project which raised two hundred thousand dollars on Kickstarter (http://goo.gl/Yf3Pi) and has now decided to turn it over &amp;ldquo;to the community&amp;rdquo; (http://goo.gl/yH9W9) (read; all the money has gone, they&amp;rsquo;ve not managed to create any revenue streams, and they&amp;rsquo;re not putting any money in to keep it going).
+      
+        <description>This is the P&amp;amp;L; for Diaspora, a project which raised two hundred thousand dollars on Kickstarter (http://goo.gl/Yf3Pi) and has now decided to turn it over &amp;ldquo;to the community&amp;rdquo; (http://goo.gl/yH9W9) (read; all the money has gone, they&amp;rsquo;ve not managed to create any revenue streams, and they&amp;rsquo;re not putting any money in to keep it going).
 Looking over the figures a couple of things jump out at me;
   The only income is the Kickstarter money.</description>
+      
     </item>
     
     <item>
@@ -54,8 +62,10 @@ Looking over the figures a couple of things jump out at me;
       <pubDate>Fri, 24 Aug 2012 09:28:06 +0000</pubDate>
       
       <guid>/post/ics-sms-rate-limit/</guid>
-      <description>One of the changes in #IceCreamSandwich was the introduction of a lower SMS usage monitor rate which restricts how many SMSes can be sent by any application in a given time.
+      
+        <description>One of the changes in #IceCreamSandwich was the introduction of a lower SMS usage monitor rate which restricts how many SMSes can be sent by any application in a given time.
 My guess would be that the aim is to prevent malicious apps sending huge amounts of SMSes to premium rate numbers, but unfortunately some users seem to be hitting the limit with the default SMS messaging app (https://groups.google.com/d/msg/android-discuss/bsDO0jQVdTI/Ns7oaTCcIa8J), and it&amp;rsquo;s possible developers may see users complaining about this if their apps rely on SMS usage and are heavily used, so I thought it&amp;rsquo;s worth letting people what the limits are in case people ask them.</description>
+      
     </item>
     
     <item>
@@ -64,9 +74,11 @@ My guess would be that the aim is to prevent malicious apps sending huge amounts
       <pubDate>Fri, 17 Aug 2012 12:04:17 +0000</pubDate>
       
       <guid>/post/the-galaxy-s3-has-multi-window-management-code-on-it/</guid>
-      <description>TL;DR: Implementing it in your apps is more hassle than it&amp;rsquo;s worth.
+      
+        <description>TL;DR: Implementing it in your apps is more hassle than it&amp;rsquo;s worth.
 To answer the most common question; Yes, the two apps on one screen functionality of the Galaxy Note 10.1 is limited to a few apps. All of them ship with the device.
 The code to support multi-window mode is baked into the core Android framework on the device (so much so that the classes are in the framework library odex), which means that it could be submitted to the #AOSP to become part of Androids core functionality.</description>
+      
     </item>
     
     <item>
@@ -75,8 +87,10 @@ The code to support multi-window mode is baked into the core Android framework o
       <pubDate>Fri, 17 Aug 2012 08:46:15 +0000</pubDate>
       
       <guid>/post/adobe-flash/</guid>
-      <description>After a comment on a previous post from George Medve on Flash I though it best to share my take on it. I&amp;rsquo;m doing this as a post because it&amp;rsquo;s probably of interest to some people who wouldn&amp;rsquo;t read the comments on the other post;
+      
+        <description>After a comment on a previous post from George Medve on Flash I though it best to share my take on it. I&amp;rsquo;m doing this as a post because it&amp;rsquo;s probably of interest to some people who wouldn&amp;rsquo;t read the comments on the other post;
 In terms of Flashes security, I think this article says it all. 2 days ago Adobe were patching a bug which could crash machines and/or allow remote users to take control.</description>
+      
     </item>
     
     <item>
@@ -85,9 +99,11 @@ In terms of Flashes security, I think this article says it all. 2 days ago Adobe
       <pubDate>Mon, 16 Jul 2012 20:44:26 +0000</pubDate>
       
       <guid>/post/ouya-doesnt-need-to-be-pure-android/</guid>
-      <description>The #Ouya Kickstarter has nearly crossed the US$5million mark.
+      
+        <description>The #Ouya Kickstarter has nearly crossed the US$5million mark.
 I&amp;rsquo;ve read all the negative press, a lot of which was written before this weekends Android XBMC posts by Kieran Gutteridge and Jason Parker.
 If you bear in mind that Apple apparently sold more than 2.7 million Apple TVs&#39; in the first half of this year (http://goo.gl/K9ldI), a US$99 XBMC capable device which has the ability to run apps and games as well seems to me to have a good chance of being a success.</description>
+      
     </item>
     
     <item>
@@ -96,9 +112,11 @@ If you bear in mind that Apple apparently sold more than 2.7 million Apple TVs&#
       <pubDate>Wed, 11 Jul 2012 12:25:50 +0000</pubDate>
       
       <guid>/post/building-android-jellybean-on-os-x/</guid>
-      <description>Building AOSP JB on OS X 10.7 with XCode 4 takes just a little tweak to your build. Instead of running just make you need to run;
+      
+        <description>Building AOSP JB on OS X 10.7 with XCode 4 takes just a little tweak to your build. Instead of running just make you need to run;
 make CC=&amp;ldquo;gcc&amp;rdquo; CXX=&amp;ldquo;g++&amp;rdquo;
 Which will allow the build to complete.</description>
+      
     </item>
     
     <item>
@@ -107,8 +125,10 @@ Which will allow the build to complete.</description>
       <pubDate>Fri, 06 Jul 2012 12:14:29 +0000</pubDate>
       
       <guid>/post/experimenting-with-the-nexus-q/</guid>
-      <description>It&amp;rsquo;s always fun when you can pull the birds on a new device :)
+      
+        <description>It&amp;rsquo;s always fun when you can pull the birds on a new device :)
 Hopefully my posts messing around with the NexusQ have shown you that it is just an #Android device and that most apps would work on it with little to no effort as long as they don&amp;rsquo;t require things like a camera or multi-touch input. If the Q were combined with a simple control system (e.g. an app on the phone which worked as a touchpad for the Q) you&amp;rsquo;d have yourself, in my opinion, one of the best Android living room experiences currently available.</description>
+      
     </item>
     
     <item>
@@ -117,8 +137,10 @@ Hopefully my posts messing around with the NexusQ have shown you that it is just
       <pubDate>Thu, 28 Jun 2012 09:19:41 +0000</pubDate>
       
       <guid>/post/nexus-q-ideas/</guid>
-      <description>After chatting with Billy Rutledge yesterday I&amp;rsquo;ve got a few ideas spinning for how people could use the #NexusQ so I thought I&amp;rsquo;d put them out there as they seem to revolve around one theme; The Q as a hub device.
+      
+        <description>After chatting with Billy Rutledge yesterday I&amp;rsquo;ve got a few ideas spinning for how people could use the #NexusQ so I thought I&amp;rsquo;d put them out there as they seem to revolve around one theme; The Q as a hub device.
 Multiplayer gaming could use it as the server/co-ordinator for multiple devices running on the same WiFi network so that no-ones individual device needs to be nominated as the primary device (and take the processing hit), and any peer-to-peer co-ordination alogrithms could be offloaded onto the Q creating a star topology instead of a mesh, which tends to be more efficient.</description>
+      
     </item>
     
     <item>
@@ -127,8 +149,10 @@ Multiplayer gaming could use it as the server/co-ordinator for multiple devices 
       <pubDate>Thu, 28 Jun 2012 08:42:34 +0000</pubDate>
       
       <guid>/post/android-on-google-glass/</guid>
-      <description>Did I mentioned I was told yesterday that Googlers already have some Android apps running on Project Glass?
+      
+        <description>Did I mentioned I was told yesterday that Googlers already have some Android apps running on Project Glass?
 I had an OMG moment when I was told that, then I remembered Sergey Brin&amp;rsquo;s &amp;ldquo;US-only&amp;rdquo; statement, and once again I felt like a mug spending over US$2500 in flights, hotel costs, and the ticket, and, over the course of IO, spending over 21 hours on a plane for a round trip and spending a week away from my office.</description>
+      
     </item>
     
     <item>
@@ -137,9 +161,11 @@ I had an OMG moment when I was told that, then I remembered Sergey Brin&amp;rsqu
       <pubDate>Tue, 19 Jun 2012 08:37:57 +0000</pubDate>
       
       <guid>/post/android-launchers/</guid>
-      <description>Sometimes you have to put your money where your mouth is&amp;hellip;.
+      
+        <description>Sometimes you have to put your money where your mouth is&amp;hellip;.
 Not so long ago I mentioned that writing a home screen / launcher app which changed with the environment around you wasn&amp;rsquo;t something I thought would be too hard and certainly wasn&amp;rsquo;t something I thought would take tens of thousands of dollars to write.
 I had some spare time, so to back this up I&amp;rsquo;ve put together a quick and dirty prototype for Android 4.</description>
+      
     </item>
     
     <item>
@@ -148,9 +174,11 @@ I had some spare time, so to back this up I&amp;rsquo;ve put together a quick an
       <pubDate>Fri, 18 May 2012 08:45:08 +0000</pubDate>
       
       <guid>/post/android-ics-roll-out/</guid>
-      <description>t&amp;rsquo;s now over 6 months (OK, 6 months and 1 day) since the #GalaxyNexus was launched in the UK.
+      
+        <description>t&amp;rsquo;s now over 6 months (OK, 6 months and 1 day) since the #GalaxyNexus was launched in the UK.
 Even if the Android release cycle was stretched out to one release every 12 months that means we&amp;rsquo;re half way through a release cycle and currently the installed base is around 5% of devices.
 5%, or 1 in 20 devices, is a small percentage of the market. To put this in context developers could extend the appeal of their apps to more end users by translating English apps into Korean than by adding ICS features.</description>
+      
     </item>
     
     <item>
@@ -159,8 +187,10 @@ Even if the Android release cycle was stretched out to one release every 12 mont
       <pubDate>Wed, 16 May 2012 08:29:04 +0000</pubDate>
       
       <guid>/post/buying-nexus-devices-through-the-play-store/</guid>
-      <description>Seems to be the day for rumours about Google selling the next range of Nexus devices through the Google Play store.
+      
+        <description>Seems to be the day for rumours about Google selling the next range of Nexus devices through the Google Play store.
 Given that currently you can only buy the Galaxy Nexus in the US via the Play Store I personally don&amp;rsquo;t see this is a good route to take. I know a lot of non-US developers were pretty pi**ed off when they found out that only the US Xoom was a Google Experience device, and the non-US Xoom has suffered severe OS update lag since.</description>
+      
     </item>
     
     <item>
@@ -169,8 +199,10 @@ Given that currently you can only buy the Galaxy Nexus in the US via the Play St
       <pubDate>Fri, 04 May 2012 12:07:48 +0000</pubDate>
       
       <guid>/post/htc-one-v/</guid>
-      <description>I really wanted to like the HTC One V. It had all the makings of the &amp;lsquo;phone I&amp;rsquo;ve been waiting for; A sub 4&amp;quot; screen with Ice Cream Sandwich, and then I played with it.
+      
+        <description>I really wanted to like the HTC One V. It had all the makings of the &amp;lsquo;phone I&amp;rsquo;ve been waiting for; A sub 4&amp;quot; screen with Ice Cream Sandwich, and then I played with it.
 Sense combined with physical buttons made me feel like I wasn&amp;rsquo;t gaining anything over Gingerbread. The UI felt a little clunky. And the chin&amp;hellip; I&amp;rsquo;ve never been a fan of HTCs chin-&amp;lsquo;phones, and I&amp;rsquo;m still not.</description>
+      
     </item>
     
     <item>
@@ -179,8 +211,10 @@ Sense combined with physical buttons made me feel like I wasn&amp;rsquo;t gainin
       <pubDate>Wed, 04 Apr 2012 12:18:54 +0000</pubDate>
       
       <guid>/post/tracking-down-aosp-build-bugs/</guid>
-      <description>I&amp;rsquo;ve been asked how I tracked down an AOSP build issue on OS X (http://goo.gl/J9mOL), so I thought it might be worth putting the process up here so others can get an idea of whats involved;
+      
+        <description>I&amp;rsquo;ve been asked how I tracked down an AOSP build issue on OS X (http://goo.gl/J9mOL), so I thought it might be worth putting the process up here so others can get an idea of whats involved;
  I picked the first error which was stopping the build. With a build problem there may be many error messages, but by focusing on them one at a time in the order they occur you can find that fixing an early build fail also fixes several later ones and so you don&amp;rsquo;t end up wasting time fixing things which are symptoms of a problem rather than the cause.</description>
+      
     </item>
     
     <item>
@@ -189,8 +223,10 @@ Sense combined with physical buttons made me feel like I wasn&amp;rsquo;t gainin
       <pubDate>Wed, 04 Apr 2012 09:29:13 +0000</pubDate>
       
       <guid>/post/current-state-of-building-the-aosp-on-os-x/</guid>
-      <description>I&amp;rsquo;ve been asked how I tracked down an AOSP build issue on OS X (http://goo.gl/J9mOL), so I thought it might be worth putting the process up here so others can get an idea of whats involved;
+      
+        <description>I&amp;rsquo;ve been asked how I tracked down an AOSP build issue on OS X (http://goo.gl/J9mOL), so I thought it might be worth putting the process up here so others can get an idea of whats involved;
  I picked the first error which was stopping the build. With a build problem there may be many error messages, but if you focus on them one at a time in order you often find that fixes to early build problems also fix later ones and so you don&amp;rsquo;t end up wasting time fixing things which are only symptoms of a problem.</description>
+      
     </item>
     
     <item>
@@ -199,8 +235,10 @@ Sense combined with physical buttons made me feel like I wasn&amp;rsquo;t gainin
       <pubDate>Tue, 07 Feb 2012 09:20:51 +0000</pubDate>
       
       <guid>/post/mobile-computing/</guid>
-      <description>After spending 3 weeks not having a house (due to legal delays during the purchase) I should be reunited with all my tech this weekend in the new house, so I thought it might be worth reflecting on some of the changes made to accommodate life on the road.
+      
+        <description>After spending 3 weeks not having a house (due to legal delays during the purchase) I should be reunited with all my tech this weekend in the new house, so I thought it might be worth reflecting on some of the changes made to accommodate life on the road.
 My normal tech set-up included a hefty Mac Pro (8 cores, 32GB of RAM), a Subversion server, multiple Time Capsules (one per machine I have), so it&amp;rsquo;s just not practical to take all of that on the road.</description>
+      
     </item>
     
     <item>
@@ -209,8 +247,10 @@ My normal tech set-up included a hefty Mac Pro (8 cores, 32GB of RAM), a Subvers
       <pubDate>Wed, 01 Feb 2012 12:24:24 +0000</pubDate>
       
       <guid>/post/appslib-distributing-without-permission/</guid>
-      <description>Today I found out that the AppsLib Android application directory is distributing one of my companies apps against our wishes.
+      
+        <description>Today I found out that the AppsLib Android application directory is distributing one of my companies apps against our wishes.
 They&amp;rsquo;ve provided no method for removing the app, no method for closing the account they&amp;rsquo;ve created under our name, and I suspect that we&amp;rsquo;re not the only company they&amp;rsquo;ve done this to. The email address for the account is our support email address, but we&amp;rsquo;ve never received an account confirmation email or any indication it was being used in this way.</description>
+      
     </item>
     
     <item>
@@ -219,8 +259,10 @@ They&amp;rsquo;ve provided no method for removing the app, no method for closing
       <pubDate>Sun, 18 Dec 2011 12:06:51 +0000</pubDate>
       
       <guid>/post/ice-cream-sandwich-ideas/</guid>
-      <description>If been playing with the Xbox360 and its voice control using the Kinect and it&amp;rsquo;s sparked an idea in my head which I thought I&amp;rsquo;d post here for comments; What would people think if there was a setting in Android which took you straight into a voice control screen from an unlock?
+      
+        <description>If been playing with the Xbox360 and its voice control using the Kinect and it&amp;rsquo;s sparked an idea in my head which I thought I&amp;rsquo;d post here for comments; What would people think if there was a setting in Android which took you straight into a voice control screen from an unlock?
 This would allow users to do things like unlock their device with facial recognition then speak to their phone to get it to do things like dialling home, sending texts, emailing, etc.</description>
+      
     </item>
     
     <item>
@@ -229,8 +271,10 @@ This would allow users to do things like unlock their device with facial recogni
       <pubDate>Fri, 09 Dec 2011 09:15:52 +0000</pubDate>
       
       <guid>/post/iphone-testing-wrap-up/</guid>
-      <description>As you&amp;rsquo;ve probably guessed, I&amp;rsquo;m impressed with the iPhone. Given the tests I&amp;rsquo;ve been doing over the last week I can see why it is an aspirational device. Apps have a consistent feel and are wide ranging, the device is easily portable, it has a pretty decent camera, and it just comes together in a pretty simple to use package.
+      
+        <description>As you&amp;rsquo;ve probably guessed, I&amp;rsquo;m impressed with the iPhone. Given the tests I&amp;rsquo;ve been doing over the last week I can see why it is an aspirational device. Apps have a consistent feel and are wide ranging, the device is easily portable, it has a pretty decent camera, and it just comes together in a pretty simple to use package.
 I&amp;rsquo;m also pleasantly surprised by Lumia. It falls short in terms of the variety of apps available, but Windows Phone 7 is only a year or so away from it&amp;rsquo;s public launch, so that&amp;rsquo;s to be expected.</description>
+      
     </item>
     
     <item>
@@ -239,11 +283,13 @@ I&amp;rsquo;m also pleasantly surprised by Lumia. It falls short in terms of the
       <pubDate>Tue, 29 Nov 2011 09:17:25 +0000</pubDate>
       
       <guid>/post/io-2012/</guid>
-      <description>I&amp;rsquo;d be interested to hear peoples thoughts on going to IO next year. Last year was the first year I went and, although it was a fantastic experience, I&amp;rsquo;m in two minds about going this year.
+      
+        <description>I&amp;rsquo;d be interested to hear peoples thoughts on going to IO next year. Last year was the first year I went and, although it was a fantastic experience, I&amp;rsquo;m in two minds about going this year.
 Basically my thinking is;
 Sessions; Useful but streamed so I could see them anyway
 People; Largely thought provoking, but I could meet most of them at more local events.
 Giveaways; They have monetary value, but aren&amp;rsquo;t enough of a reason for me to go (I hardly use the giveaways from IO2011).</description>
+      
     </item>
     
     <item>
@@ -252,8 +298,10 @@ Giveaways; They have monetary value, but aren&amp;rsquo;t enough of a reason for
       <pubDate>Tue, 15 Nov 2011 08:39:53 +0000</pubDate>
       
       <guid>/post/a-message-for-android-oems/</guid>
-      <description>I know some of the people who follow me work for companies who make/brand/sell Android devices, so I&amp;rsquo;m going to put this out there and hope it&amp;rsquo;s useful to them.
+      
+        <description>I know some of the people who follow me work for companies who make/brand/sell Android devices, so I&amp;rsquo;m going to put this out there and hope it&amp;rsquo;s useful to them.
 There are a number of developers (me included) who see the Nexus One as the pinnacle of current Android devices. It&amp;rsquo;s size, solid construction, and reliability made it a device we could carry knowing that it&amp;rsquo;d work when we need it.</description>
+      
     </item>
     
     <item>
@@ -262,11 +310,13 @@ There are a number of developers (me included) who see the Nexus One as the pinn
       <pubDate>Wed, 02 Nov 2011 08:00:42 +0000</pubDate>
       
       <guid>/post/some-tips-about-the-ics-emulator/</guid>
-      <description>Some tips about the ICS emulator;
+      
+        <description>Some tips about the ICS emulator;
   Don&amp;rsquo;t expect it to run well on any machine with less than 3GB of RAM. It can be done, but don&amp;rsquo;t rely on it :).
   There is a list of know issues in the emulator at http://tools.android.com/knownissues (from @ediTLJ on twitter)
   Increase the default RAM for your AVDs to 1024MB (yup, 1GB)
   If the emulator has crashed try deleting the AVD you used.</description>
+      
     </item>
     
     <item>
@@ -275,8 +325,10 @@ There are a number of developers (me included) who see the Nexus One as the pinn
       <pubDate>Mon, 10 Oct 2011 08:30:51 +0000</pubDate>
       
       <guid>/post/android-ice-cream-sandwich/</guid>
-      <description>Given the announcement due tomorrow I think we&amp;rsquo;re going to be looking at consumers being able to get their hands on an Ice Cream Sandwich device before developers have had a good chance to play with an SDK, which, just like the last time this happened, is pretty disappointing.
+      
+        <description>Given the announcement due tomorrow I think we&amp;rsquo;re going to be looking at consumers being able to get their hands on an Ice Cream Sandwich device before developers have had a good chance to play with an SDK, which, just like the last time this happened, is pretty disappointing.
 There isn&amp;rsquo;t really anyone who wins from this because it creates a situation where consumers get their new shiny &amp;lsquo;phone only to find out that all the latest features are only supported by a few apps which are either preloaded (in the case of the G-apps), or they come across in Market by chance and are from a select few privileged developers.</description>
+      
     </item>
     
     <item>
@@ -285,10 +337,12 @@ There isn&amp;rsquo;t really anyone who wins from this because it creates a situ
       <pubDate>Mon, 03 Oct 2011 09:30:53 +0000</pubDate>
       
       <guid>/post/android-developer-lab-summary/</guid>
-      <description>Great Android Developer Lab in London, Good to talk to Richard Hyndman Nick Butcher and Sparky Rhode . Main tips from the day;
+      
+        <description>Great Android Developer Lab in London, Good to talk to Richard Hyndman Nick Butcher and Sparky Rhode . Main tips from the day;
   Fragments are the future. If you&amp;rsquo;re writing new code use Fragments. If you don&amp;rsquo;t you&amp;rsquo;re doing it wrong.
   Avoid showAsAction=&amp;ldquo;always&amp;rdquo;, Ice Cream Sandwich &amp;lsquo;phones can have small screens and so could be limited on space for options.
   Most of the best apps come from teams with Developers and Designers on them.</description>
+      
     </item>
     
   </channel>

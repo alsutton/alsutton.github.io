@@ -13,7 +13,9 @@
       <pubDate>Sat, 02 Sep 2017 12:05:04 +0000</pubDate>
       
       <guid>/post/open-sourcing-the-enterprise-password-safe/</guid>
-      <description>Some of those who know me may have heard me talk about an Enterprise Password Safe product which I built and worked on from the mid-2000&amp;rsquo;s up until shortly before joining Facebook. Now I&amp;rsquo;ve left Facebook and I&amp;rsquo;ve been looking over my old repos and realised that it&amp;rsquo;s a project that could benefit from being open-sourced and so I&amp;rsquo;ve done so via a company I&amp;rsquo;ve recently acquired an interest in.</description>
+      
+        <description>Some of those who know me may have heard me talk about an Enterprise Password Safe product which I built and worked on from the mid-2000&amp;rsquo;s up until shortly before joining Facebook. Now I&amp;rsquo;ve left Facebook and I&amp;rsquo;ve been looking over my old repos and realised that it&amp;rsquo;s a project that could benefit from being open-sourced and so I&amp;rsquo;ve done so via a company I&amp;rsquo;ve recently acquired an interest in.</description>
+      
     </item>
     
     <item>
@@ -22,9 +24,11 @@
       <pubDate>Sun, 21 May 2017 18:50:27 +0000</pubDate>
       
       <guid>/post/hello-world/</guid>
-      <description>A few weeks ago I tweeted to see if anyone had put a Raspberry Pi Zero W and a PaPiRus eInk display together to make a Bitcoin Wallet. Unfortunately there were no responses, so I thought I&amp;rsquo;d see what I could do&amp;hellip;. fortunately the answer was quite a lot&amp;hellip;
+      
+        <description>A few weeks ago I tweeted to see if anyone had put a Raspberry Pi Zero W and a PaPiRus eInk display together to make a Bitcoin Wallet. Unfortunately there were no responses, so I thought I&amp;rsquo;d see what I could do&amp;hellip;. fortunately the answer was quite a lot&amp;hellip;
 
 First off the warning; This setup isn&amp;rsquo;t security hardened. If you&amp;rsquo;re going to use this on an open WiFi network, or other people are going to get hold of your device, you should look at hardening the installation of Raspbian and modifying my apps to encrypt the private key for your bitcoin address.</description>
+      
     </item>
     
     <item>
@@ -33,8 +37,10 @@ First off the warning; This setup isn&amp;rsquo;t security hardened. If you&amp;
       <pubDate>Sat, 13 May 2006 13:49:06 +0000</pubDate>
       
       <guid>/post/the-quality-issue-with-open-source-software/</guid>
-      <description>There is no doubt that open source software saves people money. There is also no doubt that there are a large number of talented people working for free on open source software. But there is a large amount of debate over the quality of the open source &amp;ldquo;product&amp;rdquo; .
+      
+        <description>There is no doubt that open source software saves people money. There is also no doubt that there are a large number of talented people working for free on open source software. But there is a large amount of debate over the quality of the open source &amp;ldquo;product&amp;rdquo; .
 A lot of open source authors dismiss the statement that &amp;ldquo;open source software has a lower quality level&amp;rdquo; as being just F.</description>
+      
     </item>
     
   </channel>

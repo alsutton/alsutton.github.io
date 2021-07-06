@@ -13,7 +13,9 @@
       <pubDate>Tue, 16 Mar 2021 14:45:54 +0000</pubDate>
       
       <guid>/post/big-build-farm-on-a-budget/</guid>
-      <description>Being able to push a change to a server which builds and tests it can free you up to do other things, but getting the machines together to create a build farm for any large build can be expensive. If you have a long build, like the Android Open Source Project, a &amp;ldquo;from clean&amp;rdquo; build can take hours even when you have a powerful machine and a well designed build.</description>
+      
+        <description>Being able to push a change to a server which builds and tests it can free you up to do other things, but getting the machines together to create a build farm for any large build can be expensive. If you have a long build, like the Android Open Source Project, a &amp;ldquo;from clean&amp;rdquo; build can take hours even when you have a powerful machine and a well designed build.</description>
+      
     </item>
     
     <item>
@@ -22,8 +24,10 @@
       <pubDate>Mon, 15 Mar 2021 10:45:50 +0000</pubDate>
       
       <guid>/post/what-makes-a-good-build/</guid>
-      <description>I&amp;rsquo;ve seen a number of different approaches to building programs, and between writing about the specifications of an Android firmware build machine, and how to create a cost-effective build farm, I thought it&amp;rsquo;d be worth covering a few things that I believe are important when trying to create a scalable build for your software.
+      
+        <description>I&amp;rsquo;ve seen a number of different approaches to building programs, and between writing about the specifications of an Android firmware build machine, and how to create a cost-effective build farm, I thought it&amp;rsquo;d be worth covering a few things that I believe are important when trying to create a scalable build for your software.
 What is a &amp;ldquo;build&amp;rdquo;? When I talk about a build I mean the instructions that tell a machine how to take your source code and create an executable program.</description>
+      
     </item>
     
     <item>
@@ -32,8 +36,10 @@ What is a &amp;ldquo;build&amp;rdquo;? When I talk about a build I mean the inst
       <pubDate>Mon, 11 Sep 2017 08:46:31 +0000</pubDate>
       
       <guid>/post/peercache-locally-shared-caches-of-build-dependencies/</guid>
-      <description>The idea
+      
+        <description>The idea
 Currently most build systems have two sources for build dependencies; A remotely hosted source (e.g. maven central, internal build cache on a server), or a local on-disk cache, but many development groups have another potential source which doesn&amp;rsquo;t seem to be being used at the moment; other developers on the same LAN, which is why I started thinking about implementing a peer-to-peer caching system and I&amp;rsquo;m putting the idea out there for discussion.</description>
+      
     </item>
     
   </channel>

@@ -13,7 +13,9 @@
       <pubDate>Wed, 03 Mar 2021 08:45:54 +0000</pubDate>
       
       <guid>/post/docker-image-development-environment/</guid>
-      <description>Many CI systems allow you to build inside a Docker container, but creating the docker image which is used for the container can be a slow process. Various third party resources, like Docker Hub, may have rate limits, and fetching all the updates and new packages over the internet may take a while, but there are a few things you can do which will make building and testing your images faster.</description>
+      
+        <description>Many CI systems allow you to build inside a Docker container, but creating the docker image which is used for the container can be a slow process. Various third party resources, like Docker Hub, may have rate limits, and fetching all the updates and new packages over the internet may take a while, but there are a few things you can do which will make building and testing your images faster.</description>
+      
     </item>
     
   </channel>

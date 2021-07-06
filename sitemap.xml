@@ -3,21 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2021-03-16T14:45:54+00:00</lastmod>
+    <lastmod>2021-07-05T14:45:54+00:00</lastmod>
   </url><url>
     <loc>/categories/AOSP/</loc>
-    <lastmod>2021-03-16T14:45:54+00:00</lastmod>
+    <lastmod>2021-07-05T14:45:54+00:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2021-07-05T14:45:54+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2021-07-05T14:45:54+00:00</lastmod>
+  </url><url>
+    <loc>/post/working-with-android-firmware/</loc>
+    <lastmod>2021-07-05T14:45:54+00:00</lastmod>
   </url><url>
     <loc>/post/big-build-farm-on-a-budget/</loc>
     <lastmod>2021-03-16T14:45:54+00:00</lastmod>
   </url><url>
     <loc>/categories/Build-Systems/</loc>
-    <lastmod>2021-03-16T14:45:54+00:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2021-03-16T14:45:54+00:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
     <lastmod>2021-03-16T14:45:54+00:00</lastmod>
   </url><url>
     <loc>/post/what-makes-a-good-build/</loc>
