@@ -267,26 +267,26 @@ Step 1: Check your setup First off you&rsquo;re going to need a machine capable 
 information which will hopefully give you a better idea of what&rsquo;s needed.</p>
 <h2 id="step-1-check-your-setup">Step 1: Check your setup</h2>
 <p><img src="/images/android-aosp-codelab.jpg" alt=""></p>
-<p>First off you&rsquo;re going to need a machine capable of running Linux and has at least 500 GB of disk space and 16 GB of RAM.
+<p>First off you&rsquo;re going to need a machine capable of running Linux and has at least 500 GB of disk space and 16 GB of RAM. 
 I&rsquo;ve  written a <a href="/post/2021-aosp-build-machine/">post</a> before about what type of hardware is ideal, but, if you want
 to just test the water, you can use any machine with those specs.</p>
-<p>The next step is to set up your machine and perform a build by following
+<p>The next step is to set up your machine and perform a build by following 
 <a href="https://source.android.com/setup/start">Google&rsquo;s codelab</a>. This will give you a good idea of how long builds will
-take, verify your machine is configured correctly, and give you an idea of whether making your own build is something
+take, verify your machine is configured correctly, and give you an idea of whether making your own build is something 
 you want to invest time in. There&rsquo;s a steep initial curve to make a build, and Google have already done a good job of covering it,
 so I&rsquo;m not going to repeat the information here.</p>
 <h2 id="step-2-building-for-the-device-youre-interested-in">Step 2: Building for the device you&rsquo;re interested in</h2>
 <p>Next comes the question that has a big impact on how much work you&rsquo;ll be doing; Has someone already made a build for
 the device you&rsquo;re interested in?</p>
-<p>If someone has then you&rsquo;re in a good place. If someone hasn&rsquo;t then you&rsquo;re in
+<p>If someone has then you&rsquo;re in a good place. If someone hasn&rsquo;t then you&rsquo;re in 
 for a tough time, and I wouldn&rsquo;t recommend trying to make a build for an unsupported device
 as your first Android firmware project.</p>
 <p>To make a build for a device you need some build configuration files, and a &ldquo;Board Support Package&rdquo; (BSP). The BSP
-is a bundle of libraries and files which  provide the interface between the hardware and Android. Some
+is a bundle of libraries and files which  provide the interface between the hardware and Android. Some 
 <a href="https://android.googlesource.com/platform/hardware/bsp/">manufacturers have Android BSPs available</a>,
-others may have Linux BSPs (which you will <a href="https://source.android.com/devices/architecture/hal-types">need to write additional code</a>
+others may have Linux BSPs (which you will <a href="https://source.android.com/devices/architecture/hal-types">need to write additional code</a> 
 to use), and some don&rsquo;t provide their BSPs at all.</p>
-<p>For many Android devices you can find an existing project which has the BSP and configuration files you need. I&rsquo;ve
+<p>For many Android devices you can find an existing project which has the BSP and configuration files you need. I&rsquo;ve 
 recently been
 working on getting Android Automotive OS up and running for the Galaxy Tab s5e, and the folks over at
 <a href="https://lineageos.org/">LineageOS</a> have already got a <a href="https://wiki.lineageos.org/devices/gts4lv">working build</a>
@@ -302,13 +302,13 @@ the folk who&rsquo;ve created the build don&rsquo;t work you can reach out to th
 important ones is the <code>build/envsetup.sh</code> script. The <code>envsetup</code> script configures some environment variables
 and other things which a lot of the other tools rely on, so, if you hit issues, make sure you&rsquo;ve run <code>envsetup</code>
 in the session/terminal window you&rsquo;re currently working in.</p>
-<p>You should download and install <a href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a>. IntelliJ is the default IDE for
+<p>You should download and install <a href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a>. IntelliJ is the default IDE for 
 some scripts, so having it available will make things easier. You can use Android Studio,
 but if you&rsquo;re working on lower level code you may find it&rsquo;s missing support for some things (e.g. Rust).</p>
 <p>Now you&rsquo;re ready for the AOSP firmware development cycle;</p>
 <h3 id="develop-aidegen">Develop: <code>aidegen</code></h3>
-<p><code>aidegen</code> is a utility which will start IntelliJ with a project that contains a small subset of the firmware. The
-idea behind it is that trying to edit the entire firmware code in one project will bring most machines to their knees,
+<p><code>aidegen</code> is a utility which will start IntelliJ with a project that contains a small subset of the firmware. The 
+idea behind it is that trying to edit the entire firmware code in one project will bring most machines to their knees, 
 so, instead, it creates views of the parts of the code for you to work on.</p>
 <p>You specify which areas of the firmware you&rsquo;re going to work on, and let <code>aidegen</code> do the rest. If, for example,
 you wanted to work on the <code>Settings</code> app, you would run;</p>
@@ -317,8 +317,8 @@ you wanted to work on the <code>Settings</code> app, you would run;</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">aidegen packages/apps/Car/Launcher
 </code></pre></div><p>If you want to work on multiple parts of the codebase you can supply multiple arguments, and aidegen will create a
 minimal project which supports what you&rsquo;ve supplied.</p>
-<p><code>aidegen</code> isn&rsquo;t perfect; There are some situations where you&rsquo;ll get unresolved symbols if one part of the build has used
-a transitive dependency, so you may have to add some projects to
+<p><code>aidegen</code> isn&rsquo;t perfect; There are some situations where you&rsquo;ll get unresolved symbols if one part of the build has used 
+a transitive dependency, so you may have to add some projects to 
 your <code>aidegen</code> call get those to resolve, or you can leave them and not worry about it.</p>
 <h3 id="build-clobber-m-mm-and-mmm">Build: <code>clobber</code>, <code>m</code>, <code>mm</code>, and <code>mmm</code></h3>
 <p>Now that you&rsquo;ve made your change you should create a new build. You can try to minimise your build time by
@@ -337,14 +337,14 @@ probably found out earlier, a full build takes a looooong time.</p>
 to create an OTA update package, or you may be able to <code>adb install</code> the apk which has changed. You should
 be comfortable doing all three.</p>
 <p>Flashing is device specific and ensures a particular area on the device only contains the files from your
-build. Sometimes there is a key combination which will take a device into
+build. Sometimes there is a key combination which will take a device into 
 <a href="https://source.android.com/setup/build/running">fastboot mode</a> which you can use to flash a device.
-Sometimes things a more complex; you&rsquo;ll hear talk of custom tools like
+Sometimes things a more complex; you&rsquo;ll hear talk of custom tools like 
 <a href="https://en.wikipedia.org/wiki/Odin_(firmware_flashing_software)">Odin</a>. The
 information on the recommended way of flashing your device can normally be found where you got
 your original build from.</p>
 <p><img src="/images/odin.jpg" alt=""></p>
-<p>Full flashing images are large and flashing is a slow process, so you may want to distribute smaller &ldquo;Over The Air&rdquo; updates (OTAs).
+<p>Full flashing images are large and flashing is a slow process, so you may want to distribute smaller &ldquo;Over The Air&rdquo; updates (OTAs). 
 Google has a page which covers <a href="https://source.android.com/devices/tech/ota/tools">OTA builds</a>, and you can use tools like <code>adb sideload</code> to put them onto a device. The
 only down-side of an OTAis that you&rsquo;re not starting from an empty partition, so unless your OTA has been created to handle
 removing unneeded files you may end up with unexpected additional code and files on your device.</p>
@@ -354,23 +354,23 @@ directory in your build, so, if your change was only to the Car Launcher apk for
 </code></pre></div><p>If the app isn&rsquo;t currently being used its apk can be updated like this, but, if you think the apk hasn&rsquo;t deployed,
 you might want to restart the device to ensure the right version of the app is running.</p>
 <h3 id="test-atest">Test: atest</h3>
-<p>Some projects in the AOSP have unit tests which you can run in the IDE. This is great for making sure that
-your code hasn&rsquo;t broken anything obvious, but there are usually some more extensive tests you can run, and for that
+<p>Some projects in the AOSP have unit tests which you can run in the IDE. This is great for making sure that 
+your code hasn&rsquo;t broken anything obvious, but there are usually some more extensive tests you can run, and for that 
 there&rsquo;s <code>atest</code>.</p>
-<p><code>atest</code> has its <a href="https://source.android.com/compatibility/tests/development/atest">own page</a> on the AOSP site
-explaining how you can set it up, and, at the simplest level, you can run it in the same way you ran <code>aidegen</code>
+<p><code>atest</code> has its <a href="https://source.android.com/compatibility/tests/development/atest">own page</a> on the AOSP site 
+explaining how you can set it up, and, at the simplest level, you can run it in the same way you ran <code>aidegen</code> 
 by specifying the project you want to test. So, for example, to test the <code>Settings</code> app after you&rsquo;ve deployed
 your changes and have the device responding to adb, you can run;</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">atest packages/apps/Settings
 </code></pre></div><h3 id="repeat">Repeat</h3>
 <p>Those four steps are your development cycle. You write your change, build it, deploy it, and then test it. It&rsquo;s
 initially slower than most app development because there&rsquo;s a lot more code to initially build, but, by using <code>aidegen</code>
-and keeping your changes small and isolated you can make a reasonable number of changes per hour and achieve a
+and keeping your changes small and isolated you can make a reasonable number of changes per hour and achieve a 
 decent development velocity.</p>
 <h2 id="feedback">Feedback</h2>
-<p>This is a quick brain-dump of what I usually take people through when they&rsquo;re starting to build their own firmware
-images. If you have feedback on things that could be improved, added, or should be removed you can find me on
-<a href="https://mastodon.social/@alsutton">Mastodon</a>, <a href="https://github.com/alsutton/">GitHub</a>,
+<p>This is a quick brain-dump of what I usually take people through when they&rsquo;re starting to build their own firmware 
+images. If you have feedback on things that could be improved, added, or should be removed you can find me on 
+<a href="https://mastodon.social/@alsutton">Mastodon</a>, <a href="https://github.com/alsutton/">GitHub</a>, 
 and <a href="https://twitter.com/alsutton">Twitter</a>.</p>
 </div>
     <div class="post-footer">
