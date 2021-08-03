@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme="dark"
+><head>
+  <title>
+    Al Sutton
+      |
+      adb-backup-removal
+
+
+    
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.85.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta
+    name="description"
+    content="
+      
+
+
+    "
+  />
+  
+  
+  
+  <link
+    rel="stylesheet"
+    href="/css/main.min.51423ad97099a08f3a20e16d238c13adae76db7dd5e1913789bdc81143ff4cc6.css"
+    integrity="sha256-UUI62XCZoI86IOFtI4wTra52233V4ZE3ib3IEUP/TMY="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.f798cbda9aaa38f89eb38be6414bd082cfd71a6780375cbf67b6d2fb2b96491e.css"
+    integrity="sha256-95jL2pqqOPies4vmQUvQgs/XGmeAN1y/Z7bS&#43;yuWSR4="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/css/center-image.min.a5cbbd5753ebe48351a006c534a28178d184393f85aed1a6ab256ec7d724af63.css"
+      integrity="sha256-pcu9V1Pr5INRoAbFNKKBeNGEOT&#43;FrtGmqyVux9ckr2M="
+      crossorigin="anonymous"
+      media="screen"
+    />
+
+  
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous"
+  />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+  <link rel="canonical" href="/post/adb-backup-removal/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.2a2cd9614b7d007dfbb75e8da19e3a0fa872ceab53c6d000c00b7a0c89b85bfc.js"
+    integrity="sha256-KizZYUt9AH37t16NoZ46D6hyzqtTxtAAwAt6DIm4W/w="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.7fd87181cdd7e8413aa64b6867bb32f3a8dc242e684fc7d5bbb9f600dbc2b6eb.js"
+      integrity="sha256-f9hxgc3X6EE6pktoZ7sy86jcJC5oT8fVu7n2ANvCtus="
+      crossorigin="anonymous"
+    ></script>
+
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="adb-backup-removal"/>
+<meta name="twitter:description" content="Today I&rsquo;ve submitted a patch to the AOSP to continue something which was probably, externally, one of the least popular things I did while I was at Google; Eradicate adb backup support from Android devices.
+Why? The reason is I think it&rsquo;s dangerous. Not for everyone, certainly not for a majority of folk, but for a small number of people there is a use case which I see as having potentially very serious consequences; Whistle-blowers, dissidents, and potentially even journalists reporting from less than friendly countries."/>
+
+
+
+  
+</head>
+<body>
+    <header><div
+  class="page-top 
+    .
+
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+  </a>
+  <nav>
+    <ul class="nav__list" id="navMenu">
+      <div class="nav__links">
+        
+        
+          
+          <li>
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+
+        
+          
+          <li>
+            <a
+              
+              href="/post/"
+              
+              title=""
+              >Posts</a
+            >
+          </li>
+
+        
+          
+          <li>
+            <a
+              
+              href="https://github.com/alsutton"
+              
+                target="_blank" rel="noopener noreferrer"
+
+              
+              title=""
+              >Projects</a
+            >
+          </li>
+
+        
+        
+      </div>
+      <li>
+        
+          <a class="theme-switch" title="Switch Theme">
+            <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+          </a>
+
+        
+      </li>
+    </ul>
+  </nav>
+</div>
+</header>
+    <div class="wrapper">
+      <aside><div
+  class="sidebar
+    .
+
+  "
+>
+  <div class="sidebar__content">
+    <div class="logo-title">
+      <div class="title">
+        <img src="/images/profile.jpeg" alt="profile picture" />
+        <h3 title=""><a href="/">Al Sutton</a></h3>
+        <div class="description">
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+      
+        <li>
+          <a href="https://www.linkedin.com/in/alsutton/" rel="me" aria-label="Linkedin">
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li>
+          <a href="https://github.com/alsutton" rel="me" aria-label="GitHub">
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li>
+          <a href="https://www.alsutton.blog/index.xml" rel="me" aria-label="RSS">
+            <i class="fas fa-rss fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+    </ul>
+  </div><footer class="footer footer--sidebar">
+  <div class="by_farbox">
+    <ul class="footer__list">
+      <li class="footer__item">
+        &copy;
+        
+          Al Sutton
+          2021
+
+
+        
+      </li>
+      
+    </ul>
+  </div>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.71100d84fab0ad794b8399a66ac810700cc78d703f715dc10af4d7ba7b761362.js"
+    integrity="sha256-cRANhPqwrXlLg5mmasgQcAzHjXA/cV3BCvTXunt2E2I="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main>
+        <div class="autopagerize_page_element">
+          <div class="content">
+  <div
+    class="post 
+      .
+
+    "
+  >
+    <div class="post-content">
+      
+      <div class="post-title">
+        <h1>adb-backup-removal</h1>
+        
+          <div class="info">
+            <em class="fas fa-calendar-day"></em>
+            <span class="date"
+              >
+                Tue, Aug 3, 2021
+
+
+              </span
+            >
+            <em class="fas fa-stopwatch"></em>
+            <span class="reading-time">4-minute read</span>
+          </div>
+
+        
+      </div><p>Today I&rsquo;ve <a href="https://android-review.googlesource.com/c/platform/packages/modules/adb/+/1784571">submitted a patch</a> to the AOSP to continue something which was probably, externally, one of the 
+least popular things I did while I was at Google; Eradicate <code>adb backup</code> support from Android devices.</p>
+<h2 id="why">Why?</h2>
+<p>The reason is I think it&rsquo;s dangerous. Not for everyone, certainly not for a majority of folk, but for a small number
+of people there is a use case which I see as having potentially very serious consequences; Whistle-blowers, 
+dissidents, and potentially even journalists reporting from less than friendly countries.</p>
+<h2 id="how-can-that-be">How can that be?</h2>
+<p>Around the world there are many jurisdictions where your password can be obtained relatively easily. Some
+have <a href="https://en.wikipedia.org/wiki/Key_disclosure_law">key disclosure laws</a>, while in others the approach shown
+by <a href="https://xkcd.com/538/">XKCD #538</a> might be used;</p>
+<p><img src="https://imgs.xkcd.com/comics/security.png" alt="XKCD 538"></p>
+<p>Either way it will give the local authorities (or others employing similar tactics) the ability to unlock
+your phone.</p>
+<p>While this may not seem to scary, once you have an unlocked phone it takes a few minutes to get a lot of 
+interesting data from it using <code>adb backup</code> via <a href="https://9to5google.com/2017/11/04/how-to-backup-restore-android-device-data-android-basics/">a few steps</a>.
+It&rsquo;s something that, say, a law enforcement officer or border control guard could do while &ldquo;inspecting&rdquo; your
+device after requiring you to hand over the unlock code for it. They might turn they&rsquo;re back on you for
+5 minutes to look at it, and even connect it to a charging cable so you&rsquo;re not worried about them draining
+your battery. In that time they can get enough data to learn a lot about your life.</p>
+<h2 id="whats-in-the-backup">What&rsquo;s in the backup?</h2>
+<p>Some apps allow backups, and in those cases an adb backup contains all the data the app offers up for
+backing up. That&rsquo;ll not only show that the app is installed on your device, but, depending on how the
+app stores its backup data, it could also give anyone with access to the backup clear-text access to 
+the apps data.</p>
+<p>Many apps opt out of the backup system, so you may think there&rsquo;s no trace of them, but that&rsquo;s not 
+necessarily true&hellip;.</p>
+<p>One of the most interesting things is the launcher favorites database. If you extract your backup
+to a directory (using a command you can find on <a href="https://android.stackexchange.com/questions/28481/how-do-you-extract-an-apps-data-from-a-full-backup-made-through-adb-backup/78183#78183">Stack Overflow</a>), you&rsquo;ll find it in 
+<code>apps/com.google.android.apps.nexuslauncher/db</code>. Running a bog-standard copy of <code>sqlite3</code> against it
+will let you query the favorites table to see what the user has been using frequently.</p>
+<p>In my case, querying the launcher database from a backup of Android 11 with the latest security patches 
+gives the following;</p>
+<pre><code>alsutton@svr204:~/temp/3/apps/com.google.android.apps.nexuslauncher/db$ sqlite3 launcher.db
+SQLite version 3.32.2 2020-06-04 12:58:43
+Enter &quot;.help&quot; for usage hints.
+sqlite&gt; select title from favorites;
+Phone
+Messages
+Play Store
+Chrome
+Camera
+Slack
+Signal
+sqlite&gt; 
+</code></pre><p>This was after installing Signal and running it three times. So with something that could be a 
+one line script someone can determine I&rsquo;m likely to be a user of end to end encryption.</p>
+<p>The backup also contained the pictures I&rsquo;ve taken with the phone. In my case it&rsquo;s a boring picture
+of a painting on my wall&hellip;. but then again I take boring &lsquo;photos.</p>
+<p>Now imagine being a &ldquo;person of interest&rdquo; leaving a country and within 10 minutes the border official
+can determine that you have Signal installed any see what photos you have. 10 minutes in many airports
+is not enough time to get from border control to either a boarding gate or an exit, and if you&rsquo;re on a watch
+list you&rsquo;re likely to get priority treatment for the data coming off your device.</p>
+<h2 id="but-adb-backups-password">But adb backups&rsquo; password!</h2>
+<p>Yes, you should always use a password for your <code>adb backup</code> backup, but if you remember the start of this post
+I mentioned the key disclosure laws some countries have. The official has the unlocked device completely
+under their control and so can make a backup without a password.</p>
+<h2 id="youre-scare-mongering">You&rsquo;re scare-mongering!</h2>
+<p>For many folk this isn&rsquo;t a problem. I doubt anyone would be interested in a backup of my &lsquo;phone if they
+got hold of it, but for a few folk this could be a real problem, and when you&rsquo;re talking about an OS
+which is in use on over 2bn devices, a problem for 0.00001% of users is a real problem for 200 people.</p>
+<h2 id="feedback">Feedback</h2>
+<p>Hopefully you can see now why I feel that, for all the benefits for get from <code>adb backup</code>, there are
+some folk who might pay a heavy price for its&rsquo; existence, and why I feel it should be removed.</p>
+<p>If you have feedback on things that could be improved, added, or should be removed you can find me on 
+<a href="https://mastodon.social/@alsutton">Mastodon</a>, <a href="https://github.com/alsutton/">GitHub</a>, 
+and <a href="https://twitter.com/alsutton">Twitter</a>.</p>
+</div>
+    <div class="post-footer">
+      <div class="info">
+        
+          <span class="separator"><a class="category" href="/categories/AOSP/">AOSP</a></span>
+
+
+
+
+        
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+
+
+          </div>
+        </div>
+      </main>
+    </div><footer class="footer footer--base">
+  <div class="by_farbox">
+    <ul class="footer__list">
+      <li class="footer__item">
+        &copy;
+        
+          Al Sutton
+          2021
+
+
+        
+      </li>
+      
+    </ul>
+  </div>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.71100d84fab0ad794b8399a66ac810700cc78d703f715dc10af4d7ba7b761362.js"
+    integrity="sha256-cRANhPqwrXlLg5mmasgQcAzHjXA/cV3BCvTXunt2E2I="
+    crossorigin="anonymous"
+  ></script></body>
+</html>

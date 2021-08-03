@@ -6,7 +6,19 @@
     <description>Recent content in AOSP on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 05 Jul 2021 14:45:54 +0000</lastBuildDate><atom:link href="/categories/AOSP/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Aug 2021 12:45:54 +0000</lastBuildDate><atom:link href="/categories/AOSP/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>adb-backup-removal</title>
+      <link>/post/adb-backup-removal/</link>
+      <pubDate>Tue, 03 Aug 2021 12:45:54 +0000</pubDate>
+      
+      <guid>/post/adb-backup-removal/</guid>
+      
+        <description>Today I&amp;rsquo;ve submitted a patch to the AOSP to continue something which was probably, externally, one of the least popular things I did while I was at Google; Eradicate adb backup support from Android devices.
+Why? The reason is I think it&amp;rsquo;s dangerous. Not for everyone, certainly not for a majority of folk, but for a small number of people there is a use case which I see as having potentially very serious consequences; Whistle-blowers, dissidents, and potentially even journalists reporting from less than friendly countries.</description>
+      
+    </item>
+    
     <item>
       <title>Working with android firmware</title>
       <link>/post/working-with-android-firmware/</link>
