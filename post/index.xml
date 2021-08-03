@@ -14,7 +14,7 @@
       
       <guid>/post/adb-backup-removal/</guid>
       
-        <description>Today I&amp;rsquo;ve submitted a patch to the AOSP to continue something which was probably, externally, one of the least popular things I did while I was at Google; Eradicate adb backup support from Android devices.
+        <description>Today I&amp;rsquo;ve submitted a patch to the AOSP to continue something which was probably, externally, one of the least popular things I did while I was at Google; Start eradicating adb backup support from Android devices.
 Why? The reason is I think it&amp;rsquo;s dangerous. Not for everyone, certainly not for a majority of folk, but for a small number of people there is a use case which I see as having potentially very serious consequences; Whistle-blowers, dissidents, and potentially even journalists reporting from less than friendly countries.</description>
       
     </item>
