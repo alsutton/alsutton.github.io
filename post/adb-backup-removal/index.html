@@ -279,14 +279,14 @@ your phone.</p>
 <p>While this may not seem to scary, once you have an unlocked phone it takes a few minutes to get a lot of 
 interesting data from it using <code>adb backup</code> via <a href="https://9to5google.com/2017/11/04/how-to-backup-restore-android-device-data-android-basics/">a few steps</a>.
 It&rsquo;s something that, say, a law enforcement officer or border control guard could do while &ldquo;inspecting&rdquo; your
-device after requiring you to hand over the unlock code for it. They might turn they&rsquo;re back on you for
-5 minutes to look at it, and even connect it to a charging cable so you&rsquo;re not worried about them draining
+device after requiring you to hand over the unlock code for it. They might turn their back on you for
+5 minutes to look at it, and even connect it to a charging cable, so you&rsquo;re not worried about them draining
 your battery. In that time they can get enough data to learn a lot about your life.</p>
 <h2 id="whats-in-the-backup">What&rsquo;s in the backup?</h2>
 <p>Some apps allow backups, and in those cases an adb backup contains all the data the app offers up for
 backing up. That&rsquo;ll not only show that the app is installed on your device, but, depending on how the
 app stores its backup data, it could also give anyone with access to the backup clear-text access to 
-the apps data.</p>
+the apps' data.</p>
 <p>Many apps opt out of the backup system, so you may think there&rsquo;s no trace of them, but that&rsquo;s not 
 necessarily true&hellip;.</p>
 <p>One of the most interesting things is the launcher favorites database. If you extract your backup
@@ -308,7 +308,7 @@ Slack
 Signal
 sqlite&gt; 
 </code></pre><p>This was after installing Signal and running it three times. So with something that could be a 
-one line script someone can determine I&rsquo;m likely to be a user of end to end encryption.</p>
+one line script someone can determine I&rsquo;m likely to be a user of end-to-end encryption.</p>
 <p>The backup also contained the pictures I&rsquo;ve taken with the phone. In my case it&rsquo;s a boring picture
 of a painting on my wall&hellip;. but then again I take boring &lsquo;photos.</p>
 <p>Now imagine being a &ldquo;person of interest&rdquo; leaving a country and within 10 minutes the border official
