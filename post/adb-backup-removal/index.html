@@ -315,6 +315,10 @@ of a painting on my wall, not the type of thing that&rsquo;ll trigger a major in
 can determine that you have Signal installed and see what photos you have. 10 minutes in some airports
 is not enough time to get from border control to either a boarding gate or an exit, and if you&rsquo;re on a watch
 list you&rsquo;re likely to get priority treatment for the data coming off your device.</p>
+<p><strong>Update:</strong> Third-party apps targeting Android 12, when it&rsquo;s released, <a href="https://developer.android.com/about/versions/12/behavior-changes-12#adb-backup-restrictions">will not have their data included in an <code>adb backup</code>
+backup unless they&rsquo;re declared as debuggable</a>
+(Thanks to Toby Thierer for <a href="https://twitter.com/15characterlimi/status/1422621425488343040?s=20">pointing this out</a>). Unfortunately
+the launcher favorites database mentioned <strong>is</strong> still included in an <code>adb backup</code> backup.</p>
 <h2 id="but-adb-backups-password">But adb backups&rsquo; password!</h2>
 <p>Yes, you should always use a password for your <code>adb backup</code> backup, but if you remember the start of this post
 I mentioned the key disclosure laws some countries have. The official has the unlocked device completely
