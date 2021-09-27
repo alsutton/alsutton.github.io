@@ -6,7 +6,19 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 03 Aug 2021 12:45:54 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Sep 2021 09:45:54 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is &#34;Level Worthy&#34;?</title>
+      <link>/post/what-is-level-worthy/</link>
+      <pubDate>Mon, 27 Sep 2021 09:45:54 +0000</pubDate>
+      
+      <guid>/post/what-is-level-worthy/</guid>
+      
+        <description>Over the weekend Gergely Orosz tweeted about &amp;ldquo;Promotion Driven Development&amp;rdquo;, which is a problem in many large tech companies, and is tightly coupled with one of my least favourite concepts from my time in large tech; Whether everything you do is &amp;ldquo;Level Worthy&amp;rdquo;, and how that shapes your work even if you&amp;rsquo;re not looking to be promoted.
+What are levels? For those of you who haven&amp;rsquo;t experienced large companies, they tend to grade people based on specified skill levels (the various levels are sometimes called a &amp;ldquo;Career Ladder&amp;rdquo;).</description>
+      
+    </item>
+    
     <item>
       <title>adb backup removal</title>
       <link>/post/adb-backup-removal/</link>

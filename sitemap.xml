@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2021-08-03T12:45:54+00:00</lastmod>
+    <lastmod>2021-09-27T09:45:54+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2021-09-27T09:45:54+00:00</lastmod>
+  </url><url>
+    <loc>/post/what-is-level-worthy/</loc>
+    <lastmod>2021-09-27T09:45:54+00:00</lastmod>
   </url><url>
     <loc>/post/adb-backup-removal/</loc>
     <lastmod>2021-08-03T12:45:54+00:00</lastmod>
@@ -12,9 +18,6 @@
     <lastmod>2021-08-03T12:45:54+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2021-08-03T12:45:54+00:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
     <lastmod>2021-08-03T12:45:54+00:00</lastmod>
   </url><url>
     <loc>/post/working-with-android-firmware/</loc>

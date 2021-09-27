@@ -263,6 +263,54 @@
     >
       
       <div class="post-title">
+        <h3><a href="/post/accessing-the-settings-on-a-nexus-q/">Accessing the Settings on a Nexus Q</a></h3>
+      </div>
+      <div class="post-content">
+        <div class="p_part">
+          <p>
+            
+              If you enable USB debug mode on the Q, then use adb shell you can start the settings app using the command;
+am start -a android.intent.action.MAIN -n com.android.settings/.Settings
+Once you have done this you can &ldquo;configure&rdquo; it using;
+input keyevent xxxx
+where xxxx is one of the key events from http://developer.android.com/reference/android/view/KeyEvent.html (e.g. input keyevent 20 is the same as pressing down on the dpad).
+It&rsquo;s a bit time consuming, but it should be enough to get the Q working with a mouse ;)
+
+
+            
+          </p>
+          </div>
+      </div>
+
+      
+      <div class="post-footer">
+        <div class="meta">
+          <div class="info">
+            <em class="fas fa-calendar-day"></em>
+            <span class="date"
+              >
+                Tue, Jul 3, 2012
+
+
+              </span
+            >
+            
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+    <div
+      class="post 
+        .
+
+      "
+    >
+      
+      <div class="post-title">
         <h3><a href="/post/nexus-q-ideas/">Nexus Q ideas</a></h3>
       </div>
       <div class="post-content">
@@ -688,56 +736,6 @@ My normal tech set-up included a hefty Mac Pro (8 cores, 32GB of RAM), a Subvers
             <span class="date"
               >
                 Tue, Feb 7, 2012
-
-
-              </span
-            >
-            
-              <span class="separator"><a class="category" href="/categories/Google&#43;-Import/">Google&#43; Import</a></span>
-
-
-
-
-            
-
-            
-          </div>
-        </div>
-      </div>
-    </div>
-
-  
-    <div
-      class="post 
-        .
-
-      "
-    >
-      
-      <div class="post-title">
-        <h3><a href="/post/appslib-distributing-without-permission/">AppsLib distributing without permission</a></h3>
-      </div>
-      <div class="post-content">
-        <div class="p_part">
-          <p>
-            
-              Today I found out that the AppsLib Android application directory is distributing one of my companies apps against our wishes.
-They&rsquo;ve provided no method for removing the app, no method for closing the account they&rsquo;ve created under our name, and I suspect that we&rsquo;re not the only company they&rsquo;ve done this to. The email address for the account is our support email address, but we&rsquo;ve never received an account confirmation email or any indication it was being used in this way.
-
-
-            
-          </p>
-          </div>
-      </div>
-
-      
-      <div class="post-footer">
-        <div class="meta">
-          <div class="info">
-            <em class="fas fa-calendar-day"></em>
-            <span class="date"
-              >
-                Wed, Feb 1, 2012
 
 
               </span
