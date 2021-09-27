@@ -314,9 +314,12 @@ and the developers were complaining about build performance particularly in the 
 my skip-level manager that the performance issues were, in some cases, in their view, a direct contributor
 to folk leaving.</p>
 <p>Although I was led to believe we were hiring several more-junior engineers, at that time the team consisted 
-of one person; Me. I spend a number of weeks profiling builds, looking at build profiles across various machines, 
-writing up common causes of performance issues, pushing back against performance regressions, and making small 
-changes to the worst cases. For some users, had little to no effect, for others the improvement was minor, but, 
+of one person; Me. My long-term ideal goal was to simplify the build system and, if possible, get rid of
+the python/gradle/kotlin mix and replace it with a unified build system which focused on one thing; Building 
+Code. As a first step I spent a number of weeks profiling builds, looking at build profiles across various 
+machines, understanding where the performance issues were, writing up common causes of sporadic slow builds,
+pushing back against performance regressions, and making small changes to address the low-hanging fruit. For 
+some users, had little to no effect, for others the improvement was minor, but, 
 the worst-case IDE build times (p95) overall reduced by ~30%. Was this all my work? It&rsquo;s impossible to tell,
 but I could show how the trend down started shortly after I started work on the project, some bigger 
 drops correlated with code I&rsquo;d delivered, and overall developer complaints about build performance seemed to 
