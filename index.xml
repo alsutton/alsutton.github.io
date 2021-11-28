@@ -20,6 +20,19 @@ I&amp;rsquo;ve been writing code for Android since its public release. I owned a
     </item>
     
     <item>
+      <title>Why you shouldn&#39;t auto-increment your dependencies</title>
+      <link>/post/autoincrementing-dependencies/</link>
+      <pubDate>Wed, 13 Oct 2021 13:25:40 +0000</pubDate>
+      
+      <guid>/post/autoincrementing-dependencies/</guid>
+      
+        <description>Recently I saw this tweet which advocates for something I consider a dangerous development practice; Not fixing your builds to a version of its dependencies.
+There are three main reasons why I consider this dangerous;
+ Supply chain attacks (e.g. 5 in https://dni.gov/files/NCSC/documents/supplychain/Software_Supply_Chain_Attacks.pdf) It breaks the Reproducible Builds principle (Tag X won&amp;rsquo;t build the code shipped to users after any new library release) It could cause unexpected build breakages unrelated to code changes.</description>
+      
+    </item>
+    
+    <item>
       <title>What is &#34;Level Worthy&#34;?</title>
       <link>/post/what-is-level-worthy/</link>
       <pubDate>Mon, 27 Sep 2021 09:45:54 +0000</pubDate>
