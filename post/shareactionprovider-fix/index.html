@@ -15,7 +15,7 @@
   </title>
 
   
-  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.89.4" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.85.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta
     name="description"
     content="
@@ -270,15 +270,15 @@ dark grey background.</p>
 <p>The problem is due to the layout for each item in the menu defined in <code>abc_activity_chooser_view_list_item.xml</code>. The 
 TextView in the layout uses <code>?attr/textAppearanceLargePopupMenu</code>, which, when you follow the references all the way 
 down to <code>TextAppearance.AppCompat.Base.Widget.PopupMenu.Large</code> has the definition;</p>
-<pre tabindex="0"><code>    ?android:attr/textColorPrimaryDisableOnly
+<pre><code>    ?android:attr/textColorPrimaryDisableOnly
 </code></pre><p>In the Light themes <code>textColorPrimaryDisableOnly</code> ends up, after a few references, being defined as;</p>
-<pre tabindex="0"><code>    #ff000000
+<pre><code>    #ff000000
 </code></pre><p>which is where the black text comes from.</p>
 <p>Did I fix the problem? Yes. Am I proud of the fix? No. My focus was on getting the application complete and working, 
 and in order to do that the most time-efficient route was to import all the source code and resources for the 
 appcompat library into the project and alter the TextView in abc_activity_chooser_view_list_item.xml to use a 
 local style with the following definition;</p>
-<pre tabindex="0"><code>    &lt;style name=&quot;TextAppearance.ShareList&quot;
+<pre><code>    &lt;style name=&quot;TextAppearance.ShareList&quot;
             parent=&quot;TextAppearance.AppCompat.Widget.PopupMenu.Large&quot;&gt;
         &lt;item name=&quot;android:textColor&quot;&gt;@android:color/white&lt;/item&gt;
         &lt;item name=&quot;android:textSize&quot;&gt;18sp&lt;/item&gt;

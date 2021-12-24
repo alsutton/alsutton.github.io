@@ -15,7 +15,7 @@
   </title>
 
   
-  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.89.4" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.85.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta
     name="description"
     content="
@@ -295,7 +295,7 @@ to a directory (using a command you can find on <a href="https://android.stackex
 will let you query the favorites table to see what the user has been using frequently.</p>
 <p>In my case, querying the launcher database from a backup of Android 11 with the latest security patches 
 gives the following;</p>
-<pre tabindex="0"><code>alsutton@svr204:~/temp/3/apps/com.google.android.apps.nexuslauncher/db$ sqlite3 launcher.db
+<pre><code>alsutton@svr204:~/temp/3/apps/com.google.android.apps.nexuslauncher/db$ sqlite3 launcher.db
 SQLite version 3.32.2 2020-06-04 12:58:43
 Enter &quot;.help&quot; for usage hints.
 sqlite&gt; select title from favorites;
