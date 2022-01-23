@@ -20,18 +20,6 @@ This wasn&amp;rsquo;t a spur of the moment thing.</description>
     </item>
     
     <item>
-      <title>Disappointed with the Pixel 6</title>
-      <link>/post/pixel-6/</link>
-      <pubDate>Wed, 27 Oct 2021 09:45:54 +0000</pubDate>
-      
-      <guid>/post/pixel-6/</guid>
-      
-        <description>Having been a mobile &amp;lsquo;phone owner for more than a couple of decades, and recently &amp;ldquo;upgrading&amp;rdquo; to a Pixel 6 due to my old Pixel 3 going out of the security update support, I have to say I&amp;rsquo;m disappointed with where we&amp;rsquo;re at with Android phones.
-I&amp;rsquo;ve been writing code for Android since its public release. I owned a G1, I&amp;rsquo;ve owned companies which helped device manufacturers, so I understand some of the challenges.</description>
-      
-    </item>
-    
-    <item>
       <title>Why you shouldn&#39;t auto-increment your dependencies</title>
       <link>/post/autoincrementing-dependencies/</link>
       <pubDate>Wed, 13 Oct 2021 13:25:40 +0000</pubDate>
@@ -41,6 +29,18 @@ I&amp;rsquo;ve been writing code for Android since its public release. I owned a
         <description>Recently I saw this tweet which advocates for something I consider a dangerous development practice; Not fixing your builds to a version of its dependencies.
 There are three main reasons why I consider this dangerous;
  Supply chain attacks (e.g. 5 in https://dni.gov/files/NCSC/documents/supplychain/Software_Supply_Chain_Attacks.pdf) It breaks the Reproducible Builds principle (Tag X won&amp;rsquo;t build the code shipped to users after any new library release) It could cause unexpected build breakages unrelated to code changes.</description>
+      
+    </item>
+    
+    <item>
+      <title>Android Automotive OS S</title>
+      <link>/post/android-automotive-os-s/</link>
+      <pubDate>Tue, 05 Oct 2021 19:45:54 +0000</pubDate>
+      
+      <guid>/post/android-automotive-os-s/</guid>
+      
+        <description>As part of my work at Snapp Automotive I&amp;rsquo;ve been helping create tools and process to make Android Automotive OS development easier. The tools and processes we have allowed us to create an Android Automotive OS version &amp;lsquo;S&amp;rsquo; emulator in less than a day once Google had released the Android &amp;lsquo;S&amp;rsquo; source code.
+Here are some screenshots showing the previous release (R, on the left), and the new version (S, on the right);</description>
       
     </item>
     

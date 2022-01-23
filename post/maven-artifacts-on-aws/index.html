@@ -15,7 +15,7 @@
   </title>
 
   
-  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.85.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.89.4" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta
     name="description"
     content="
@@ -217,7 +217,7 @@
         &copy;
         
           Al Sutton
-          2021
+          2022
 
 
         
@@ -372,7 +372,7 @@ to create the files you need to make available. If you&rsquo;re unsure of how to
 as a template.</p>
 <p>With the Gradle Maven Publishing Plugin configured you should now be able to create the maven artifacts
 locally by running the following command;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gradlew publishToMavenLocal 
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gradlew publishToMavenLocal 
 </code></pre></div><p>This will create a set of files in a local folder which is usually inside &ldquo;{your_home_directory}/.m2/repository/&rdquo;
 and, from there, follows the same folder layout we created in the section above (e.g. <code>com/alsutton/java-cryptography-wrapper/1.0</code>).</p>
 <h2 id="uploading-the-files">Uploading the files</h2>
@@ -388,7 +388,7 @@ machine (so in the <code>artefact_name</code> folder, not in <code>artefact_name
 <p>Congratulations, your library is now available!</p>
 <p>If you&rsquo;re targeting folk who use gradle they will need to add in your repository to their builds. They can do this
 by adding the following to their gradle build files;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin">repositories {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin">repositories {
     maven {
         url = uri(<span style="color:#e6db74">&#34;http://{your_domain}/&#34;</span>)
     }
@@ -443,7 +443,7 @@ and <a href="https://twitter.com/alsutton">Twitter</a>.</p>
         &copy;
         
           Al Sutton
-          2021
+          2022
 
 
         

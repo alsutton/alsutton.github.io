@@ -15,7 +15,7 @@
   </title>
 
   
-  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.85.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.89.4" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta
     name="description"
     content="
@@ -217,7 +217,7 @@
         &copy;
         
           Al Sutton
-          2021
+          2022
 
 
         
@@ -288,7 +288,7 @@ the package list you&rsquo;re changing. This means you&rsquo;ll get faster image
 times because only the package list your changing needs to be re-installed in the image.</p>
 <p>You can always combine the package installations before making the dockerfile available, 
 so part of your development docker image might look like this;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dockerfile" data-lang="dockerfile"><span style="color:#75715e"># Install the packages needed for the build</span><span style="color:#960050;background-color:#1e0010">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dockerfile" data-lang="dockerfile"><span style="color:#75715e"># Install the packages needed for the build</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noninteractive&#34;</span> apt-get install -y git-core gnupg flex bison build-essential <span style="color:#ae81ff">\ </span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>	zip curl zlib1g-dev gcc-multilib g++-multilib <span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noninteractive&#34;</span> apt-get install -y libc6-dev-i386 lib32ncurses5-dev<span style="color:#960050;background-color:#1e0010">
@@ -297,7 +297,7 @@ so part of your development docker image might look like this;</p>
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noninteractive&#34;</span> apt-get install -y fontconfig libncurses5 procps rsync<span style="color:#960050;background-color:#1e0010">
 </span></code></pre></div><p>as you build up the list of packages to install, and then, before publishing the dockerfile,
 you&rsquo;d combine those lines to become;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dockerfile" data-lang="dockerfile"><span style="color:#66d9ef">RUN</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noninteractive&#34;</span> apt-get install -y git-core gnupg flex bison build-essential <span style="color:#ae81ff">\
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dockerfile" data-lang="dockerfile"><span style="color:#66d9ef">RUN</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noninteractive&#34;</span> apt-get install -y git-core gnupg flex bison build-essential <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>	zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>	x11proto-core-dev libx11-dev lib32z1-dev libgl1-mesa-dev libxml2-utils xsltproc unzip <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>	fontconfig libncurses5 procps rsync<span style="color:#960050;background-color:#1e0010">
@@ -346,44 +346,44 @@ Raspbian are based on Debian, so these instructions should work for them as well
 to configure for our needs. Neither are hard requirements, so if you have your own
 preferences for Linux distribution and caching HTTP proxy feel free to use them.</p>
 <p>To install squid you run the following command as root;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ apt install squid 
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ apt install squid 
 </code></pre></div><p>Then you&rsquo;ll need to change a couple of lines in the configuration file <code>/etc/squid/squid.conf</code>
 so that squid can cope with the size of Linux packages.</p>
 <p>The first change creates an on-disk cache of 10 GB, so we&rsquo;re not completely reliant 
 on RAM based caching;</p>
-<pre><code># cache_dir ufs /var/spool/squid 100 16 256
+<pre tabindex="0"><code># cache_dir ufs /var/spool/squid 100 16 256
 </code></pre><p>should become;</p>
-<pre><code>cache_dir ufs /var/spool/squid 102400 16 256
+<pre tabindex="0"><code>cache_dir ufs /var/spool/squid 102400 16 256
 </code></pre><p>The next change increases the amount of RAM the cache uses. As I mentioned above my cache 
 machine has 16 GB of memory, so I set aside 4 GB of RAM for cached objects. If you&rsquo;re using 
 a machine with a smaller amount of RAM you may want to make this value lower than 4 GB;</p>
-<pre><code># cache_mem 256 KB
+<pre tabindex="0"><code># cache_mem 256 KB
 </code></pre><p>becomes</p>
-<pre><code>cache_mem 4 GB
+<pre tabindex="0"><code>cache_mem 4 GB
 </code></pre><p>The next pair of changes increase the maximum size of an object the cache will store. 
 Linux packages can be multiple-megabytes, so for both the disk and in-memory caches
 I increase this to 50 MB;</p>
-<pre><code># maximum_object_size 4 MB
+<pre tabindex="0"><code># maximum_object_size 4 MB
 </code></pre><p>should become</p>
-<pre><code>maximum_object_size 50 MB
+<pre tabindex="0"><code>maximum_object_size 50 MB
 </code></pre><p>and</p>
-<pre><code># maximum_object_size_in_memory 512 KB
+<pre tabindex="0"><code># maximum_object_size_in_memory 512 KB
 </code></pre><p>should become;</p>
-<pre><code>maximum_object_size_in_memory 50 MB
+<pre tabindex="0"><code>maximum_object_size_in_memory 50 MB
 </code></pre><p>The final change allows all the machines on your local network to use the caching proxy,
 without this only the machine you installed squid on will be able to use the cache;</p>
-<pre><code>#http_access allow localnet
+<pre tabindex="0"><code>#http_access allow localnet
 </code></pre><p>should become</p>
-<pre><code>http_access allow localnet
+<pre tabindex="0"><code>http_access allow localnet
 </code></pre><h3 id="using-the-proxy">Using the proxy</h3>
 <p>Ubuntu and Debian can be configured to use an HTTP proxy for package 
 updates and installations by setting the <code>http_proxy</code> environment variable. 
 This makes it very easy to use the proxy in your build, all you need to do 
 is add the following line after the <code>FROM</code> line in your docker file;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dockerfile" data-lang="dockerfile"><span style="color:#66d9ef">ARG</span> http_proxy<span style="color:#960050;background-color:#1e0010">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dockerfile" data-lang="dockerfile"><span style="color:#66d9ef">ARG</span> http_proxy<span style="color:#960050;background-color:#1e0010">
 </span></code></pre></div><p>Now you can add a <code>build-arg</code> to your <code>docker build</code> command which tells
 points the build at your proxy like this;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ docker build --build-arg http_proxy<span style="color:#f92672">=</span>http://<span style="color:#f92672">{</span>squid_host_ip_address<span style="color:#f92672">}</span>:3128/ .
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ docker build --build-arg http_proxy<span style="color:#f92672">=</span>http://<span style="color:#f92672">{</span>squid_host_ip_address<span style="color:#f92672">}</span>:3128/ .
 </code></pre></div><p>(The <code>:3128</code> refers to the default port that squid runs on.)</p>
 <p>Now you&rsquo;ve made these changes you should, when you perform builds, see the squid
 cache being used by looking at <code>/var/log/squid/access.log</code> on the machine running
@@ -391,23 +391,23 @@ squid.</p>
 <h3 id="what-should-you-expect">What should you expect?</h3>
 <p>The squid statistics for two consecutive builds of a docker file I have which 
 installs ~240 packages are;</p>
-<pre><code>Cache information for squid:
+<pre tabindex="0"><code>Cache information for squid:
         Hits as % of all requests:      5min: 50.0%, 60min: 50.0%
         Hits as % of bytes sent:        5min: 50.0%, 60min: 50.0%
 </code></pre><p>A hit rate 50% means that the package updates for the second build were served entirely,
 or almost entirely, from the cache. After a third build outside the 5-minute window you 
 can see the trend continuing;</p>
-<pre><code>Cache information for squid:
+<pre tabindex="0"><code>Cache information for squid:
         Hits as % of all requests:      5min: 98.5%, 60min: 66.2%
         Hits as % of bytes sent:        5min: 99.9%, 60min: 66.6%
 </code></pre><p>As for the build speed, the original package install build steps were reported
 as;</p>
-<pre><code> =&gt; [ 4/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get update                                                    4.6s
+<pre tabindex="0"><code> =&gt; [ 4/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get update                                                    4.6s
  =&gt; [ 5/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get upgrade -y                                               12.1s
  =&gt; [ 6/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get install -y apt-utils                                      2.1s
  =&gt; [ 7/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get install -y git-core gnupg flex bison build-essential  z  70.4s
 </code></pre><p>by the third build we&rsquo;re getting;</p>
-<pre><code> =&gt; [ 4/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get update                                                    3.7s
+<pre tabindex="0"><code> =&gt; [ 4/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get update                                                    3.7s
  =&gt; [ 5/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get upgrade -y                                               11.5s
  =&gt; [ 6/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get install -y apt-utils                                      2.1s
  =&gt; [ 7/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get install -y git-core gnupg flex bison build-essential  z  56.7s
@@ -428,7 +428,7 @@ to make to control where the cached images are stored.</p>
 <p>Firstly, to configure the proxy functionality, you need to change the default configuration.
 Without this you&rsquo;ll only get local images served from your registry, which is not what we want.</p>
 <p>To do this you need to create a <code>config.yml</code> file which looks like this;</p>
-<pre><code>version: 0.1
+<pre tabindex="0"><code>version: 0.1
 log:
   fields:
     service: registry
@@ -455,7 +455,7 @@ bulk storage.</p>
 <p>My HDD is mounted on <code>/hdd</code> on my machine, and I keep my docker related files in <code>/hdd/docker</code>.
 <code>config.yml</code> is located at <code>/hdd/docker/etc/config.yml</code>, and I use <code>/hdd/docker/registry</code> for
 image storage. To start the registry in a way which recognises this I use the command;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">docker run -d <span style="color:#ae81ff">\
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">docker run -d <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>  -p 5000:5000 <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>  --restart<span style="color:#f92672">=</span>always <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>  --name registry <span style="color:#ae81ff">\
@@ -469,7 +469,7 @@ area into the registry image.</p>
 <p>To use the local registry mirror you&rsquo;ll need to configure the docker installations
 where you&rsquo;re performing the build. On Linux you&rsquo;ll need to create the file
 &lsquo;/etc/docker/daemon.json&rsquo; which contains the following;</p>
-<pre><code>{
+<pre tabindex="0"><code>{
   &quot;registry-mirrors&quot;: [
     &quot;http://{your_registry_ip_address}:5000/&quot;
   ],
@@ -520,7 +520,7 @@ and <a href="https://twitter.com/alsutton">Twitter</a>.</p>
         &copy;
         
           Al Sutton
-          2021
+          2022
 
 
         
