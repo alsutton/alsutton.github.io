@@ -6,7 +6,19 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 24 Dec 2021 09:45:54 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Dec 2021 17:45:54 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The UK EV Infrastructure needs a lot of work</title>
+      <link>/post/uk-ev-infa-needs-work/</link>
+      <pubDate>Sun, 26 Dec 2021 17:45:54 +0000</pubDate>
+      
+      <guid>/post/uk-ev-infa-needs-work/</guid>
+      
+        <description>After an attempt to do a 170 mile round trip in my Nissan Leaf, it has now been consigned to a life of “less than 100-mile total distance” trips only.
+The first leg was fine up until the charge point. The initially selected InstaVolt charger was “temporarily out of service”, and a nearby ChargeYourCar charger was unfathomable to get working as the “Pay by Phone” phone number on the unit wasn’t working.</description>
+      
+    </item>
+    
     <item>
       <title>So I decided to get an EV</title>
       <link>/post/so-i-decided-to-get-an-ev/</link>
@@ -16,6 +28,18 @@
       
         <description>After driving traditional combustion engine cars for more years that I care to mention I decided to take the plunge into the world of EVs. Given the moral positives and government encouragement I thought it&amp;rsquo;d be an easy switch; Go to a garage, trade my car in, arrange a wallbox installation, wait, profit. Unfortunately I was very wrong about how consumer friendly the process of switching is.
 This wasn&amp;rsquo;t a spur of the moment thing.</description>
+      
+    </item>
+    
+    <item>
+      <title>Disappointed with the Pixel 6</title>
+      <link>/post/pixel-6/</link>
+      <pubDate>Wed, 27 Oct 2021 09:45:54 +0000</pubDate>
+      
+      <guid>/post/pixel-6/</guid>
+      
+        <description>Having been a mobile &amp;lsquo;phone owner for more than a couple of decades, and recently &amp;ldquo;upgrading&amp;rdquo; to a Pixel 6 due to my old Pixel 3 going out of the security update support, I have to say I&amp;rsquo;m disappointed with where we&amp;rsquo;re at with Android phones.
+I&amp;rsquo;ve been writing code for Android since its public release. I owned a G1, I&amp;rsquo;ve owned companies which helped device manufacturers, so I understand some of the challenges.</description>
       
     </item>
     
