@@ -3,19 +3,23 @@
   dir="ltr"
   lang="en"
   data-theme="dark"
+  class="html"
 ><head>
   <title>
-    Al Sutton
-      |
-      Hosting build artifacts on AWS
+    
+      Al Sutton
+        |
+        Hosting build artifacts on AWS
+
+
+      
 
 
     
-
   </title>
 
   
-  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.89.4" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.85.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta
     name="description"
     content="
@@ -26,20 +30,23 @@
   />
   
   
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.887981ea8ee463aed275e813b62ca5ceba5547658ae54bc026235d498d7503d6.css"
+      integrity="sha256-iHmB6o7kY67SdegTtiylzrpVR2WK5UvAJiNdSY11A9Y="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+
+  
+
   
   <link
     rel="stylesheet"
-    href="/css/main.min.51423ad97099a08f3a20e16d238c13adae76db7dd5e1913789bdc81143ff4cc6.css"
-    integrity="sha256-UUI62XCZoI86IOFtI4wTra52233V4ZE3ib3IEUP/TMY="
-    crossorigin="anonymous"
-    type="text/css"
-  />
-  
-  
-  <link
-    rel="stylesheet"
-    href="/css/markupHighlight.min.f798cbda9aaa38f89eb38be6414bd082cfd71a6780375cbf67b6d2fb2b96491e.css"
-    integrity="sha256-95jL2pqqOPies4vmQUvQgs/XGmeAN1y/Z7bS&#43;yuWSR4="
+    href="/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
     crossorigin="anonymous"
     type="text/css"
   />
@@ -55,11 +62,29 @@
     />
 
   
+  
   <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    href="/fontawesome/css/fontawesome.min.3eab8ef80d1761270f30323d1bd5d9d10a8f6a7610dbe233adba89094ed48fbd.css"
+    integrity="sha256-PquO&#43;A0XYScPMDI9G9XZ0QqPanYQ2&#43;IzrbqJCU7Uj70="
     crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.6ee9fbc38b1b14c99d05fdc597d9af749968eaf84e43050a6d059cad81a60bcc.css"
+    integrity="sha256-bun7w4sbFMmdBf3Fl9mvdJlo6vhOQwUKbQWcrYGmC8w="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.4bfdb43d33551d871070eb4a2ad6fd6e0d1910839cd73d763698f1db19049ddc.css"
+    integrity="sha256-S/20PTNVHYcQcOtKKtb9bg0ZEIOc1z12Npjx2xkEndw="
+    crossorigin="anonymous"
+    type="text/css"
   />
   
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -75,8 +100,8 @@
   
   <script
     type="text/javascript"
-    src="/js/anatole-header.min.2a2cd9614b7d007dfbb75e8da19e3a0fa872ceab53c6d000c00b7a0c89b85bfc.js"
-    integrity="sha256-KizZYUt9AH37t16NoZ46D6hyzqtTxtAAwAt6DIm4W/w="
+    src="/js/anatole-header.min.46e6a54097480084f8f52c20ca1aa7425b4fad17029a887fd4017b12e311a72d.js"
+    integrity="sha256-RualQJdIAIT49SwgyhqnQltPrRcCmoh/1AF7EuMRpy0="
     crossorigin="anonymous"
   ></script>
 
@@ -85,10 +110,15 @@
     
     <script
       type="text/javascript"
-      src="/js/anatole-theme-switcher.min.7fd87181cdd7e8413aa64b6867bb32f3a8dc242e684fc7d5bbb9f600dbc2b6eb.js"
-      integrity="sha256-f9hxgc3X6EE6pktoZ7sy86jcJC5oT8fVu7n2ANvCtus="
+      src="/js/anatole-theme-switcher.min.5557c8ff5617a01067ac258fd70b9b992506e379317b0da51e5e0f6e018b408a.js"
+      integrity="sha256-VVfI/1YXoBBnrCWP1wubmSUG43kxew2lHl4PbgGLQIo="
       crossorigin="anonymous"
     ></script>
+
+  
+
+  
+
 
   
   <meta name="twitter:card" content="summary"/>
@@ -98,171 +128,258 @@
 
 
   
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Hosting build artifacts on AWS",
+        "headline": "Hosting build artifacts on AWS",
+        "alternativeHeadline": "",
+        "description": "
+      
+        With JCenter closing down folks are looking at alternative places to host their build artifacts, and AWS can easily meet that need. AWS isn\u0026rsquo;t the only platform capable of hosting Maven artifacts, any hosting provide can do it, but AWS has the ability to scale to high levels and offers a free tier which means that you can get started very cheaply and, if your libraries are really successful, you don\u0026rsquo;t need to revisit the set-up unless you want to.
+
+
+      
+
+
+    ",
+        "inLanguage": "en-gb",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/post\/maven-artifacts-on-aws\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "alsutton"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "alsutton"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "alsutton"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "alsutton"
+        },
+        "copyrightYear" : "2021",
+        "dateCreated": "2021-02-25T10:45:54.00Z",
+        "datePublished": "2021-02-25T10:45:54.00Z",
+        "dateModified": "2021-02-25T10:45:54.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "alsutton",
+            "url": "/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "\/post\/maven-artifacts-on-aws\/",
+        "wordCount" : "1755",
+        "genre" : [ 
+      
+      "Software Development"
+
+    ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+
 </head>
-<body>
-    <header><div
-  class="page-top 
-    .
+<body
+    
+      class="body theme--dark"
 
-  "
->
-  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-    <span aria-hidden="true"></span>
-    <span aria-hidden="true"></span>
-    <span aria-hidden="true"></span>
-  </a>
-  <nav>
-    <ul class="nav__list" id="navMenu">
-      <div class="nav__links">
-        
-        
-          
-          <li>
-            <a
-              
-              href="/"
-              
-              title=""
-              >Home</a
-            >
-          </li>
-
-        
-          
-          <li>
-            <a
-              
-              href="/post/"
-              
-              title=""
-              >Posts</a
-            >
-          </li>
-
-        
-          
-          <li>
-            <a
-              
-              href="https://github.com/alsutton"
-              
-                target="_blank" rel="noopener noreferrer"
-
-              
-              title=""
-              >Projects</a
-            >
-          </li>
-
-        
-        
-      </div>
-      <li>
-        
-          <a class="theme-switch" title="Switch Theme">
-            <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-          </a>
-
-        
-      </li>
-    </ul>
-  </nav>
-</div>
-</header>
+    
+  >
     <div class="wrapper">
-      <aside><div
+      <aside class="wrapper__sidebar"><div
   class="sidebar
     .
 
   "
 >
   <div class="sidebar__content">
-    <div class="logo-title">
-      <div class="title">
-        <img src="/images/profile.jpeg" alt="profile picture" />
-        <h3 title=""><a href="/">Al Sutton</a></h3>
-        <div class="description">
-          <p></p>
-        </div>
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/profile.jpeg"
+        alt="profile picture"
+      />
+      <h1 class="sidebar__introduction-title">
+        <a href="/">Al Sutton</a>
+      </h1>
+      <div class="sidebar__introduction-description">
+        <p></p>
       </div>
     </div>
-    <ul class="social-links">
+    <ul class="sidebar__list">
       
-        <li>
-          <a href="https://www.linkedin.com/in/alsutton/" rel="me" aria-label="Linkedin">
+        <li class="sidebar__list-item">
+          <a href="https://www.linkedin.com/in/alsutton/" rel="me" aria-label="Linkedin" title="Linkedin">
             <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
           </a>
         </li>
 
       
-        <li>
-          <a href="https://github.com/alsutton" rel="me" aria-label="GitHub">
+        <li class="sidebar__list-item">
+          <a href="https://github.com/alsutton" rel="me" aria-label="GitHub" title="GitHub">
             <i class="fab fa-github fa-2x" aria-hidden="true"></i>
           </a>
         </li>
 
       
-        <li>
-          <a href="https://www.alsutton.blog/index.xml" rel="me" aria-label="RSS">
+        <li class="sidebar__list-item">
+          <a href="https://www.alsutton.blog/index.xml" rel="me" aria-label="RSS" title="RSS">
             <i class="fas fa-rss fa-2x" aria-hidden="true"></i>
           </a>
         </li>
 
       
     </ul>
-  </div><footer class="footer footer--sidebar">
-  <div class="by_farbox">
-    <ul class="footer__list">
-      <li class="footer__item">
-        &copy;
-        
-          Al Sutton
-          2022
-
-
-        
-      </li>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
       
-    </ul>
-  </div>
+        Al Sutton
+        2022
+
+
+      
+    </li>
+    
+  </ul>
 </footer>
   
   <script
     type="text/javascript"
-    src="/js/medium-zoom.min.71100d84fab0ad794b8399a66ac810700cc78d703f715dc10af4d7ba7b761362.js"
-    integrity="sha256-cRANhPqwrXlLg5mmasgQcAzHjXA/cV3BCvTXunt2E2I="
+    src="/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
     crossorigin="anonymous"
   ></script></div>
 </aside>
-      <main>
-        <div class="autopagerize_page_element">
-          <div class="content">
+      <main class="wrapper__main">
+        <header class="header"><div
+  class="
+    .
+
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/"
+            
+            title=""
+            >Home</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/post/"
+            
+            title=""
+            >Posts</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="https://github.com/alsutton"
+            
+              target="_blank" rel="noopener noreferrer"
+
+            
+            title=""
+            >Projects</a
+          >
+        </li>
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+
+      
+    </ul>
+  </nav>
+</div>
+</header>
   <div
     class="post 
       .
 
     "
   >
-    <div class="post-content">
+    
+    <div class="post__content">
+      <h1>Hosting Build Artifacts on AWS</h1>
       
-      <div class="post-title">
-        <h1>Hosting build artifacts on AWS</h1>
-        
-          <div class="info">
-            <em class="fas fa-calendar-day"></em>
-            <span class="date"
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
               >
                 Thu, Feb 25, 2021
 
 
-              </span
-            >
-            <em class="fas fa-stopwatch"></em>
-            <span class="reading-time">9-minute read</span>
-          </div>
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">9-minute read</span>
+          </li>
+        </ul>
 
-        
-      </div><p>With <a href="https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/">JCenter closing down</a> folks are looking at alternative places to host their build
+      <p>With <a href="https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/">JCenter closing down</a> folks are looking at alternative places to host their build
 artifacts, and AWS can easily meet that need. AWS isn&rsquo;t the only platform capable of 
 hosting Maven artifacts, any hosting provide can do it, but AWS has the ability to scale
 to high levels and offers a <a href="https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&amp;all-free-tier.sort-order=asc">free tier</a> which means
@@ -372,7 +489,7 @@ to create the files you need to make available. If you&rsquo;re unsure of how to
 as a template.</p>
 <p>With the Gradle Maven Publishing Plugin configured you should now be able to create the maven artifacts
 locally by running the following command;</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gradlew publishToMavenLocal 
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gradlew publishToMavenLocal 
 </code></pre></div><p>This will create a set of files in a local folder which is usually inside &ldquo;{your_home_directory}/.m2/repository/&rdquo;
 and, from there, follows the same folder layout we created in the section above (e.g. <code>com/alsutton/java-cryptography-wrapper/1.0</code>).</p>
 <h2 id="uploading-the-files">Uploading the files</h2>
@@ -388,7 +505,7 @@ machine (so in the <code>artefact_name</code> folder, not in <code>artefact_name
 <p>Congratulations, your library is now available!</p>
 <p>If you&rsquo;re targeting folk who use gradle they will need to add in your repository to their builds. They can do this
 by adding the following to their gradle build files;</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin">repositories {
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin">repositories {
     maven {
         url = uri(<span style="color:#e6db74">&#34;http://{your_domain}/&#34;</span>)
     }
@@ -415,48 +532,42 @@ library.</p>
 <p>If you have questions you can find me on <a href="https://mastodon.social/@alsutton">Mastodon</a>, <a href="https://github.com/alsutton/">GitHub</a>,
 and <a href="https://twitter.com/alsutton">Twitter</a>.</p>
 </div>
-    <div class="post-footer">
-      <div class="info">
-        
-          <span class="separator"><a class="category" href="/categories/Software-Development/">Software Development</a></span>
+    <div class="post__footer">
+      
+        <span><a class="category" href="/categories/Software-Development/">Software Development</a></span>
 
 
 
 
-        
+      
 
-        
-      </div>
+      
     </div>
 
     
   </div>
 
 
-          </div>
-        </div>
       </main>
-    </div><footer class="footer footer--base">
-  <div class="by_farbox">
-    <ul class="footer__list">
-      <li class="footer__item">
-        &copy;
-        
-          Al Sutton
-          2022
-
-
-        
-      </li>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
       
-    </ul>
-  </div>
+        Al Sutton
+        2022
+
+
+      
+    </li>
+    
+  </ul>
 </footer>
   
   <script
     type="text/javascript"
-    src="/js/medium-zoom.min.71100d84fab0ad794b8399a66ac810700cc78d703f715dc10af4d7ba7b761362.js"
-    integrity="sha256-cRANhPqwrXlLg5mmasgQcAzHjXA/cV3BCvTXunt2E2I="
+    src="/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
     crossorigin="anonymous"
   ></script></body>
 </html>

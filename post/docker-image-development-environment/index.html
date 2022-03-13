@@ -3,19 +3,23 @@
   dir="ltr"
   lang="en"
   data-theme="dark"
+  class="html"
 ><head>
   <title>
-    Al Sutton
-      |
-      Improving Your Docker Image Development Experience
+    
+      Al Sutton
+        |
+        Improving Your Docker Image Development Experience
+
+
+      
 
 
     
-
   </title>
 
   
-  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.89.4" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.85.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta
     name="description"
     content="
@@ -26,20 +30,23 @@
   />
   
   
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.887981ea8ee463aed275e813b62ca5ceba5547658ae54bc026235d498d7503d6.css"
+      integrity="sha256-iHmB6o7kY67SdegTtiylzrpVR2WK5UvAJiNdSY11A9Y="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+
+  
+
   
   <link
     rel="stylesheet"
-    href="/css/main.min.51423ad97099a08f3a20e16d238c13adae76db7dd5e1913789bdc81143ff4cc6.css"
-    integrity="sha256-UUI62XCZoI86IOFtI4wTra52233V4ZE3ib3IEUP/TMY="
-    crossorigin="anonymous"
-    type="text/css"
-  />
-  
-  
-  <link
-    rel="stylesheet"
-    href="/css/markupHighlight.min.f798cbda9aaa38f89eb38be6414bd082cfd71a6780375cbf67b6d2fb2b96491e.css"
-    integrity="sha256-95jL2pqqOPies4vmQUvQgs/XGmeAN1y/Z7bS&#43;yuWSR4="
+    href="/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
     crossorigin="anonymous"
     type="text/css"
   />
@@ -55,11 +62,29 @@
     />
 
   
+  
   <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    href="/fontawesome/css/fontawesome.min.3eab8ef80d1761270f30323d1bd5d9d10a8f6a7610dbe233adba89094ed48fbd.css"
+    integrity="sha256-PquO&#43;A0XYScPMDI9G9XZ0QqPanYQ2&#43;IzrbqJCU7Uj70="
     crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.6ee9fbc38b1b14c99d05fdc597d9af749968eaf84e43050a6d059cad81a60bcc.css"
+    integrity="sha256-bun7w4sbFMmdBf3Fl9mvdJlo6vhOQwUKbQWcrYGmC8w="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.4bfdb43d33551d871070eb4a2ad6fd6e0d1910839cd73d763698f1db19049ddc.css"
+    integrity="sha256-S/20PTNVHYcQcOtKKtb9bg0ZEIOc1z12Npjx2xkEndw="
+    crossorigin="anonymous"
+    type="text/css"
   />
   
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -75,8 +100,8 @@
   
   <script
     type="text/javascript"
-    src="/js/anatole-header.min.2a2cd9614b7d007dfbb75e8da19e3a0fa872ceab53c6d000c00b7a0c89b85bfc.js"
-    integrity="sha256-KizZYUt9AH37t16NoZ46D6hyzqtTxtAAwAt6DIm4W/w="
+    src="/js/anatole-header.min.46e6a54097480084f8f52c20ca1aa7425b4fad17029a887fd4017b12e311a72d.js"
+    integrity="sha256-RualQJdIAIT49SwgyhqnQltPrRcCmoh/1AF7EuMRpy0="
     crossorigin="anonymous"
   ></script>
 
@@ -85,10 +110,15 @@
     
     <script
       type="text/javascript"
-      src="/js/anatole-theme-switcher.min.7fd87181cdd7e8413aa64b6867bb32f3a8dc242e684fc7d5bbb9f600dbc2b6eb.js"
-      integrity="sha256-f9hxgc3X6EE6pktoZ7sy86jcJC5oT8fVu7n2ANvCtus="
+      src="/js/anatole-theme-switcher.min.5557c8ff5617a01067ac258fd70b9b992506e379317b0da51e5e0f6e018b408a.js"
+      integrity="sha256-VVfI/1YXoBBnrCWP1wubmSUG43kxew2lHl4PbgGLQIo="
       crossorigin="anonymous"
     ></script>
+
+  
+
+  
+
 
   
   <meta name="twitter:card" content="summary"/>
@@ -98,171 +128,265 @@
 
 
   
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Improving Your Docker Image Development Experience",
+        "headline": "Improving Your Docker Image Development Experience",
+        "alternativeHeadline": "",
+        "description": "
+      
+        Many CI systems allow you to build inside a Docker container, but creating the docker image which is used for the container can be a slow process. Various third party resources, like Docker Hub, may have rate limits, and fetching all the updates and new packages over the internet may take a while, but there are a few things you can do which will make building and testing your images faster.
+
+
+      
+
+
+    ",
+        "inLanguage": "en-gb",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/post\/docker-image-development-environment\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "alsutton"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "alsutton"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "alsutton"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "alsutton"
+        },
+        "copyrightYear" : "2021",
+        "dateCreated": "2021-03-03T08:45:54.00Z",
+        "datePublished": "2021-03-03T08:45:54.00Z",
+        "dateModified": "2021-03-03T08:45:54.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "alsutton",
+            "url": "/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "\/post\/docker-image-development-environment\/",
+        "wordCount" : "2206",
+        "genre" : [ 
+      
+      "AOSP"
+
+    
+      
+        ,
+
+      
+      "Docker"
+
+    ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+
 </head>
-<body>
-    <header><div
-  class="page-top 
-    .
+<body
+    
+      class="body theme--dark"
 
-  "
->
-  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-    <span aria-hidden="true"></span>
-    <span aria-hidden="true"></span>
-    <span aria-hidden="true"></span>
-  </a>
-  <nav>
-    <ul class="nav__list" id="navMenu">
-      <div class="nav__links">
-        
-        
-          
-          <li>
-            <a
-              
-              href="/"
-              
-              title=""
-              >Home</a
-            >
-          </li>
-
-        
-          
-          <li>
-            <a
-              
-              href="/post/"
-              
-              title=""
-              >Posts</a
-            >
-          </li>
-
-        
-          
-          <li>
-            <a
-              
-              href="https://github.com/alsutton"
-              
-                target="_blank" rel="noopener noreferrer"
-
-              
-              title=""
-              >Projects</a
-            >
-          </li>
-
-        
-        
-      </div>
-      <li>
-        
-          <a class="theme-switch" title="Switch Theme">
-            <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-          </a>
-
-        
-      </li>
-    </ul>
-  </nav>
-</div>
-</header>
+    
+  >
     <div class="wrapper">
-      <aside><div
+      <aside class="wrapper__sidebar"><div
   class="sidebar
     .
 
   "
 >
   <div class="sidebar__content">
-    <div class="logo-title">
-      <div class="title">
-        <img src="/images/profile.jpeg" alt="profile picture" />
-        <h3 title=""><a href="/">Al Sutton</a></h3>
-        <div class="description">
-          <p></p>
-        </div>
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/profile.jpeg"
+        alt="profile picture"
+      />
+      <h1 class="sidebar__introduction-title">
+        <a href="/">Al Sutton</a>
+      </h1>
+      <div class="sidebar__introduction-description">
+        <p></p>
       </div>
     </div>
-    <ul class="social-links">
+    <ul class="sidebar__list">
       
-        <li>
-          <a href="https://www.linkedin.com/in/alsutton/" rel="me" aria-label="Linkedin">
+        <li class="sidebar__list-item">
+          <a href="https://www.linkedin.com/in/alsutton/" rel="me" aria-label="Linkedin" title="Linkedin">
             <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
           </a>
         </li>
 
       
-        <li>
-          <a href="https://github.com/alsutton" rel="me" aria-label="GitHub">
+        <li class="sidebar__list-item">
+          <a href="https://github.com/alsutton" rel="me" aria-label="GitHub" title="GitHub">
             <i class="fab fa-github fa-2x" aria-hidden="true"></i>
           </a>
         </li>
 
       
-        <li>
-          <a href="https://www.alsutton.blog/index.xml" rel="me" aria-label="RSS">
+        <li class="sidebar__list-item">
+          <a href="https://www.alsutton.blog/index.xml" rel="me" aria-label="RSS" title="RSS">
             <i class="fas fa-rss fa-2x" aria-hidden="true"></i>
           </a>
         </li>
 
       
     </ul>
-  </div><footer class="footer footer--sidebar">
-  <div class="by_farbox">
-    <ul class="footer__list">
-      <li class="footer__item">
-        &copy;
-        
-          Al Sutton
-          2022
-
-
-        
-      </li>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
       
-    </ul>
-  </div>
+        Al Sutton
+        2022
+
+
+      
+    </li>
+    
+  </ul>
 </footer>
   
   <script
     type="text/javascript"
-    src="/js/medium-zoom.min.71100d84fab0ad794b8399a66ac810700cc78d703f715dc10af4d7ba7b761362.js"
-    integrity="sha256-cRANhPqwrXlLg5mmasgQcAzHjXA/cV3BCvTXunt2E2I="
+    src="/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
     crossorigin="anonymous"
   ></script></div>
 </aside>
-      <main>
-        <div class="autopagerize_page_element">
-          <div class="content">
+      <main class="wrapper__main">
+        <header class="header"><div
+  class="
+    .
+
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/"
+            
+            title=""
+            >Home</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/post/"
+            
+            title=""
+            >Posts</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="https://github.com/alsutton"
+            
+              target="_blank" rel="noopener noreferrer"
+
+            
+            title=""
+            >Projects</a
+          >
+        </li>
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+
+      
+    </ul>
+  </nav>
+</div>
+</header>
   <div
     class="post 
       .
 
     "
   >
-    <div class="post-content">
+    
+    <div class="post__content">
+      <h1>Improving Your Docker Image Development Experience</h1>
       
-      <div class="post-title">
-        <h1>Improving Your Docker Image Development Experience</h1>
-        
-          <div class="info">
-            <em class="fas fa-calendar-day"></em>
-            <span class="date"
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
               >
                 Wed, Mar 3, 2021
 
 
-              </span
-            >
-            <em class="fas fa-stopwatch"></em>
-            <span class="reading-time">11-minute read</span>
-          </div>
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">11-minute read</span>
+          </li>
+        </ul>
 
-        
-      </div><p>Many CI systems allow you to build inside a Docker container, but creating the docker image 
+      <p>Many CI systems allow you to build inside a Docker container, but creating the docker image 
 which is used for the container can be a slow process. Various third party resources, like 
 Docker Hub, may have <a href="https://www.docker.com/increase-rate-limits">rate limits</a>, and fetching 
 all the updates and new packages over the internet may take a while, but there are a few things
@@ -288,7 +412,7 @@ the package list you&rsquo;re changing. This means you&rsquo;ll get faster image
 times because only the package list your changing needs to be re-installed in the image.</p>
 <p>You can always combine the package installations before making the dockerfile available, 
 so part of your development docker image might look like this;</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dockerfile" data-lang="dockerfile"><span style="color:#75715e"># Install the packages needed for the build</span><span style="color:#960050;background-color:#1e0010">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dockerfile" data-lang="dockerfile"><span style="color:#75715e"># Install the packages needed for the build</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noninteractive&#34;</span> apt-get install -y git-core gnupg flex bison build-essential <span style="color:#ae81ff">\ </span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>	zip curl zlib1g-dev gcc-multilib g++-multilib <span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noninteractive&#34;</span> apt-get install -y libc6-dev-i386 lib32ncurses5-dev<span style="color:#960050;background-color:#1e0010">
@@ -297,7 +421,7 @@ so part of your development docker image might look like this;</p>
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noninteractive&#34;</span> apt-get install -y fontconfig libncurses5 procps rsync<span style="color:#960050;background-color:#1e0010">
 </span></code></pre></div><p>as you build up the list of packages to install, and then, before publishing the dockerfile,
 you&rsquo;d combine those lines to become;</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dockerfile" data-lang="dockerfile"><span style="color:#66d9ef">RUN</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noninteractive&#34;</span> apt-get install -y git-core gnupg flex bison build-essential <span style="color:#ae81ff">\
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dockerfile" data-lang="dockerfile"><span style="color:#66d9ef">RUN</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noninteractive&#34;</span> apt-get install -y git-core gnupg flex bison build-essential <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>	zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>	x11proto-core-dev libx11-dev lib32z1-dev libgl1-mesa-dev libxml2-utils xsltproc unzip <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>	fontconfig libncurses5 procps rsync<span style="color:#960050;background-color:#1e0010">
@@ -346,44 +470,44 @@ Raspbian are based on Debian, so these instructions should work for them as well
 to configure for our needs. Neither are hard requirements, so if you have your own
 preferences for Linux distribution and caching HTTP proxy feel free to use them.</p>
 <p>To install squid you run the following command as root;</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ apt install squid 
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ apt install squid 
 </code></pre></div><p>Then you&rsquo;ll need to change a couple of lines in the configuration file <code>/etc/squid/squid.conf</code>
 so that squid can cope with the size of Linux packages.</p>
 <p>The first change creates an on-disk cache of 10 GB, so we&rsquo;re not completely reliant 
 on RAM based caching;</p>
-<pre tabindex="0"><code># cache_dir ufs /var/spool/squid 100 16 256
+<pre><code># cache_dir ufs /var/spool/squid 100 16 256
 </code></pre><p>should become;</p>
-<pre tabindex="0"><code>cache_dir ufs /var/spool/squid 102400 16 256
+<pre><code>cache_dir ufs /var/spool/squid 102400 16 256
 </code></pre><p>The next change increases the amount of RAM the cache uses. As I mentioned above my cache 
 machine has 16 GB of memory, so I set aside 4 GB of RAM for cached objects. If you&rsquo;re using 
 a machine with a smaller amount of RAM you may want to make this value lower than 4 GB;</p>
-<pre tabindex="0"><code># cache_mem 256 KB
+<pre><code># cache_mem 256 KB
 </code></pre><p>becomes</p>
-<pre tabindex="0"><code>cache_mem 4 GB
+<pre><code>cache_mem 4 GB
 </code></pre><p>The next pair of changes increase the maximum size of an object the cache will store. 
 Linux packages can be multiple-megabytes, so for both the disk and in-memory caches
 I increase this to 50 MB;</p>
-<pre tabindex="0"><code># maximum_object_size 4 MB
+<pre><code># maximum_object_size 4 MB
 </code></pre><p>should become</p>
-<pre tabindex="0"><code>maximum_object_size 50 MB
+<pre><code>maximum_object_size 50 MB
 </code></pre><p>and</p>
-<pre tabindex="0"><code># maximum_object_size_in_memory 512 KB
+<pre><code># maximum_object_size_in_memory 512 KB
 </code></pre><p>should become;</p>
-<pre tabindex="0"><code>maximum_object_size_in_memory 50 MB
+<pre><code>maximum_object_size_in_memory 50 MB
 </code></pre><p>The final change allows all the machines on your local network to use the caching proxy,
 without this only the machine you installed squid on will be able to use the cache;</p>
-<pre tabindex="0"><code>#http_access allow localnet
+<pre><code>#http_access allow localnet
 </code></pre><p>should become</p>
-<pre tabindex="0"><code>http_access allow localnet
+<pre><code>http_access allow localnet
 </code></pre><h3 id="using-the-proxy">Using the proxy</h3>
 <p>Ubuntu and Debian can be configured to use an HTTP proxy for package 
 updates and installations by setting the <code>http_proxy</code> environment variable. 
 This makes it very easy to use the proxy in your build, all you need to do 
 is add the following line after the <code>FROM</code> line in your docker file;</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dockerfile" data-lang="dockerfile"><span style="color:#66d9ef">ARG</span> http_proxy<span style="color:#960050;background-color:#1e0010">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dockerfile" data-lang="dockerfile"><span style="color:#66d9ef">ARG</span> http_proxy<span style="color:#960050;background-color:#1e0010">
 </span></code></pre></div><p>Now you can add a <code>build-arg</code> to your <code>docker build</code> command which tells
 points the build at your proxy like this;</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ docker build --build-arg http_proxy<span style="color:#f92672">=</span>http://<span style="color:#f92672">{</span>squid_host_ip_address<span style="color:#f92672">}</span>:3128/ .
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ docker build --build-arg http_proxy<span style="color:#f92672">=</span>http://<span style="color:#f92672">{</span>squid_host_ip_address<span style="color:#f92672">}</span>:3128/ .
 </code></pre></div><p>(The <code>:3128</code> refers to the default port that squid runs on.)</p>
 <p>Now you&rsquo;ve made these changes you should, when you perform builds, see the squid
 cache being used by looking at <code>/var/log/squid/access.log</code> on the machine running
@@ -391,23 +515,23 @@ squid.</p>
 <h3 id="what-should-you-expect">What should you expect?</h3>
 <p>The squid statistics for two consecutive builds of a docker file I have which 
 installs ~240 packages are;</p>
-<pre tabindex="0"><code>Cache information for squid:
+<pre><code>Cache information for squid:
         Hits as % of all requests:      5min: 50.0%, 60min: 50.0%
         Hits as % of bytes sent:        5min: 50.0%, 60min: 50.0%
 </code></pre><p>A hit rate 50% means that the package updates for the second build were served entirely,
 or almost entirely, from the cache. After a third build outside the 5-minute window you 
 can see the trend continuing;</p>
-<pre tabindex="0"><code>Cache information for squid:
+<pre><code>Cache information for squid:
         Hits as % of all requests:      5min: 98.5%, 60min: 66.2%
         Hits as % of bytes sent:        5min: 99.9%, 60min: 66.6%
 </code></pre><p>As for the build speed, the original package install build steps were reported
 as;</p>
-<pre tabindex="0"><code> =&gt; [ 4/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get update                                                    4.6s
+<pre><code> =&gt; [ 4/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get update                                                    4.6s
  =&gt; [ 5/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get upgrade -y                                               12.1s
  =&gt; [ 6/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get install -y apt-utils                                      2.1s
  =&gt; [ 7/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get install -y git-core gnupg flex bison build-essential  z  70.4s
 </code></pre><p>by the third build we&rsquo;re getting;</p>
-<pre tabindex="0"><code> =&gt; [ 4/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get update                                                    3.7s
+<pre><code> =&gt; [ 4/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get update                                                    3.7s
  =&gt; [ 5/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get upgrade -y                                               11.5s
  =&gt; [ 6/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get install -y apt-utils                                      2.1s
  =&gt; [ 7/17] RUN DEBIAN_FRONTEND=&quot;noninteractive&quot; apt-get install -y git-core gnupg flex bison build-essential  z  56.7s
@@ -428,7 +552,7 @@ to make to control where the cached images are stored.</p>
 <p>Firstly, to configure the proxy functionality, you need to change the default configuration.
 Without this you&rsquo;ll only get local images served from your registry, which is not what we want.</p>
 <p>To do this you need to create a <code>config.yml</code> file which looks like this;</p>
-<pre tabindex="0"><code>version: 0.1
+<pre><code>version: 0.1
 log:
   fields:
     service: registry
@@ -455,7 +579,7 @@ bulk storage.</p>
 <p>My HDD is mounted on <code>/hdd</code> on my machine, and I keep my docker related files in <code>/hdd/docker</code>.
 <code>config.yml</code> is located at <code>/hdd/docker/etc/config.yml</code>, and I use <code>/hdd/docker/registry</code> for
 image storage. To start the registry in a way which recognises this I use the command;</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">docker run -d <span style="color:#ae81ff">\
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">docker run -d <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>  -p 5000:5000 <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>  --restart<span style="color:#f92672">=</span>always <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>  --name registry <span style="color:#ae81ff">\
@@ -469,7 +593,7 @@ area into the registry image.</p>
 <p>To use the local registry mirror you&rsquo;ll need to configure the docker installations
 where you&rsquo;re performing the build. On Linux you&rsquo;ll need to create the file
 &lsquo;/etc/docker/daemon.json&rsquo; which contains the following;</p>
-<pre tabindex="0"><code>{
+<pre><code>{
   &quot;registry-mirrors&quot;: [
     &quot;http://{your_registry_ip_address}:5000/&quot;
   ],
@@ -492,48 +616,42 @@ the load on them.</p>
 <p>If you have questions you can find me on <a href="https://mastodon.social/@alsutton">Mastodon</a>, <a href="https://github.com/alsutton/">GitHub</a>,
 and <a href="https://twitter.com/alsutton">Twitter</a>.</p>
 </div>
-    <div class="post-footer">
-      <div class="info">
-        
-          <span class="separator"><a class="category" href="/categories/AOSP/">AOSP</a><a class="category" href="/categories/Docker/">Docker</a></span>
+    <div class="post__footer">
+      
+        <span><a class="category" href="/categories/AOSP/">AOSP</a><a class="category" href="/categories/Docker/">Docker</a></span>
 
 
 
 
-        
+      
 
-        
-      </div>
+      
     </div>
 
     
   </div>
 
 
-          </div>
-        </div>
       </main>
-    </div><footer class="footer footer--base">
-  <div class="by_farbox">
-    <ul class="footer__list">
-      <li class="footer__item">
-        &copy;
-        
-          Al Sutton
-          2022
-
-
-        
-      </li>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
       
-    </ul>
-  </div>
+        Al Sutton
+        2022
+
+
+      
+    </li>
+    
+  </ul>
 </footer>
   
   <script
     type="text/javascript"
-    src="/js/medium-zoom.min.71100d84fab0ad794b8399a66ac810700cc78d703f715dc10af4d7ba7b761362.js"
-    integrity="sha256-cRANhPqwrXlLg5mmasgQcAzHjXA/cV3BCvTXunt2E2I="
+    src="/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
     crossorigin="anonymous"
   ></script></body>
 </html>
