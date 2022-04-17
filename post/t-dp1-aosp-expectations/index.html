@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme="dark"
+  class="html"
+><head>
+  <title>
+    
+      Al Sutton
+        |
+        Android T Developer Preview 1 and the AOSP
+
+
+      
+
+
+    
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.89.4" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta
+    name="description"
+    content="
+      
+
+
+    "
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.887981ea8ee463aed275e813b62ca5ceba5547658ae54bc026235d498d7503d6.css"
+      integrity="sha256-iHmB6o7kY67SdegTtiylzrpVR2WK5UvAJiNdSY11A9Y="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/css/center-image.min.a5cbbd5753ebe48351a006c534a28178d184393f85aed1a6ab256ec7d724af63.css"
+      integrity="sha256-pcu9V1Pr5INRoAbFNKKBeNGEOT&#43;FrtGmqyVux9ckr2M="
+      crossorigin="anonymous"
+      media="screen"
+    />
+
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.3eab8ef80d1761270f30323d1bd5d9d10a8f6a7610dbe233adba89094ed48fbd.css"
+    integrity="sha256-PquO&#43;A0XYScPMDI9G9XZ0QqPanYQ2&#43;IzrbqJCU7Uj70="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.6ee9fbc38b1b14c99d05fdc597d9af749968eaf84e43050a6d059cad81a60bcc.css"
+    integrity="sha256-bun7w4sbFMmdBf3Fl9mvdJlo6vhOQwUKbQWcrYGmC8w="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.4bfdb43d33551d871070eb4a2ad6fd6e0d1910839cd73d763698f1db19049ddc.css"
+    integrity="sha256-S/20PTNVHYcQcOtKKtb9bg0ZEIOc1z12Npjx2xkEndw="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+  <link rel="canonical" href="/post/t-dp1-aosp-expectations/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.46e6a54097480084f8f52c20ca1aa7425b4fad17029a887fd4017b12e311a72d.js"
+    integrity="sha256-RualQJdIAIT49SwgyhqnQltPrRcCmoh/1AF7EuMRpy0="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.5557c8ff5617a01067ac258fd70b9b992506e379317b0da51e5e0f6e018b408a.js"
+      integrity="sha256-VVfI/1YXoBBnrCWP1wubmSUG43kxew2lHl4PbgGLQIo="
+      crossorigin="anonymous"
+    ></script>
+
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Android T Developer Preview 1 and the AOSP"/>
+<meta name="twitter:description" content="Google recently release Android 13 (T) Developer Preview 1, and, while there are times when a lot of noise is made about Android being &ldquo;Open Source&rdquo;, what gets pushed to the Android Open Source Project for developer previews gives us some signals on how this is mostly an afterthought rather than a core part of Androids development.
+I&rsquo;ve tried building the Developer Previews of 12 (S) and 13 (T) and both were pretty much unusable."/>
+
+
+
+  
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Android T Developer Preview 1 and the AOSP",
+        "headline": "Android T Developer Preview 1 and the AOSP",
+        "alternativeHeadline": "",
+        "description": "
+      
+        Google recently release Android 13 (T) Developer Preview 1, and, while there are times when a lot of noise is made about Android being \u0026ldquo;Open Source\u0026rdquo;, what gets pushed to the Android Open Source Project for developer previews gives us some signals on how this is mostly an afterthought rather than a core part of Androids development.\nI\u0026rsquo;ve tried building the Developer Previews of 12 (S) and 13 (T) and both were pretty much unusable.
+
+
+      
+
+
+    ",
+        "inLanguage": "en-gb",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/post\/t-dp1-aosp-expectations\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "alsutton"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "alsutton"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "alsutton"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "alsutton"
+        },
+        "copyrightYear" : "2022",
+        "dateCreated": "2022-02-11T12:53:40.00Z",
+        "datePublished": "2022-02-11T12:53:40.00Z",
+        "dateModified": "2022-02-11T12:53:40.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "alsutton",
+            "url": "/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "\/post\/t-dp1-aosp-expectations\/",
+        "wordCount" : "248",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+
+</head>
+<body
+    
+      class="body theme--dark"
+
+    
+  >
+    <div class="wrapper">
+      <aside class="wrapper__sidebar"><div
+  class="sidebar
+    .
+
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/profile.jpeg"
+        alt="profile picture"
+      />
+      <h1 class="sidebar__introduction-title">
+        <a href="/">Al Sutton</a>
+      </h1>
+      <div class="sidebar__introduction-description">
+        <p></p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a href="https://www.linkedin.com/in/alsutton/" rel="me" aria-label="Linkedin" title="Linkedin">
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="https://github.com/alsutton" rel="me" aria-label="GitHub" title="GitHub">
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="https://www.alsutton.blog/index.xml" rel="me" aria-label="RSS" title="RSS">
+            <i class="fas fa-rss fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Al Sutton
+        2022
+
+
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main class="wrapper__main">
+        <header class="header"><div
+  class="
+    .
+
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/"
+            
+            title=""
+            >Home</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/post/"
+            
+            title=""
+            >Posts</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="https://github.com/alsutton"
+            
+              target="_blank" rel="noopener noreferrer"
+
+            
+            title=""
+            >Projects</a
+          >
+        </li>
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      .
+
+    "
+  >
+    
+    <div class="post__content">
+      <h1>Android T Developer Preview 1 and the AOSP</h1>
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                Fri, Feb 11, 2022
+
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">2-minute read</span>
+          </li>
+        </ul>
+
+      <p>Google recently release Android 13 (T) Developer Preview 1, and, while there are times
+when a lot of noise is made about Android being &ldquo;Open Source&rdquo;, what gets pushed 
+to the Android Open Source Project for developer previews gives us some signals
+on how this is mostly an afterthought rather than a core part of Androids development.</p>
+<p>I&rsquo;ve tried building the Developer Previews of 12 (S) and 13 (T) and both were pretty
+much unusable. Sometimes you can&rsquo;t even get a list of build targets, as was the
+case for me for Android 13 DP1.</p>
+<p><img src="/images/20220211-1.jpg" alt=""></p>
+<p>Even when you work around this problem by using a well known build target, the build 
+will only run for a few seconds before you hit the next problem. Usually this is
+a missing build target, or, if the build graph construction phase completes,
+you&rsquo;ll find some compilation errors.</p>
+<p><img src="/images/20220211-2.jpg" alt=""></p>
+<p><img src="/images/20220211-3.jpg" alt=""></p>
+<p><img src="/images/20220211-4.jpg" alt=""></p>
+<p>If you spend time getting past the compilation issues you&rsquo;ll usually find that, due
+to the changes you needed to make to get the build to complete, what you end up with
+may be unusable;</p>
+<p><img src="/images/20220211-5.jpg" alt=""></p>
+<p>Overall the &ldquo;Open Source&rdquo; part of Android Developer Previews are pretty much unusable,
+this tends to carry on through the Beta phase, and usually isn&rsquo;t resolved until the 
+final release.</p>
+<p>So if you&rsquo;re expecting custom builds of Android Developer Previews', or even betas,
+you&rsquo;re unlikely to see them, and please be mindful of the fact it&rsquo;s unlikely to
+be something that the firmware image creator can do anything about.</p>
+</div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
+    
+  </div>
+
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Al Sutton
+        2022
+
+
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
+    crossorigin="anonymous"
+  ></script></body>
+</html>

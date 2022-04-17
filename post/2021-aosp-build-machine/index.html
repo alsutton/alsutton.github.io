@@ -19,7 +19,7 @@
   </title>
 
   
-  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.85.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.89.4" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta
     name="description"
     content="
@@ -470,13 +470,13 @@ on other programs could cause problems.</p>
 if you have your source code checked out to <code>/dev/nvme0n1p1</code>, and your build output is going to
 <code>/dev/nvme0n2p1</code>, you&rsquo;ll need to do the following for each one.</p>
 <p>As the <code>root</code> user run the following commands;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ mkfs.ext4 -O ^has_journal /dev/nvme0n1p1 
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ mkfs.ext4 -O ^has_journal /dev/nvme0n1p1 
 $ mkdir /mnt/aosp-disk-1 
 </code></pre></div><p>(You can alter the directory in the <code>mkdir</code> command to something more memorable if you want to,
 the important thing is to use that name consistently.)</p>
 <p>Once you&rsquo;ve run these commands you should edit <code>/etc/fstab</code> and create a line which looks like
 the following;</p>
-<pre><code>/dev/nvme0n1p1  /mnt/aosp-disk-1      ext4    noatime,nodiratime       0       0
+<pre tabindex="0"><code>/dev/nvme0n1p1  /mnt/aosp-disk-1      ext4    noatime,nodiratime       0       0
 </code></pre><p>There will be lots of similar lines in that file, don&rsquo;t change them, but you can use them to
 guide you on the formatting of the file.</p>
 <p>The options we&rsquo;re setting are;</p>
@@ -488,14 +488,14 @@ is read.</li>
 <p>You should now repeat the above steps for your other partition (<code>/dev/nvme0n2p1</code>) making
 sure to change <code>aosp-disk-1</code> to something else (e.g. <code>aosp-disk-2</code>).</p>
 <p>Now you can run the following to mount your disks;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ mount /mnt/aosp-disk-1
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ mount /mnt/aosp-disk-1
 $ mount /mnt/aosp-disk-2
 </code></pre></div><h1 id="7-two-disk-setup-only-after-checking-out-the-source-code">7. Two disk setup only: After checking out the source code</h1>
 <p>Once you&rsquo;ve followed Googles instructions on <a href="https://source.android.com/setup/start">checking out the AOSP</a>
 source code into your source code hosting partition you will, before you start your build, need to create
 a link from the <code>out</code> directory in the source code checkout to a directory on your build output disk.</p>
 <p>If you have checked out the AOSP source code into <code>/mnt/aosp-disk-1/aosp-checkout/</code> you can run the following;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ cd /mnt/aosp-disk-1/aosp-checkout/
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ cd /mnt/aosp-disk-1/aosp-checkout/
 $ mkdir /mnt/aosp-disk-2/aosp-out/
 $ ln -s /mnt/aosp-disk-2/aosp-out out
 </code></pre></div><p>Then <a href="https://source.android.com/setup/build/building">start your build as normal</a>.</p>
@@ -509,7 +509,7 @@ and so doesn&rsquo;t know when you&rsquo;re going to kick off a build which is l
 be slow, so you ideally don&rsquo;t want to have a TRIM start while you&rsquo;re in the middle of a build, so, to save the
 Linux developers needing to write a future prediction algorithm, I manually trigger a TRIM operation on all 
 filesystems before I run a large build by running the following command as <code>root</code>;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ fstrim -a
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ fstrim -a
 </code></pre></div><h1 id="thats-all-folks">That&rsquo;s all folks</h1>
 <p>Hopefully this guide will help you get a machine setup to build the AOSP efficiently on a reasonable 
 budget. If you have questions 

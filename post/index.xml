@@ -20,6 +20,18 @@ When you join the companies who use these schemes as part of your compensation p
     </item>
     
     <item>
+      <title>Android T Developer Preview 1 and the AOSP</title>
+      <link>/post/t-dp1-aosp-expectations/</link>
+      <pubDate>Fri, 11 Feb 2022 12:53:40 +0000</pubDate>
+      
+      <guid>/post/t-dp1-aosp-expectations/</guid>
+      
+        <description>Google recently release Android 13 (T) Developer Preview 1, and, while there are times when a lot of noise is made about Android being &amp;ldquo;Open Source&amp;rdquo;, what gets pushed to the Android Open Source Project for developer previews gives us some signals on how this is mostly an afterthought rather than a core part of Androids development.
+I&amp;rsquo;ve tried building the Developer Previews of 12 (S) and 13 (T) and both were pretty much unusable.</description>
+      
+    </item>
+    
+    <item>
       <title>The UK EV Infrastructure needs a lot of work</title>
       <link>/post/uk-ev-infa-needs-work/</link>
       <pubDate>Sun, 26 Dec 2021 17:45:54 +0000</pubDate>

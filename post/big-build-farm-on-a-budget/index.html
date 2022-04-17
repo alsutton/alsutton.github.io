@@ -19,7 +19,7 @@
   </title>
 
   
-  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.85.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.89.4" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta
     name="description"
     content="
@@ -489,7 +489,7 @@ file (called <code>latest-build</code>) which has the name of the area containin
 build (i.e. it contains <code>build-2</code> if the most recent build was in <code>build-2</code>). The less powerful 
 machines have the following entries in <code>/etc/fstab</code> to ensure 
 they have the build config and build areas mounted;</p>
-<pre><code>big-builder:/build-config   /mnt/build-config    nfs   nofail   0    0
+<pre tabindex="0"><code>big-builder:/build-config   /mnt/build-config    nfs   nofail   0    0
 big-builder:/build-1        /mnt/build-1         nfs   nofail   0    0
 big-builder:/build-2        /mnt/build-2         nfs   nofail   0    0
 big-builder:/build-3        /mnt/build-3         nfs   nofail   0    0
@@ -501,7 +501,7 @@ the overlay filesystem; <code>/mnt/work</code> and <code>/mnt/upper</code>, and 
 build takes place <code>/mnt/build</code></p>
 <p>When a less powerful machine needs to perform a build it runs a script, similar to
 the one below, as root (which is necessary to perform the mount);</p>
-<pre><code>#!/bin/bash
+<pre tabindex="0"><code>#!/bin/bash
 
 CURRENT_BUILD_AREA=`cat /mnt/build-config/latest-build`
 
@@ -519,7 +519,7 @@ mount -t overlay \
       /mnt/build
 </code></pre><p>After this has run we can start working in <code>/mnt/build</code> to check out the change we want to build.</p>
 <p>The reason I include the revision control information in the reference build is so I can do the following;</p>
-<pre><code>$ cd /mnt/build
+<pre tabindex="0"><code>$ cd /mnt/build
 $ git fetch --all
 $ git checkout interesting_thing
 $ build
@@ -550,9 +550,9 @@ per build area (<code>build-1</code>, <code>build-2</code>, <code>build-3</code>
 the partition you want to build in. So if, for example, <code>/dev/nvme0n1p1</code> is the
 partition for <code>build-1</code>, and it&rsquo;s using the ext4 filesystem, your <code>/etc/fstab</code>
 file would contain;</p>
-<pre><code>/dev/nvme0n1p1   /mnt/build-1   ext4   noatime,nodiratime  0  1
+<pre tabindex="0"><code>/dev/nvme0n1p1   /mnt/build-1   ext4   noatime,nodiratime  0  1
 </code></pre><p>then, before your build, you would run;</p>
-<pre><code>$ mount /dev/nvme0n1p1 /mnt/build
+<pre tabindex="0"><code>$ mount /dev/nvme0n1p1 /mnt/build
 </code></pre><p>then build in <code>/mnt/build</code> to ensure the big build machine creates
 reference builds with the same path as the less powerful machines will 
 be using when they build in their overlay filesystem.</p>

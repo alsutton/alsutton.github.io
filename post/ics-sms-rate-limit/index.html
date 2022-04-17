@@ -19,7 +19,7 @@
   </title>
 
   
-  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.85.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.89.4" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta
     name="description"
     content="
@@ -381,7 +381,7 @@ My guess would be that the aim is to prevent malicious apps sending huge amounts
         </ul>
 
       <p>One of the changes in  #IceCreamSandwich  was the introduction of a lower SMS usage monitor rate which restricts how many SMSes can be sent by any application in a given time.</p>
-<p>My guess would be that the aim is to prevent malicious apps sending huge amounts of SMSes to premium rate numbers, but unfortunately some users seem to be hitting the limit with the default SMS messaging app (<a href="https://groups.google.com/d/msg/android-discuss/bsDO0jQVdTI/Ns7oaTCcIa8J),">https://groups.google.com/d/msg/android-discuss/bsDO0jQVdTI/Ns7oaTCcIa8J),</a> and it&rsquo;s possible developers may see users complaining about this if their apps rely on SMS usage and are heavily used, so I thought it&rsquo;s worth letting people what the limits are in case people ask them.</p>
+<p>My guess would be that the aim is to prevent malicious apps sending huge amounts of SMSes to premium rate numbers, but unfortunately some users seem to be hitting the limit with the default SMS messaging app (<a href="https://groups.google.com/d/msg/android-discuss/bsDO0jQVdTI/Ns7oaTCcIa8J)">https://groups.google.com/d/msg/android-discuss/bsDO0jQVdTI/Ns7oaTCcIa8J)</a>, and it&rsquo;s possible developers may see users complaining about this if their apps rely on SMS usage and are heavily used, so I thought it&rsquo;s worth letting people what the limits are in case people ask them.</p>
 <p>In #IceCreamSandwch  and  #JellyBean  the default trigger limit is 30 SMSes from any package within a 30 minute period. This was 100 SMSes in an hour, and it may change in the future, but the stock default for 4.0 &amp; 4.1 is 30 in 30.</p>
 <p>The limits work on time chunks, so the 30 in 30 limit will be triggered whether you send 30 SMSes in a single minute or if you send a text every 30 seconds for 15 minutes. The rate limit isn&rsquo;t zeroed when the user confirms the message sending, so until the application drops below the specified rate limit the user will be asked to confirm every SMS sent.</p>
 <p>The limits can be overridden by OEMs either by changing the source code or using the secure settings Settings.Secure.SMS_OUTGOING_CHECK_MAX_COUNT and Settings.Secure.SMS_OUTGOING_CHECK_INTERVAL_MS, so you may see users presented with a dialogue asking them to confirm the SMS being sent is OK even if you comply with the #AOSP  default rate limits.</p>

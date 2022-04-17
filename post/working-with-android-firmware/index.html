@@ -19,7 +19,7 @@
   </title>
 
   
-  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.85.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.89.4" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta
     name="description"
     content="
@@ -429,9 +429,9 @@ idea behind it is that trying to edit the entire firmware code in one project wi
 so, instead, it creates views of the parts of the code for you to work on.</p>
 <p>You specify which areas of the firmware you&rsquo;re going to work on, and let <code>aidegen</code> do the rest. If, for example,
 you wanted to work on the <code>Settings</code> app, you would run;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">aidegen packages/apps/Settings
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">aidegen packages/apps/Settings
 </code></pre></div><p>If you want to make changes to the launcher that&rsquo;s used in cars;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">aidegen packages/apps/Car/Launcher
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">aidegen packages/apps/Car/Launcher
 </code></pre></div><p>If you want to work on multiple parts of the codebase you can supply multiple arguments, and aidegen will create a
 minimal project which supports what you&rsquo;ve supplied.</p>
 <p><code>aidegen</code> isn&rsquo;t perfect; There are some situations where you&rsquo;ll get unresolved symbols if one part of the build has used 
@@ -440,9 +440,9 @@ your <code>aidegen</code> call get those to resolve, or you can leave them and n
 <h3 id="build-clobber-m-mm-and-mmm">Build: <code>clobber</code>, <code>m</code>, <code>mm</code>, and <code>mmm</code></h3>
 <p>Now that you&rsquo;ve made your change you should create a new build. You can try to minimise your build time by
 using <code>mmm</code> which will rebuild an individual project. For example, to rebuild the <code>Settings</code> app you would run</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">mmm packages/apps/Settings
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">mmm packages/apps/Settings
 </code></pre></div><p>or, if you&rsquo;re in the <code>Settings</code> app in your terminal session, you can just run <code>mm</code>;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">mm
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">mm
 </code></pre></div><p>Note that <code>mm</code> doesn&rsquo;t need a project path, it assumes you want to rebuild the project where you run it from.</p>
 <p><code>m</code> is a shortcut for <code>make</code> which will check the whole build and rebuild everything it determines needs to be
 rebuilt. This is sometimes useful if you&rsquo;re seeing some unexpected failures when you deploy your image to a device.</p>
@@ -467,7 +467,7 @@ only down-side of an OTAis that you&rsquo;re not starting from an empty partitio
 removing unneeded files you may end up with unexpected additional code and files on your device.</p>
 <p>The fastest method of all is updating a single apk. You can usually find the apks inside the <code>out/target/product</code>
 directory in your build, so, if your change was only to the Car Launcher apk for the Samsung Tab s5e you can run;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">adb install out/target/product/gts4lvaaos/system/priv-app/CarLauncher/CarLauncher.apk
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">adb install out/target/product/gts4lvaaos/system/priv-app/CarLauncher/CarLauncher.apk
 </code></pre></div><p>If the app isn&rsquo;t currently being used its apk can be updated like this, but, if you think the apk hasn&rsquo;t deployed,
 you might want to restart the device to ensure the right version of the app is running.</p>
 <h3 id="test-atest">Test: atest</h3>
@@ -478,7 +478,7 @@ there&rsquo;s <code>atest</code>.</p>
 explaining how you can set it up, and, at the simplest level, you can run it in the same way you ran <code>aidegen</code> 
 by specifying the project you want to test. So, for example, to test the <code>Settings</code> app after you&rsquo;ve deployed
 your changes and have the device responding to adb, you can run;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">atest packages/apps/Settings
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">atest packages/apps/Settings
 </code></pre></div><h3 id="repeat">Repeat</h3>
 <p>Those four steps are your development cycle. You write your change, build it, deploy it, and then test it. It&rsquo;s
 initially slower than most app development because there&rsquo;s a lot more code to initially build, but, by using <code>aidegen</code>
