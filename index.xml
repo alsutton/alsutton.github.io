@@ -6,7 +6,56 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 18 Feb 2022 09:53:40 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jun 2022 09:53:40 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The UK &#34;Apple Tax&#34;</title>
+      <link>/post/2022-uk-apple-tax/</link>
+      <pubDate>Tue, 07 Jun 2022 09:53:40 +0000</pubDate>
+      
+      <guid>/post/2022-uk-apple-tax/</guid>
+      
+        <description>I was tempted by an m2 Mac Air to test the arm64 Apple Silicon emulators we&amp;rsquo;ve been building at Snapp Automotive. To make sure I was being charged a reasonable price I decided to do a little maths and found out the m2 MBA is 8% more expensive, after taxes and foreign exchange rates, in the UK than in the US.
+Here&amp;rsquo;s my calculation;
+USD MBA Starting Price: US$1199USD/GBP Converstion Rate: 1.</description>
+      
+    </item>
+    
+    <item>
+      <title>AOSP code</title>
+      <link>/post/aosp-code/</link>
+      <pubDate>Thu, 19 May 2022 09:53:40 +0000</pubDate>
+      
+      <guid>/post/aosp-code/</guid>
+      
+        <description>This Android OS code looks, to me, like it&amp;rsquo;s been written by folk who absolutely believe Enums don&amp;rsquo;t have a place in code, but a 300+ line switch/case statement is just fine. Using Enums and .name() would remove the need for that horror.
+Even using reflection would have been nicer. Scanning the class&amp;rsquo;s static members and printing the name if there was a match in values would be less cognative load that this beast in my view.</description>
+      
+    </item>
+    
+    <item>
+      <title>700 miles in an EV</title>
+      <link>/post/700-miles-in-an-ev/</link>
+      <pubDate>Tue, 17 May 2022 09:53:40 +0000</pubDate>
+      
+      <guid>/post/700-miles-in-an-ev/</guid>
+      
+        <description>So having spent last week doing a 700+ mile trip across the UK (east to west) with some stop offs, I can now understand why using a Tesla gives folk confidence in an EV-only future. Compared to my Leaf, the Tesla experience is like living in the future.
+Teslas charging infrastructure is miles ahead of the UK public infrastructure in terms of chargers per site, cars on the road per charge point, and distance between sites given the average range.</description>
+      
+    </item>
+    
+    <item>
+      <title>What is &#34;Equal Pay&#34; for developers</title>
+      <link>/post/equal-pay-for-developers/</link>
+      <pubDate>Mon, 11 Apr 2022 09:53:40 +0000</pubDate>
+      
+      <guid>/post/equal-pay-for-developers/</guid>
+      
+        <description>I&amp;rsquo;ve seen another loop of the &amp;ldquo;all coders should be paid the same!&amp;rdquo; discussion. This viewpoint ignores a fundamental factor in deciding pay; The amount of money someone needs to feel it&amp;rsquo;s worth working for a company, which varies massively depending where the work is performed.
+Basically all business operate to achieve a task in the most cost effective way. This allows the company to build up cash reserves for unexpected issues or expansion.</description>
+      
+    </item>
+    
     <item>
       <title>Why Stock/Shares isn&#39;t a substitue for Salary</title>
       <link>/post/stock-or-salary/</link>
