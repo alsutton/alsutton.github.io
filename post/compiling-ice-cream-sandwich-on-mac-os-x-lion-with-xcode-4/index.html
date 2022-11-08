@@ -19,7 +19,7 @@
   </title>
 
   
-  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.89.4" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.85.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta name="author" content="Al Sutton" />
   <meta
     name="description"
@@ -292,6 +292,19 @@ This process has been tested against the android-4.0.3_r1 branch, so if you&rsqu
       
         <li class="sidebar__list-item">
           <a
+            href="https://snapp.social/@alsutton"
+            target="_blank"
+            rel="noopener"
+            aria-label="Mastodon"
+            title="Mastodon"
+          >
+            <i class="fab fa-mastodon fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a
             href="https://www.alsutton.blog/index.xml"
             target="_blank"
             rel="noopener"
@@ -458,16 +471,16 @@ index 7953bb6..f884b09 100644
 --- a/config-compat-darwin.h
 ++ b/config-compat-darwin.h
 @@ -38,6 38,7 @@ static inline char *dcgettext (char *__domainname, char *__msgid, int __category
- 	return NULL;
+    return NULL;
  }
  
 #if __MAC_OS_X_VERSION_MIN_REQUIRED &lt; 1070
  static inline size_t strnlen (const char *__string, size_t __maxlen)
  {
- 	int len = 0;
+    int len = 0;
 @@ -45,6 46,7 @@ static inline size_t strnlen (const char *__string, size_t __maxlen)
- 		len++;
- 	return len;
+        len++;
+    return len;
  }
 #endif
  
