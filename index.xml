@@ -6,7 +6,19 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 04 Jul 2022 09:53:40 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Aug 2022 18:53:40 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Twitters Lax Security</title>
+      <link>/post/2022-twitter-security/</link>
+      <pubDate>Tue, 23 Aug 2022 18:53:40 +0000</pubDate>
+      
+      <guid>/post/2022-twitter-security/</guid>
+      
+        <description>If you are wondering if the claims about Twitter security being lax is just one person complaining, you might be interested to know that, 18 months after being let go from the company, I had still not been removed from their employees GitHub committers group.
+My access was confirmed by a third party, and, during that 18 month period I had access to private repositories as well as the list of Twitter employees who were also part of that group, but had chosen not to make their membership public.</description>
+      
+    </item>
+    
     <item>
       <title>Guessing the answer at work and school</title>
       <link>/post/2022-education-and-work/</link>

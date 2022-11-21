@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme="dark"
+  
+    class="html theme--dark"
+  
+><head>
+  <title>
+    Al Sutton
+        |
+        Twitters Lax Security
+      
+
+    
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.85.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Al Sutton" />
+  <meta
+    name="description"
+    content=""
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.5794be192d21535bdd301561e043a96b6adbad2b5c08279deff459e4661c613f.css"
+      integrity="sha256-V5S&#43;GS0hU1vdMBVh4EOpa2rbrStcCCed7/RZ5GYcYT8="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/css/center-image.min.a5cbbd5753ebe48351a006c534a28178d184393f85aed1a6ab256ec7d724af63.css"
+      integrity="sha256-pcu9V1Pr5INRoAbFNKKBeNGEOT&#43;FrtGmqyVux9ckr2M="
+      crossorigin="anonymous"
+      media="screen"
+    />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.7f3c2281c7f965ce3c64888aa452793252a0416909c181097f81d0a0f7d1624e.css"
+    integrity="sha256-fzwigcf5Zc48ZIiKpFJ5MlKgQWkJwYEJf4HQoPfRYk4="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.35fc032da8ede6681675d20a2f862fb9e1045c1d512d495fcf862c054daffef2.css"
+    integrity="sha256-NfwDLajt5mgWddIKL4YvueEEXB1RLUlfz4YsBU2v/vI="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.3b92357925ea7284f0c6b0378396f39f470f7842ed9702f337e667c4026bf837.css"
+    integrity="sha256-O5I1eSXqcoTwxrA3g5bzn0cPeELtlwLzN&#43;ZnxAJr&#43;Dc="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.ebb1096e1976e8cc4e2532cfa050b8f30eb13b8eb06be5cee3e38eb426b838ea.css"
+    integrity="sha256-67EJbhl26MxOJTLPoFC48w6xO46wa&#43;XO4&#43;OOtCa4OOo="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+  <link rel="canonical" href="/post/2022-twitter-security/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.46e6a54097480084f8f52c20ca1aa7425b4fad17029a887fd4017b12e311a72d.js"
+    integrity="sha256-RualQJdIAIT49SwgyhqnQltPrRcCmoh/1AF7EuMRpy0="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.4c31f3cf7e8e609c897dba88aecac0e8db1ebb4e5c841d3f9ffb01d463973678.js"
+      integrity="sha256-TDHzz36OYJyJfbqIrsrA6Nseu05chB0/n/sB1GOXNng="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Twitters Lax Security"/>
+<meta name="twitter:description" content="If you are wondering if the claims about Twitter security being lax is just one person complaining, you might be interested to know that, 18 months after being let go from the company, I had still not been removed from their employees GitHub committers group.
+My access was confirmed by a third party, and, during that 18 month period I had access to private repositories as well as the list of Twitter employees who were also part of that group, but had chosen not to make their membership public."/>
+
+
+
+  
+  <meta property="og:title" content="Twitters Lax Security" />
+<meta property="og:description" content="If you are wondering if the claims about Twitter security being lax is just one person complaining, you might be interested to know that, 18 months after being let go from the company, I had still not been removed from their employees GitHub committers group.
+My access was confirmed by a third party, and, during that 18 month period I had access to private repositories as well as the list of Twitter employees who were also part of that group, but had chosen not to make their membership public." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/2022-twitter-security/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-08-23T18:53:40+00:00" />
+<meta property="article:modified_time" content="2022-08-23T18:53:40+00:00" /><meta property="og:site_name" content="Al Sutton" />
+
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Twitters Lax Security",
+        "headline": "Twitters Lax Security",
+        "alternativeHeadline": "",
+        "description": "
+      
+        If you are wondering if the claims about Twitter security being lax is just one person complaining, you might be interested to know that, 18 months after being let go from the company, I had still not been removed from their employees GitHub committers group.\nMy access was confirmed by a third party, and, during that 18 month period I had access to private repositories as well as the list of Twitter employees who were also part of that group, but had chosen not to make their membership public.
+
+
+      
+
+
+    ",
+        "inLanguage": "en-gb",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/post\/2022-twitter-security\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "alsutton"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "alsutton"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "alsutton"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "alsutton"
+        },
+        "copyrightYear" : "2022",
+        "dateCreated": "2022-08-23T18:53:40.00Z",
+        "datePublished": "2022-08-23T18:53:40.00Z",
+        "dateModified": "2022-08-23T18:53:40.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "alsutton",
+            "url": "/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "\/post\/2022-twitter-security\/",
+        "wordCount" : "338",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    .
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/profile.jpeg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">Al Sutton</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p></p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.linkedin.com/in/alsutton/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Linkedin"
+            title="Linkedin"
+          >
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://github.com/alsutton"
+            target="_blank"
+            rel="noopener me"
+            aria-label="GitHub"
+            title="GitHub"
+          >
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://snapp.social/@alsutton"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Mastodon"
+            title="Mastodon"
+          >
+            <i class="fab fa-mastodon fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.alsutton.blog/index.xml"
+            target="_blank"
+            rel="noopener me"
+            aria-label="RSS"
+            title="RSS"
+          >
+            <i class="fas fa-rss fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Al Sutton
+        2022
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    .
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/post/"
+              
+              title=""
+              >Posts</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="https://github.com/alsutton"
+              
+                target="_blank" rel="noopener noreferrer"
+              
+              title=""
+              >Projects</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      .
+    "
+  >
+    
+    <div class="post__content">
+      <h1>Twitters Lax Security</h1>
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                
+                  Tue, Aug 23, 2022
+                
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">2-minute read</span>
+          </li>
+        </ul>
+      <p>If you are wondering if the <a href="https://www.wsj.com/articles/twitters-ex-security-head-files-whistleblower-complaint-11661263009">claims about Twitter security being lax</a> is just one person 
+complaining, you might be interested to know that, 18 months after being 
+let go from the company, I had still not been removed from their employees GitHub 
+committers group.</p>
+<p><img src="/images/20220823-twitter-github.jpeg" alt=""></p>
+<p>My access was <a href="https://twitter.com/corintxt/status/1562106787985227779?s=20&amp;t=73-MhdaML-WOKVpRoEf0TA">confirmed by a third party</a>,
+and, during that 18 month period I had access to private repositories as well as the list of
+Twitter employees who were also part of that group, but had chosen not to make their membership
+public.</p>
+<p>This is concerning on multiple levels;</p>
+<ul>
+<li>Employees who are let-go should not retain access to company systems. They are the most
+likely to hold a grudge and copy/modify source code.</li>
+<li>It corroborates Mudge&rsquo;s claims Twitters security controls are not up to industry expectations.</li>
+<li>It indicates a low level of investment in information security because automating the detection
+of this kind of thing is relatively simple.</li>
+<li>Access to a non-public list of Twitter employees, who were also part of that group, gives a great
+starting point for a social engineering attack.</li>
+</ul>
+<p>There were some claims, particularly by one Twitter employee, that this wasn&rsquo;t serious. This is
+a concerning attempt to down-play the potential seriousness of this mistake, and is in-line with
+Twitters original PR strategy towards Mudge of <a href="https://edition.cnn.com/2022/08/23/tech/twitter-whistleblower-peiter-zatko-security/index.html">attacking the person, not addressing the claims</a>. 
+Fortunately I could show I had access to a private fork of a public open source project where
+Twitter had being committing proprietary code in relation to their embedded devices.</p>
+<p><img src="/images/20220823-twitter-github-2.jpeg" alt=""></p>
+<p>After a few hours, <a href="https://twitter.com/corintxt/status/1562142287404097540?s=20&amp;t=73-MhdaML-WOKVpRoEf0TA">and after Twitter being contacted about my situation</a>,
+I was removed from that GitHub group, as I should have been 18 months before.</p>
+<p>It was an interesting experience seeing the original Tweet where I mentioned my access become
+so popular, and it was great to see the level of interest folk showed in the security of a
+site they commonly use. The initial Tweet also became the most popular Tweet I had ever made, 
+with more  likes that I&rsquo;d had followers.</p>
+<p><img src="/images/20220823-twitter-github-tweet.png" alt=""></p>
+</div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Al Sutton
+        2022
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
+    crossorigin="anonymous"
+  ></script></body>
+</html>
